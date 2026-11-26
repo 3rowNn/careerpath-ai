@@ -1,0 +1,91 @@
+{
+  "_about": "แหล่งเรียนรู้ต่อกลุ่มทักษะ (grp::) — ร่างโดย Claude ต้องให้คนตรวจ · verified=false จนกว่าคนเปิดลิงก์และยืนยันว่าเนื้อหาตรงกับทักษะ · kind: course = คอร์ส/บทเรียน, search = หน้าค้นหาคอร์สในหัวข้อนั้น (ไม่ใช่คอร์สเฉพาะ), practice = ทักษะร่างกาย/การรับรู้ พัฒนาผ่านการฝึกปฏิบัติ ไม่มีคอร์สแนะนำ · ห้ามให้ LLM สร้าง URL เพิ่มเอง",
+  "groups": {
+    "grp::numbers": [
+      { "title": "Khan Academy — Math", "url": "https://www.khanacademy.org/math", "kind": "course", "lang": "en", "verified": false },
+      { "title": "Coursera — ค้นหา Business Math", "url": "https://www.coursera.org/search?query=business%20math", "kind": "search", "lang": "en", "verified": false }
+    ],
+    "grp::reasoning": [
+      { "title": "Coursera — ค้นหา Critical Thinking", "url": "https://www.coursera.org/search?query=critical%20thinking", "kind": "search", "lang": "en", "verified": false },
+      { "title": "Coursera — ค้นหา Problem Solving", "url": "https://www.coursera.org/search?query=problem%20solving", "kind": "search", "lang": "en", "verified": false }
+    ],
+    "grp::teaching": [
+      { "title": "Coursera — ค้นหา Teaching and Coaching", "url": "https://www.coursera.org/search?query=teaching%20coaching", "kind": "search", "lang": "en", "verified": false }
+    ],
+    "grp::communication": [
+      { "title": "Coursera — ค้นหา Communication Skills", "url": "https://www.coursera.org/search?query=communication%20skills", "kind": "search", "lang": "en", "verified": false },
+      { "title": "Thai MOOC — คอร์สออนไลน์ภาษาไทย", "url": "https://thaimooc.ac.th/", "kind": "search", "lang": "th", "verified": false }
+    ],
+    "grp::management": [
+      { "title": "Coursera — ค้นหา Management Fundamentals", "url": "https://www.coursera.org/search?query=management%20fundamentals", "kind": "search", "lang": "en", "verified": false }
+    ],
+    "grp::business": [
+      { "title": "Khan Academy — Economics & Finance", "url": "https://www.khanacademy.org/economics-finance-domain", "kind": "course", "lang": "en", "verified": false },
+      { "title": "Coursera — ค้นหา Accounting / Marketing", "url": "https://www.coursera.org/search?query=accounting%20marketing%20basics", "kind": "search", "lang": "en", "verified": false }
+    ],
+    "grp::computers": [
+      { "title": "Khan Academy — Computing", "url": "https://www.khanacademy.org/computing", "kind": "course", "lang": "en", "verified": false },
+      { "title": "Coursera — ค้นหา IT Fundamentals", "url": "https://www.coursera.org/search?query=it%20fundamentals", "kind": "search", "lang": "en", "verified": false }
+    ],
+    "grp::admin_service": [
+      { "title": "Coursera — ค้นหา Customer Service", "url": "https://www.coursera.org/search?query=customer%20service", "kind": "search", "lang": "en", "verified": false },
+      { "title": "Coursera — ค้นหา Office Administration", "url": "https://www.coursera.org/search?query=office%20administration", "kind": "search", "lang": "en", "verified": false }
+    ],
+    "grp::media_language": [
+      { "title": "Coursera — ค้นหา Writing / Media Production", "url": "https://www.coursera.org/search?query=writing%20media%20production", "kind": "search", "lang": "en", "verified": false }
+    ],
+    "grp::law": [
+      { "title": "Coursera — ค้นหา Introduction to Law", "url": "https://www.coursera.org/search?query=introduction%20to%20law", "kind": "search", "lang": "en", "verified": false },
+      { "title": "Thai MOOC — คอร์สออนไลน์ภาษาไทย (ค้นหากฎหมาย)", "url": "https://thaimooc.ac.th/", "kind": "search", "lang": "th", "verified": false }
+    ],
+    "grp::people_society": [
+      { "title": "Khan Academy — Psychology (MCAT)", "url": "https://www.khanacademy.org/test-prep/mcat/behavior", "kind": "course", "lang": "en", "verified": false },
+      { "title": "Coursera — ค้นหา Psychology / Counseling", "url": "https://www.coursera.org/search?query=psychology%20counseling", "kind": "search", "lang": "en", "verified": false }
+    ],
+    "grp::foreign_language": [
+      { "title": "Duolingo", "url": "https://www.duolingo.com/", "kind": "course", "lang": "th", "verified": false },
+      { "title": "Coursera — ค้นหา English for Career", "url": "https://www.coursera.org/search?query=english%20for%20career", "kind": "search", "lang": "en", "verified": false }
+    ],
+    "grp::geo_history": [
+      { "title": "Khan Academy — World History", "url": "https://www.khanacademy.org/humanities/world-history", "kind": "course", "lang": "en", "verified": false }
+    ],
+    "grp::arts": [
+      { "title": "Khan Academy — Arts & Humanities", "url": "https://www.khanacademy.org/humanities", "kind": "course", "lang": "en", "verified": false },
+      { "title": "Coursera — ค้นหา Art / Music / Design", "url": "https://www.coursera.org/search?query=art%20music%20design", "kind": "search", "lang": "en", "verified": false }
+    ],
+    "grp::safety_transport": [
+      { "title": "Coursera — ค้นหา Workplace Safety", "url": "https://www.coursera.org/search?query=occupational%20safety", "kind": "search", "lang": "en", "verified": false },
+      { "title": "Coursera — ค้นหา Logistics", "url": "https://www.coursera.org/search?query=logistics", "kind": "search", "lang": "en", "verified": false }
+    ],
+    "grp::food": [
+      { "title": "Coursera — ค้นหา Food Safety / Agriculture", "url": "https://www.coursera.org/search?query=food%20safety%20agriculture", "kind": "search", "lang": "en", "verified": false }
+    ],
+    "grp::engineering": [
+      { "title": "Coursera — ค้นหา Engineering Basics", "url": "https://www.coursera.org/search?query=engineering%20basics", "kind": "search", "lang": "en", "verified": false },
+      { "title": "Khan Academy — Physics", "url": "https://www.khanacademy.org/science/physics", "kind": "course", "lang": "en", "verified": false }
+    ],
+    "grp::pattern_finding": [
+      { "title": "Coursera — ค้นหา Data Analysis", "url": "https://www.coursera.org/search?query=data%20analysis", "kind": "search", "lang": "en", "verified": false }
+    ],
+    "grp::bio_medical": [
+      { "title": "Khan Academy — Biology", "url": "https://www.khanacademy.org/science/biology", "kind": "course", "lang": "en", "verified": false },
+      { "title": "Khan Academy — Health & Medicine", "url": "https://www.khanacademy.org/science/health-and-medicine", "kind": "course", "lang": "en", "verified": false }
+    ],
+    "grp::physical_science": [
+      { "title": "Khan Academy — Chemistry", "url": "https://www.khanacademy.org/science/chemistry", "kind": "course", "lang": "en", "verified": false },
+      { "title": "Khan Academy — Physics", "url": "https://www.khanacademy.org/science/physics", "kind": "course", "lang": "en", "verified": false }
+    ]
+  },
+  "practice": {
+    "grp::near_vision": "ทักษะการรับรู้ — พัฒนาผ่านการฝึกงานที่ต้องตรวจรายละเอียดจริง (ถ้ามีปัญหาสายตาควรปรึกษาจักษุแพทย์)",
+    "grp::field_vision": "ทักษะการรับรู้ — พัฒนาผ่านประสบการณ์ทำงานภาคสนามหรือขับขี่ภายใต้การดูแล",
+    "grp::hand_dexterity": "ทักษะการใช้มือ — พัฒนาผ่านการฝึกปฏิบัติงานช่าง งานประกอบ หรืองานฝีมือ",
+    "grp::hearing": "ทักษะการรับรู้ — พัฒนาผ่านการฝึกฟังในสถานการณ์งานจริง (ถ้ามีปัญหาการได้ยินควรปรึกษาแพทย์)",
+    "grp::machine_control": "พัฒนาผ่านการฝึกกับเครื่องจักร/ยานพาหนะจริงภายใต้ผู้สอน เช่น หลักสูตรฝึกอาชีพหรือโรงเรียนสอนขับรถ",
+    "grp::physical": "ความแข็งแรงและความทนทาน — พัฒนาผ่านการออกกำลังกายสม่ำเสมอและประสบการณ์งานที่ใช้แรง",
+    "grp::flexibility": "ความยืดหยุ่นของร่างกาย — พัฒนาผ่านการยืดเหยียดและออกกำลังกายสม่ำเสมอ",
+    "grp::visualization": "พัฒนาผ่านการฝึกวาด ร่างแบบ หรือใช้โปรแกรมออกแบบ 3 มิติ",
+    "grp::far_multitask": "พัฒนาผ่านประสบการณ์งานที่ต้องติดตามหลายอย่างพร้อมกัน",
+    "grp::focus_speed": "พัฒนาผ่านการฝึกตรวจเทียบข้อมูลในงานจริงอย่างสม่ำเสมอ"
+  }
+}

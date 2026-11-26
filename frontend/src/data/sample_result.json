@@ -1,0 +1,2608 @@
+{
+ "answers": {
+  "grp::numbers": 3,
+  "grp::reasoning": 3,
+  "grp::near_vision": 3,
+  "grp::teaching": 3,
+  "grp::communication": 4,
+  "grp::management": 2,
+  "grp::business": 3,
+  "grp::computers": 3,
+  "grp::admin_service": 3,
+  "grp::media_language": 3,
+  "grp::law": 2,
+  "grp::people_society": 3,
+  "grp::foreign_language": 3,
+  "grp::geo_history": 2,
+  "grp::arts": 2,
+  "grp::field_vision": 2,
+  "grp::safety_transport": 2,
+  "grp::food": 1,
+  "grp::hand_dexterity": 2,
+  "grp::hearing": 2,
+  "grp::machine_control": 1,
+  "grp::physical": 2,
+  "grp::flexibility": 2,
+  "grp::visualization": 2,
+  "grp::engineering": 2,
+  "grp::far_multitask": 2,
+  "grp::pattern_finding": 2,
+  "grp::focus_speed": 3,
+  "grp::bio_medical": 1,
+  "grp::physical_science": 2,
+  "ri::Realistic": 2,
+  "ri::Investigative": 3,
+  "ri::Artistic": 2,
+  "ri::Social": 4,
+  "ri::Enterprising": 3,
+  "ri::Conventional": 4,
+  "gtask::care": 3,
+  "gtask::teach": 3,
+  "gtask::sell": 3,
+  "gtask::serve": 4,
+  "gtask::lead": 3,
+  "gtask::office": 4,
+  "gtask::money": 3,
+  "gtask::analyze": 3,
+  "gtask::computer": 3,
+  "gtask::build": 1,
+  "gtask::operate": 1,
+  "gtask::nature": 2,
+  "gtask::create": 2,
+  "gtask::write": 3,
+  "gtask::food": 2,
+  "gtask::safety": 2,
+  "gtask::heal": 2,
+  "gtask::produce": 1,
+  "task::ui": 2,
+  "task::build": 2,
+  "task::infra": 2,
+  "task::security": 2,
+  "task::analyze": 2,
+  "task::model": 2,
+  "task::database": 2,
+  "task::test": 2,
+  "task::support": 3,
+  "task::lead": 3,
+  "task::research": 2,
+  "task::present": 3,
+  "ws::Social Orientation": 4,
+  "ws::Empathy": 4,
+  "ws::Leadership Orientation": 3,
+  "ws::Innovation": 3,
+  "ws::Intellectual Curiosity": 3,
+  "ws::Cautiousness": 4,
+  "ws::Tolerance for Ambiguity": 3,
+  "ws::Stress Tolerance": 3,
+  "ws::Adaptability": 3,
+  "ws::Cooperation": 4
+ },
+ "recommend": {
+  "careers": [
+   {
+    "rank": 1,
+    "code": "13-2071.00",
+    "title": "Credit Counselors",
+    "skill_coverage_percent": 89.4,
+    "ensemble_score": 0.18323,
+    "matching_similarity": 0.8827,
+    "classifier_probability": 0.083,
+    "cluster": 0
+   },
+   {
+    "rank": 2,
+    "code": "13-2072.00",
+    "title": "Loan Officers",
+    "skill_coverage_percent": 87.5,
+    "ensemble_score": 0.0544,
+    "matching_similarity": 0.8709,
+    "classifier_probability": 0.0015,
+    "cluster": 0
+   },
+   {
+    "rank": 3,
+    "code": "41-9041.00",
+    "title": "Telemarketers",
+    "skill_coverage_percent": 97.0,
+    "ensemble_score": 0.04229,
+    "matching_similarity": 0.7997,
+    "classifier_probability": 0.4225,
+    "cluster": 5
+   },
+   {
+    "rank": 4,
+    "code": "21-1093.00",
+    "title": "Social and Human Service Assistants",
+    "skill_coverage_percent": 86.4,
+    "ensemble_score": 0.03776,
+    "matching_similarity": 0.8673,
+    "classifier_probability": 0.0015,
+    "cluster": 4
+   },
+   {
+    "rank": 5,
+    "code": "43-4121.00",
+    "title": "Library Assistants, Clerical",
+    "skill_coverage_percent": 92.3,
+    "ensemble_score": 0.03297,
+    "matching_similarity": 0.8654,
+    "classifier_probability": 0.0185,
+    "cluster": 5
+   }
+  ],
+  "major_groups": [
+   {
+    "major": "43",
+    "probability": 0.5996
+   },
+   {
+    "major": "41",
+    "probability": 0.1976
+   },
+   {
+    "major": "39",
+    "probability": 0.1372
+   }
+  ],
+  "missing_features": [],
+  "confidence": {
+   "level": "low",
+   "bin": 1,
+   "n_bins": 5,
+   "top1_score": 0.1832,
+   "sim_top1_accuracy": 0.3993,
+   "sim_top5_accuracy": 0.7308,
+   "models_agree": false,
+   "sim_top1_if_agreement": 0.3681,
+   "n_simulated": 8190
+  }
+ },
+ "skill_gaps": {
+  "13-2071.00": {
+   "code": "13-2071.00",
+   "title": "Credit Counselors",
+   "skills_met": 22,
+   "skills_total": 30,
+   "top_priorities": [
+    {
+     "feature": "grp::admin_service",
+     "name": "งานธุรการและบริการลูกค้า",
+     "domain": "grp",
+     "user": 50.0,
+     "required": 74.6,
+     "gap": 24.6,
+     "priority": 0.4067
+    },
+    {
+     "feature": "grp::law",
+     "name": "กฎหมายและหน่วยงานรัฐ",
+     "domain": "grp",
+     "user": 25.0,
+     "required": 43.3,
+     "gap": 18.3,
+     "priority": 0.2414
+    },
+    {
+     "feature": "grp::management",
+     "name": "การบริหารจัดการ",
+     "domain": "grp",
+     "user": 25.0,
+     "required": 43.1,
+     "gap": 18.1,
+     "priority": 0.2294
+    },
+    {
+     "feature": "grp::pattern_finding",
+     "name": "การจับรูปแบบ",
+     "domain": "grp",
+     "user": 25.0,
+     "required": 36.6,
+     "gap": 11.6,
+     "priority": 0.1401
+    },
+    {
+     "feature": "grp::media_language",
+     "name": "สื่อและภาษา",
+     "domain": "grp",
+     "user": 50.0,
+     "required": 56.6,
+     "gap": 6.6,
+     "priority": 0.0963
+    },
+    {
+     "feature": "grp::far_multitask",
+     "name": "การมองไกลและทำหลายอย่างพร้อมกัน",
+     "domain": "grp",
+     "user": 25.0,
+     "required": 30.4,
+     "gap": 5.4,
+     "priority": 0.0628
+    },
+    {
+     "feature": "grp::business",
+     "name": "ธุรกิจ บัญชี และการตลาด",
+     "domain": "grp",
+     "user": 50.0,
+     "required": 51.7,
+     "gap": 1.7,
+     "priority": 0.0259
+    },
+    {
+     "feature": "grp::reasoning",
+     "name": "การคิดวิเคราะห์",
+     "domain": "grp",
+     "user": 50.0,
+     "required": 50.6,
+     "gap": 0.6,
+     "priority": 0.0082
+    }
+   ],
+   "tools_used": [
+    "Excel"
+   ],
+   "all": [
+    {
+     "feature": "grp::admin_service",
+     "name": "งานธุรการและบริการลูกค้า",
+     "domain": "grp",
+     "user": 50.0,
+     "required": 74.6,
+     "gap": 24.6,
+     "priority": 0.4067
+    },
+    {
+     "feature": "grp::law",
+     "name": "กฎหมายและหน่วยงานรัฐ",
+     "domain": "grp",
+     "user": 25.0,
+     "required": 43.3,
+     "gap": 18.3,
+     "priority": 0.2414
+    },
+    {
+     "feature": "grp::management",
+     "name": "การบริหารจัดการ",
+     "domain": "grp",
+     "user": 25.0,
+     "required": 43.1,
+     "gap": 18.1,
+     "priority": 0.2294
+    },
+    {
+     "feature": "grp::pattern_finding",
+     "name": "การจับรูปแบบ",
+     "domain": "grp",
+     "user": 25.0,
+     "required": 36.6,
+     "gap": 11.6,
+     "priority": 0.1401
+    },
+    {
+     "feature": "grp::media_language",
+     "name": "สื่อและภาษา",
+     "domain": "grp",
+     "user": 50.0,
+     "required": 56.6,
+     "gap": 6.6,
+     "priority": 0.0963
+    },
+    {
+     "feature": "grp::far_multitask",
+     "name": "การมองไกลและทำหลายอย่างพร้อมกัน",
+     "domain": "grp",
+     "user": 25.0,
+     "required": 30.4,
+     "gap": 5.4,
+     "priority": 0.0628
+    },
+    {
+     "feature": "grp::business",
+     "name": "ธุรกิจ บัญชี และการตลาด",
+     "domain": "grp",
+     "user": 50.0,
+     "required": 51.7,
+     "gap": 1.7,
+     "priority": 0.0259
+    },
+    {
+     "feature": "grp::reasoning",
+     "name": "การคิดวิเคราะห์",
+     "domain": "grp",
+     "user": 50.0,
+     "required": 50.6,
+     "gap": 0.6,
+     "priority": 0.0082
+    },
+    {
+     "feature": "grp::numbers",
+     "name": "ตัวเลขและคณิตศาสตร์",
+     "domain": "grp",
+     "user": 50.0,
+     "required": 49.0,
+     "gap": 0.0,
+     "priority": 0.0
+    },
+    {
+     "feature": "grp::near_vision",
+     "name": "การมองรายละเอียดระยะใกล้",
+     "domain": "grp",
+     "user": 50.0,
+     "required": 46.4,
+     "gap": 0.0,
+     "priority": 0.0
+    },
+    {
+     "feature": "grp::teaching",
+     "name": "การสอนและติดตามงาน",
+     "domain": "grp",
+     "user": 50.0,
+     "required": 45.3,
+     "gap": 0.0,
+     "priority": 0.0
+    },
+    {
+     "feature": "grp::communication",
+     "name": "การสื่อสาร",
+     "domain": "grp",
+     "user": 75.0,
+     "required": 54.5,
+     "gap": 0.0,
+     "priority": 0.0
+    },
+    {
+     "feature": "grp::computers",
+     "name": "คอมพิวเตอร์และอิเล็กทรอนิกส์",
+     "domain": "grp",
+     "user": 50.0,
+     "required": 40.7,
+     "gap": 0.0,
+     "priority": 0.0
+    },
+    {
+     "feature": "grp::people_society",
+     "name": "จิตวิทยาและสังคม",
+     "domain": "grp",
+     "user": 50.0,
+     "required": 43.2,
+     "gap": 0.0,
+     "priority": 0.0
+    },
+    {
+     "feature": "grp::foreign_language",
+     "name": "ภาษาต่างประเทศ",
+     "domain": "grp",
+     "user": 50.0,
+     "required": 26.7,
+     "gap": 0.0,
+     "priority": 0.0
+    },
+    {
+     "feature": "grp::geo_history",
+     "name": "ภูมิศาสตร์และประวัติศาสตร์",
+     "domain": "grp",
+     "user": 25.0,
+     "required": 19.8,
+     "gap": 0.0,
+     "priority": 0.0
+    },
+    {
+     "feature": "grp::arts",
+     "name": "ศิลปะ",
+     "domain": "grp",
+     "user": 25.0,
+     "required": 0.0,
+     "gap": 0.0,
+     "priority": 0.0
+    },
+    {
+     "feature": "grp::field_vision",
+     "name": "การรับรู้ทิศทางและการมองในสภาพต่าง ๆ",
+     "domain": "grp",
+     "user": 25.0,
+     "required": 0.0,
+     "gap": 0.0,
+     "priority": 0.0
+    },
+    {
+     "feature": "grp::safety_transport",
+     "name": "ความปลอดภัยและการขนส่ง",
+     "domain": "grp",
+     "user": 25.0,
+     "required": 19.5,
+     "gap": 0.0,
+     "priority": 0.0
+    },
+    {
+     "feature": "grp::food",
+     "name": "อาหารและการเกษตร",
+     "domain": "grp",
+     "user": 0.0,
+     "required": 0.0,
+     "gap": 0.0,
+     "priority": 0.0
+    },
+    {
+     "feature": "grp::hand_dexterity",
+     "name": "ความคล่องของมือ",
+     "domain": "grp",
+     "user": 25.0,
+     "required": 6.3,
+     "gap": 0.0,
+     "priority": 0.0
+    },
+    {
+     "feature": "grp::hearing",
+     "name": "การฟังและแยกเสียง",
+     "domain": "grp",
+     "user": 25.0,
+     "required": 18.7,
+     "gap": 0.0,
+     "priority": 0.0
+    },
+    {
+     "feature": "grp::machine_control",
+     "name": "การควบคุมเครื่องจักร",
+     "domain": "grp",
+     "user": 0.0,
+     "required": 0.0,
+     "gap": 0.0,
+     "priority": 0.0
+    },
+    {
+     "feature": "grp::physical",
+     "name": "แรงกายและความทนทาน",
+     "domain": "grp",
+     "user": 25.0,
+     "required": 0.0,
+     "gap": 0.0,
+     "priority": 0.0
+    },
+    {
+     "feature": "grp::flexibility",
+     "name": "ความยืดหยุ่นของร่างกาย",
+     "domain": "grp",
+     "user": 25.0,
+     "required": 0.0,
+     "gap": 0.0,
+     "priority": 0.0
+    },
+    {
+     "feature": "grp::visualization",
+     "name": "การนึกภาพและแยกสี",
+     "domain": "grp",
+     "user": 25.0,
+     "required": 18.8,
+     "gap": 0.0,
+     "priority": 0.0
+    },
+    {
+     "feature": "grp::engineering",
+     "name": "วิศวกรรมและงานช่าง",
+     "domain": "grp",
+     "user": 25.0,
+     "required": 8.9,
+     "gap": 0.0,
+     "priority": 0.0
+    },
+    {
+     "feature": "grp::focus_speed",
+     "name": "สมาธิและความเร็วในการตรวจ",
+     "domain": "grp",
+     "user": 50.0,
+     "required": 36.6,
+     "gap": 0.0,
+     "priority": 0.0
+    },
+    {
+     "feature": "grp::bio_medical",
+     "name": "ชีววิทยาและการแพทย์",
+     "domain": "grp",
+     "user": 0.0,
+     "required": 0.0,
+     "gap": 0.0,
+     "priority": 0.0
+    },
+    {
+     "feature": "grp::physical_science",
+     "name": "เคมีและฟิสิกส์",
+     "domain": "grp",
+     "user": 25.0,
+     "required": 0.0,
+     "gap": 0.0,
+     "priority": 0.0
+    }
+   ]
+  },
+  "13-2072.00": {
+   "code": "13-2072.00",
+   "title": "Loan Officers",
+   "skills_met": 22,
+   "skills_total": 30,
+   "top_priorities": [
+    {
+     "feature": "grp::law",
+     "name": "กฎหมายและหน่วยงานรัฐ",
+     "domain": "grp",
+     "user": 25.0,
+     "required": 51.7,
+     "gap": 26.7,
+     "priority": 0.3968
+    },
+    {
+     "feature": "grp::management",
+     "name": "การบริหารจัดการ",
+     "domain": "grp",
+     "user": 25.0,
+     "required": 46.4,
+     "gap": 21.4,
+     "priority": 0.2787
+    },
+    {
+     "feature": "grp::near_vision",
+     "name": "การมองรายละเอียดระยะใกล้",
+     "domain": "grp",
+     "user": 50.0,
+     "required": 64.3,
+     "gap": 14.3,
+     "priority": 0.2429
+    },
+    {
+     "feature": "grp::admin_service",
+     "name": "งานธุรการและบริการลูกค้า",
+     "domain": "grp",
+     "user": 50.0,
+     "required": 64.4,
+     "gap": 14.4,
+     "priority": 0.2159
+    },
+    {
+     "feature": "grp::business",
+     "name": "ธุรกิจ บัญชี และการตลาด",
+     "domain": "grp",
+     "user": 50.0,
+     "required": 61.2,
+     "gap": 11.2,
+     "priority": 0.191
+    },
+    {
+     "feature": "grp::pattern_finding",
+     "name": "การจับรูปแบบ",
+     "domain": "grp",
+     "user": 25.0,
+     "required": 32.1,
+     "gap": 7.1,
+     "priority": 0.0842
+    },
+    {
+     "feature": "grp::machine_control",
+     "name": "การควบคุมเครื่องจักร",
+     "domain": "grp",
+     "user": 0.0,
+     "required": 1.2,
+     "gap": 1.2,
+     "priority": 0.0121
+    },
+    {
+     "feature": "grp::far_multitask",
+     "name": "การมองไกลและทำหลายอย่างพร้อมกัน",
+     "domain": "grp",
+     "user": 25.0,
+     "required": 25.9,
+     "gap": 0.9,
+     "priority": 0.0099
+    }
+   ],
+   "tools_used": [
+    "Excel"
+   ],
+   "all": [
+    {
+     "feature": "grp::law",
+     "name": "กฎหมายและหน่วยงานรัฐ",
+     "domain": "grp",
+     "user": 25.0,
+     "required": 51.7,
+     "gap": 26.7,
+     "priority": 0.3968
+    },
+    {
+     "feature": "grp::management",
+     "name": "การบริหารจัดการ",
+     "domain": "grp",
+     "user": 25.0,
+     "required": 46.4,
+     "gap": 21.4,
+     "priority": 0.2787
+    },
+    {
+     "feature": "grp::near_vision",
+     "name": "การมองรายละเอียดระยะใกล้",
+     "domain": "grp",
+     "user": 50.0,
+     "required": 64.3,
+     "gap": 14.3,
+     "priority": 0.2429
+    },
+    {
+     "feature": "grp::admin_service",
+     "name": "งานธุรการและบริการลูกค้า",
+     "domain": "grp",
+     "user": 50.0,
+     "required": 64.4,
+     "gap": 14.4,
+     "priority": 0.2159
+    },
+    {
+     "feature": "grp::business",
+     "name": "ธุรกิจ บัญชี และการตลาด",
+     "domain": "grp",
+     "user": 50.0,
+     "required": 61.2,
+     "gap": 11.2,
+     "priority": 0.191
+    },
+    {
+     "feature": "grp::pattern_finding",
+     "name": "การจับรูปแบบ",
+     "domain": "grp",
+     "user": 25.0,
+     "required": 32.1,
+     "gap": 7.1,
+     "priority": 0.0842
+    },
+    {
+     "feature": "grp::machine_control",
+     "name": "การควบคุมเครื่องจักร",
+     "domain": "grp",
+     "user": 0.0,
+     "required": 1.2,
+     "gap": 1.2,
+     "priority": 0.0121
+    },
+    {
+     "feature": "grp::far_multitask",
+     "name": "การมองไกลและทำหลายอย่างพร้อมกัน",
+     "domain": "grp",
+     "user": 25.0,
+     "required": 25.9,
+     "gap": 0.9,
+     "priority": 0.0099
+    },
+    {
+     "feature": "grp::numbers",
+     "name": "ตัวเลขและคณิตศาสตร์",
+     "domain": "grp",
+     "user": 50.0,
+     "required": 49.8,
+     "gap": 0.0,
+     "priority": 0.0
+    },
+    {
+     "feature": "grp::reasoning",
+     "name": "การคิดวิเคราะห์",
+     "domain": "grp",
+     "user": 50.0,
+     "required": 47.0,
+     "gap": 0.0,
+     "priority": 0.0
+    },
+    {
+     "feature": "grp::teaching",
+     "name": "การสอนและติดตามงาน",
+     "domain": "grp",
+     "user": 50.0,
+     "required": 39.2,
+     "gap": 0.0,
+     "priority": 0.0
+    },
+    {
+     "feature": "grp::communication",
+     "name": "การสื่อสาร",
+     "domain": "grp",
+     "user": 75.0,
+     "required": 56.8,
+     "gap": 0.0,
+     "priority": 0.0
+    },
+    {
+     "feature": "grp::computers",
+     "name": "คอมพิวเตอร์และอิเล็กทรอนิกส์",
+     "domain": "grp",
+     "user": 50.0,
+     "required": 31.7,
+     "gap": 0.0,
+     "priority": 0.0
+    },
+    {
+     "feature": "grp::media_language",
+     "name": "สื่อและภาษา",
+     "domain": "grp",
+     "user": 50.0,
+     "required": 43.2,
+     "gap": 0.0,
+     "priority": 0.0
+    },
+    {
+     "feature": "grp::people_society",
+     "name": "จิตวิทยาและสังคม",
+     "domain": "grp",
+     "user": 50.0,
+     "required": 17.8,
+     "gap": 0.0,
+     "priority": 0.0
+    },
+    {
+     "feature": "grp::foreign_language",
+     "name": "ภาษาต่างประเทศ",
+     "domain": "grp",
+     "user": 50.0,
+     "required": 13.6,
+     "gap": 0.0,
+     "priority": 0.0
+    },
+    {
+     "feature": "grp::geo_history",
+     "name": "ภูมิศาสตร์และประวัติศาสตร์",
+     "domain": "grp",
+     "user": 25.0,
+     "required": 14.9,
+     "gap": 0.0,
+     "priority": 0.0
+    },
+    {
+     "feature": "grp::arts",
+     "name": "ศิลปะ",
+     "domain": "grp",
+     "user": 25.0,
+     "required": 0.0,
+     "gap": 0.0,
+     "priority": 0.0
+    },
+    {
+     "feature": "grp::field_vision",
+     "name": "การรับรู้ทิศทางและการมองในสภาพต่าง ๆ",
+     "domain": "grp",
+     "user": 25.0,
+     "required": 0.0,
+     "gap": 0.0,
+     "priority": 0.0
+    },
+    {
+     "feature": "grp::safety_transport",
+     "name": "ความปลอดภัยและการขนส่ง",
+     "domain": "grp",
+     "user": 25.0,
+     "required": 19.9,
+     "gap": 0.0,
+     "priority": 0.0
+    },
+    {
+     "feature": "grp::food",
+     "name": "อาหารและการเกษตร",
+     "domain": "grp",
+     "user": 0.0,
+     "required": 0.0,
+     "gap": 0.0,
+     "priority": 0.0
+    },
+    {
+     "feature": "grp::hand_dexterity",
+     "name": "ความคล่องของมือ",
+     "domain": "grp",
+     "user": 25.0,
+     "required": 16.1,
+     "gap": 0.0,
+     "priority": 0.0
+    },
+    {
+     "feature": "grp::hearing",
+     "name": "การฟังและแยกเสียง",
+     "domain": "grp",
+     "user": 25.0,
+     "required": 20.5,
+     "gap": 0.0,
+     "priority": 0.0
+    },
+    {
+     "feature": "grp::physical",
+     "name": "แรงกายและความทนทาน",
+     "domain": "grp",
+     "user": 25.0,
+     "required": 1.0,
+     "gap": 0.0,
+     "priority": 0.0
+    },
+    {
+     "feature": "grp::flexibility",
+     "name": "ความยืดหยุ่นของร่างกาย",
+     "domain": "grp",
+     "user": 25.0,
+     "required": 0.0,
+     "gap": 0.0,
+     "priority": 0.0
+    },
+    {
+     "feature": "grp::visualization",
+     "name": "การนึกภาพและแยกสี",
+     "domain": "grp",
+     "user": 25.0,
+     "required": 16.0,
+     "gap": 0.0,
+     "priority": 0.0
+    },
+    {
+     "feature": "grp::engineering",
+     "name": "วิศวกรรมและงานช่าง",
+     "domain": "grp",
+     "user": 25.0,
+     "required": 9.9,
+     "gap": 0.0,
+     "priority": 0.0
+    },
+    {
+     "feature": "grp::focus_speed",
+     "name": "สมาธิและความเร็วในการตรวจ",
+     "domain": "grp",
+     "user": 50.0,
+     "required": 32.1,
+     "gap": 0.0,
+     "priority": 0.0
+    },
+    {
+     "feature": "grp::bio_medical",
+     "name": "ชีววิทยาและการแพทย์",
+     "domain": "grp",
+     "user": 0.0,
+     "required": 0.0,
+     "gap": 0.0,
+     "priority": 0.0
+    },
+    {
+     "feature": "grp::physical_science",
+     "name": "เคมีและฟิสิกส์",
+     "domain": "grp",
+     "user": 25.0,
+     "required": 0.0,
+     "gap": 0.0,
+     "priority": 0.0
+    }
+   ]
+  },
+  "41-9041.00": {
+   "code": "41-9041.00",
+   "title": "Telemarketers",
+   "skills_met": 27,
+   "skills_total": 30,
+   "top_priorities": [
+    {
+     "feature": "grp::law",
+     "name": "กฎหมายและหน่วยงานรัฐ",
+     "domain": "grp",
+     "user": 25.0,
+     "required": 34.3,
+     "gap": 9.3,
+     "priority": 0.1123
+    },
+    {
+     "feature": "grp::admin_service",
+     "name": "งานธุรการและบริการลูกค้า",
+     "domain": "grp",
+     "user": 50.0,
+     "required": 55.6,
+     "gap": 5.6,
+     "priority": 0.0764
+    },
+    {
+     "feature": "grp::machine_control",
+     "name": "การควบคุมเครื่องจักร",
+     "domain": "grp",
+     "user": 0.0,
+     "required": 1.5,
+     "gap": 1.5,
+     "priority": 0.0151
+    }
+   ],
+   "tools_used": [
+    "Excel"
+   ],
+   "all": [
+    {
+     "feature": "grp::law",
+     "name": "กฎหมายและหน่วยงานรัฐ",
+     "domain": "grp",
+     "user": 25.0,
+     "required": 34.3,
+     "gap": 9.3,
+     "priority": 0.1123
+    },
+    {
+     "feature": "grp::admin_service",
+     "name": "งานธุรการและบริการลูกค้า",
+     "domain": "grp",
+     "user": 50.0,
+     "required": 55.6,
+     "gap": 5.6,
+     "priority": 0.0764
+    },
+    {
+     "feature": "grp::machine_control",
+     "name": "การควบคุมเครื่องจักร",
+     "domain": "grp",
+     "user": 0.0,
+     "required": 1.5,
+     "gap": 1.5,
+     "priority": 0.0151
+    },
+    {
+     "feature": "grp::numbers",
+     "name": "ตัวเลขและคณิตศาสตร์",
+     "domain": "grp",
+     "user": 50.0,
+     "required": 15.7,
+     "gap": 0.0,
+     "priority": 0.0
+    },
+    {
+     "feature": "grp::reasoning",
+     "name": "การคิดวิเคราะห์",
+     "domain": "grp",
+     "user": 50.0,
+     "required": 33.9,
+     "gap": 0.0,
+     "priority": 0.0
+    },
+    {
+     "feature": "grp::near_vision",
+     "name": "การมองรายละเอียดระยะใกล้",
+     "domain": "grp",
+     "user": 50.0,
+     "required": 42.9,
+     "gap": 0.0,
+     "priority": 0.0
+    },
+    {
+     "feature": "grp::teaching",
+     "name": "การสอนและติดตามงาน",
+     "domain": "grp",
+     "user": 50.0,
+     "required": 22.1,
+     "gap": 0.0,
+     "priority": 0.0
+    },
+    {
+     "feature": "grp::communication",
+     "name": "การสื่อสาร",
+     "domain": "grp",
+     "user": 75.0,
+     "required": 48.6,
+     "gap": 0.0,
+     "priority": 0.0
+    },
+    {
+     "feature": "grp::management",
+     "name": "การบริหารจัดการ",
+     "domain": "grp",
+     "user": 25.0,
+     "required": 23.8,
+     "gap": 0.0,
+     "priority": 0.0
+    },
+    {
+     "feature": "grp::business",
+     "name": "ธุรกิจ บัญชี และการตลาด",
+     "domain": "grp",
+     "user": 50.0,
+     "required": 49.9,
+     "gap": 0.0,
+     "priority": 0.0
+    },
+    {
+     "feature": "grp::computers",
+     "name": "คอมพิวเตอร์และอิเล็กทรอนิกส์",
+     "domain": "grp",
+     "user": 50.0,
+     "required": 29.1,
+     "gap": 0.0,
+     "priority": 0.0
+    },
+    {
+     "feature": "grp::media_language",
+     "name": "สื่อและภาษา",
+     "domain": "grp",
+     "user": 50.0,
+     "required": 47.3,
+     "gap": 0.0,
+     "priority": 0.0
+    },
+    {
+     "feature": "grp::people_society",
+     "name": "จิตวิทยาและสังคม",
+     "domain": "grp",
+     "user": 50.0,
+     "required": 11.8,
+     "gap": 0.0,
+     "priority": 0.0
+    },
+    {
+     "feature": "grp::foreign_language",
+     "name": "ภาษาต่างประเทศ",
+     "domain": "grp",
+     "user": 50.0,
+     "required": 8.4,
+     "gap": 0.0,
+     "priority": 0.0
+    },
+    {
+     "feature": "grp::geo_history",
+     "name": "ภูมิศาสตร์และประวัติศาสตร์",
+     "domain": "grp",
+     "user": 25.0,
+     "required": 10.1,
+     "gap": 0.0,
+     "priority": 0.0
+    },
+    {
+     "feature": "grp::arts",
+     "name": "ศิลปะ",
+     "domain": "grp",
+     "user": 25.0,
+     "required": 0.0,
+     "gap": 0.0,
+     "priority": 0.0
+    },
+    {
+     "feature": "grp::field_vision",
+     "name": "การรับรู้ทิศทางและการมองในสภาพต่าง ๆ",
+     "domain": "grp",
+     "user": 25.0,
+     "required": 0.0,
+     "gap": 0.0,
+     "priority": 0.0
+    },
+    {
+     "feature": "grp::safety_transport",
+     "name": "ความปลอดภัยและการขนส่ง",
+     "domain": "grp",
+     "user": 25.0,
+     "required": 15.6,
+     "gap": 0.0,
+     "priority": 0.0
+    },
+    {
+     "feature": "grp::food",
+     "name": "อาหารและการเกษตร",
+     "domain": "grp",
+     "user": 0.0,
+     "required": 0.0,
+     "gap": 0.0,
+     "priority": 0.0
+    },
+    {
+     "feature": "grp::hand_dexterity",
+     "name": "ความคล่องของมือ",
+     "domain": "grp",
+     "user": 25.0,
+     "required": 10.2,
+     "gap": 0.0,
+     "priority": 0.0
+    },
+    {
+     "feature": "grp::hearing",
+     "name": "การฟังและแยกเสียง",
+     "domain": "grp",
+     "user": 25.0,
+     "required": 19.6,
+     "gap": 0.0,
+     "priority": 0.0
+    },
+    {
+     "feature": "grp::physical",
+     "name": "แรงกายและความทนทาน",
+     "domain": "grp",
+     "user": 25.0,
+     "required": 1.8,
+     "gap": 0.0,
+     "priority": 0.0
+    },
+    {
+     "feature": "grp::flexibility",
+     "name": "ความยืดหยุ่นของร่างกาย",
+     "domain": "grp",
+     "user": 25.0,
+     "required": 0.0,
+     "gap": 0.0,
+     "priority": 0.0
+    },
+    {
+     "feature": "grp::visualization",
+     "name": "การนึกภาพและแยกสี",
+     "domain": "grp",
+     "user": 25.0,
+     "required": 9.8,
+     "gap": 0.0,
+     "priority": 0.0
+    },
+    {
+     "feature": "grp::engineering",
+     "name": "วิศวกรรมและงานช่าง",
+     "domain": "grp",
+     "user": 25.0,
+     "required": 2.4,
+     "gap": 0.0,
+     "priority": 0.0
+    },
+    {
+     "feature": "grp::far_multitask",
+     "name": "การมองไกลและทำหลายอย่างพร้อมกัน",
+     "domain": "grp",
+     "user": 25.0,
+     "required": 22.3,
+     "gap": 0.0,
+     "priority": 0.0
+    },
+    {
+     "feature": "grp::pattern_finding",
+     "name": "การจับรูปแบบ",
+     "domain": "grp",
+     "user": 25.0,
+     "required": 14.3,
+     "gap": 0.0,
+     "priority": 0.0
+    },
+    {
+     "feature": "grp::focus_speed",
+     "name": "สมาธิและความเร็วในการตรวจ",
+     "domain": "grp",
+     "user": 50.0,
+     "required": 24.1,
+     "gap": 0.0,
+     "priority": 0.0
+    },
+    {
+     "feature": "grp::bio_medical",
+     "name": "ชีววิทยาและการแพทย์",
+     "domain": "grp",
+     "user": 0.0,
+     "required": 0.0,
+     "gap": 0.0,
+     "priority": 0.0
+    },
+    {
+     "feature": "grp::physical_science",
+     "name": "เคมีและฟิสิกส์",
+     "domain": "grp",
+     "user": 25.0,
+     "required": 0.0,
+     "gap": 0.0,
+     "priority": 0.0
+    }
+   ]
+  },
+  "21-1093.00": {
+   "code": "21-1093.00",
+   "title": "Social and Human Service Assistants",
+   "skills_met": 20,
+   "skills_total": 30,
+   "top_priorities": [
+    {
+     "feature": "grp::pattern_finding",
+     "name": "การจับรูปแบบ",
+     "domain": "grp",
+     "user": 25.0,
+     "required": 42.9,
+     "gap": 17.9,
+     "priority": 0.2382
+    },
+    {
+     "feature": "grp::far_multitask",
+     "name": "การมองไกลและทำหลายอย่างพร้อมกัน",
+     "domain": "grp",
+     "user": 25.0,
+     "required": 41.1,
+     "gap": 16.1,
+     "priority": 0.2061
+    },
+    {
+     "feature": "grp::admin_service",
+     "name": "งานธุรการและบริการลูกค้า",
+     "domain": "grp",
+     "user": 50.0,
+     "required": 63.2,
+     "gap": 13.2,
+     "priority": 0.1987
+    },
+    {
+     "feature": "grp::law",
+     "name": "กฎหมายและหน่วยงานรัฐ",
+     "domain": "grp",
+     "user": 25.0,
+     "required": 38.0,
+     "gap": 13.0,
+     "priority": 0.167
+    },
+    {
+     "feature": "grp::people_society",
+     "name": "จิตวิทยาและสังคม",
+     "domain": "grp",
+     "user": 50.0,
+     "required": 60.0,
+     "gap": 10.0,
+     "priority": 0.1662
+    },
+    {
+     "feature": "grp::bio_medical",
+     "name": "ชีววิทยาและการแพทย์",
+     "domain": "grp",
+     "user": 0.0,
+     "required": 13.7,
+     "gap": 13.7,
+     "priority": 0.1506
+    },
+    {
+     "feature": "grp::machine_control",
+     "name": "การควบคุมเครื่องจักร",
+     "domain": "grp",
+     "user": 0.0,
+     "required": 13.1,
+     "gap": 13.1,
+     "priority": 0.1405
+    },
+    {
+     "feature": "grp::near_vision",
+     "name": "การมองรายละเอียดระยะใกล้",
+     "domain": "grp",
+     "user": 50.0,
+     "required": 55.4,
+     "gap": 5.4,
+     "priority": 0.0745
+    },
+    {
+     "feature": "grp::hearing",
+     "name": "การฟังและแยกเสียง",
+     "domain": "grp",
+     "user": 25.0,
+     "required": 27.7,
+     "gap": 2.7,
+     "priority": 0.031
+    },
+    {
+     "feature": "grp::visualization",
+     "name": "การนึกภาพและแยกสี",
+     "domain": "grp",
+     "user": 25.0,
+     "required": 27.6,
+     "gap": 2.6,
+     "priority": 0.0299
+    }
+   ],
+   "tools_used": [
+    "Excel"
+   ],
+   "all": [
+    {
+     "feature": "grp::pattern_finding",
+     "name": "การจับรูปแบบ",
+     "domain": "grp",
+     "user": 25.0,
+     "required": 42.9,
+     "gap": 17.9,
+     "priority": 0.2382
+    },
+    {
+     "feature": "grp::far_multitask",
+     "name": "การมองไกลและทำหลายอย่างพร้อมกัน",
+     "domain": "grp",
+     "user": 25.0,
+     "required": 41.1,
+     "gap": 16.1,
+     "priority": 0.2061
+    },
+    {
+     "feature": "grp::admin_service",
+     "name": "งานธุรการและบริการลูกค้า",
+     "domain": "grp",
+     "user": 50.0,
+     "required": 63.2,
+     "gap": 13.2,
+     "priority": 0.1987
+    },
+    {
+     "feature": "grp::law",
+     "name": "กฎหมายและหน่วยงานรัฐ",
+     "domain": "grp",
+     "user": 25.0,
+     "required": 38.0,
+     "gap": 13.0,
+     "priority": 0.167
+    },
+    {
+     "feature": "grp::people_society",
+     "name": "จิตวิทยาและสังคม",
+     "domain": "grp",
+     "user": 50.0,
+     "required": 60.0,
+     "gap": 10.0,
+     "priority": 0.1662
+    },
+    {
+     "feature": "grp::bio_medical",
+     "name": "ชีววิทยาและการแพทย์",
+     "domain": "grp",
+     "user": 0.0,
+     "required": 13.7,
+     "gap": 13.7,
+     "priority": 0.1506
+    },
+    {
+     "feature": "grp::machine_control",
+     "name": "การควบคุมเครื่องจักร",
+     "domain": "grp",
+     "user": 0.0,
+     "required": 13.1,
+     "gap": 13.1,
+     "priority": 0.1405
+    },
+    {
+     "feature": "grp::near_vision",
+     "name": "การมองรายละเอียดระยะใกล้",
+     "domain": "grp",
+     "user": 50.0,
+     "required": 55.4,
+     "gap": 5.4,
+     "priority": 0.0745
+    },
+    {
+     "feature": "grp::hearing",
+     "name": "การฟังและแยกเสียง",
+     "domain": "grp",
+     "user": 25.0,
+     "required": 27.7,
+     "gap": 2.7,
+     "priority": 0.031
+    },
+    {
+     "feature": "grp::visualization",
+     "name": "การนึกภาพและแยกสี",
+     "domain": "grp",
+     "user": 25.0,
+     "required": 27.6,
+     "gap": 2.6,
+     "priority": 0.0299
+    },
+    {
+     "feature": "grp::numbers",
+     "name": "ตัวเลขและคณิตศาสตร์",
+     "domain": "grp",
+     "user": 50.0,
+     "required": 29.1,
+     "gap": 0.0,
+     "priority": 0.0
+    },
+    {
+     "feature": "grp::reasoning",
+     "name": "การคิดวิเคราะห์",
+     "domain": "grp",
+     "user": 50.0,
+     "required": 49.8,
+     "gap": 0.0,
+     "priority": 0.0
+    },
+    {
+     "feature": "grp::teaching",
+     "name": "การสอนและติดตามงาน",
+     "domain": "grp",
+     "user": 50.0,
+     "required": 48.0,
+     "gap": 0.0,
+     "priority": 0.0
+    },
+    {
+     "feature": "grp::communication",
+     "name": "การสื่อสาร",
+     "domain": "grp",
+     "user": 75.0,
+     "required": 55.9,
+     "gap": 0.0,
+     "priority": 0.0
+    },
+    {
+     "feature": "grp::management",
+     "name": "การบริหารจัดการ",
+     "domain": "grp",
+     "user": 25.0,
+     "required": 21.5,
+     "gap": 0.0,
+     "priority": 0.0
+    },
+    {
+     "feature": "grp::business",
+     "name": "ธุรกิจ บัญชี และการตลาด",
+     "domain": "grp",
+     "user": 50.0,
+     "required": 4.7,
+     "gap": 0.0,
+     "priority": 0.0
+    },
+    {
+     "feature": "grp::computers",
+     "name": "คอมพิวเตอร์และอิเล็กทรอนิกส์",
+     "domain": "grp",
+     "user": 50.0,
+     "required": 34.9,
+     "gap": 0.0,
+     "priority": 0.0
+    },
+    {
+     "feature": "grp::media_language",
+     "name": "สื่อและภาษา",
+     "domain": "grp",
+     "user": 50.0,
+     "required": 39.0,
+     "gap": 0.0,
+     "priority": 0.0
+    },
+    {
+     "feature": "grp::foreign_language",
+     "name": "ภาษาต่างประเทศ",
+     "domain": "grp",
+     "user": 50.0,
+     "required": 16.3,
+     "gap": 0.0,
+     "priority": 0.0
+    },
+    {
+     "feature": "grp::geo_history",
+     "name": "ภูมิศาสตร์และประวัติศาสตร์",
+     "domain": "grp",
+     "user": 25.0,
+     "required": 5.0,
+     "gap": 0.0,
+     "priority": 0.0
+    },
+    {
+     "feature": "grp::arts",
+     "name": "ศิลปะ",
+     "domain": "grp",
+     "user": 25.0,
+     "required": 0.0,
+     "gap": 0.0,
+     "priority": 0.0
+    },
+    {
+     "feature": "grp::field_vision",
+     "name": "การรับรู้ทิศทางและการมองในสภาพต่าง ๆ",
+     "domain": "grp",
+     "user": 25.0,
+     "required": 5.0,
+     "gap": 0.0,
+     "priority": 0.0
+    },
+    {
+     "feature": "grp::safety_transport",
+     "name": "ความปลอดภัยและการขนส่ง",
+     "domain": "grp",
+     "user": 25.0,
+     "required": 22.1,
+     "gap": 0.0,
+     "priority": 0.0
+    },
+    {
+     "feature": "grp::food",
+     "name": "อาหารและการเกษตร",
+     "domain": "grp",
+     "user": 0.0,
+     "required": 0.0,
+     "gap": 0.0,
+     "priority": 0.0
+    },
+    {
+     "feature": "grp::hand_dexterity",
+     "name": "ความคล่องของมือ",
+     "domain": "grp",
+     "user": 25.0,
+     "required": 13.9,
+     "gap": 0.0,
+     "priority": 0.0
+    },
+    {
+     "feature": "grp::physical",
+     "name": "แรงกายและความทนทาน",
+     "domain": "grp",
+     "user": 25.0,
+     "required": 13.3,
+     "gap": 0.0,
+     "priority": 0.0
+    },
+    {
+     "feature": "grp::flexibility",
+     "name": "ความยืดหยุ่นของร่างกาย",
+     "domain": "grp",
+     "user": 25.0,
+     "required": 0.0,
+     "gap": 0.0,
+     "priority": 0.0
+    },
+    {
+     "feature": "grp::engineering",
+     "name": "วิศวกรรมและงานช่าง",
+     "domain": "grp",
+     "user": 25.0,
+     "required": 0.0,
+     "gap": 0.0,
+     "priority": 0.0
+    },
+    {
+     "feature": "grp::focus_speed",
+     "name": "สมาธิและความเร็วในการตรวจ",
+     "domain": "grp",
+     "user": 50.0,
+     "required": 41.0,
+     "gap": 0.0,
+     "priority": 0.0
+    },
+    {
+     "feature": "grp::physical_science",
+     "name": "เคมีและฟิสิกส์",
+     "domain": "grp",
+     "user": 25.0,
+     "required": 10.9,
+     "gap": 0.0,
+     "priority": 0.0
+    }
+   ]
+  },
+  "43-4121.00": {
+   "code": "43-4121.00",
+   "title": "Library Assistants, Clerical",
+   "skills_met": 19,
+   "skills_total": 30,
+   "top_priorities": [
+    {
+     "feature": "grp::geo_history",
+     "name": "ภูมิศาสตร์และประวัติศาสตร์",
+     "domain": "grp",
+     "user": 25.0,
+     "required": 35.8,
+     "gap": 10.8,
+     "priority": 0.1467
+    },
+    {
+     "feature": "grp::far_multitask",
+     "name": "การมองไกลและทำหลายอย่างพร้อมกัน",
+     "domain": "grp",
+     "user": 25.0,
+     "required": 34.8,
+     "gap": 9.8,
+     "priority": 0.1193
+    },
+    {
+     "feature": "grp::pattern_finding",
+     "name": "การจับรูปแบบ",
+     "domain": "grp",
+     "user": 25.0,
+     "required": 33.9,
+     "gap": 8.9,
+     "priority": 0.1045
+    },
+    {
+     "feature": "grp::machine_control",
+     "name": "การควบคุมเครื่องจักร",
+     "domain": "grp",
+     "user": 0.0,
+     "required": 6.8,
+     "gap": 6.8,
+     "priority": 0.0711
+    },
+    {
+     "feature": "grp::bio_medical",
+     "name": "ชีววิทยาและการแพทย์",
+     "domain": "grp",
+     "user": 0.0,
+     "required": 5.8,
+     "gap": 5.8,
+     "priority": 0.0605
+    },
+    {
+     "feature": "grp::visualization",
+     "name": "การนึกภาพและแยกสี",
+     "domain": "grp",
+     "user": 25.0,
+     "required": 29.5,
+     "gap": 4.5,
+     "priority": 0.0517
+    },
+    {
+     "feature": "grp::hearing",
+     "name": "การฟังและแยกเสียง",
+     "domain": "grp",
+     "user": 25.0,
+     "required": 28.6,
+     "gap": 3.6,
+     "priority": 0.0405
+    },
+    {
+     "feature": "grp::hand_dexterity",
+     "name": "ความคล่องของมือ",
+     "domain": "grp",
+     "user": 25.0,
+     "required": 27.6,
+     "gap": 2.6,
+     "priority": 0.0303
+    },
+    {
+     "feature": "grp::admin_service",
+     "name": "งานธุรการและบริการลูกค้า",
+     "domain": "grp",
+     "user": 50.0,
+     "required": 51.6,
+     "gap": 1.6,
+     "priority": 0.0222
+    },
+    {
+     "feature": "grp::near_vision",
+     "name": "การมองรายละเอียดระยะใกล้",
+     "domain": "grp",
+     "user": 50.0,
+     "required": 51.7,
+     "gap": 1.7,
+     "priority": 0.0219
+    }
+   ],
+   "tools_used": [
+    "C++",
+    "Excel"
+   ],
+   "all": [
+    {
+     "feature": "grp::geo_history",
+     "name": "ภูมิศาสตร์และประวัติศาสตร์",
+     "domain": "grp",
+     "user": 25.0,
+     "required": 35.8,
+     "gap": 10.8,
+     "priority": 0.1467
+    },
+    {
+     "feature": "grp::far_multitask",
+     "name": "การมองไกลและทำหลายอย่างพร้อมกัน",
+     "domain": "grp",
+     "user": 25.0,
+     "required": 34.8,
+     "gap": 9.8,
+     "priority": 0.1193
+    },
+    {
+     "feature": "grp::pattern_finding",
+     "name": "การจับรูปแบบ",
+     "domain": "grp",
+     "user": 25.0,
+     "required": 33.9,
+     "gap": 8.9,
+     "priority": 0.1045
+    },
+    {
+     "feature": "grp::machine_control",
+     "name": "การควบคุมเครื่องจักร",
+     "domain": "grp",
+     "user": 0.0,
+     "required": 6.8,
+     "gap": 6.8,
+     "priority": 0.0711
+    },
+    {
+     "feature": "grp::bio_medical",
+     "name": "ชีววิทยาและการแพทย์",
+     "domain": "grp",
+     "user": 0.0,
+     "required": 5.8,
+     "gap": 5.8,
+     "priority": 0.0605
+    },
+    {
+     "feature": "grp::visualization",
+     "name": "การนึกภาพและแยกสี",
+     "domain": "grp",
+     "user": 25.0,
+     "required": 29.5,
+     "gap": 4.5,
+     "priority": 0.0517
+    },
+    {
+     "feature": "grp::hearing",
+     "name": "การฟังและแยกเสียง",
+     "domain": "grp",
+     "user": 25.0,
+     "required": 28.6,
+     "gap": 3.6,
+     "priority": 0.0405
+    },
+    {
+     "feature": "grp::hand_dexterity",
+     "name": "ความคล่องของมือ",
+     "domain": "grp",
+     "user": 25.0,
+     "required": 27.6,
+     "gap": 2.6,
+     "priority": 0.0303
+    },
+    {
+     "feature": "grp::admin_service",
+     "name": "งานธุรการและบริการลูกค้า",
+     "domain": "grp",
+     "user": 50.0,
+     "required": 51.6,
+     "gap": 1.6,
+     "priority": 0.0222
+    },
+    {
+     "feature": "grp::near_vision",
+     "name": "การมองรายละเอียดระยะใกล้",
+     "domain": "grp",
+     "user": 50.0,
+     "required": 51.7,
+     "gap": 1.7,
+     "priority": 0.0219
+    },
+    {
+     "feature": "grp::safety_transport",
+     "name": "ความปลอดภัยและการขนส่ง",
+     "domain": "grp",
+     "user": 25.0,
+     "required": 26.2,
+     "gap": 1.2,
+     "priority": 0.014
+    },
+    {
+     "feature": "grp::numbers",
+     "name": "ตัวเลขและคณิตศาสตร์",
+     "domain": "grp",
+     "user": 50.0,
+     "required": 30.8,
+     "gap": 0.0,
+     "priority": 0.0
+    },
+    {
+     "feature": "grp::reasoning",
+     "name": "การคิดวิเคราะห์",
+     "domain": "grp",
+     "user": 50.0,
+     "required": 37.3,
+     "gap": 0.0,
+     "priority": 0.0
+    },
+    {
+     "feature": "grp::teaching",
+     "name": "การสอนและติดตามงาน",
+     "domain": "grp",
+     "user": 50.0,
+     "required": 36.6,
+     "gap": 0.0,
+     "priority": 0.0
+    },
+    {
+     "feature": "grp::communication",
+     "name": "การสื่อสาร",
+     "domain": "grp",
+     "user": 75.0,
+     "required": 45.3,
+     "gap": 0.0,
+     "priority": 0.0
+    },
+    {
+     "feature": "grp::management",
+     "name": "การบริหารจัดการ",
+     "domain": "grp",
+     "user": 25.0,
+     "required": 21.6,
+     "gap": 0.0,
+     "priority": 0.0
+    },
+    {
+     "feature": "grp::business",
+     "name": "ธุรกิจ บัญชี และการตลาด",
+     "domain": "grp",
+     "user": 50.0,
+     "required": 19.8,
+     "gap": 0.0,
+     "priority": 0.0
+    },
+    {
+     "feature": "grp::computers",
+     "name": "คอมพิวเตอร์และอิเล็กทรอนิกส์",
+     "domain": "grp",
+     "user": 50.0,
+     "required": 31.3,
+     "gap": 0.0,
+     "priority": 0.0
+    },
+    {
+     "feature": "grp::media_language",
+     "name": "สื่อและภาษา",
+     "domain": "grp",
+     "user": 50.0,
+     "required": 40.5,
+     "gap": 0.0,
+     "priority": 0.0
+    },
+    {
+     "feature": "grp::law",
+     "name": "กฎหมายและหน่วยงานรัฐ",
+     "domain": "grp",
+     "user": 25.0,
+     "required": 23.6,
+     "gap": 0.0,
+     "priority": 0.0
+    },
+    {
+     "feature": "grp::people_society",
+     "name": "จิตวิทยาและสังคม",
+     "domain": "grp",
+     "user": 50.0,
+     "required": 34.2,
+     "gap": 0.0,
+     "priority": 0.0
+    },
+    {
+     "feature": "grp::foreign_language",
+     "name": "ภาษาต่างประเทศ",
+     "domain": "grp",
+     "user": 50.0,
+     "required": 14.4,
+     "gap": 0.0,
+     "priority": 0.0
+    },
+    {
+     "feature": "grp::arts",
+     "name": "ศิลปะ",
+     "domain": "grp",
+     "user": 25.0,
+     "required": 11.7,
+     "gap": 0.0,
+     "priority": 0.0
+    },
+    {
+     "feature": "grp::field_vision",
+     "name": "การรับรู้ทิศทางและการมองในสภาพต่าง ๆ",
+     "domain": "grp",
+     "user": 25.0,
+     "required": 3.2,
+     "gap": 0.0,
+     "priority": 0.0
+    },
+    {
+     "feature": "grp::food",
+     "name": "อาหารและการเกษตร",
+     "domain": "grp",
+     "user": 0.0,
+     "required": 0.0,
+     "gap": 0.0,
+     "priority": 0.0
+    },
+    {
+     "feature": "grp::physical",
+     "name": "แรงกายและความทนทาน",
+     "domain": "grp",
+     "user": 25.0,
+     "required": 17.5,
+     "gap": 0.0,
+     "priority": 0.0
+    },
+    {
+     "feature": "grp::flexibility",
+     "name": "ความยืดหยุ่นของร่างกาย",
+     "domain": "grp",
+     "user": 25.0,
+     "required": 0.0,
+     "gap": 0.0,
+     "priority": 0.0
+    },
+    {
+     "feature": "grp::engineering",
+     "name": "วิศวกรรมและงานช่าง",
+     "domain": "grp",
+     "user": 25.0,
+     "required": 7.9,
+     "gap": 0.0,
+     "priority": 0.0
+    },
+    {
+     "feature": "grp::focus_speed",
+     "name": "สมาธิและความเร็วในการตรวจ",
+     "domain": "grp",
+     "user": 50.0,
+     "required": 37.4,
+     "gap": 0.0,
+     "priority": 0.0
+    },
+    {
+     "feature": "grp::physical_science",
+     "name": "เคมีและฟิสิกส์",
+     "domain": "grp",
+     "user": 25.0,
+     "required": 2.5,
+     "gap": 0.0,
+     "priority": 0.0
+    }
+   ]
+  }
+ },
+ "similar": {
+  "13-2071.00": [
+   {
+    "code": "13-2052.00",
+    "title": "Personal Financial Advisors",
+    "similarity": 0.9606
+   },
+   {
+    "code": "13-2072.00",
+    "title": "Loan Officers",
+    "similarity": 0.9086
+   },
+   {
+    "code": "41-3021.00",
+    "title": "Insurance Sales Agents",
+    "similarity": 0.9024
+   },
+   {
+    "code": "13-2082.00",
+    "title": "Tax Preparers",
+    "similarity": 0.8965
+   },
+   {
+    "code": "43-4141.00",
+    "title": "New Accounts Clerks",
+    "similarity": 0.8953
+   }
+  ],
+  "13-2072.00": [
+   {
+    "code": "13-2082.00",
+    "title": "Tax Preparers",
+    "similarity": 0.9523
+   },
+   {
+    "code": "41-3021.00",
+    "title": "Insurance Sales Agents",
+    "similarity": 0.9487
+   },
+   {
+    "code": "43-4041.00",
+    "title": "Credit Authorizers, Checkers, and Clerks",
+    "similarity": 0.9486
+   },
+   {
+    "code": "13-2081.00",
+    "title": "Tax Examiners and Collectors, and Revenue Agents",
+    "similarity": 0.9455
+   },
+   {
+    "code": "43-4131.00",
+    "title": "Loan Interviewers and Clerks",
+    "similarity": 0.9442
+   }
+  ],
+  "41-9041.00": [
+   {
+    "code": "41-9091.00",
+    "title": "Door-to-Door Sales Workers, News and Street Vendors, and Related Workers",
+    "similarity": 0.8895
+   },
+   {
+    "code": "41-2021.00",
+    "title": "Counter and Rental Clerks",
+    "similarity": 0.8682
+   },
+   {
+    "code": "41-2031.00",
+    "title": "Retail Salespersons",
+    "similarity": 0.8653
+   },
+   {
+    "code": "53-3031.00",
+    "title": "Driver/Sales Workers",
+    "similarity": 0.8588
+   },
+   {
+    "code": "41-9011.00",
+    "title": "Demonstrators and Product Promoters",
+    "similarity": 0.856
+   }
+  ],
+  "21-1093.00": [
+   {
+    "code": "21-1021.00",
+    "title": "Child, Family, and School Social Workers",
+    "similarity": 0.9647
+   },
+   {
+    "code": "21-1094.00",
+    "title": "Community Health Workers",
+    "similarity": 0.9587
+   },
+   {
+    "code": "21-1015.00",
+    "title": "Rehabilitation Counselors",
+    "similarity": 0.9369
+   },
+   {
+    "code": "21-1023.00",
+    "title": "Mental Health and Substance Abuse Social Workers",
+    "similarity": 0.933
+   },
+   {
+    "code": "29-1122.01",
+    "title": "Low Vision Therapists, Orientation and Mobility Specialists, and Vision Rehabilitation Therapists",
+    "similarity": 0.9213
+   }
+  ],
+  "43-4121.00": [
+   {
+    "code": "25-4031.00",
+    "title": "Library Technicians",
+    "similarity": 0.9665
+   },
+   {
+    "code": "43-4081.00",
+    "title": "Hotel, Motel, and Resort Desk Clerks",
+    "similarity": 0.924
+   },
+   {
+    "code": "43-4171.00",
+    "title": "Receptionists and Information Clerks",
+    "similarity": 0.9167
+   },
+   {
+    "code": "31-9095.00",
+    "title": "Pharmacy Aides",
+    "similarity": 0.9164
+   },
+   {
+    "code": "43-5051.00",
+    "title": "Postal Service Clerks",
+    "similarity": 0.9128
+   }
+  ]
+ },
+ "explain": {
+  "13-2071.00": {
+   "code": "13-2071.00",
+   "title": "Credit Counselors",
+   "similarity": 0.8827,
+   "mean_similarity": 0.7575,
+   "rank_matching": 1,
+   "positive": [
+    {
+     "feature": "gtask::serve",
+     "name": "serve",
+     "domain": "gtask",
+     "user": 75.0,
+     "required": 100.0,
+     "contribution": 0.0429,
+     "share": 0.1118
+    },
+    {
+     "feature": "gtask::money",
+     "name": "money",
+     "domain": "gtask",
+     "user": 50.0,
+     "required": 100.0,
+     "contribution": 0.03027,
+     "share": 0.0789
+    },
+    {
+     "feature": "task::support",
+     "name": "support",
+     "domain": "task",
+     "user": 50.0,
+     "required": 100.0,
+     "contribution": 0.02912,
+     "share": 0.0759
+    },
+    {
+     "feature": "task::present",
+     "name": "present",
+     "domain": "task",
+     "user": 50.0,
+     "required": 100.0,
+     "contribution": 0.0247,
+     "share": 0.0644
+    },
+    {
+     "feature": "gtask::care",
+     "name": "care",
+     "domain": "gtask",
+     "user": 50.0,
+     "required": 67.1,
+     "contribution": 0.02018,
+     "share": 0.0526
+    }
+   ],
+   "negative": [
+    {
+     "feature": "ri::Realistic",
+     "name": "Realistic",
+     "domain": "ri",
+     "user": 25.0,
+     "required": 0.0,
+     "contribution": -0.01305,
+     "share": -0.034
+    },
+    {
+     "feature": "grp::near_vision",
+     "name": "การมองรายละเอียดระยะใกล้",
+     "domain": "grp",
+     "user": 50.0,
+     "required": 46.4,
+     "contribution": -0.00627,
+     "share": -0.0163
+    },
+    {
+     "feature": "ri::Investigative",
+     "name": "Investigative",
+     "domain": "ri",
+     "user": 50.0,
+     "required": 27.5,
+     "contribution": -0.00605,
+     "share": -0.0158
+    },
+    {
+     "feature": "grp::hand_dexterity",
+     "name": "ความคล่องของมือ",
+     "domain": "grp",
+     "user": 25.0,
+     "required": 6.3,
+     "contribution": -0.00567,
+     "share": -0.0148
+    },
+    {
+     "feature": "ws::Cautiousness",
+     "name": "Cautiousness",
+     "domain": "ws",
+     "user": 75.0,
+     "required": 78.7,
+     "contribution": -0.00548,
+     "share": -0.0143
+    }
+   ],
+   "by_domain": {
+    "gtask": 0.10508,
+    "task": 0.05493,
+    "ws": 0.00388,
+    "ri": 0.00123,
+    "grp": -0.03995
+   }
+  },
+  "13-2072.00": {
+   "code": "13-2072.00",
+   "title": "Loan Officers",
+   "similarity": 0.8709,
+   "mean_similarity": 0.7575,
+   "rank_matching": 2,
+   "positive": [
+    {
+     "feature": "gtask::money",
+     "name": "money",
+     "domain": "gtask",
+     "user": 50.0,
+     "required": 100.0,
+     "contribution": 0.03595,
+     "share": 0.1151
+    },
+    {
+     "feature": "gtask::serve",
+     "name": "serve",
+     "domain": "gtask",
+     "user": 75.0,
+     "required": 48.9,
+     "contribution": 0.02159,
+     "share": 0.0691
+    },
+    {
+     "feature": "ws::Social Orientation",
+     "name": "Social Orientation",
+     "domain": "ws",
+     "user": 75.0,
+     "required": 82.8,
+     "contribution": 0.01525,
+     "share": 0.0488
+    },
+    {
+     "feature": "task::support",
+     "name": "support",
+     "domain": "task",
+     "user": 50.0,
+     "required": 48.9,
+     "contribution": 0.01492,
+     "share": 0.0478
+    },
+    {
+     "feature": "ri::Enterprising",
+     "name": "Enterprising",
+     "domain": "ri",
+     "user": 50.0,
+     "required": 66.3,
+     "contribution": 0.01376,
+     "share": 0.044
+    }
+   ],
+   "negative": [
+    {
+     "feature": "ri::Realistic",
+     "name": "Realistic",
+     "domain": "ri",
+     "user": 25.0,
+     "required": 7.2,
+     "contribution": -0.01166,
+     "share": -0.0373
+    },
+    {
+     "feature": "ri::Investigative",
+     "name": "Investigative",
+     "domain": "ri",
+     "user": 50.0,
+     "required": 22.0,
+     "contribution": -0.00662,
+     "share": -0.0212
+    },
+    {
+     "feature": "gtask::lead",
+     "name": "lead",
+     "domain": "gtask",
+     "user": 50.0,
+     "required": 5.6,
+     "contribution": -0.00573,
+     "share": -0.0183
+    },
+    {
+     "feature": "grp::visualization",
+     "name": "การนึกภาพและแยกสี",
+     "domain": "grp",
+     "user": 25.0,
+     "required": 16.0,
+     "contribution": -0.00475,
+     "share": -0.0152
+    },
+    {
+     "feature": "grp::physical_science",
+     "name": "เคมีและฟิสิกส์",
+     "domain": "grp",
+     "user": 25.0,
+     "required": 0.0,
+     "contribution": -0.0047,
+     "share": -0.0151
+    }
+   ],
+   "by_domain": {
+    "gtask": 0.06047,
+    "ws": 0.03443,
+    "task": 0.02477,
+    "ri": 0.01172,
+    "grp": -0.01791
+   }
+  },
+  "41-9041.00": {
+   "code": "41-9041.00",
+   "title": "Telemarketers",
+   "similarity": 0.7997,
+   "mean_similarity": 0.7575,
+   "rank_matching": 320,
+   "positive": [
+    {
+     "feature": "gtask::serve",
+     "name": "serve",
+     "domain": "gtask",
+     "user": 75.0,
+     "required": 100.0,
+     "contribution": 0.05652,
+     "share": 0.1082
+    },
+    {
+     "feature": "gtask::sell",
+     "name": "sell",
+     "domain": "gtask",
+     "user": 50.0,
+     "required": 100.0,
+     "contribution": 0.03989,
+     "share": 0.0764
+    },
+    {
+     "feature": "task::support",
+     "name": "support",
+     "domain": "task",
+     "user": 50.0,
+     "required": 100.0,
+     "contribution": 0.0382,
+     "share": 0.0732
+    },
+    {
+     "feature": "ws::Social Orientation",
+     "name": "Social Orientation",
+     "domain": "ws",
+     "user": 75.0,
+     "required": 92.5,
+     "contribution": 0.02565,
+     "share": 0.0491
+    },
+    {
+     "feature": "gtask::office",
+     "name": "office",
+     "domain": "gtask",
+     "user": 75.0,
+     "required": 53.6,
+     "contribution": 0.01983,
+     "share": 0.038
+    }
+   ],
+   "negative": [
+    {
+     "feature": "ws::Cautiousness",
+     "name": "Cautiousness",
+     "domain": "ws",
+     "user": 75.0,
+     "required": 14.2,
+     "contribution": -0.03566,
+     "share": -0.0683
+    },
+    {
+     "feature": "ri::Investigative",
+     "name": "Investigative",
+     "domain": "ri",
+     "user": 50.0,
+     "required": 1.5,
+     "contribution": -0.01455,
+     "share": -0.0279
+    },
+    {
+     "feature": "ws::Intellectual Curiosity",
+     "name": "Intellectual Curiosity",
+     "domain": "ws",
+     "user": 50.0,
+     "required": 23.1,
+     "contribution": -0.01324,
+     "share": -0.0254
+    },
+    {
+     "feature": "ws::Innovation",
+     "name": "Innovation",
+     "domain": "ws",
+     "user": 50.0,
+     "required": 21.3,
+     "contribution": -0.01062,
+     "share": -0.0203
+    },
+    {
+     "feature": "ri::Realistic",
+     "name": "Realistic",
+     "domain": "ri",
+     "user": 25.0,
+     "required": 14.5,
+     "contribution": -0.00999,
+     "share": -0.0191
+    }
+   ],
+   "by_domain": {
+    "gtask": 0.12779,
+    "task": 0.03087,
+    "ri": 0.00672,
+    "ws": -0.05179,
+    "grp": -0.07142
+   }
+  },
+  "21-1093.00": {
+   "code": "21-1093.00",
+   "title": "Social and Human Service Assistants",
+   "similarity": 0.8673,
+   "mean_similarity": 0.7575,
+   "rank_matching": 3,
+   "positive": [
+    {
+     "feature": "ri::Social",
+     "name": "Social",
+     "domain": "ri",
+     "user": 75.0,
+     "required": 84.8,
+     "contribution": 0.0301,
+     "share": 0.0895
+    },
+    {
+     "feature": "gtask::serve",
+     "name": "serve",
+     "domain": "gtask",
+     "user": 75.0,
+     "required": 62.9,
+     "contribution": 0.02939,
+     "share": 0.0874
+    },
+    {
+     "feature": "gtask::care",
+     "name": "care",
+     "domain": "gtask",
+     "user": 50.0,
+     "required": 78.2,
+     "contribution": 0.02803,
+     "share": 0.0833
+    },
+    {
+     "feature": "ws::Empathy",
+     "name": "Empathy",
+     "domain": "ws",
+     "user": 75.0,
+     "required": 100.0,
+     "contribution": 0.0274,
+     "share": 0.0815
+    },
+    {
+     "feature": "task::support",
+     "name": "support",
+     "domain": "task",
+     "user": 50.0,
+     "required": 62.9,
+     "contribution": 0.02011,
+     "share": 0.0598
+    }
+   ],
+   "negative": [
+    {
+     "feature": "ri::Realistic",
+     "name": "Realistic",
+     "domain": "ri",
+     "user": 25.0,
+     "required": 4.7,
+     "contribution": -0.01215,
+     "share": -0.0361
+    },
+    {
+     "feature": "grp::business",
+     "name": "ธุรกิจ บัญชี และการตลาด",
+     "domain": "grp",
+     "user": 50.0,
+     "required": 4.7,
+     "contribution": -0.00922,
+     "share": -0.0274
+    },
+    {
+     "feature": "ws::Cautiousness",
+     "name": "Cautiousness",
+     "domain": "ws",
+     "user": 75.0,
+     "required": 63.4,
+     "contribution": -0.00812,
+     "share": -0.0241
+    },
+    {
+     "feature": "grp::engineering",
+     "name": "วิศวกรรมและงานช่าง",
+     "domain": "grp",
+     "user": 25.0,
+     "required": 0.0,
+     "contribution": -0.00616,
+     "share": -0.0183
+    },
+    {
+     "feature": "gtask::analyze",
+     "name": "analyze",
+     "domain": "gtask",
+     "user": 50.0,
+     "required": 0.0,
+     "contribution": -0.00578,
+     "share": -0.0172
+    }
+   ],
+   "by_domain": {
+    "gtask": 0.05282,
+    "ws": 0.05044,
+    "task": 0.01712,
+    "ri": 0.01643,
+    "grp": -0.02701
+   }
+  },
+  "43-4121.00": {
+   "code": "43-4121.00",
+   "title": "Library Assistants, Clerical",
+   "similarity": 0.8654,
+   "mean_similarity": 0.7575,
+   "rank_matching": 4,
+   "positive": [
+    {
+     "feature": "ri::Conventional",
+     "name": "Conventional",
+     "domain": "ri",
+     "user": 75.0,
+     "required": 98.2,
+     "contribution": 0.03443,
+     "share": 0.1154
+    },
+    {
+     "feature": "gtask::serve",
+     "name": "serve",
+     "domain": "gtask",
+     "user": 75.0,
+     "required": 43.3,
+     "contribution": 0.02455,
+     "share": 0.0823
+    },
+    {
+     "feature": "ws::Cooperation",
+     "name": "Cooperation",
+     "domain": "ws",
+     "user": 75.0,
+     "required": 79.0,
+     "contribution": 0.01774,
+     "share": 0.0595
+    },
+    {
+     "feature": "gtask::office",
+     "name": "office",
+     "domain": "gtask",
+     "user": 75.0,
+     "required": 43.0,
+     "contribution": 0.01705,
+     "share": 0.0572
+    },
+    {
+     "feature": "ws::Social Orientation",
+     "name": "Social Orientation",
+     "domain": "ws",
+     "user": 75.0,
+     "required": 67.9,
+     "contribution": 0.01625,
+     "share": 0.0545
+    }
+   ],
+   "negative": [
+    {
+     "feature": "ri::Investigative",
+     "name": "Investigative",
+     "domain": "ri",
+     "user": 50.0,
+     "required": 16.7,
+     "contribution": -0.00711,
+     "share": -0.0238
+    },
+    {
+     "feature": "ws::Tolerance for Ambiguity",
+     "name": "Tolerance for Ambiguity",
+     "domain": "ws",
+     "user": 50.0,
+     "required": 26.0,
+     "contribution": -0.00601,
+     "share": -0.0201
+    },
+    {
+     "feature": "ri::Realistic",
+     "name": "Realistic",
+     "domain": "ri",
+     "user": 25.0,
+     "required": 31.8,
+     "contribution": -0.00534,
+     "share": -0.0179
+    },
+    {
+     "feature": "ws::Innovation",
+     "name": "Innovation",
+     "domain": "ws",
+     "user": 50.0,
+     "required": 30.3,
+     "contribution": -0.00494,
+     "share": -0.0166
+    },
+    {
+     "feature": "ws::Leadership Orientation",
+     "name": "Leadership Orientation",
+     "domain": "ws",
+     "user": 50.0,
+     "required": 29.2,
+     "contribution": -0.00465,
+     "share": -0.0156
+    }
+   ],
+   "by_domain": {
+    "gtask": 0.05675,
+    "ri": 0.03216,
+    "ws": 0.01612,
+    "grp": 0.01229,
+    "task": -0.00944
+   }
+  }
+ }
+}

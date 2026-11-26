@@ -1,0 +1,9 @@
+file,rows,columns,occupations,elements,scales,duplicate_rows,role_in_system
+Abilities,94640,15,910,52.0,"IM, LV",0,ความสามารถ → User Skill Vector
+Knowledge,60060,15,910,33.0,"IM, LV",0,ความรู้ → User Skill Vector
+Essential Skills,18200,15,910,10.0,"IM, LV",0,ทักษะพื้นฐาน → User Skill Vector
+Career Interest Types,8307,9,923,9.0,"IH, OI",0,ความสนใจ RIASEC → Interests
+Work Styles,37422,9,891,21.0,"DR, WI",0,ลักษณะการทำงาน → Work preferences
+Software Skills,31821,7,923,134.0,,0,ซอฟต์แวร์/เทคโนโลยี → Technical skills
+Task Statements,18838,8,923,,,0,งานที่ทำจริง → ให้ LLM อธิบายผล (ไม่ใช่ feature)
+Occupation Data,1016,3,1016,,,0,ชื่อ + คำอธิบายอาชีพ (ไม่ใช่ feature)

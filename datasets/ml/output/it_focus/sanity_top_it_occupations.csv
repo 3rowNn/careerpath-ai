@@ -1,0 +1,13 @@
+feature,question_th,top_it_occupations
+task::ui,ชอบออกแบบและสร้างหน้าจอที่คนใช้งาน เช่น เว็บหรือแอป,Web Developers (100) | Web and Digital Interface Designers (100) | Web Administrators (100)
+task::build,ชอบเขียนโปรแกรมสร้างระบบหรือซอฟต์แวร์ใหม่,Computer Systems Analysts (100) | Computer Programmers (100) | Software Developers (100)
+task::infra,ชอบดูแลเซิร์ฟเวอร์ เครือข่าย และระบบให้ทำงานได้ไม่ล่ม,Computer Network Support Specialists (100) | Computer Network Architects (100) | Telecommunications Engineering Specialists (100)
+task::security,ชอบหาช่องโหว่และป้องกันระบบจากการถูกโจมตี,Information Security Analysts (100) | Penetration Testers (100) | Information Security Engineers (100)
+task::analyze,ชอบวิเคราะห์ข้อมูลเพื่อหาคำตอบหรือ insight,Actuaries (100) | Operations Research Analysts (100) | Statisticians (100)
+task::model,ชอบสร้างโมเดลทำนาย หรือใช้คณิตศาสตร์แก้ปัญหา,Mathematicians (100) | Operations Research Analysts (100) | Data Scientists (100)
+task::database,ชอบออกแบบและจัดการฐานข้อมูล,Database Administrators (100) | Database Architects (100) | Data Warehousing Specialists (100)
+task::test,ชอบตรวจหา bug และทดสอบว่าระบบทำงานถูกต้อง,Software Quality Assurance Analysts and Testers (100) | Penetration Testers (72) | Information Security Analysts (62)
+task::support,ชอบช่วยเหลือผู้ใช้แก้ปัญหาการใช้งาน,Computer Systems Analysts (54) | Computer User Support Specialists (53) | Web and Digital Interface Designers (39)
+task::lead,ชอบวางแผนโปรเจกต์ ประสานงานทีม และจัดการคน,Information Technology Project Managers (100) | Software Developers (81) | Computer Network Architects (66)
+task::research,ชอบค้นคว้าวิจัยและติดตามเทคโนโลยีใหม่,Biostatisticians (100) | Health Informatics Specialists (76) | Statisticians (54)
+task::present,ชอบนำเสนอ อธิบาย หรือเขียนเอกสาร,Telecommunications Engineering Specialists (100) | Document Management Specialists (100) | Business Intelligence Analysts (88)

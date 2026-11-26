@@ -1,0 +1,911 @@
+﻿group,code,title_en,title_th
+บริหารจัดการ (11),11-9131.00,Postmasters and Mail Superintendents,นายไปรษณีย์ / ผู้ควบคุมงานไปรษณีย์
+บริหารจัดการ (11),11-1011.00,Chief Executives,ประธานเจ้าหน้าที่บริหาร / ผู้บริหารสูงสุด
+บริหารจัดการ (11),11-3031.03,Investment Fund Managers,ผู้จัดการกองทุนรวม
+บริหารจัดการ (11),11-3051.02,Geothermal Production Managers,ผู้จัดการการผลิตพลังงานความร้อนใต้พิภพ
+บริหารจัดการ (11),11-3051.03,Biofuels Production Managers,ผู้จัดการการผลิตเชื้อเพลิงชีวภาพ
+บริหารจัดการ (11),11-3051.06,Hydroelectric Production Managers,ผู้จัดการการผลิตไฟฟ้าพลังน้ำ
+บริหารจัดการ (11),11-9071.00,Gambling Managers,ผู้จัดการคาสิโน
+บริหารจัดการ (11),11-9151.00,Social and Community Service Managers,ผู้จัดการงานบริการสังคมและชุมชน
+บริหารจัดการ (11),11-9121.00,Natural Sciences Managers,ผู้จัดการงานวิทยาศาสตร์
+บริหารจัดการ (11),11-1021.00,General and Operations Managers,ผู้จัดการทั่วไป / ผู้จัดการฝ่ายปฏิบัติการ
+บริหารจัดการ (11),11-9171.00,Funeral Home Managers,ผู้จัดการธุรกิจจัดงานศพ
+บริหารจัดการ (11),11-9199.09,Wind Energy Operations Managers,ผู้จัดการปฏิบัติการพลังงานลม
+บริหารจัดการ (11),11-2021.00,Marketing Managers,ผู้จัดการฝ่ายการตลาด
+บริหารจัดการ (11),11-3031.00,Financial Managers,ผู้จัดการฝ่ายการเงิน
+บริหารจัดการ (11),11-9199.02,Compliance Managers,ผู้จัดการฝ่ายกำกับการปฏิบัติตามกฎ (Compliance)
+บริหารจัดการ (11),11-9199.01,Regulatory Affairs Managers,ผู้จัดการฝ่ายกำกับดูแลด้านกฎระเบียบ
+บริหารจัดการ (11),11-3071.00,"Transportation, Storage, and Distribution Managers",ผู้จัดการฝ่ายขนส่ง คลังสินค้า และกระจายสินค้า
+บริหารจัดการ (11),11-2022.00,Sales Managers,ผู้จัดการฝ่ายขาย
+บริหารจัดการ (11),11-3111.00,Compensation and Benefits Managers,ผู้จัดการฝ่ายค่าตอบแทนและสวัสดิการ
+บริหารจัดการ (11),11-3061.00,Purchasing Managers,ผู้จัดการฝ่ายจัดซื้อ
+บริหารจัดการ (11),11-3121.00,Human Resources Managers,ผู้จัดการฝ่ายทรัพยากรบุคคล
+บริหารจัดการ (11),11-3012.00,Administrative Services Managers,ผู้จัดการฝ่ายบริการธุรการ
+บริหารจัดการ (11),11-2032.00,Public Relations Managers,ผู้จัดการฝ่ายประชาสัมพันธ์
+บริหารจัดการ (11),11-9199.08,Loss Prevention Managers,ผู้จัดการฝ่ายป้องกันการสูญเสีย
+บริหารจัดการ (11),11-3051.00,Industrial Production Managers,ผู้จัดการฝ่ายผลิต
+บริหารจัดการ (11),11-3131.00,Training and Development Managers,ผู้จัดการฝ่ายฝึกอบรมและพัฒนา
+บริหารจัดการ (11),11-2033.00,Fundraising Managers,ผู้จัดการฝ่ายระดมทุน
+บริหารจัดการ (11),11-3021.00,Computer and Information Systems Managers,ผู้จัดการฝ่ายระบบคอมพิวเตอร์และสารสนเทศ
+บริหารจัดการ (11),11-3013.01,Security Managers,ผู้จัดการฝ่ายรักษาความปลอดภัย
+บริหารจัดการ (11),11-9041.00,Architectural and Engineering Managers,ผู้จัดการฝ่ายสถาปัตยกรรมและวิศวกรรม
+บริหารจัดการ (11),11-2011.00,Advertising and Promotions Managers,ผู้จัดการฝ่ายโฆษณาและส่งเสริมการขาย
+บริหารจัดการ (11),11-9041.01,Biofuels/Biodiesel Technology and Product Development Managers,ผู้จัดการพัฒนาเทคโนโลยีเชื้อเพลิงชีวภาพ
+บริหารจัดการ (11),11-9199.10,Wind Energy Development Managers,ผู้จัดการพัฒนาโครงการพลังงานลม
+บริหารจัดการ (11),11-9199.11,Brownfield Redevelopment Specialists and Site Managers,ผู้จัดการฟื้นฟูพื้นที่ปนเปื้อน
+บริหารจัดการ (11),11-3051.01,Quality Control Systems Managers,ผู้จัดการระบบควบคุมคุณภาพ
+บริหารจัดการ (11),11-9051.00,Food Service Managers,ผู้จัดการร้านอาหาร / ฝ่ายบริการอาหาร
+บริหารจัดการ (11),11-9072.00,"Entertainment and Recreation Managers, Except Gambling",ผู้จัดการสถานบันเทิงและนันทนาการ
+บริหารจัดการ (11),11-9179.02,Spa Managers,ผู้จัดการสปา
+บริหารจัดการ (11),11-3071.04,Supply Chain Managers,ผู้จัดการห่วงโซ่อุปทาน
+บริหารจัดการ (11),11-9141.00,"Property, Real Estate, and Community Association Managers",ผู้จัดการอสังหาริมทรัพย์และนิติบุคคลอาคาร
+บริหารจัดการ (11),11-3013.00,Facilities Managers,ผู้จัดการอาคารและสถานที่
+บริหารจัดการ (11),11-9021.00,Construction Managers,ผู้จัดการโครงการก่อสร้าง
+บริหารจัดการ (11),11-9081.00,Lodging Managers,ผู้จัดการโรงแรม / ที่พัก
+บริหารจัดการ (11),11-3051.04,Biomass Power Plant Managers,ผู้จัดการโรงไฟฟ้าชีวมวล
+บริหารจัดการ (11),11-1011.03,Chief Sustainability Officers,ผู้บริหารด้านความยั่งยืน
+บริหารจัดการ (11),11-9031.00,"Education and Childcare Administrators, Preschool and Daycare",ผู้บริหารสถานศึกษาปฐมวัยและสถานรับเลี้ยงเด็ก
+บริหารจัดการ (11),11-9033.00,"Education Administrators, Postsecondary",ผู้บริหารสถาบันอุดมศึกษา
+บริหารจัดการ (11),11-9111.00,Medical and Health Services Managers,ผู้บริหารโรงพยาบาลและบริการสุขภาพ
+บริหารจัดการ (11),11-9032.00,"Education Administrators, Kindergarten through Secondary",ผู้บริหารโรงเรียน (อนุบาลถึงมัธยม)
+บริหารจัดการ (11),11-9179.01,Fitness and Wellness Coordinators,ผู้ประสานงานด้านฟิตเนสและสุขภาวะ
+บริหารจัดการ (11),11-9121.01,Clinical Research Coordinators,ผู้ประสานงานวิจัยทางคลินิก
+บริหารจัดการ (11),11-9161.00,Emergency Management Directors,ผู้อำนวยการจัดการภาวะฉุกเฉิน
+บริหารจัดการ (11),11-9121.02,Water Resource Specialists,ผู้เชี่ยวชาญทรัพยากรน้ำ
+บริหารจัดการ (11),11-9013.00,"Farmers, Ranchers, and Other Agricultural Managers",เกษตรกร / ผู้จัดการฟาร์ม
+บริหารจัดการ (11),11-3031.01,Treasurers and Controllers,เหรัญญิกและผู้ควบคุมการเงิน
+ธุรกิจและการเงิน (13),13-1041.08,Customs Brokers,ตัวแทนออกของ (ศุลกากร)
+ธุรกิจและการเงิน (13),13-2052.00,Personal Financial Advisors,ที่ปรึกษาการเงินส่วนบุคคล
+ธุรกิจและการเงิน (13),13-2071.00,Credit Counselors,ที่ปรึกษาด้านหนี้และสินเชื่อ
+ธุรกิจและการเงิน (13),13-1161.01,Search Marketing Strategists,นักการตลาดเสิร์ชเอนจิน (SEO / SEM)
+ธุรกิจและการเงิน (13),13-2011.00,Accountants and Auditors,นักบัญชี / ผู้สอบบัญชี
+ธุรกิจและการเงิน (13),13-1161.00,Market Research Analysts and Marketing Specialists,นักวิจัยตลาดและนักการตลาด
+ธุรกิจและการเงิน (13),13-1111.00,Management Analysts,นักวิเคราะห์การจัดการ / ที่ปรึกษาธุรกิจ
+ธุรกิจและการเงิน (13),13-2099.01,Financial Quantitative Analysts,นักวิเคราะห์การเงินเชิงปริมาณ (Quant)
+ธุรกิจและการเงิน (13),13-2031.00,Budget Analysts,นักวิเคราะห์งบประมาณ
+ธุรกิจและการเงิน (13),13-2041.00,Credit Analysts,นักวิเคราะห์สินเชื่อ
+ธุรกิจและการเงิน (13),13-1081.02,Logistics Analysts,นักวิเคราะห์โลจิสติกส์
+ธุรกิจและการเงิน (13),13-1081.00,Logisticians,นักโลจิสติกส์
+ธุรกิจและการเงิน (13),13-1199.06,Online Merchants,ผู้ค้าออนไลน์ / แม่ค้าออนไลน์
+ธุรกิจและการเงิน (13),13-1011.00,"Agents and Business Managers of Artists, Performers, and Athletes",ผู้จัดการศิลปิน นักแสดง และนักกีฬา
+ธุรกิจและการเงิน (13),13-1082.00,Project Management Specialists,ผู้จัดการโครงการ / ผู้เชี่ยวชาญการบริหารโครงการ
+ธุรกิจและการเงิน (13),13-1021.00,"Buyers and Purchasing Agents, Farm Products",ผู้จัดซื้อผลิตผลการเกษตร
+ธุรกิจและการเงิน (13),13-1022.00,"Wholesale and Retail Buyers, Except Farm Products",ผู้จัดซื้อสินค้าค้าส่งและค้าปลีก
+ธุรกิจและการเงิน (13),13-2082.00,Tax Preparers,ผู้จัดทำบัญชีภาษี
+ธุรกิจและการเงิน (13),13-2099.04,"Fraud Examiners, Investigators and Analysts",ผู้ตรวจสอบการทุจริต
+ธุรกิจและการเงิน (13),13-1041.01,Environmental Compliance Inspectors,ผู้ตรวจสอบการปฏิบัติตามกฎหมายสิ่งแวดล้อม
+ธุรกิจและการเงิน (13),13-1041.04,Government Property Inspectors and Investigators,ผู้ตรวจสอบทรัพย์สินของรัฐ
+ธุรกิจและการเงิน (13),13-2061.00,Financial Examiners,ผู้ตรวจสอบสถาบันการเงิน
+ธุรกิจและการเงิน (13),13-1051.00,Cost Estimators,ผู้ประมาณราคา
+ธุรกิจและการเงิน (13),13-1032.00,"Insurance Appraisers, Auto Damage",ผู้ประเมินความเสียหายรถยนต์ (ประกันภัย)
+ธุรกิจและการเงิน (13),13-2022.00,Appraisers of Personal and Business Property,ผู้ประเมินราคาทรัพย์สินส่วนบุคคลและธุรกิจ
+ธุรกิจและการเงิน (13),13-2023.00,Appraisers and Assessors of Real Estate,ผู้ประเมินราคาอสังหาริมทรัพย์
+ธุรกิจและการเงิน (13),13-2053.00,Insurance Underwriters,ผู้พิจารณารับประกันภัย
+ธุรกิจและการเงิน (13),13-1074.00,Farm Labor Contractors,ผู้รับเหมาจัดหาแรงงานเกษตร
+ธุรกิจและการเงิน (13),13-1199.04,Business Continuity Planners,ผู้วางแผนความต่อเนื่องทางธุรกิจ
+ธุรกิจและการเงิน (13),13-1121.00,"Meeting, Convention, and Event Planners",ผู้วางแผนจัดงาน ประชุม และสัมมนา (Event Planner)
+ธุรกิจและการเงิน (13),13-1199.07,Security Management Specialists,ผู้เชี่ยวชาญการบริหารความปลอดภัย
+ธุรกิจและการเงิน (13),13-1141.00,"Compensation, Benefits, and Job Analysis Specialists",ผู้เชี่ยวชาญค่าตอบแทน สวัสดิการ และวิเคราะห์งาน
+ธุรกิจและการเงิน (13),13-1041.07,Regulatory Affairs Specialists,ผู้เชี่ยวชาญด้านกฎระเบียบ (Regulatory Affairs)
+ธุรกิจและการเงิน (13),13-1199.05,Sustainability Specialists,ผู้เชี่ยวชาญด้านความยั่งยืน
+ธุรกิจและการเงิน (13),13-1075.00,Labor Relations Specialists,ผู้เชี่ยวชาญด้านแรงงานสัมพันธ์
+ธุรกิจและการเงิน (13),13-1081.01,Logistics Engineers,วิศวกรโลจิสติกส์
+ธุรกิจและการเงิน (13),13-1041.06,Coroners,เจ้าพนักงานชันสูตรการตาย
+ธุรกิจและการเงิน (13),13-1041.00,Compliance Officers,เจ้าหน้าที่กำกับการปฏิบัติตามกฎระเบียบ
+ธุรกิจและการเงิน (13),13-1023.00,"Purchasing Agents, Except Wholesale, Retail, and Farm Products",เจ้าหน้าที่จัดซื้อ
+ธุรกิจและการเงิน (13),13-2081.00,"Tax Examiners and Collectors, and Revenue Agents",เจ้าหน้าที่ตรวจสอบและจัดเก็บภาษี
+ธุรกิจและการเงิน (13),13-1071.00,Human Resources Specialists,เจ้าหน้าที่ทรัพยากรบุคคล (HR)
+ธุรกิจและการเงิน (13),13-1151.00,Training and Development Specialists,เจ้าหน้าที่ฝึกอบรมและพัฒนาบุคลากร
+ธุรกิจและการเงิน (13),13-1031.00,"Claims Adjusters, Examiners, and Investigators",เจ้าหน้าที่พิจารณาสินไหมทดแทน
+ธุรกิจและการเงิน (13),13-1131.00,Fundraisers,เจ้าหน้าที่ระดมทุน
+ธุรกิจและการเงิน (13),13-2072.00,Loan Officers,เจ้าหน้าที่สินเชื่อ
+ธุรกิจและการเงิน (13),13-1041.03,Equal Opportunity Representatives and Officers,เจ้าหน้าที่ส่งเสริมความเท่าเทียมในการจ้างงาน
+คอมพิวเตอร์ ไอที และคณิตศาสตร์ (15),15-2021.00,Mathematicians,นักคณิตศาสตร์
+คอมพิวเตอร์ ไอที และคณิตศาสตร์ (15),15-2011.00,Actuaries,นักคณิตศาสตร์ประกันภัย
+คอมพิวเตอร์ ไอที และคณิตศาสตร์ (15),15-2041.01,Biostatisticians,นักชีวสถิติ
+คอมพิวเตอร์ ไอที และคณิตศาสตร์ (15),15-1253.00,Software Quality Assurance Analysts and Testers,นักทดสอบซอฟต์แวร์ (QA / Tester)
+คอมพิวเตอร์ ไอที และคณิตศาสตร์ (15),15-1299.06,Digital Forensics Analysts,นักนิติวิทยาศาสตร์ดิจิทัล
+คอมพิวเตอร์ ไอที และคณิตศาสตร์ (15),15-1252.00,Software Developers,นักพัฒนาซอฟต์แวร์
+คอมพิวเตอร์ ไอที และคณิตศาสตร์ (15),15-1254.00,Web Developers,นักพัฒนาเว็บไซต์
+คอมพิวเตอร์ ไอที และคณิตศาสตร์ (15),15-1221.00,Computer and Information Research Scientists,นักวิจัยด้านคอมพิวเตอร์และสารสนเทศ
+คอมพิวเตอร์ ไอที และคณิตศาสตร์ (15),15-2051.00,Data Scientists,นักวิทยาศาสตร์ข้อมูล (Data Scientist)
+คอมพิวเตอร์ ไอที และคณิตศาสตร์ (15),15-2031.00,Operations Research Analysts,นักวิเคราะห์การวิจัยดำเนินงาน
+คอมพิวเตอร์ ไอที และคณิตศาสตร์ (15),15-1212.00,Information Security Analysts,นักวิเคราะห์ความปลอดภัยสารสนเทศ
+คอมพิวเตอร์ ไอที และคณิตศาสตร์ (15),15-2051.01,Business Intelligence Analysts,นักวิเคราะห์ธุรกิจอัจฉริยะ (BI Analyst)
+คอมพิวเตอร์ ไอที และคณิตศาสตร์ (15),15-1211.00,Computer Systems Analysts,นักวิเคราะห์ระบบ (System Analyst)
+คอมพิวเตอร์ ไอที และคณิตศาสตร์ (15),15-2041.00,Statisticians,นักสถิติ
+คอมพิวเตอร์ ไอที และคณิตศาสตร์ (15),15-1255.01,Video Game Designers,นักออกแบบเกม
+คอมพิวเตอร์ ไอที และคณิตศาสตร์ (15),15-1255.00,Web and Digital Interface Designers,นักออกแบบเว็บและ UX/UI
+คอมพิวเตอร์ ไอที และคณิตศาสตร์ (15),15-2051.02,Clinical Data Managers,ผู้จัดการข้อมูลทางคลินิก
+คอมพิวเตอร์ ไอที และคณิตศาสตร์ (15),15-1299.09,Information Technology Project Managers,ผู้จัดการโครงการไอที
+คอมพิวเตอร์ ไอที และคณิตศาสตร์ (15),15-1242.00,Database Administrators,ผู้ดูแลฐานข้อมูล (DBA)
+คอมพิวเตอร์ ไอที และคณิตศาสตร์ (15),15-1244.00,Network and Computer Systems Administrators,ผู้ดูแลระบบเครือข่ายและคอมพิวเตอร์
+คอมพิวเตอร์ ไอที และคณิตศาสตร์ (15),15-1299.01,Web Administrators,ผู้ดูแลเว็บไซต์
+คอมพิวเตอร์ ไอที และคณิตศาสตร์ (15),15-1299.04,Penetration Testers,ผู้ทดสอบเจาะระบบ (Penetration Tester)
+คอมพิวเตอร์ ไอที และคณิตศาสตร์ (15),15-1299.03,Document Management Specialists,ผู้เชี่ยวชาญการจัดการเอกสาร
+คอมพิวเตอร์ ไอที และคณิตศาสตร์ (15),15-1243.01,Data Warehousing Specialists,ผู้เชี่ยวชาญคลังข้อมูล (Data Warehouse)
+คอมพิวเตอร์ ไอที และคณิตศาสตร์ (15),15-1241.01,Telecommunications Engineering Specialists,ผู้เชี่ยวชาญวิศวกรรมโทรคมนาคม
+คอมพิวเตอร์ ไอที และคณิตศาสตร์ (15),15-1211.01,Health Informatics Specialists,ผู้เชี่ยวชาญสารสนเทศสุขภาพ
+คอมพิวเตอร์ ไอที และคณิตศาสตร์ (15),15-1299.08,Computer Systems Engineers/Architects,วิศวกร / สถาปนิกระบบคอมพิวเตอร์
+คอมพิวเตอร์ ไอที และคณิตศาสตร์ (15),15-1299.05,Information Security Engineers,วิศวกรความปลอดภัยสารสนเทศ
+คอมพิวเตอร์ ไอที และคณิตศาสตร์ (15),15-1299.07,Blockchain Engineers,วิศวกรบล็อกเชน
+คอมพิวเตอร์ ไอที และคณิตศาสตร์ (15),15-1243.00,Database Architects,สถาปนิกฐานข้อมูล
+คอมพิวเตอร์ ไอที และคณิตศาสตร์ (15),15-1241.00,Computer Network Architects,สถาปนิกเครือข่ายคอมพิวเตอร์
+คอมพิวเตอร์ ไอที และคณิตศาสตร์ (15),15-2099.01,Bioinformatics Technicians,เจ้าหน้าที่ชีวสารสนเทศ
+คอมพิวเตอร์ ไอที และคณิตศาสตร์ (15),15-1232.00,Computer User Support Specialists,เจ้าหน้าที่ซัพพอร์ตไอที / Helpdesk
+คอมพิวเตอร์ ไอที และคณิตศาสตร์ (15),15-1231.00,Computer Network Support Specialists,เจ้าหน้าที่ดูแลเครือข่ายคอมพิวเตอร์
+คอมพิวเตอร์ ไอที และคณิตศาสตร์ (15),15-1299.02,Geographic Information Systems Technologists and Technicians,เจ้าหน้าที่ระบบสารสนเทศภูมิศาสตร์ (GIS)
+คอมพิวเตอร์ ไอที และคณิตศาสตร์ (15),15-1251.00,Computer Programmers,โปรแกรมเมอร์
+สถาปัตยกรรมและวิศวกรรม (17),17-3031.00,Surveying and Mapping Technicians,ช่างสำรวจและทำแผนที่
+สถาปัตยกรรมและวิศวกรรม (17),17-3011.00,Architectural and Civil Drafters,ช่างเขียนแบบสถาปัตยกรรมและโยธา
+สถาปัตยกรรมและวิศวกรรม (17),17-3013.00,Mechanical Drafters,ช่างเขียนแบบเครื่องกล
+สถาปัตยกรรมและวิศวกรรม (17),17-3012.00,Electrical and Electronics Drafters,ช่างเขียนแบบไฟฟ้าและอิเล็กทรอนิกส์
+สถาปัตยกรรมและวิศวกรรม (17),17-3021.00,Aerospace Engineering and Operations Technologists and Technicians,ช่างเทคนิคการบินและอวกาศ
+สถาปัตยกรรมและวิศวกรรม (17),17-3026.01,Nanotechnology Engineering Technologists and Technicians,ช่างเทคนิคนาโนเทคโนโลยี
+สถาปัตยกรรมและวิศวกรรม (17),17-3027.01,Automotive Engineering Technicians,ช่างเทคนิควิศวกรรมยานยนต์
+สถาปัตยกรรมและวิศวกรรม (17),17-3025.00,Environmental Engineering Technologists and Technicians,ช่างเทคนิคสิ่งแวดล้อม
+สถาปัตยกรรมและวิศวกรรม (17),17-3024.01,Robotics Technicians,ช่างเทคนิคหุ่นยนต์
+สถาปัตยกรรมและวิศวกรรม (17),17-3026.00,Industrial Engineering Technologists and Technicians,ช่างเทคนิคอุตสาหการ
+สถาปัตยกรรมและวิศวกรรม (17),17-3027.00,Mechanical Engineering Technologists and Technicians,ช่างเทคนิคเครื่องกล
+สถาปัตยกรรมและวิศวกรรม (17),17-3024.00,Electro-Mechanical and Mechatronics Technologists and Technicians,ช่างเทคนิคเมคคาทรอนิกส์
+สถาปัตยกรรมและวิศวกรรม (17),17-3029.08,Photonics Technicians,ช่างเทคนิคโฟโตนิกส์
+สถาปัตยกรรมและวิศวกรรม (17),17-3022.00,Civil Engineering Technologists and Technicians,ช่างเทคนิคโยธา
+สถาปัตยกรรมและวิศวกรรม (17),17-3023.00,Electrical and Electronic Engineering Technologists and Technicians,ช่างเทคนิคไฟฟ้าและอิเล็กทรอนิกส์
+สถาปัตยกรรมและวิศวกรรม (17),17-1021.00,Cartographers and Photogrammetrists,นักทำแผนที่และนักสำรวจด้วยภาพถ่าย
+สถาปัตยกรรมและวิศวกรรม (17),17-1022.01,Geodetic Surveyors,นักสำรวจภูมิมาตร
+สถาปัตยกรรมและวิศวกรรม (17),17-1022.00,Surveyors,นักสำรวจรังวัด
+สถาปัตยกรรมและวิศวกรรม (17),17-3029.01,Non-Destructive Testing Specialists,ผู้เชี่ยวชาญการทดสอบแบบไม่ทำลาย (NDT)
+สถาปัตยกรรมและวิศวกรรม (17),17-2072.01,Radio Frequency Identification Device Specialists,ผู้เชี่ยวชาญอุปกรณ์ RFID
+สถาปัตยกรรมและวิศวกรรม (17),17-1012.00,Landscape Architects,ภูมิสถาปนิก
+สถาปัตยกรรมและวิศวกรรม (17),17-2011.00,Aerospace Engineers,วิศวกรการบินและอวกาศ
+สถาปัตยกรรมและวิศวกรรม (17),17-2112.03,Manufacturing Engineers,วิศวกรการผลิต
+สถาปัตยกรรมและวิศวกรรม (17),17-2051.01,Transportation Engineers,วิศวกรขนส่ง / จราจร
+สถาปัตยกรรมและวิศวกรรม (17),17-2111.00,"Health and Safety Engineers, Except Mining Safety Engineers and Inspectors",วิศวกรความปลอดภัยและอาชีวอนามัย
+สถาปัตยกรรมและวิศวกรรม (17),17-2031.00,Bioengineers and Biomedical Engineers,วิศวกรชีวการแพทย์
+สถาปัตยกรรมและวิศวกรรม (17),17-2112.02,Validation Engineers,วิศวกรตรวจรับรองกระบวนการ (Validation)
+สถาปัตยกรรมและวิศวกรรม (17),17-2199.09,Nanosystems Engineers,วิศวกรนาโนเทคโนโลยี
+สถาปัตยกรรมและวิศวกรรม (17),17-2161.00,Nuclear Engineers,วิศวกรนิวเคลียร์
+สถาปัตยกรรมและวิศวกรรม (17),17-2051.02,Water/Wastewater Engineers,วิศวกรน้ำและน้ำเสีย
+สถาปัตยกรรมและวิศวกรรม (17),17-2112.01,Human Factors Engineers and Ergonomists,วิศวกรปัจจัยมนุษย์และการยศาสตร์
+สถาปัตยกรรมและวิศวกรรม (17),17-2171.00,Petroleum Engineers,วิศวกรปิโตรเลียม
+สถาปัตยกรรมและวิศวกรรม (17),17-2111.02,Fire-Prevention and Protection Engineers,วิศวกรป้องกันอัคคีภัย
+สถาปัตยกรรมและวิศวกรรม (17),17-2199.03,"Energy Engineers, Except Wind and Solar",วิศวกรพลังงาน
+สถาปัตยกรรมและวิศวกรรม (17),17-2199.10,Wind Energy Engineers,วิศวกรพลังงานลม
+สถาปัตยกรรมและวิศวกรรม (17),17-2141.02,Automotive Engineers,วิศวกรยานยนต์
+สถาปัตยกรรมและวิศวกรรม (17),17-2199.11,Solar Energy Systems Engineers,วิศวกรระบบพลังงานแสงอาทิตย์
+สถาปัตยกรรมและวิศวกรรม (17),17-2131.00,Materials Engineers,วิศวกรวัสดุ
+สถาปัตยกรรมและวิศวกรรม (17),17-2081.00,Environmental Engineers,วิศวกรสิ่งแวดล้อม
+สถาปัตยกรรมและวิศวกรรม (17),17-2199.08,Robotics Engineers,วิศวกรหุ่นยนต์
+สถาปัตยกรรมและวิศวกรรม (17),17-2072.00,"Electronics Engineers, Except Computer",วิศวกรอิเล็กทรอนิกส์
+สถาปัตยกรรมและวิศวกรรม (17),17-2112.00,Industrial Engineers,วิศวกรอุตสาหการ
+สถาปัตยกรรมและวิศวกรรม (17),17-2061.00,Computer Hardware Engineers,วิศวกรฮาร์ดแวร์คอมพิวเตอร์
+สถาปัตยกรรมและวิศวกรรม (17),17-2021.00,Agricultural Engineers,วิศวกรเกษตร
+สถาปัตยกรรมและวิศวกรรม (17),17-2041.00,Chemical Engineers,วิศวกรเคมี
+สถาปัตยกรรมและวิศวกรรม (17),17-2141.00,Mechanical Engineers,วิศวกรเครื่องกล
+สถาปัตยกรรมและวิศวกรรม (17),17-2121.00,Marine Engineers and Naval Architects,วิศวกรเครื่องกลเรือและสถาปนิกเรือ
+สถาปัตยกรรมและวิศวกรรม (17),17-2141.01,Fuel Cell Engineers,วิศวกรเซลล์เชื้อเพลิง
+สถาปัตยกรรมและวิศวกรรม (17),17-2199.05,Mechatronics Engineers,วิศวกรเมคคาทรอนิกส์
+สถาปัตยกรรมและวิศวกรรม (17),17-2151.00,"Mining and Geological Engineers, Including Mining Safety Engineers",วิศวกรเหมืองแร่และธรณี
+สถาปัตยกรรมและวิศวกรรม (17),17-2199.07,Photonics Engineers,วิศวกรโฟโตนิกส์
+สถาปัตยกรรมและวิศวกรรม (17),17-2051.00,Civil Engineers,วิศวกรโยธา
+สถาปัตยกรรมและวิศวกรรม (17),17-2071.00,Electrical Engineers,วิศวกรไฟฟ้า
+สถาปัตยกรรมและวิศวกรรม (17),17-2199.06,Microsystems Engineers,วิศวกรไมโครซิสเต็ม
+สถาปัตยกรรมและวิศวกรรม (17),17-1011.00,"Architects, Except Landscape and Naval",สถาปนิก
+วิทยาศาสตร์ชีวภาพ กายภาพ และสังคม (19),19-5012.00,Occupational Health and Safety Technicians,ช่างเทคนิคความปลอดภัยและอาชีวอนามัย
+วิทยาศาสตร์ชีวภาพ กายภาพ และสังคม (19),19-3033.00,Clinical and Counseling Psychologists,นักจิตวิทยาคลินิกและนักจิตวิทยาการปรึกษา
+วิทยาศาสตร์ชีวภาพ กายภาพ และสังคม (19),19-3032.00,Industrial-Organizational Psychologists,นักจิตวิทยาอุตสาหกรรมและองค์การ
+วิทยาศาสตร์ชีวภาพ กายภาพ และสังคม (19),19-3034.00,School Psychologists,นักจิตวิทยาโรงเรียน
+วิทยาศาสตร์ชีวภาพ กายภาพ และสังคม (19),19-1022.00,Microbiologists,นักจุลชีววิทยา
+วิทยาศาสตร์ชีวภาพ กายภาพ และสังคม (19),19-1029.04,Biologists,นักชีววิทยา
+วิทยาศาสตร์ชีวภาพ กายภาพ และสังคม (19),19-1029.02,Molecular and Cellular Biologists,นักชีววิทยาระดับโมเลกุลและเซลล์
+วิทยาศาสตร์ชีวภาพ กายภาพ และสังคม (19),19-1021.00,Biochemists and Biophysicists,นักชีวเคมีและนักชีวฟิสิกส์
+วิทยาศาสตร์ชีวภาพ กายภาพ และสังคม (19),19-2011.00,Astronomers,นักดาราศาสตร์
+วิทยาศาสตร์ชีวภาพ กายภาพ และสังคม (19),19-2042.00,"Geoscientists, Except Hydrologists and Geographers",นักธรณีวิทยา
+วิทยาศาสตร์ชีวภาพ กายภาพ และสังคม (19),19-1031.03,Park Naturalists,นักธรรมชาติวิทยาประจำอุทยาน
+วิทยาศาสตร์ชีวภาพ กายภาพ และสังคม (19),19-2041.03,Industrial Ecologists,นักนิเวศวิทยาอุตสาหกรรม
+วิทยาศาสตร์ชีวภาพ กายภาพ และสังคม (19),19-3093.00,Historians,นักประวัติศาสตร์
+วิทยาศาสตร์ชีวภาพ กายภาพ และสังคม (19),19-3039.02,Neuropsychologists,นักประสาทจิตวิทยา
+วิทยาศาสตร์ชีวภาพ กายภาพ และสังคม (19),19-3039.03,Clinical Neuropsychologists,นักประสาทจิตวิทยาคลินิก
+วิทยาศาสตร์ชีวภาพ กายภาพ และสังคม (19),19-3051.00,Urban and Regional Planners,นักผังเมือง
+วิทยาศาสตร์ชีวภาพ กายภาพ และสังคม (19),19-1029.03,Geneticists,นักพันธุศาสตร์
+วิทยาศาสตร์ชีวภาพ กายภาพ และสังคม (19),19-2012.00,Physicists,นักฟิสิกส์
+วิทยาศาสตร์ชีวภาพ กายภาพ และสังคม (19),19-3092.00,Geographers,นักภูมิศาสตร์
+วิทยาศาสตร์ชีวภาพ กายภาพ และสังคม (19),19-3091.00,Anthropologists and Archeologists,นักมานุษยวิทยาและนักโบราณคดี
+วิทยาศาสตร์ชีวภาพ กายภาพ และสังคม (19),19-1041.00,Epidemiologists,นักระบาดวิทยา
+วิทยาศาสตร์ชีวภาพ กายภาพ และสังคม (19),19-3094.00,Political Scientists,นักรัฐศาสตร์
+วิทยาศาสตร์ชีวภาพ กายภาพ และสังคม (19),19-1032.00,Foresters,นักวนศาสตร์
+วิทยาศาสตร์ชีวภาพ กายภาพ และสังคม (19),19-3099.01,Transportation Planners,นักวางแผนการขนส่ง
+วิทยาศาสตร์ชีวภาพ กายภาพ และสังคม (19),19-2041.02,Environmental Restoration Planners,นักวางแผนฟื้นฟูสิ่งแวดล้อม
+วิทยาศาสตร์ชีวภาพ กายภาพ และสังคม (19),19-3022.00,Survey Researchers,นักวิจัยเชิงสำรวจ
+วิทยาศาสตร์ชีวภาพ กายภาพ และสังคม (19),19-2099.01,Remote Sensing Scientists and Technologists,นักวิทยาศาสตร์การรับรู้ระยะไกล
+วิทยาศาสตร์ชีวภาพ กายภาพ และสังคม (19),19-1011.00,Animal Scientists,นักวิทยาศาสตร์การสัตว์
+วิทยาศาสตร์ชีวภาพ กายภาพ และสังคม (19),19-1012.00,Food Scientists and Technologists,นักวิทยาศาสตร์การอาหาร
+วิทยาศาสตร์ชีวภาพ กายภาพ และสังคม (19),19-1042.00,"Medical Scientists, Except Epidemiologists",นักวิทยาศาสตร์การแพทย์
+วิทยาศาสตร์ชีวภาพ กายภาพ และสังคม (19),19-1029.01,Bioinformatics Scientists,นักวิทยาศาสตร์ชีวสารสนเทศ
+วิทยาศาสตร์ชีวภาพ กายภาพ และสังคม (19),19-1013.00,Soil and Plant Scientists,นักวิทยาศาสตร์ดินและพืช
+วิทยาศาสตร์ชีวภาพ กายภาพ และสังคม (19),19-1031.00,Conservation Scientists,นักวิทยาศาสตร์ด้านการอนุรักษ์
+วิทยาศาสตร์ชีวภาพ กายภาพ และสังคม (19),19-2021.00,Atmospheric and Space Scientists,นักวิทยาศาสตร์บรรยากาศและอวกาศ / นักอุตุนิยมวิทยา
+วิทยาศาสตร์ชีวภาพ กายภาพ และสังคม (19),19-2032.00,Materials Scientists,นักวิทยาศาสตร์วัสดุ
+วิทยาศาสตร์ชีวภาพ กายภาพ และสังคม (19),19-2041.00,"Environmental Scientists and Specialists, Including Health",นักวิทยาศาสตร์สิ่งแวดล้อม
+วิทยาศาสตร์ชีวภาพ กายภาพ และสังคม (19),19-4099.01,Quality Control Analysts,นักวิเคราะห์ควบคุมคุณภาพ (QC)
+วิทยาศาสตร์ชีวภาพ กายภาพ และสังคม (19),19-2041.01,Climate Change Policy Analysts,นักวิเคราะห์นโยบายการเปลี่ยนแปลงสภาพภูมิอากาศ
+วิทยาศาสตร์ชีวภาพ กายภาพ และสังคม (19),19-3041.00,Sociologists,นักสังคมวิทยา
+วิทยาศาสตร์ชีวภาพ กายภาพ และสังคม (19),19-1023.00,Zoologists and Wildlife Biologists,นักสัตววิทยาและนักชีววิทยาสัตว์ป่า
+วิทยาศาสตร์ชีวภาพ กายภาพ และสังคม (19),19-2043.00,Hydrologists,นักอุทกวิทยา
+วิทยาศาสตร์ชีวภาพ กายภาพ และสังคม (19),19-2031.00,Chemists,นักเคมี
+วิทยาศาสตร์ชีวภาพ กายภาพ และสังคม (19),19-3011.00,Economists,นักเศรษฐศาสตร์
+วิทยาศาสตร์ชีวภาพ กายภาพ และสังคม (19),19-3011.01,Environmental Economists,นักเศรษฐศาสตร์สิ่งแวดล้อม
+วิทยาศาสตร์ชีวภาพ กายภาพ และสังคม (19),19-1031.02,Range Managers,ผู้จัดการทุ่งหญ้าเลี้ยงสัตว์
+วิทยาศาสตร์ชีวภาพ กายภาพ และสังคม (19),19-4061.00,Social Science Research Assistants,ผู้ช่วยนักวิจัยสังคมศาสตร์
+วิทยาศาสตร์ชีวภาพ กายภาพ และสังคม (19),19-5011.00,Occupational Health and Safety Specialists,เจ้าหน้าที่ความปลอดภัยในการทำงาน (จป.)
+วิทยาศาสตร์ชีวภาพ กายภาพ และสังคม (19),19-4099.03,Remote Sensing Technicians,เจ้าหน้าที่เทคนิคการรับรู้ระยะไกล
+วิทยาศาสตร์ชีวภาพ กายภาพ และสังคม (19),19-4012.00,Agricultural Technicians,เจ้าหน้าที่เทคนิคการเกษตร
+วิทยาศาสตร์ชีวภาพ กายภาพ และสังคม (19),19-4021.00,Biological Technicians,เจ้าหน้าที่เทคนิคชีววิทยา
+วิทยาศาสตร์ชีวภาพ กายภาพ และสังคม (19),19-4043.00,"Geological Technicians, Except Hydrologic Technicians",เจ้าหน้าที่เทคนิคธรณีวิทยา
+วิทยาศาสตร์ชีวภาพ กายภาพ และสังคม (19),19-4092.00,Forensic Science Technicians,เจ้าหน้าที่เทคนิคนิติวิทยาศาสตร์
+วิทยาศาสตร์ชีวภาพ กายภาพ และสังคม (19),19-4051.00,Nuclear Technicians,เจ้าหน้าที่เทคนิคนิวเคลียร์
+วิทยาศาสตร์ชีวภาพ กายภาพ และสังคม (19),19-4071.00,Forest and Conservation Technicians,เจ้าหน้าที่เทคนิคป่าไม้และการอนุรักษ์
+วิทยาศาสตร์ชีวภาพ กายภาพ และสังคม (19),19-4013.00,Food Science Technicians,เจ้าหน้าที่เทคนิควิทยาศาสตร์การอาหาร
+วิทยาศาสตร์ชีวภาพ กายภาพ และสังคม (19),19-4042.00,"Environmental Science and Protection Technicians, Including Health",เจ้าหน้าที่เทคนิควิทยาศาสตร์และการป้องกันสิ่งแวดล้อม
+วิทยาศาสตร์ชีวภาพ กายภาพ และสังคม (19),19-4012.01,Precision Agriculture Technicians,เจ้าหน้าที่เทคนิคเกษตรแม่นยำ
+วิทยาศาสตร์ชีวภาพ กายภาพ และสังคม (19),19-4031.00,Chemical Technicians,เจ้าหน้าที่เทคนิคเคมี
+วิทยาศาสตร์ชีวภาพ กายภาพ และสังคม (19),19-4051.02,Nuclear Monitoring Technicians,เจ้าหน้าที่เฝ้าระวังรังสีนิวเคลียร์
+บริการชุมชนและสังคม (21),21-1012.00,"Educational, Guidance, and Career Counselors and Advisors",ครูแนะแนว / ที่ปรึกษาด้านการศึกษาและอาชีพ
+บริการชุมชนและสังคม (21),21-2011.00,Clergy,นักบวช / ผู้นำศาสนา
+บริการชุมชนและสังคม (21),21-1013.00,Marriage and Family Therapists,นักบำบัดครอบครัวและคู่สมรส
+บริการชุมชนและสังคม (21),21-1091.00,Health Education Specialists,นักวิชาการสุขศึกษา
+บริการชุมชนและสังคม (21),21-1023.00,Mental Health and Substance Abuse Social Workers,นักสังคมสงเคราะห์ด้านสุขภาพจิตและยาเสพติด
+บริการชุมชนและสังคม (21),21-1021.00,"Child, Family, and School Social Workers",นักสังคมสงเคราะห์ด้านเด็ก ครอบครัว และโรงเรียน
+บริการชุมชนและสังคม (21),21-1022.00,Healthcare Social Workers,นักสังคมสงเคราะห์ทางการแพทย์
+บริการชุมชนและสังคม (21),21-1093.00,Social and Human Service Assistants,ผู้ช่วยนักสังคมสงเคราะห์
+บริการชุมชนและสังคม (21),21-2021.00,"Directors, Religious Activities and Education",ผู้อำนวยการกิจกรรมและการศึกษาทางศาสนา
+บริการชุมชนและสังคม (21),21-1015.00,Rehabilitation Counselors,ผู้ให้คำปรึกษาด้านการฟื้นฟูสมรรถภาพ
+บริการชุมชนและสังคม (21),21-1011.00,Substance Abuse and Behavioral Disorder Counselors,ผู้ให้คำปรึกษาด้านยาเสพติดและพฤติกรรม
+บริการชุมชนและสังคม (21),21-1014.00,Mental Health Counselors,ผู้ให้คำปรึกษาด้านสุขภาพจิต
+บริการชุมชนและสังคม (21),21-1092.00,Probation Officers and Correctional Treatment Specialists,พนักงานคุมประพฤติ
+บริการชุมชนและสังคม (21),21-1094.00,Community Health Workers,อาสาสมัคร / เจ้าหน้าที่สาธารณสุขชุมชน
+กฎหมาย (23),23-1021.00,"Administrative Law Judges, Adjudicators, and Hearing Officers",ตุลาการศาลปกครอง / ผู้วินิจฉัยข้อพิพาท
+กฎหมาย (23),23-1011.00,Lawyers,ทนายความ / นักกฎหมาย
+กฎหมาย (23),23-2011.00,Paralegals and Legal Assistants,ผู้ช่วยทนายความ / เจ้าหน้าที่ฝ่ายกฎหมาย
+กฎหมาย (23),23-1012.00,Judicial Law Clerks,ผู้ช่วยผู้พิพากษา / นิติกรประจำศาล
+กฎหมาย (23),23-1023.00,"Judges, Magistrate Judges, and Magistrates",ผู้พิพากษา
+กฎหมาย (23),23-1022.00,"Arbitrators, Mediators, and Conciliators",อนุญาโตตุลาการและผู้ไกล่เกลี่ยข้อพิพาท
+กฎหมาย (23),23-2093.00,"Title Examiners, Abstractors, and Searchers",เจ้าหน้าที่ตรวจสอบเอกสารสิทธิ์ที่ดิน
+การศึกษาและห้องสมุด (25),25-3011.00,"Adult Basic Education, Adult Secondary Education, and English as a Second Language Instructors",ครูการศึกษาผู้ใหญ่และครูสอนภาษาอังกฤษเป็นภาษาที่สอง
+การศึกษาและห้องสมุด (25),25-2051.00,"Special Education Teachers, Preschool",ครูการศึกษาพิเศษระดับปฐมวัย
+การศึกษาและห้องสมุด (25),25-2056.00,"Special Education Teachers, Elementary School",ครูการศึกษาพิเศษระดับประถม
+การศึกษาและห้องสมุด (25),25-2057.00,"Special Education Teachers, Middle School",ครูการศึกษาพิเศษระดับมัธยมต้น
+การศึกษาและห้องสมุด (25),25-2058.00,"Special Education Teachers, Secondary School",ครูการศึกษาพิเศษระดับมัธยมปลาย
+การศึกษาและห้องสมุด (25),25-2055.00,"Special Education Teachers, Kindergarten",ครูการศึกษาพิเศษระดับอนุบาล
+การศึกษาและห้องสมุด (25),25-2011.00,"Preschool Teachers, Except Special Education",ครูปฐมวัย / ครูเด็กเล็ก
+การศึกษาและห้องสมุด (25),25-2021.00,"Elementary School Teachers, Except Special Education",ครูประถมศึกษา
+การศึกษาและห้องสมุด (25),25-2059.01,Adapted Physical Education Specialists,ครูพลศึกษาสำหรับผู้เรียนที่มีความต้องการพิเศษ
+การศึกษาและห้องสมุด (25),25-2022.00,"Middle School Teachers, Except Special and Career/Technical Education",ครูมัธยมศึกษาตอนต้น
+การศึกษาและห้องสมุด (25),25-2031.00,"Secondary School Teachers, Except Special and Career/Technical Education",ครูมัธยมศึกษาตอนปลาย
+การศึกษาและห้องสมุด (25),25-2023.00,"Career/Technical Education Teachers, Middle School",ครูวิชาชีพระดับมัธยมต้น
+การศึกษาและห้องสมุด (25),25-2032.00,"Career/Technical Education Teachers, Secondary School",ครูวิชาชีพระดับมัธยมปลาย
+การศึกษาและห้องสมุด (25),25-3041.00,Tutors,ครูสอนพิเศษ / ติวเตอร์
+การศึกษาและห้องสมุด (25),25-3021.00,Self-Enrichment Teachers,ครูสอนพิเศษเพื่อพัฒนาตนเอง (ดนตรี ศิลปะ ทักษะชีวิต)
+การศึกษาและห้องสมุด (25),25-2012.00,"Kindergarten Teachers, Except Special Education",ครูอนุบาล
+การศึกษาและห้องสมุด (25),25-3031.00,"Substitute Teachers, Short-Term",ครูอัตราจ้างชั่วคราว / ครูสอนแทน
+การศึกษาและห้องสมุด (25),25-1194.00,"Career/Technical Education Teachers, Postsecondary",ครูอาชีวศึกษาระดับอุดมศึกษา
+การศึกษาและห้องสมุด (25),25-4011.00,Archivists,นักจดหมายเหตุ
+การศึกษาและห้องสมุด (25),25-9031.00,Instructional Coordinators,นักวิชาการด้านหลักสูตรและการสอน
+การศึกษาและห้องสมุด (25),25-9021.00,Farm and Home Management Educators,นักส่งเสริมการเกษตรและคหกรรม
+การศึกษาและห้องสมุด (25),25-4022.00,Librarians and Media Collections Specialists,บรรณารักษ์
+การศึกษาและห้องสมุด (25),25-9042.00,"Teaching Assistants, Preschool, Elementary, Middle, and Secondary School, Except Special Education",ผู้ช่วยครู
+การศึกษาและห้องสมุด (25),25-9043.00,"Teaching Assistants, Special Education",ผู้ช่วยครูการศึกษาพิเศษ
+การศึกษาและห้องสมุด (25),25-9044.00,"Teaching Assistants, Postsecondary",ผู้ช่วยสอนระดับมหาวิทยาลัย (TA)
+การศึกษาและห้องสมุด (25),25-4012.00,Curators,ภัณฑารักษ์
+การศึกษาและห้องสมุด (25),25-1072.00,"Nursing Instructors and Teachers, Postsecondary",อาจารย์พยาบาล
+การศึกษาและห้องสมุด (25),25-1022.00,"Mathematical Science Teachers, Postsecondary",อาจารย์มหาวิทยาลัยด้านคณิตศาสตร์
+การศึกษาและห้องสมุด (25),25-1081.00,"Education Teachers, Postsecondary",อาจารย์มหาวิทยาลัยด้านครุศาสตร์ / ศึกษาศาสตร์
+การศึกษาและห้องสมุด (25),25-1192.00,"Family and Consumer Sciences Teachers, Postsecondary",อาจารย์มหาวิทยาลัยด้านคหกรรมศาสตร์
+การศึกษาและห้องสมุด (25),25-1066.00,"Psychology Teachers, Postsecondary",อาจารย์มหาวิทยาลัยด้านจิตวิทยา
+การศึกษาและห้องสมุด (25),25-1042.00,"Biological Science Teachers, Postsecondary",อาจารย์มหาวิทยาลัยด้านชีววิทยา
+การศึกษาและห้องสมุด (25),25-1193.00,"Recreation and Fitness Studies Teachers, Postsecondary",อาจารย์มหาวิทยาลัยด้านนันทนาการและการออกกำลังกาย
+การศึกษาและห้องสมุด (25),25-1112.00,"Law Teachers, Postsecondary",อาจารย์มหาวิทยาลัยด้านนิติศาสตร์
+การศึกษาและห้องสมุด (25),25-1122.00,"Communications Teachers, Postsecondary",อาจารย์มหาวิทยาลัยด้านนิเทศศาสตร์
+การศึกษาและห้องสมุด (25),25-1082.00,"Library Science Teachers, Postsecondary",อาจารย์มหาวิทยาลัยด้านบรรณารักษศาสตร์
+การศึกษาและห้องสมุด (25),25-1011.00,"Business Teachers, Postsecondary",อาจารย์มหาวิทยาลัยด้านบริหารธุรกิจ
+การศึกษาและห้องสมุด (25),25-1125.00,"History Teachers, Postsecondary",อาจารย์มหาวิทยาลัยด้านประวัติศาสตร์
+การศึกษาและห้องสมุด (25),25-1126.00,"Philosophy and Religion Teachers, Postsecondary",อาจารย์มหาวิทยาลัยด้านปรัชญาและศาสนา
+การศึกษาและห้องสมุด (25),25-1054.00,"Physics Teachers, Postsecondary",อาจารย์มหาวิทยาลัยด้านฟิสิกส์
+การศึกษาและห้องสมุด (25),25-1124.00,"Foreign Language and Literature Teachers, Postsecondary",อาจารย์มหาวิทยาลัยด้านภาษาต่างประเทศ
+การศึกษาและห้องสมุด (25),25-1123.00,"English Language and Literature Teachers, Postsecondary",อาจารย์มหาวิทยาลัยด้านภาษาและวรรณคดีอังกฤษ
+การศึกษาและห้องสมุด (25),25-1062.00,"Area, Ethnic, and Cultural Studies Teachers, Postsecondary",อาจารย์มหาวิทยาลัยด้านภูมิภาคและวัฒนธรรมศึกษา
+การศึกษาและห้องสมุด (25),25-1064.00,"Geography Teachers, Postsecondary",อาจารย์มหาวิทยาลัยด้านภูมิศาสตร์
+การศึกษาและห้องสมุด (25),25-1061.00,"Anthropology and Archeology Teachers, Postsecondary",อาจารย์มหาวิทยาลัยด้านมานุษยวิทยาและโบราณคดี
+การศึกษาและห้องสมุด (25),25-1065.00,"Political Science Teachers, Postsecondary",อาจารย์มหาวิทยาลัยด้านรัฐศาสตร์
+การศึกษาและห้องสมุด (25),25-1043.00,"Forestry and Conservation Science Teachers, Postsecondary",อาจารย์มหาวิทยาลัยด้านวนศาสตร์และการอนุรักษ์
+การศึกษาและห้องสมุด (25),25-1021.00,"Computer Science Teachers, Postsecondary",อาจารย์มหาวิทยาลัยด้านวิทยาการคอมพิวเตอร์
+การศึกษาและห้องสมุด (25),25-1053.00,"Environmental Science Teachers, Postsecondary",อาจารย์มหาวิทยาลัยด้านวิทยาศาสตร์สิ่งแวดล้อม
+การศึกษาและห้องสมุด (25),25-1071.00,"Health Specialties Teachers, Postsecondary",อาจารย์มหาวิทยาลัยด้านวิทยาศาสตร์สุขภาพ
+การศึกษาและห้องสมุด (25),25-1051.00,"Atmospheric, Earth, Marine, and Space Sciences Teachers, Postsecondary",อาจารย์มหาวิทยาลัยด้านวิทยาศาสตร์โลก ทะเล และอวกาศ
+การศึกษาและห้องสมุด (25),25-1032.00,"Engineering Teachers, Postsecondary",อาจารย์มหาวิทยาลัยด้านวิศวกรรม
+การศึกษาและห้องสมุด (25),25-1121.00,"Art, Drama, and Music Teachers, Postsecondary",อาจารย์มหาวิทยาลัยด้านศิลปะ การละคร และดนตรี
+การศึกษาและห้องสมุด (25),25-1031.00,"Architecture Teachers, Postsecondary",อาจารย์มหาวิทยาลัยด้านสถาปัตยกรรม
+การศึกษาและห้องสมุด (25),25-1067.00,"Sociology Teachers, Postsecondary",อาจารย์มหาวิทยาลัยด้านสังคมวิทยา
+การศึกษาและห้องสมุด (25),25-1113.00,"Social Work Teachers, Postsecondary",อาจารย์มหาวิทยาลัยด้านสังคมสงเคราะห์
+การศึกษาและห้องสมุด (25),25-1111.00,"Criminal Justice and Law Enforcement Teachers, Postsecondary",อาจารย์มหาวิทยาลัยด้านอาชญาวิทยาและงานตำรวจ
+การศึกษาและห้องสมุด (25),25-1041.00,"Agricultural Sciences Teachers, Postsecondary",อาจารย์มหาวิทยาลัยด้านเกษตรศาสตร์
+การศึกษาและห้องสมุด (25),25-1052.00,"Chemistry Teachers, Postsecondary",อาจารย์มหาวิทยาลัยด้านเคมี
+การศึกษาและห้องสมุด (25),25-1063.00,"Economics Teachers, Postsecondary",อาจารย์มหาวิทยาลัยด้านเศรษฐศาสตร์
+การศึกษาและห้องสมุด (25),25-4013.00,Museum Technicians and Conservators,เจ้าหน้าที่พิพิธภัณฑ์และนักอนุรักษ์
+การศึกษาและห้องสมุด (25),25-4031.00,Library Technicians,เจ้าหน้าที่ห้องสมุด
+ศิลปะ ออกแบบ บันเทิง สื่อ (27),27-3043.05,"Poets, Lyricists and Creative Writers",กวี นักแต่งเนื้อเพลง และนักเขียนสร้างสรรค์
+ศิลปะ ออกแบบ บันเทิง สื่อ (27),27-4031.00,"Camera Operators, Television, Video, and Film",ช่างกล้องโทรทัศน์ วิดีโอ และภาพยนตร์
+ศิลปะ ออกแบบ บันเทิง สื่อ (27),27-1012.00,Craft Artists,ช่างฝีมือศิลปหัตถกรรม
+ศิลปะ ออกแบบ บันเทิง สื่อ (27),27-4021.00,Photographers,ช่างภาพ
+ศิลปะ ออกแบบ บันเทิง สื่อ (27),27-4012.00,Broadcast Technicians,ช่างเทคนิคการกระจายเสียงและแพร่ภาพ
+ศิลปะ ออกแบบ บันเทิง สื่อ (27),27-4014.00,Sound Engineering Technicians,ช่างเทคนิคบันทึกเสียง / Sound Engineer
+ศิลปะ ออกแบบ บันเทิง สื่อ (27),27-4011.00,Audio and Video Technicians,ช่างเทคนิคระบบเสียงและภาพ
+ศิลปะ ออกแบบ บันเทิง สื่อ (27),27-2091.00,"Disc Jockeys, Except Radio",ดีเจ (นอกเหนือจากวิทยุ)
+ศิลปะ ออกแบบ บันเทิง สื่อ (27),27-2021.00,Athletes and Sports Competitors,นักกีฬาอาชีพ
+ศิลปะ ออกแบบ บันเทิง สื่อ (27),27-3023.00,"News Analysts, Reporters, and Journalists",นักข่าวและนักวิเคราะห์ข่าว
+ศิลปะ ออกแบบ บันเทิง สื่อ (27),27-1023.00,Floral Designers,นักจัดดอกไม้
+ศิลปะ ออกแบบ บันเทิง สื่อ (27),27-1026.00,Merchandise Displayers and Window Trimmers,นักจัดแสดงสินค้าและตกแต่งหน้าร้าน
+ศิลปะ ออกแบบ บันเทิง สื่อ (27),27-2042.00,Musicians and Singers,นักดนตรีและนักร้อง
+ศิลปะ ออกแบบ บันเทิง สื่อ (27),27-4032.00,Film and Video Editors,นักตัดต่อภาพยนตร์และวิดีโอ
+ศิลปะ ออกแบบ บันเทิง สื่อ (27),27-1024.00,Graphic Designers,นักออกแบบกราฟิก
+ศิลปะ ออกแบบ บันเทิง สื่อ (27),27-1027.00,Set and Exhibit Designers,นักออกแบบฉากและนิทรรศการ
+ศิลปะ ออกแบบ บันเทิง สื่อ (27),27-1025.00,Interior Designers,นักออกแบบตกแต่งภายใน
+ศิลปะ ออกแบบ บันเทิง สื่อ (27),27-2032.00,Choreographers,นักออกแบบท่าเต้น
+ศิลปะ ออกแบบ บันเทิง สื่อ (27),27-1021.00,Commercial and Industrial Designers,นักออกแบบผลิตภัณฑ์และอุตสาหกรรม
+ศิลปะ ออกแบบ บันเทิง สื่อ (27),27-1022.00,Fashion Designers,นักออกแบบแฟชั่น
+ศิลปะ ออกแบบ บันเทิง สื่อ (27),27-3043.00,Writers and Authors,นักเขียน
+ศิลปะ ออกแบบ บันเทิง สื่อ (27),27-3042.00,Technical Writers,นักเขียนเอกสารเทคนิค
+ศิลปะ ออกแบบ บันเทิง สื่อ (27),27-2031.00,Dancers,นักเต้น
+ศิลปะ ออกแบบ บันเทิง สื่อ (27),27-2011.00,Actors,นักแสดง
+ศิลปะ ออกแบบ บันเทิง สื่อ (27),27-3041.00,Editors,บรรณาธิการ
+ศิลปะ ออกแบบ บันเทิง สื่อ (27),27-1011.00,Art Directors,ผู้กำกับศิลป์ (Art Director)
+ศิลปะ ออกแบบ บันเทิง สื่อ (27),27-2012.04,Talent Directors,ผู้คัดเลือกนักแสดง (Casting Director)
+ศิลปะ ออกแบบ บันเทิง สื่อ (27),27-3092.00,Court Reporters and Simultaneous Captioners,ผู้จดรายงานการพิจารณาคดีและผู้ทำคำบรรยายสด
+ศิลปะ ออกแบบ บันเทิง สื่อ (27),27-2023.00,"Umpires, Referees, and Other Sports Officials",ผู้ตัดสินกีฬา
+ศิลปะ ออกแบบ บันเทิง สื่อ (27),27-3011.00,Broadcast Announcers and Radio Disc Jockeys,ผู้ประกาศข่าวและดีเจวิทยุ
+ศิลปะ ออกแบบ บันเทิง สื่อ (27),27-2012.03,Media Programming Directors,ผู้อำนวยการจัดผังรายการสื่อ
+ศิลปะ ออกแบบ บันเทิง สื่อ (27),27-2012.05,Media Technical Directors/Managers,ผู้อำนวยการฝ่ายเทคนิคสื่อ
+ศิลปะ ออกแบบ บันเทิง สื่อ (27),27-2041.00,Music Directors and Composers,ผู้อำนวยเพลงและนักประพันธ์เพลง
+ศิลปะ ออกแบบ บันเทิง สื่อ (27),27-3091.00,Interpreters and Translators,ล่ามและนักแปล
+ศิลปะ ออกแบบ บันเทิง สื่อ (27),27-1013.00,"Fine Artists, Including Painters, Sculptors, and Illustrators",ศิลปิน จิตรกร ประติมากร และนักวาดภาพประกอบ
+ศิลปะ ออกแบบ บันเทิง สื่อ (27),27-1014.00,Special Effects Artists and Animators,ศิลปินเทคนิคพิเศษและนักแอนิเมชัน
+ศิลปะ ออกแบบ บันเทิง สื่อ (27),27-3031.00,Public Relations Specialists,เจ้าหน้าที่ประชาสัมพันธ์
+ศิลปะ ออกแบบ บันเทิง สื่อ (27),27-2022.00,Coaches and Scouts,โค้ชและแมวมองกีฬา
+ศิลปะ ออกแบบ บันเทิง สื่อ (27),27-2012.00,Producers and Directors,โปรดิวเซอร์และผู้กำกับ
+บุคลากรการแพทย์ (29),29-1221.00,"Pediatricians, General",กุมารแพทย์
+บุคลากรการแพทย์ (29),29-1241.00,"Ophthalmologists, Except Pediatric",จักษุแพทย์
+บุคลากรการแพทย์ (29),29-1223.00,Psychiatrists,จิตแพทย์
+บุคลากรการแพทย์ (29),29-2081.00,"Opticians, Dispensing",ช่างแว่นตา
+บุคลากรการแพทย์ (29),29-1292.00,Dental Hygienists,ทันตาภิบาล / นักอนามัยช่องปาก
+บุคลากรการแพทย์ (29),29-1021.00,"Dentists, General",ทันตแพทย์
+บุคลากรการแพทย์ (29),29-1023.00,Orthodontists,ทันตแพทย์จัดฟัน
+บุคลากรการแพทย์ (29),29-1024.00,Prosthodontists,ทันตแพทย์ประดิษฐ์ (ใส่ฟันเทียม)
+บุคลากรการแพทย์ (29),29-1123.00,Physical Therapists,นักกายภาพบำบัด
+บุคลากรการแพทย์ (29),29-9091.00,Athletic Trainers,นักกายภาพประจำทีมกีฬา
+บุคลากรการแพทย์ (29),29-2091.00,Orthotists and Prosthetists,นักกายอุปกรณ์ (แขนขาเทียมและอุปกรณ์เสริม)
+บุคลากรการแพทย์ (29),29-1031.00,Dietitians and Nutritionists,นักกำหนดอาหารและนักโภชนาการ
+บุคลากรการแพทย์ (29),29-1122.00,Occupational Therapists,นักกิจกรรมบำบัด
+บุคลากรการแพทย์ (29),29-1129.02,Music Therapists,นักดนตรีบำบัด
+บุคลากรการแพทย์ (29),29-1041.00,Optometrists,นักทัศนมาตร
+บุคลากรการแพทย์ (29),29-1125.00,Recreational Therapists,นักนันทนาการบำบัด
+บุคลากรการแพทย์ (29),29-1126.00,Respiratory Therapists,นักบำบัดระบบทางเดินหายใจ
+บุคลากรการแพทย์ (29),29-1122.01,"Low Vision Therapists, Orientation and Mobility Specialists, and Vision Rehabilitation Therapists",นักบำบัดและฟื้นฟูผู้มีปัญหาการมองเห็น
+บุคลากรการแพทย์ (29),29-2036.00,Medical Dosimetrists,นักฟิสิกส์คำนวณปริมาณรังสี
+บุคลากรการแพทย์ (29),29-1124.00,Radiation Therapists,นักรังสีรักษา
+บุคลากรการแพทย์ (29),29-2034.00,Radiologic Technologists and Technicians,นักรังสีเทคนิค
+บุคลากรการแพทย์ (29),29-1129.01,Art Therapists,นักศิลปะบำบัด
+บุคลากรการแพทย์ (29),29-1128.00,Exercise Physiologists,นักสรีรวิทยาการออกกำลังกาย
+บุคลากรการแพทย์ (29),29-1299.02,Orthoptists,นักออร์ทอปติกส์ (บำบัดกล้ามเนื้อตา)
+บุคลากรการแพทย์ (29),29-2011.02,Cytotechnologists,นักเซลล์วิทยา
+บุคลากรการแพทย์ (29),29-2011.00,Medical and Clinical Laboratory Technologists,นักเทคนิคการแพทย์
+บุคลากรการแพทย์ (29),29-2011.01,Cytogenetic Technologists,นักเทคนิคการแพทย์ด้านเซลล์พันธุศาสตร์
+บุคลากรการแพทย์ (29),29-2099.05,Ophthalmic Medical Technologists,นักเทคโนโลยีจักษุ
+บุคลากรการแพทย์ (29),29-2011.04,Histotechnologists,นักเทคโนโลยีจุลกายวิภาค
+บุคลากรการแพทย์ (29),29-2099.01,Neurodiagnostic Technologists,นักเทคโนโลยีระบบประสาท
+บุคลากรการแพทย์ (29),29-2031.00,Cardiovascular Technologists and Technicians,นักเทคโนโลยีหัวใจและหลอดเลือด
+บุคลากรการแพทย์ (29),29-2033.00,Nuclear Medicine Technologists,นักเทคโนโลยีเวชศาสตร์นิวเคลียร์
+บุคลากรการแพทย์ (29),29-2035.00,Magnetic Resonance Imaging Technologists,นักเทคโนโลยีเอ็มอาร์ไอ (MRI)
+บุคลากรการแพทย์ (29),29-1127.00,Speech-Language Pathologists,นักแก้ไขการพูดและภาษา (นักอรรถบำบัด)
+บุคลากรการแพทย์ (29),29-1181.00,Audiologists,นักแก้ไขการได้ยิน (นักโสตสัมผัสวิทยา)
+บุคลากรการแพทย์ (29),29-1011.00,Chiropractors,นักไคโรแพรกติก
+บุคลากรการแพทย์ (29),29-1217.00,Neurologists,ประสาทแพทย์
+บุคลากรการแพทย์ (29),29-9099.01,Midwives,ผดุงครรภ์
+บุคลากรการแพทย์ (29),29-1071.01,Anesthesiologist Assistants,ผู้ช่วยวิสัญญีแพทย์
+บุคลากรการแพทย์ (29),29-9093.00,Surgical Assistants,ผู้ช่วยศัลยแพทย์
+บุคลากรการแพทย์ (29),29-2052.00,Pharmacy Technicians,ผู้ช่วยเภสัชกร
+บุคลากรการแพทย์ (29),29-1071.00,Physician Assistants,ผู้ช่วยแพทย์ (Physician Assistant)
+บุคลากรการแพทย์ (29),29-2092.00,Hearing Aid Specialists,ผู้เชี่ยวชาญเครื่องช่วยฟัง
+บุคลากรการแพทย์ (29),29-9092.00,Genetic Counselors,ผู้ให้คำปรึกษาด้านพันธุกรรม
+บุคลากรการแพทย์ (29),29-1222.00,"Physicians, Pathologists",พยาธิแพทย์
+บุคลากรการแพทย์ (29),29-1161.00,Nurse Midwives,พยาบาลผดุงครรภ์
+บุคลากรการแพทย์ (29),29-1141.01,Acute Care Nurses,พยาบาลผู้ป่วยวิกฤตเฉียบพลัน
+บุคลากรการแพทย์ (29),29-1141.04,Clinical Nurse Specialists,พยาบาลผู้เชี่ยวชาญทางคลินิก
+บุคลากรการแพทย์ (29),29-1141.00,Registered Nurses,พยาบาลวิชาชีพ
+บุคลากรการแพทย์ (29),29-2061.00,Licensed Practical and Licensed Vocational Nurses,พยาบาลเทคนิค / ผู้ช่วยพยาบาล
+บุคลากรการแพทย์ (29),29-1171.00,Nurse Practitioners,พยาบาลเวชปฏิบัติ
+บุคลากรการแพทย์ (29),29-1141.02,Advanced Practice Psychiatric Nurses,พยาบาลเวชปฏิบัติจิตเวช
+บุคลากรการแพทย์ (29),29-1141.03,Critical Care Nurses,พยาบาลไอซียู / พยาบาลวิกฤต
+บุคลากรการแพทย์ (29),29-1224.00,Radiologists,รังสีแพทย์
+บุคลากรการแพทย์ (29),29-1151.00,Nurse Anesthetists,วิสัญญีพยาบาล
+บุคลากรการแพทย์ (29),29-1211.00,Anesthesiologists,วิสัญญีแพทย์
+บุคลากรการแพทย์ (29),29-1022.00,Oral and Maxillofacial Surgeons,ศัลยแพทย์ช่องปากและแม็กซิลโลเฟเชียล
+บุคลากรการแพทย์ (29),29-1229.03,Urologists,ศัลยแพทย์ระบบทางเดินปัสสาวะ
+บุคลากรการแพทย์ (29),29-1131.00,Veterinarians,สัตวแพทย์
+บุคลากรการแพทย์ (29),29-1218.00,Obstetricians and Gynecologists,สูตินรีแพทย์
+บุคลากรการแพทย์ (29),29-2043.00,Paramedics,เจ้าพนักงานฉุกเฉินการแพทย์ (Paramedic)
+บุคลากรการแพทย์ (29),29-2032.00,Diagnostic Medical Sonographers,เจ้าหน้าที่ตรวจอัลตราซาวด์
+บุคลากรการแพทย์ (29),29-2099.08,Patient Representatives,เจ้าหน้าที่ประสานงานผู้ป่วย
+บุคลากรการแพทย์ (29),29-2012.00,Medical and Clinical Laboratory Technicians,เจ้าหน้าที่ห้องปฏิบัติการทางการแพทย์
+บุคลากรการแพทย์ (29),29-2012.01,Histology Technicians,เจ้าหน้าที่เตรียมชิ้นเนื้อ
+บุคลากรการแพทย์ (29),29-2056.00,Veterinary Technologists and Technicians,เจ้าหน้าที่เทคนิคการสัตวแพทย์
+บุคลากรการแพทย์ (29),29-2057.00,Ophthalmic Medical Technicians,เจ้าหน้าที่เทคนิคจักษุ
+บุคลากรการแพทย์ (29),29-2053.00,Psychiatric Technicians,เจ้าหน้าที่เทคนิคจิตเวช
+บุคลากรการแพทย์ (29),29-2055.00,Surgical Technologists,เจ้าหน้าที่เทคนิคห้องผ่าตัด
+บุคลากรการแพทย์ (29),29-2072.00,Medical Records Specialists,เจ้าหน้าที่เวชระเบียน
+บุคลากรการแพทย์ (29),29-1051.00,Pharmacists,เภสัชกร
+บุคลากรการแพทย์ (29),29-1299.01,Naturopathic Physicians,แพทย์ธรรมชาติบำบัด
+บุคลากรการแพทย์ (29),29-1229.02,Hospitalists,แพทย์ประจำหอผู้ป่วยใน (Hospitalist)
+บุคลากรการแพทย์ (29),29-1213.00,Dermatologists,แพทย์ผิวหนัง
+บุคลากรการแพทย์ (29),29-1291.00,Acupuncturists,แพทย์ฝังเข็ม
+บุคลากรการแพทย์ (29),29-1216.00,General Internal Medicine Physicians,แพทย์อายุรกรรมทั่วไป
+บุคลากรการแพทย์ (29),29-1081.00,Podiatrists,แพทย์เท้า (Podiatrist)
+บุคลากรการแพทย์ (29),29-1229.06,Sports Medicine Physicians,แพทย์เวชศาสตร์การกีฬา
+บุคลากรการแพทย์ (29),29-1215.00,Family Medicine Physicians,แพทย์เวชศาสตร์ครอบครัว
+บุคลากรการแพทย์ (29),29-1214.00,Emergency Medicine Physicians,แพทย์เวชศาสตร์ฉุกเฉิน
+บุคลากรการแพทย์ (29),29-1229.05,Preventive Medicine Physicians,แพทย์เวชศาสตร์ป้องกัน
+บุคลากรการแพทย์ (29),29-1229.04,Physical Medicine and Rehabilitation Physicians,แพทย์เวชศาสตร์ฟื้นฟู
+บุคลากรการแพทย์ (29),29-1229.01,Allergists and Immunologists,แพทย์โรคภูมิแพ้และภูมิคุ้มกัน
+บุคลากรการแพทย์ (29),29-2051.00,Dietetic Technicians,โภชนากร
+สนับสนุนการแพทย์ (31),31-9011.00,Massage Therapists,นักนวดบำบัด
+สนับสนุนการแพทย์ (31),31-1133.00,Psychiatric Aides,ผู้ช่วยดูแลผู้ป่วยจิตเวช
+สนับสนุนการแพทย์ (31),31-9091.00,Dental Assistants,ผู้ช่วยทันตแพทย์
+สนับสนุนการแพทย์ (31),31-2021.00,Physical Therapist Assistants,ผู้ช่วยนักกายภาพบำบัด
+สนับสนุนการแพทย์ (31),31-2011.00,Occupational Therapy Assistants,ผู้ช่วยนักกิจกรรมบำบัด
+สนับสนุนการแพทย์ (31),31-9099.01,Speech-Language Pathology Assistants,ผู้ช่วยนักแก้ไขการพูด
+สนับสนุนการแพทย์ (31),31-1131.00,Nursing Assistants,ผู้ช่วยพยาบาล
+สนับสนุนการแพทย์ (31),31-9096.00,Veterinary Assistants and Laboratory Animal Caretakers,ผู้ช่วยสัตวแพทย์และผู้ดูแลสัตว์ทดลอง
+สนับสนุนการแพทย์ (31),31-9092.00,Medical Assistants,ผู้ช่วยแพทย์ / เจ้าหน้าที่ช่วยงานคลินิก
+สนับสนุนการแพทย์ (31),31-1121.00,Home Health Aides,ผู้ดูแลผู้ป่วยที่บ้าน
+สนับสนุนการแพทย์ (31),31-1122.00,Personal Care Aides,ผู้ดูแลผู้สูงอายุ / ผู้ช่วยดูแลส่วนบุคคล
+สนับสนุนการแพทย์ (31),31-2022.00,Physical Therapist Aides,พนักงานช่วยงานกายภาพบำบัด
+สนับสนุนการแพทย์ (31),31-2012.00,Occupational Therapy Aides,พนักงานช่วยงานกิจกรรมบำบัด
+สนับสนุนการแพทย์ (31),31-9095.00,Pharmacy Aides,พนักงานช่วยงานร้านยา
+สนับสนุนการแพทย์ (31),31-1132.00,Orderlies,พนักงานเปล / พนักงานช่วยเหลือผู้ป่วย
+สนับสนุนการแพทย์ (31),31-9094.00,Medical Transcriptionists,เจ้าหน้าที่ถอดเทปเวชระเบียน
+สนับสนุนการแพทย์ (31),31-9097.00,Phlebotomists,เจ้าหน้าที่เจาะเลือด
+สนับสนุนการแพทย์ (31),31-9093.00,Medical Equipment Preparers,เจ้าหน้าที่เตรียมและฆ่าเชื้ออุปกรณ์การแพทย์
+สนับสนุนการแพทย์ (31),31-9099.02,Endoscopy Technicians,เจ้าหน้าที่เทคนิคการส่องกล้อง
+บริการด้านความปลอดภัย (33),33-3052.00,Transit and Railroad Police,ตำรวจรถไฟและระบบขนส่งมวลชน
+บริการด้านความปลอดภัย (33),33-3051.00,Police and Sheriff's Patrol Officers,ตำรวจสายตรวจ
+บริการด้านความปลอดภัย (33),33-3021.06,Intelligence Analysts,นักวิเคราะห์ข่าวกรอง
+บริการด้านความปลอดภัย (33),33-9021.00,Private Detectives and Investigators,นักสืบเอกชน
+บริการด้านความปลอดภัย (33),33-2011.00,Firefighters,พนักงานดับเพลิง
+บริการด้านความปลอดภัย (33),33-9032.00,Security Guards,พนักงานรักษาความปลอดภัย (รปภ.)
+บริการด้านความปลอดภัย (33),33-3021.00,Detectives and Criminal Investigators,พนักงานสืบสวนสอบสวน
+บริการด้านความปลอดภัย (33),33-9094.00,School Bus Monitors,พี่เลี้ยงบนรถรับส่งนักเรียน
+บริการด้านความปลอดภัย (33),33-1091.00,First-Line Supervisors of Security Workers,หัวหน้า รปภ.
+บริการด้านความปลอดภัย (33),33-1012.00,First-Line Supervisors of Police and Detectives,หัวหน้าตำรวจและพนักงานสืบสวน
+บริการด้านความปลอดภัย (33),33-1011.00,First-Line Supervisors of Correctional Officers,หัวหน้าผู้คุมเรือนจำ
+บริการด้านความปลอดภัย (33),33-1021.00,First-Line Supervisors of Firefighting and Prevention Workers,หัวหน้าพนักงานดับเพลิง
+บริการด้านความปลอดภัย (33),33-9011.00,Animal Control Workers,เจ้าหน้าที่ควบคุมสัตว์
+บริการด้านความปลอดภัย (33),33-9091.00,Crossing Guards and Flaggers,เจ้าหน้าที่จราจรทางข้ามและโบกธงหน้างาน
+บริการด้านความปลอดภัย (33),33-3041.00,Parking Enforcement Workers,เจ้าหน้าที่ตรวจการจอดรถ
+บริการด้านความปลอดภัย (33),33-9093.00,Transportation Security Screeners,เจ้าหน้าที่ตรวจค้นความปลอดภัยสนามบิน
+บริการด้านความปลอดภัย (33),33-2021.00,Fire Inspectors and Investigators,เจ้าหน้าที่ตรวจสอบและสืบสวนอัคคีภัย
+บริการด้านความปลอดภัย (33),33-9099.02,Retail Loss Prevention Specialists,เจ้าหน้าที่ป้องกันการสูญหายในร้านค้าปลีก
+บริการด้านความปลอดภัย (33),33-2022.00,Forest Fire Inspectors and Prevention Specialists,เจ้าหน้าที่ป้องกันและตรวจสอบไฟป่า
+บริการด้านความปลอดภัย (33),33-3031.00,Fish and Game Wardens,เจ้าหน้าที่พิทักษ์สัตว์ป่าและประมง
+บริการด้านความปลอดภัย (33),33-3021.02,Police Identification and Records Officers,เจ้าหน้าที่พิสูจน์หลักฐานและทะเบียนประวัติอาชญากร
+บริการด้านความปลอดภัย (33),33-3011.00,Bailiffs,เจ้าหน้าที่รักษาความสงบในศาล
+บริการด้านความปลอดภัย (33),33-3012.00,Correctional Officers and Jailers,เจ้าหน้าที่ราชทัณฑ์ / ผู้คุม
+บริการด้านความปลอดภัย (33),33-3051.04,Customs and Border Protection Officers,เจ้าหน้าที่ศุลกากรและตรวจคนเข้าเมือง
+บริการด้านความปลอดภัย (33),33-9031.00,Gambling Surveillance Officers and Gambling Investigators,เจ้าหน้าที่เฝ้าระวังการพนันในคาสิโน
+บริการด้านความปลอดภัย (33),33-9092.00,"Lifeguards, Ski Patrol, and Other Recreational Protective Service Workers",ไลฟ์การ์ดและเจ้าหน้าที่ความปลอดภัยด้านนันทนาการ
+อาหารและเครื่องดื่ม (35),35-3023.01,Baristas,บาริสต้า
+อาหารและเครื่องดื่ม (35),35-3011.00,Bartenders,บาร์เทนเดอร์
+อาหารและเครื่องดื่ม (35),35-9011.00,Dining Room and Cafeteria Attendants and Bartender Helpers,พนักงานดูแลห้องอาหารและผู้ช่วยบาร์
+อาหารและเครื่องดื่ม (35),35-9031.00,"Hosts and Hostesses, Restaurant, Lounge, and Coffee Shop",พนักงานต้อนรับร้านอาหารและคาเฟ่
+อาหารและเครื่องดื่ม (35),35-3041.00,"Food Servers, Nonrestaurant",พนักงานบริการอาหาร (นอกร้านอาหาร)
+อาหารและเครื่องดื่ม (35),35-3023.00,Fast Food and Counter Workers,พนักงานร้านอาหารจานด่วนและเคาน์เตอร์
+อาหารและเครื่องดื่ม (35),35-9021.00,Dishwashers,พนักงานล้างจาน
+อาหารและเครื่องดื่ม (35),35-2021.00,Food Preparation Workers,พนักงานเตรียมอาหาร
+อาหารและเครื่องดื่ม (35),35-3031.00,Waiters and Waitresses,พนักงานเสิร์ฟ
+อาหารและเครื่องดื่ม (35),35-2014.00,"Cooks, Restaurant",พ่อครัวร้านอาหาร
+อาหารและเครื่องดื่ม (35),35-2011.00,"Cooks, Fast Food",พ่อครัวร้านอาหารจานด่วน
+อาหารและเครื่องดื่ม (35),35-2015.00,"Cooks, Short Order",พ่อครัวอาหารตามสั่ง
+อาหารและเครื่องดื่ม (35),35-2012.00,"Cooks, Institution and Cafeteria",พ่อครัวโรงอาหาร / ครัวสถาบัน
+อาหารและเครื่องดื่ม (35),35-1012.00,First-Line Supervisors of Food Preparation and Serving Workers,หัวหน้างานครัวและบริการอาหาร
+อาหารและเครื่องดื่ม (35),35-1011.00,Chefs and Head Cooks,เชฟ / หัวหน้าพ่อครัว
+อาหารและเครื่องดื่ม (35),35-2013.00,"Cooks, Private Household",แม่ครัวประจำบ้าน
+ดูแลอาคารและพื้นที่ (37),37-3011.00,Landscaping and Groundskeeping Workers,คนสวน / พนักงานดูแลภูมิทัศน์
+ดูแลอาคารและพื้นที่ (37),37-3013.00,Tree Trimmers and Pruners,ช่างตัดแต่งต้นไม้
+ดูแลอาคารและพื้นที่ (37),37-2021.00,Pest Control Workers,พนักงานกำจัดแมลงและสัตว์รบกวน
+ดูแลอาคารและพื้นที่ (37),37-3012.00,"Pesticide Handlers, Sprayers, and Applicators, Vegetation",พนักงานฉีดพ่นสารกำจัดศัตรูพืช
+ดูแลอาคารและพื้นที่ (37),37-2011.00,"Janitors and Cleaners, Except Maids and Housekeeping Cleaners",พนักงานทำความสะอาดอาคาร / ภารโรง
+ดูแลอาคารและพื้นที่ (37),37-1012.00,"First-Line Supervisors of Landscaping, Lawn Service, and Groundskeeping Workers",หัวหน้างานจัดสวนและดูแลภูมิทัศน์
+ดูแลอาคารและพื้นที่ (37),37-1011.00,First-Line Supervisors of Housekeeping and Janitorial Workers,หัวหน้าแม่บ้านและพนักงานทำความสะอาด
+ดูแลอาคารและพื้นที่ (37),37-2012.00,Maids and Housekeeping Cleaners,แม่บ้าน / พนักงานทำความสะอาดห้องพัก
+บริการส่วนบุคคล (39),39-2011.00,Animal Trainers,ครูฝึกสัตว์
+บริการส่วนบุคคล (39),39-5011.00,Barbers,ช่างตัดผมชาย
+บริการส่วนบุคคล (39),39-5012.00,"Hairdressers, Hairstylists, and Cosmetologists",ช่างทำผมและช่างเสริมสวย
+บริการส่วนบุคคล (39),39-5092.00,Manicurists and Pedicurists,ช่างทำเล็บ
+บริการส่วนบุคคล (39),39-5091.00,"Makeup Artists, Theatrical and Performance",ช่างแต่งหน้า
+บริการส่วนบุคคล (39),39-3011.00,Gambling Dealers,ดีลเลอร์คาสิโน
+บริการส่วนบุคคล (39),39-2021.00,Animal Caretakers,ผู้ดูแลสัตว์
+บริการส่วนบุคคล (39),39-9041.00,Residential Advisors,ผู้ดูแลหอพัก
+บริการส่วนบุคคล (39),39-3092.00,Costume Attendants,ผู้ดูแลเครื่องแต่งกายการแสดง
+บริการส่วนบุคคล (39),39-5094.00,Skincare Specialists,ผู้เชี่ยวชาญดูแลผิวพรรณ
+บริการส่วนบุคคล (39),39-6012.00,Concierges,พนักงานคอนเซียร์จ
+บริการส่วนบุคคล (39),39-4021.00,Funeral Attendants,พนักงานจัดงานศพ
+บริการส่วนบุคคล (39),39-3021.00,Motion Picture Projectionists,พนักงานฉายภาพยนตร์
+บริการส่วนบุคคล (39),39-3093.00,"Locker Room, Coatroom, and Dressing Room Attendants",พนักงานดูแลห้องล็อกเกอร์และห้องแต่งตัว
+บริการส่วนบุคคล (39),39-3031.00,"Ushers, Lobby Attendants, and Ticket Takers",พนักงานนำที่นั่งและตรวจบัตร
+บริการส่วนบุคคล (39),39-3091.00,Amusement and Recreation Attendants,พนักงานบริการสวนสนุกและสถานนันทนาการ
+บริการส่วนบุคคล (39),39-6011.00,Baggage Porters and Bellhops,พนักงานยกกระเป๋า / เบลบอย
+บริการส่วนบุคคล (39),39-3012.00,Gambling and Sports Book Writers and Runners,พนักงานรับแทงพนันกีฬา
+บริการส่วนบุคคล (39),39-5093.00,Shampooers,พนักงานสระผม
+บริการส่วนบุคคล (39),39-9011.01,Nannies,พี่เลี้ยงเด็กประจำบ้าน
+บริการส่วนบุคคล (39),39-9011.00,Childcare Workers,พี่เลี้ยงเด็กในสถานรับเลี้ยง
+บริการส่วนบุคคล (39),39-7011.00,Tour Guides and Escorts,มัคคุเทศก์ / ไกด์นำเที่ยว
+บริการส่วนบุคคล (39),39-4031.00,"Morticians, Undertakers, and Funeral Arrangers",สัปเหร่อ / ผู้จัดการพิธีศพ
+บริการส่วนบุคคล (39),39-1022.00,First-Line Supervisors of Personal Service Workers,หัวหน้างานบริการส่วนบุคคล
+บริการส่วนบุคคล (39),39-1013.00,First-Line Supervisors of Gambling Services Workers,หัวหน้างานบริการในคาสิโน
+บริการส่วนบุคคล (39),39-1014.00,"First-Line Supervisors of Entertainment and Recreation Workers, Except Gambling Services",หัวหน้างานบันเทิงและนันทนาการ
+บริการส่วนบุคคล (39),39-7012.00,Travel Guides,หัวหน้าทัวร์ / ไกด์ท่องเที่ยว
+บริการส่วนบุคคล (39),39-4011.00,Embalmers,เจ้าหน้าที่ฉีดยารักษาศพ
+บริการส่วนบุคคล (39),39-9032.00,Recreation Workers,เจ้าหน้าที่นันทนาการ
+บริการส่วนบุคคล (39),39-9031.00,Exercise Trainers and Group Fitness Instructors,เทรนเนอร์ / ครูฝึกฟิตเนส
+งานขาย (41),41-3021.00,Insurance Sales Agents,ตัวแทนขายประกัน
+งานขาย (41),41-9022.00,Real Estate Sales Agents,ตัวแทนขายอสังหาริมทรัพย์
+งานขาย (41),41-3041.00,Travel Agents,ตัวแทนบริษัทท่องเที่ยว
+งานขาย (41),41-9021.00,Real Estate Brokers,นายหน้าอสังหาริมทรัพย์ (เจ้าของสำนักงาน)
+งานขาย (41),41-9012.00,Models,นายแบบ / นางแบบ
+งานขาย (41),41-9091.00,"Door-to-Door Sales Workers, News and Street Vendors, and Related Workers",พนักงานขายตรงและผู้ค้าแผงลอย
+งานขาย (41),41-9041.00,Telemarketers,พนักงานขายทางโทรศัพท์ (เทเลเซลส์)
+งานขาย (41),41-3091.00,"Sales Representatives of Services, Except Advertising, Insurance, Financial Services, and Travel",พนักงานขายบริการ
+งานขาย (41),41-4011.00,"Sales Representatives, Wholesale and Manufacturing, Technical and Scientific Products",พนักงานขายผลิตภัณฑ์เทคนิคและวิทยาศาสตร์
+งานขาย (41),41-4012.00,"Sales Representatives, Wholesale and Manufacturing, Except Technical and Scientific Products",พนักงานขายส่งและขายตรงให้โรงงาน
+งานขาย (41),41-2031.00,Retail Salespersons,พนักงานขายหน้าร้าน
+งานขาย (41),41-2022.00,Parts Salespersons,พนักงานขายอะไหล่
+งานขาย (41),41-4011.07,Solar Sales Representatives and Assessors,พนักงานขายและประเมินระบบโซลาร์เซลล์
+งานขาย (41),41-3011.00,Advertising Sales Agents,พนักงานขายโฆษณา
+งานขาย (41),41-9011.00,Demonstrators and Product Promoters,พนักงานสาธิตและส่งเสริมการขาย (PC)
+งานขาย (41),41-2021.00,Counter and Rental Clerks,พนักงานเคาน์เตอร์และให้เช่า
+งานขาย (41),41-9031.00,Sales Engineers,วิศวกรฝ่ายขาย
+งานขาย (41),41-1012.00,First-Line Supervisors of Non-Retail Sales Workers,หัวหน้าทีมขาย (นอกค้าปลีก)
+งานขาย (41),41-1011.00,First-Line Supervisors of Retail Sales Workers,หัวหน้าพนักงานขายหน้าร้าน
+งานขาย (41),41-3031.00,"Securities, Commodities, and Financial Services Sales Agents",เจ้าหน้าที่การตลาดหลักทรัพย์และบริการการเงิน
+งานขาย (41),41-2011.00,Cashiers,แคชเชียร์
+งานขาย (41),41-2012.00,Gambling Change Persons and Booth Cashiers,แคชเชียร์แลกเงินในคาสิโน
+งานสำนักงานและธุรการ (43),43-5011.01,Freight Forwarders,ตัวแทนรับจัดการขนส่งสินค้า (Freight Forwarder)
+งานสำนักงานและธุรการ (43),43-5052.00,Postal Service Mail Carriers,บุรุษไปรษณีย์
+งานสำนักงานและธุรการ (43),43-9111.00,Statistical Assistants,ผู้ช่วยนักสถิติ
+งานสำนักงานและธุรการ (43),43-4161.00,"Human Resources Assistants, Except Payroll and Timekeeping",ผู้ช่วยเจ้าหน้าที่ทรัพยากรบุคคล
+งานสำนักงานและธุรการ (43),43-9071.00,"Office Machine Operators, Except Computer",พนักงานควบคุมเครื่องใช้สำนักงาน
+งานสำนักงานและธุรการ (43),43-9051.00,"Mail Clerks and Mail Machine Operators, Except Postal Service",พนักงานคัดแยกและส่งเอกสารภายในองค์กร
+งานสำนักงานและธุรการ (43),43-5053.00,"Postal Service Mail Sorters, Processors, and Processing Machine Operators",พนักงานคัดแยกไปรษณียภัณฑ์
+งานสำนักงานและธุรการ (43),43-9021.00,Data Entry Keyers,พนักงานคีย์ข้อมูล
+งานสำนักงานและธุรการ (43),43-5041.00,"Meter Readers, Utilities",พนักงานจดมิเตอร์
+งานสำนักงานและธุรการ (43),43-9031.00,Desktop Publishers,พนักงานจัดหน้าสิ่งพิมพ์ (DTP)
+งานสำนักงานและธุรการ (43),43-5111.00,"Weighers, Measurers, Checkers, and Samplers, Recordkeeping",พนักงานชั่ง วัด ตรวจ และเก็บตัวอย่าง
+งานสำนักงานและธุรการ (43),43-3011.00,Bill and Account Collectors,พนักงานติดตามหนี้
+งานสำนักงานและธุรการ (43),43-4081.00,"Hotel, Motel, and Resort Desk Clerks",พนักงานต้อนรับส่วนหน้าโรงแรม (Front Desk)
+งานสำนักงานและธุรการ (43),43-4171.00,Receptionists and Information Clerks,พนักงานต้อนรับและประชาสัมพันธ์
+งานสำนักงานและธุรการ (43),43-3071.00,Tellers,พนักงานธนาคาร (เคาน์เตอร์)
+งานสำนักงานและธุรการ (43),43-9061.00,"Office Clerks, General",พนักงานธุรการทั่วไป
+งานสำนักงานและธุรการ (43),43-4051.00,Customer Service Representatives,พนักงานบริการลูกค้า (Call Center)
+งานสำนักงานและธุรการ (43),43-3031.00,"Bookkeeping, Accounting, and Auditing Clerks",พนักงานบัญชี / ทำบัญชี
+งานสำนักงานและธุรการ (43),43-9022.00,Word Processors and Typists,พนักงานพิมพ์เอกสาร
+งานสำนักงานและธุรการ (43),43-9081.00,Proofreaders and Copy Markers,พนักงานพิสูจน์อักษร
+งานสำนักงานและธุรการ (43),43-5071.00,"Shipping, Receiving, and Inventory Clerks",พนักงานรับส่งสินค้าและสต๊อก
+งานสำนักงานและธุรการ (43),43-2011.00,"Switchboard Operators, Including Answering Service",พนักงานรับโทรศัพท์ / โอเปอเรเตอร์
+งานสำนักงานและธุรการ (43),43-2021.00,Telephone Operators,พนักงานสลับสายโทรศัพท์
+งานสำนักงานและธุรการ (43),43-4111.00,"Interviewers, Except Eligibility and Loan",พนักงานสัมภาษณ์ / เก็บข้อมูลสำรวจ
+งานสำนักงานและธุรการ (43),43-4181.00,Reservation and Transportation Ticket Agents and Travel Clerks,พนักงานสำรองที่นั่งและจำหน่ายตั๋ว
+งานสำนักงานและธุรการ (43),43-5021.00,Couriers and Messengers,พนักงานส่งเอกสารและพัสดุ / แมสเซนเจอร์
+งานสำนักงานและธุรการ (43),43-3021.00,Billing and Posting Clerks,พนักงานออกใบแจ้งหนี้
+งานสำนักงานและธุรการ (43),43-3041.00,Gambling Cage Workers,พนักงานแคชเชียร์ห้องการเงินคาสิโน
+งานสำนักงานและธุรการ (43),43-5051.00,Postal Service Clerks,พนักงานไปรษณีย์ (เคาน์เตอร์)
+งานสำนักงานและธุรการ (43),43-1011.00,First-Line Supervisors of Office and Administrative Support Workers,หัวหน้างานธุรการ / หัวหน้าสำนักงาน
+งานสำนักงานและธุรการ (43),43-5032.00,"Dispatchers, Except Police, Fire, and Ambulance",เจ้าหน้าที่ควบคุมการเดินรถ / จ่ายงาน
+งานสำนักงานและธุรการ (43),43-4071.00,File Clerks,เจ้าหน้าที่จัดเก็บเอกสาร
+งานสำนักงานและธุรการ (43),43-4041.00,"Credit Authorizers, Checkers, and Clerks",เจ้าหน้าที่ตรวจสอบและอนุมัติเครดิต
+งานสำนักงานและธุรการ (43),43-3061.00,Procurement Clerks,เจ้าหน้าที่ธุรการจัดซื้อ
+งานสำนักงานและธุรการ (43),43-4011.00,Brokerage Clerks,เจ้าหน้าที่ธุรการซื้อขายหลักทรัพย์
+งานสำนักงานและธุรการ (43),43-4031.00,"Court, Municipal, and License Clerks",เจ้าหน้าที่ธุรการศาลและหน่วยงานท้องถิ่น
+งานสำนักงานและธุรการ (43),43-4121.00,"Library Assistants, Clerical",เจ้าหน้าที่ธุรการห้องสมุด
+งานสำนักงานและธุรการ (43),43-9041.00,Insurance Claims and Policy Processing Clerks,เจ้าหน้าที่ธุรการเคลมและกรมธรรม์
+งานสำนักงานและธุรการ (43),43-4151.00,Order Clerks,เจ้าหน้าที่รับคำสั่งซื้อ
+งานสำนักงานและธุรการ (43),43-5011.00,Cargo and Freight Agents,เจ้าหน้าที่รับส่งสินค้าและขนส่ง
+งานสำนักงานและธุรการ (43),43-4131.00,Loan Interviewers and Clerks,เจ้าหน้าที่รับเรื่องสินเชื่อ
+งานสำนักงานและธุรการ (43),43-5031.00,Public Safety Telecommunicators,เจ้าหน้าที่รับแจ้งเหตุฉุกเฉิน (191 / 1669)
+งานสำนักงานและธุรการ (43),43-5061.00,"Production, Planning, and Expediting Clerks",เจ้าหน้าที่วางแผนและเร่งรัดการผลิต
+งานสำนักงานและธุรการ (43),43-4061.00,"Eligibility Interviewers, Government Programs",เจ้าหน้าที่สัมภาษณ์คุณสมบัติผู้รับสวัสดิการรัฐ
+งานสำนักงานและธุรการ (43),43-3051.00,Payroll and Timekeeping Clerks,เจ้าหน้าที่เงินเดือนและบันทึกเวลา
+งานสำนักงานและธุรการ (43),43-4141.00,New Accounts Clerks,เจ้าหน้าที่เปิดบัญชีลูกค้าใหม่
+งานสำนักงานและธุรการ (43),43-4021.00,Correspondence Clerks,เจ้าหน้าที่โต้ตอบจดหมาย
+งานสำนักงานและธุรการ (43),43-6014.00,"Secretaries and Administrative Assistants, Except Legal, Medical, and Executive",เลขานุการ / ผู้ช่วยฝ่ายธุรการ
+งานสำนักงานและธุรการ (43),43-6013.00,Medical Secretaries and Administrative Assistants,เลขานุการทางการแพทย์
+งานสำนักงานและธุรการ (43),43-6011.00,Executive Secretaries and Executive Administrative Assistants,เลขานุการผู้บริหาร
+งานสำนักงานและธุรการ (43),43-6012.00,Legal Secretaries and Administrative Assistants,เลขานุการฝ่ายกฎหมาย
+เกษตร ประมง ป่าไม้ (45),45-4011.00,Forest and Conservation Workers,คนงานป่าไม้และการอนุรักษ์
+เกษตร ประมง ป่าไม้ (45),45-2093.00,"Farmworkers, Farm, Ranch, and Aquacultural Animals",คนงานฟาร์มปศุสัตว์และสัตว์น้ำ
+เกษตร ประมง ป่าไม้ (45),45-4021.00,Fallers,คนงานโค่นต้นไม้
+เกษตร ประมง ป่าไม้ (45),45-2092.00,"Farmworkers and Laborers, Crop, Nursery, and Greenhouse",คนงานไร่ สวน และเรือนเพาะชำ
+เกษตร ประมง ป่าไม้ (45),45-3031.00,Fishing and Hunting Workers,ชาวประมงและพรานล่าสัตว์
+เกษตร ประมง ป่าไม้ (45),45-2011.00,Agricultural Inspectors,ผู้ตรวจสอบสินค้าเกษตร
+เกษตร ประมง ป่าไม้ (45),45-2021.00,Animal Breeders,ผู้เพาะพันธุ์สัตว์
+เกษตร ประมง ป่าไม้ (45),45-2091.00,Agricultural Equipment Operators,พนักงานขับเครื่องจักรกลการเกษตร
+เกษตร ประมง ป่าไม้ (45),45-4022.00,Logging Equipment Operators,พนักงานขับเครื่องจักรทำไม้
+เกษตร ประมง ป่าไม้ (45),45-2041.00,"Graders and Sorters, Agricultural Products",พนักงานคัดเกรดผลผลิตเกษตร
+เกษตร ประมง ป่าไม้ (45),45-4023.00,Log Graders and Scalers,พนักงานคัดเกรดและวัดปริมาตรไม้ซุง
+เกษตร ประมง ป่าไม้ (45),45-1011.00,"First-Line Supervisors of Farming, Fishing, and Forestry Workers",หัวหน้างานเกษตร ประมง และป่าไม้
+ก่อสร้างและขุดเจาะ (47),47-2061.00,Construction Laborers,กรรมกรก่อสร้าง
+ก่อสร้างและขุดเจาะ (47),47-5071.00,"Roustabouts, Oil and Gas",คนงานแท่นขุดเจาะน้ำมันและก๊าซ
+ก่อสร้างและขุดเจาะ (47),47-5051.00,"Rock Splitters, Quarry",คนงานแยกหินในเหมืองหิน
+ก่อสร้างและขุดเจาะ (47),47-2121.00,Glaziers,ช่างกระจก
+ก่อสร้างและขุดเจาะ (47),47-2022.00,Stonemasons,ช่างก่อหิน
+ก่อสร้างและขุดเจาะ (47),47-2021.00,Brickmasons and Blockmasons,ช่างก่ออิฐ
+ก่อสร้างและขุดเจาะ (47),47-2043.00,Floor Sanders and Finishers,ช่างขัดและเคลือบพื้น
+ก่อสร้างและขุดเจาะ (47),47-2161.00,Plasterers and Stucco Masons,ช่างฉาบปูน
+ก่อสร้างและขุดเจาะ (47),47-2082.00,Tapers,ช่างฉาบรอยต่อผนังยิปซัม
+ก่อสร้างและขุดเจาะ (47),47-2132.00,"Insulation Workers, Mechanical",ช่างติดตั้งฉนวนท่อและเครื่องจักร
+ก่อสร้างและขุดเจาะ (47),47-2131.00,"Insulation Workers, Floor, Ceiling, and Wall",ช่างติดตั้งฉนวนพื้น ฝ้า และผนัง
+ก่อสร้างและขุดเจาะ (47),47-2081.00,Drywall and Ceiling Tile Installers,ช่างติดตั้งผนังยิปซัมและฝ้าเพดาน
+ก่อสร้างและขุดเจาะ (47),47-2152.04,Solar Thermal Installers and Technicians,ช่างติดตั้งระบบความร้อนจากแสงอาทิตย์
+ก่อสร้างและขุดเจาะ (47),47-4099.03,Weatherization Installers and Technicians,ช่างติดตั้งระบบป้องกันสภาพอากาศอาคาร
+ก่อสร้างและขุดเจาะ (47),47-4031.00,Fence Erectors,ช่างติดตั้งรั้ว
+ก่อสร้างและขุดเจาะ (47),47-2231.00,Solar Photovoltaic Installers,ช่างติดตั้งแผงโซลาร์เซลล์
+ก่อสร้างและขุดเจาะ (47),47-4021.00,Elevator and Escalator Installers and Repairers,ช่างติดตั้งและซ่อมลิฟต์และบันไดเลื่อน
+ก่อสร้างและขุดเจาะ (47),47-2142.00,Paperhangers,ช่างติดวอลเปเปอร์
+ก่อสร้างและขุดเจาะ (47),47-2141.00,"Painters, Construction and Maintenance",ช่างทาสี
+ก่อสร้างและขุดเจาะ (47),47-2152.00,"Plumbers, Pipefitters, and Steamfitters",ช่างประปาและช่างท่อ
+ก่อสร้างและขุดเจาะ (47),47-2044.00,Tile and Stone Setters,ช่างปูกระเบื้องและหิน
+ก่อสร้างและขุดเจาะ (47),47-2051.00,Cement Masons and Concrete Finishers,ช่างปูนและช่างเทคอนกรีต
+ก่อสร้างและขุดเจาะ (47),47-4091.00,Segmental Pavers,ช่างปูบล็อกพื้น
+ก่อสร้างและขุดเจาะ (47),47-2041.00,Carpet Installers,ช่างปูพรม
+ก่อสร้างและขุดเจาะ (47),47-2042.00,"Floor Layers, Except Carpet, Wood, and Hard Tiles",ช่างปูพื้น
+ก่อสร้างและขุดเจาะ (47),47-2171.00,Reinforcing Iron and Rebar Workers,ช่างผูกเหล็กเสริม
+ก่อสร้างและขุดเจาะ (47),47-2053.00,Terrazzo Workers and Finishers,ช่างพื้นหินขัด
+ก่อสร้างและขุดเจาะ (47),47-2181.00,Roofers,ช่างมุงหลังคา
+ก่อสร้างและขุดเจาะ (47),47-2151.00,Pipelayers,ช่างวางท่อ
+ก่อสร้างและขุดเจาะ (47),47-2011.00,Boilermakers,ช่างหม้อไอน้ำ
+ก่อสร้างและขุดเจาะ (47),47-5023.00,"Earth Drillers, Except Oil and Gas",ช่างเจาะบ่อบาดาลและเจาะสำรวจ
+ก่อสร้างและขุดเจาะ (47),47-2221.00,Structural Iron and Steel Workers,ช่างเหล็กโครงสร้าง
+ก่อสร้างและขุดเจาะ (47),47-2211.00,Sheet Metal Workers,ช่างโลหะแผ่น
+ก่อสร้างและขุดเจาะ (47),47-2111.00,Electricians,ช่างไฟฟ้า
+ก่อสร้างและขุดเจาะ (47),47-2031.00,Carpenters,ช่างไม้
+ก่อสร้างและขุดเจาะ (47),47-1011.03,Solar Energy Installation Managers,ผู้จัดการงานติดตั้งโซลาร์เซลล์
+ก่อสร้างและขุดเจาะ (47),47-5032.00,"Explosives Workers, Ordnance Handling Experts, and Blasters",ผู้ชำนาญการวัตถุระเบิด
+ก่อสร้างและขุดเจาะ (47),47-5081.00,Helpers--Extraction Workers,ผู้ช่วยคนงานเหมืองและขุดเจาะ
+ก่อสร้างและขุดเจาะ (47),47-3011.00,"Helpers--Brickmasons, Blockmasons, Stonemasons, and Tile and Marble Setters",ผู้ช่วยช่างก่ออิฐและปูกระเบื้อง
+ก่อสร้างและขุดเจาะ (47),47-3014.00,"Helpers--Painters, Paperhangers, Plasterers, and Stucco Masons",ผู้ช่วยช่างทาสีและฉาบปูน
+ก่อสร้างและขุดเจาะ (47),47-3015.00,"Helpers--Pipelayers, Plumbers, Pipefitters, and Steamfitters",ผู้ช่วยช่างประปา
+ก่อสร้างและขุดเจาะ (47),47-3016.00,Helpers--Roofers,ผู้ช่วยช่างมุงหลังคา
+ก่อสร้างและขุดเจาะ (47),47-3013.00,Helpers--Electricians,ผู้ช่วยช่างไฟฟ้า
+ก่อสร้างและขุดเจาะ (47),47-3012.00,Helpers--Carpenters,ผู้ช่วยช่างไม้
+ก่อสร้างและขุดเจาะ (47),47-4011.01,Energy Auditors,ผู้ตรวจสอบการใช้พลังงาน
+ก่อสร้างและขุดเจาะ (47),47-4011.00,Construction and Building Inspectors,ผู้ตรวจสอบอาคารและงานก่อสร้าง
+ก่อสร้างและขุดเจาะ (47),47-4041.00,Hazardous Materials Removal Workers,พนักงานขจัดวัตถุอันตราย
+ก่อสร้างและขุดเจาะ (47),47-5041.00,Continuous Mining Machine Operators,พนักงานขับเครื่องขุดเหมืองแบบต่อเนื่อง
+ก่อสร้างและขุดเจาะ (47),47-5022.00,"Excavating and Loading Machine and Dragline Operators, Surface Mining",พนักงานขับเครื่องขุดและตักในเหมืองผิวดิน
+ก่อสร้างและขุดเจาะ (47),47-2073.00,Operating Engineers and Other Construction Equipment Operators,พนักงานขับเครื่องจักรกลหนักงานก่อสร้าง
+ก่อสร้างและขุดเจาะ (47),47-2071.00,"Paving, Surfacing, and Tamping Equipment Operators",พนักงานขับเครื่องจักรปูผิวถนน
+ก่อสร้างและขุดเจาะ (47),47-4061.00,Rail-Track Laying and Maintenance Equipment Operators,พนักงานขับเครื่องจักรวางและซ่อมรางรถไฟ
+ก่อสร้างและขุดเจาะ (47),47-2072.00,Pile Driver Operators,พนักงานขับเครื่องตอกเสาเข็ม
+ก่อสร้างและขุดเจาะ (47),47-5044.00,"Loading and Moving Machine Operators, Underground Mining",พนักงานขับเครื่องตักขนในเหมืองใต้ดิน
+ก่อสร้างและขุดเจาะ (47),47-5012.00,"Rotary Drill Operators, Oil and Gas",พนักงานขับเครื่องเจาะหลุมน้ำมันและก๊าซ
+ก่อสร้างและขุดเจาะ (47),47-5011.00,"Derrick Operators, Oil and Gas",พนักงานควบคุมปั้นจั่นแท่นขุดเจาะน้ำมัน
+ก่อสร้างและขุดเจาะ (47),47-5013.00,"Service Unit Operators, Oil and Gas",พนักงานบริการหลุมน้ำมันและก๊าซ
+ก่อสร้างและขุดเจาะ (47),47-4051.00,Highway Maintenance Workers,พนักงานบำรุงรักษาทางหลวง
+ก่อสร้างและขุดเจาะ (47),47-5043.00,"Roof Bolters, Mining",พนักงานยึดเพดานเหมือง
+ก่อสร้างและขุดเจาะ (47),47-4071.00,Septic Tank Servicers and Sewer Pipe Cleaners,พนักงานสูบส้วมและล้างท่อระบายน้ำ
+ก่อสร้างและขุดเจาะ (47),47-1011.00,First-Line Supervisors of Construction Trades and Extraction Workers,หัวหน้าช่างก่อสร้าง / โฟร์แมน
+ติดตั้ง ซ่อมบำรุง (49),49-9094.00,Locksmiths and Safe Repairers,ช่างกุญแจและตู้เซฟ
+ติดตั้ง ซ่อมบำรุง (49),49-9061.00,Camera and Photographic Equipment Repairers,ช่างซ่อมกล้องและอุปกรณ์ถ่ายภาพ
+ติดตั้ง ซ่อมบำรุง (49),49-2011.00,"Computer, Automated Teller, and Office Machine Repairers",ช่างซ่อมคอมพิวเตอร์ ตู้ ATM และเครื่องใช้สำนักงาน
+ติดตั้ง ซ่อมบำรุง (49),49-3091.00,Bicycle Repairers,ช่างซ่อมจักรยาน
+ติดตั้ง ซ่อมบำรุง (49),49-3043.00,Rail Car Repairers,ช่างซ่อมตู้รถไฟ
+ติดตั้ง ซ่อมบำรุง (49),49-9091.00,"Coin, Vending, and Amusement Machine Servicers and Repairers",ช่างซ่อมตู้หยอดเหรียญและเครื่องเล่น
+ติดตั้ง ซ่อมบำรุง (49),49-9064.00,Watch and Clock Repairers,ช่างซ่อมนาฬิกา
+ติดตั้ง ซ่อมบำรุง (49),49-9071.00,"Maintenance and Repair Workers, General",ช่างซ่อมบำรุงทั่วไป
+ติดตั้ง ซ่อมบำรุง (49),49-3011.00,Aircraft Mechanics and Service Technicians,ช่างซ่อมบำรุงอากาศยาน
+ติดตั้ง ซ่อมบำรุง (49),49-9011.00,Mechanical Door Repairers,ช่างซ่อมประตูอัตโนมัติ
+ติดตั้ง ซ่อมบำรุง (49),49-2092.00,"Electric Motor, Power Tool, and Related Repairers",ช่างซ่อมมอเตอร์ไฟฟ้าและเครื่องมือไฟฟ้า
+ติดตั้ง ซ่อมบำรุง (49),49-3052.00,Motorcycle Mechanics,ช่างซ่อมรถจักรยานยนต์
+ติดตั้ง ซ่อมบำรุง (49),49-3031.00,Bus and Truck Mechanics and Diesel Engine Specialists,ช่างซ่อมรถบัส รถบรรทุก และเครื่องยนต์ดีเซล
+ติดตั้ง ซ่อมบำรุง (49),49-3092.00,Recreational Vehicle Service Technicians,ช่างซ่อมรถบ้านและรถนันทนาการ
+ติดตั้ง ซ่อมบำรุง (49),49-3023.00,Automotive Service Technicians and Mechanics,ช่างซ่อมรถยนต์ / ช่างยนต์
+ติดตั้ง ซ่อมบำรุง (49),49-9097.00,Signal and Track Switch Repairers,ช่างซ่อมระบบอาณัติสัญญาณและประแจรถไฟ
+ติดตั้ง ซ่อมบำรุง (49),49-2095.00,"Electrical and Electronics Repairers, Powerhouse, Substation, and Relay",ช่างซ่อมระบบไฟฟ้าโรงไฟฟ้าและสถานีไฟฟ้าย่อย
+ติดตั้ง ซ่อมบำรุง (49),49-9045.00,"Refractory Materials Repairers, Except Brickmasons",ช่างซ่อมวัสดุทนไฟ
+ติดตั้ง ซ่อมบำรุง (49),49-2094.00,"Electrical and Electronics Repairers, Commercial and Industrial Equipment",ช่างซ่อมอุปกรณ์ไฟฟ้าและอิเล็กทรอนิกส์อุตสาหกรรม
+ติดตั้ง ซ่อมบำรุง (49),49-3041.00,Farm Equipment Mechanics and Service Technicians,ช่างซ่อมเครื่องจักรกลการเกษตร
+ติดตั้ง ซ่อมบำรุง (49),49-3042.00,"Mobile Heavy Equipment Mechanics, Except Engines",ช่างซ่อมเครื่องจักรกลหนัก
+ติดตั้ง ซ่อมบำรุง (49),49-9041.00,Industrial Machinery Mechanics,ช่างซ่อมเครื่องจักรอุตสาหกรรม
+ติดตั้ง ซ่อมบำรุง (49),49-9062.00,Medical Equipment Repairers,ช่างซ่อมเครื่องมือแพทย์
+ติดตั้ง ซ่อมบำรุง (49),49-3053.00,Outdoor Power Equipment and Other Small Engine Mechanics,ช่างซ่อมเครื่องยนต์เล็กและเครื่องมือกลางแจ้ง
+ติดตั้ง ซ่อมบำรุง (49),49-9031.00,Home Appliance Repairers,ช่างซ่อมเครื่องใช้ไฟฟ้าในบ้าน
+ติดตั้ง ซ่อมบำรุง (49),49-3051.00,Motorboat Mechanics and Service Technicians,ช่างซ่อมเรือยนต์
+ติดตั้ง ซ่อมบำรุง (49),49-9063.00,Musical Instrument Repairers and Tuners,ช่างซ่อมและตั้งเสียงเครื่องดนตรี
+ติดตั้ง ซ่อมบำรุง (49),49-9095.00,Manufactured Building and Mobile Home Installers,ช่างติดตั้งบ้านสำเร็จรูป
+ติดตั้ง ซ่อมบำรุง (49),49-2098.00,Security and Fire Alarm Systems Installers,ช่างติดตั้งระบบกันขโมยและสัญญาณเตือนไฟไหม้
+ติดตั้ง ซ่อมบำรุง (49),49-9044.00,Millwrights,ช่างติดตั้งเครื่องจักรโรงงาน
+ติดตั้ง ซ่อมบำรุง (49),49-3022.00,Automotive Glass Installers and Repairers,ช่างติดตั้งและซ่อมกระจกรถยนต์
+ติดตั้ง ซ่อมบำรุง (49),49-9012.00,"Control and Valve Installers and Repairers, Except Mechanical Door",ช่างติดตั้งและซ่อมวาล์วและระบบควบคุม
+ติดตั้ง ซ่อมบำรุง (49),49-9052.00,Telecommunications Line Installers and Repairers,ช่างติดตั้งและซ่อมสายโทรคมนาคม
+ติดตั้ง ซ่อมบำรุง (49),49-9051.00,Electrical Power-Line Installers and Repairers,ช่างติดตั้งและซ่อมสายไฟฟ้าแรงสูง
+ติดตั้ง ซ่อมบำรุง (49),49-2022.00,"Telecommunications Equipment Installers and Repairers, Except Line Installers",ช่างติดตั้งและซ่อมอุปกรณ์โทรคมนาคม
+ติดตั้ง ซ่อมบำรุง (49),49-2097.00,Audiovisual Equipment Installers and Repairers,ช่างติดตั้งและซ่อมอุปกรณ์โสตทัศน์
+ติดตั้ง ซ่อมบำรุง (49),49-2096.00,"Electronic Equipment Installers and Repairers, Motor Vehicles",ช่างติดตั้งและซ่อมเครื่องเสียงและอิเล็กทรอนิกส์รถยนต์
+ติดตั้ง ซ่อมบำรุง (49),49-2021.00,"Radio, Cellular, and Tower Equipment Installers and Repairers",ช่างติดตั้งและซ่อมเสาสัญญาณวิทยุและโทรศัพท์มือถือ
+ติดตั้ง ซ่อมบำรุง (49),49-9081.00,Wind Turbine Service Technicians,ช่างบริการกังหันลม
+ติดตั้ง ซ่อมบำรุง (49),49-9043.00,"Maintenance Workers, Machinery",ช่างบำรุงรักษาเครื่องจักร
+ติดตั้ง ซ่อมบำรุง (49),49-3093.00,Tire Repairers and Changers,ช่างปะและเปลี่ยนยาง
+ติดตั้ง ซ่อมบำรุง (49),49-9096.00,Riggers,ช่างยึดโยงและยกของหนัก (Rigger)
+ติดตั้ง ซ่อมบำรุง (49),49-2091.00,Avionics Technicians,ช่างอิเล็กทรอนิกส์อากาศยาน
+ติดตั้ง ซ่อมบำรุง (49),49-3021.00,Automotive Body and Related Repairers,ช่างเคาะพ่นสีรถยนต์
+ติดตั้ง ซ่อมบำรุง (49),49-9099.01,Geothermal Technicians,ช่างเทคนิคพลังงานความร้อนใต้พิภพ
+ติดตั้ง ซ่อมบำรุง (49),49-9021.00,"Heating, Air Conditioning, and Refrigeration Mechanics and Installers",ช่างแอร์และเครื่องทำความเย็น
+ติดตั้ง ซ่อมบำรุง (49),49-2093.00,"Electrical and Electronics Installers and Repairers, Transportation Equipment",ช่างไฟฟ้าและอิเล็กทรอนิกส์ยานพาหนะขนส่ง
+ติดตั้ง ซ่อมบำรุง (49),49-9092.00,Commercial Divers,นักประดาน้ำเชิงพาณิชย์
+ติดตั้ง ซ่อมบำรุง (49),49-9098.00,"Helpers--Installation, Maintenance, and Repair Workers",ผู้ช่วยช่างติดตั้งและซ่อมบำรุง
+ติดตั้ง ซ่อมบำรุง (49),49-1011.00,"First-Line Supervisors of Mechanics, Installers, and Repairers",หัวหน้าช่างซ่อมบำรุงและติดตั้ง
+การผลิต (51),51-3021.00,Butchers and Meat Cutters,คนชำแหละและตัดแต่งเนื้อ
+การผลิต (51),51-3011.00,Bakers,คนทำขนมปังและเบเกอรี่
+การผลิต (51),51-4034.00,"Lathe and Turning Machine Tool Setters, Operators, and Tenders, Metal and Plastic",ช่างกลึง
+การผลิต (51),51-4041.00,Machinists,ช่างกลโรงงาน / ช่างเครื่องมือกล
+การผลิต (51),51-4035.00,"Milling and Planing Machine Setters, Operators, and Tenders, Metal and Plastic",ช่างกัดและไสโลหะ
+การผลิต (51),51-8021.00,Stationary Engineers and Boiler Operators,ช่างควบคุมหม้อไอน้ำและระบบเครื่องกลอาคาร
+การผลิต (51),51-9161.00,Computer Numerically Controlled Tool Operators,ช่างควบคุมเครื่อง CNC
+การผลิต (51),51-6052.00,"Tailors, Dressmakers, and Custom Sewers",ช่างตัดเสื้อ
+การผลิต (51),51-9195.03,"Stone Cutters and Carvers, Manufacturing",ช่างตัดและแกะสลักหิน
+การผลิต (51),51-9081.00,Dental Laboratory Technicians,ช่างทันตกรรม (ห้องปฏิบัติการฟันปลอม)
+การผลิต (51),51-9123.00,"Painting, Coating, and Decorating Workers",ช่างทาสี เคลือบ และตกแต่งชิ้นงาน
+การผลิต (51),51-7031.00,"Model Makers, Wood",ช่างทำต้นแบบงานไม้
+การผลิต (51),51-4061.00,"Model Makers, Metal and Plastic",ช่างทำต้นแบบโลหะและพลาสติก
+การผลิต (51),51-7021.00,Furniture Finishers,ช่างทำสีและเคลือบเฟอร์นิเจอร์
+การผลิต (51),51-9071.00,Jewelers and Precious Stone and Metal Workers,ช่างทำเครื่องประดับและช่างทอง
+การผลิต (51),51-7011.00,Cabinetmakers and Bench Carpenters,ช่างทำเฟอร์นิเจอร์และตู้ไม้
+การผลิต (51),51-7032.00,"Patternmakers, Wood",ช่างทำแบบหล่องานไม้
+การผลิต (51),51-4062.00,"Patternmakers, Metal and Plastic",ช่างทำแบบหล่อโลหะและพลาสติก
+การผลิต (51),51-6092.00,Fabric and Apparel Patternmakers,ช่างทำแพทเทิร์นเสื้อผ้า
+การผลิต (51),51-4071.00,Foundry Mold and Coremakers,ช่างทำแม่พิมพ์ทรายและไส้แบบในโรงหล่อ
+การผลิต (51),51-4111.00,Tool and Die Makers,ช่างทำแม่พิมพ์และเครื่องมือ
+การผลิต (51),51-6041.00,Shoe and Leather Workers and Repairers,ช่างทำและซ่อมรองเท้าและเครื่องหนัง
+การผลิต (51),51-2061.00,Timing Device Assemblers and Adjusters,ช่างประกอบและปรับตั้งอุปกรณ์จับเวลา
+การผลิต (51),51-2011.00,"Aircraft Structure, Surfaces, Rigging, and Systems Assemblers",ช่างประกอบโครงสร้างและระบบอากาศยาน
+การผลิต (51),51-2041.00,Structural Metal Fabricators and Fitters,ช่างประกอบโครงสร้างโลหะ
+การผลิต (51),51-9195.05,"Potters, Manufacturing",ช่างปั้นเครื่องปั้นดินเผา
+การผลิต (51),51-9082.00,Medical Appliance Technicians,ช่างผลิตอุปกรณ์การแพทย์
+การผลิต (51),51-2021.00,"Coil Winders, Tapers, and Finishers",ช่างพันขดลวด
+การผลิต (51),51-4192.00,"Layout Workers, Metal and Plastic",ช่างร่างแบบบนชิ้นงานโลหะ
+การผลิต (51),51-4194.00,"Tool Grinders, Filers, and Sharpeners",ช่างลับคมเครื่องมือ
+การผลิต (51),51-9195.00,"Molders, Shapers, and Casters, Except Metal and Plastic",ช่างหล่อและขึ้นรูป (ไม่ใช่โลหะ / พลาสติก)
+การผลิต (51),51-6093.00,Upholsterers,ช่างหุ้มเบาะ
+การผลิต (51),51-9083.00,Ophthalmic Laboratory Technicians,ช่างห้องแล็บเลนส์แว่นตา
+การผลิต (51),51-9071.06,Gem and Diamond Workers,ช่างเจียระไนอัญมณีและเพชร
+การผลิต (51),51-9022.00,"Grinding and Polishing Workers, Hand",ช่างเจียและขัดด้วยมือ
+การผลิต (51),51-4121.00,"Welders, Cutters, Solderers, and Brazers",ช่างเชื่อม ตัด และบัดกรี
+การผลิต (51),51-5111.00,Prepress Technicians and Workers,ช่างเตรียมงานก่อนพิมพ์
+การผลิต (51),51-8099.01,Biofuels Processing Technicians,ช่างเทคนิคกระบวนการผลิตเชื้อเพลิงชีวภาพ
+การผลิต (51),51-9141.00,Semiconductor Processing Technicians,ช่างเทคนิคกระบวนการผลิตเซมิคอนดักเตอร์
+การผลิต (51),51-8013.03,Biomass Plant Technicians,ช่างเทคนิคโรงไฟฟ้าชีวมวล
+การผลิต (51),51-8013.04,Hydroelectric Plant Technicians,ช่างเทคนิคโรงไฟฟ้าพลังน้ำ
+การผลิต (51),51-4052.00,"Pourers and Casters, Metal",ช่างเทหล่อโลหะ
+การผลิต (51),51-9195.04,"Glass Blowers, Molders, Benders, and Finishers",ช่างเป่าและขึ้นรูปแก้ว
+การผลิต (51),51-6051.00,"Sewers, Hand",ช่างเย็บมือ
+การผลิต (51),51-9194.00,Etchers and Engravers,ช่างแกะสลักและกัดลาย
+การผลิต (51),51-2051.00,Fiberglass Laminators and Fabricators,ช่างไฟเบอร์กลาส
+การผลิต (51),51-9197.00,Tire Builders,พนักงานขึ้นรูปยางรถยนต์
+การผลิต (51),51-8012.00,Power Distributors and Dispatchers,พนักงานควบคุมการจ่ายไฟฟ้า
+การผลิต (51),51-8011.00,Nuclear Power Reactor Operators,พนักงานควบคุมเครื่องปฏิกรณ์นิวเคลียร์
+การผลิต (51),51-9011.00,Chemical Equipment Operators and Tenders,พนักงานคุมอุปกรณ์เคมี
+การผลิต (51),51-6064.00,"Textile Winding, Twisting, and Drawing Out Machine Setters, Operators, and Tenders",พนักงานคุมเครื่องกรอและปั่นด้าย
+การผลิต (51),51-6091.00,"Extruding and Forming Machine Setters, Operators, and Tenders, Synthetic and Glass Fibers",พนักงานคุมเครื่องขึ้นรูปเส้นใยสังเคราะห์และใยแก้ว
+การผลิต (51),51-3091.00,"Food and Tobacco Roasting, Baking, and Drying Machine Operators and Tenders",พนักงานคุมเครื่องคั่ว อบ และตากแห้งอาหาร
+การผลิต (51),51-4081.00,"Multiple Machine Tool Setters, Operators, and Tenders, Metal and Plastic",พนักงานคุมเครื่องจักรกลหลายชนิด
+การผลิต (51),51-7042.00,"Woodworking Machine Setters, Operators, and Tenders, Except Sawing",พนักงานคุมเครื่องจักรงานไม้
+การผลิต (51),51-4072.00,"Molding, Coremaking, and Casting Machine Setters, Operators, and Tenders, Metal and Plastic",พนักงานคุมเครื่องฉีดและหล่อขึ้นรูป
+การผลิต (51),51-4193.00,"Plating Machine Setters, Operators, and Tenders, Metal and Plastic",พนักงานคุมเครื่องชุบโลหะ
+การผลิต (51),51-4031.00,"Cutting, Punching, and Press Machine Setters, Operators, and Tenders, Metal and Plastic",พนักงานคุมเครื่องตัด เจาะ และปั๊มโลหะ
+การผลิต (51),51-6062.00,"Textile Cutting Machine Setters, Operators, and Tenders",พนักงานคุมเครื่องตัดผ้า
+การผลิต (51),51-9032.00,"Cutting and Slicing Machine Setters, Operators, and Tenders",พนักงานคุมเครื่องตัดและหั่น
+การผลิต (51),51-9191.00,Adhesive Bonding Machine Operators and Tenders,พนักงานคุมเครื่องติดกาว
+การผลิต (51),51-4022.00,"Forging Machine Setters, Operators, and Tenders, Metal and Plastic",พนักงานคุมเครื่องตีขึ้นรูปโลหะ
+การผลิต (51),51-6063.00,"Textile Knitting and Weaving Machine Setters, Operators, and Tenders",พนักงานคุมเครื่องถักและทอผ้า
+การผลิต (51),51-9193.00,Cooling and Freezing Equipment Operators and Tenders,พนักงานคุมเครื่องทำความเย็นและแช่แข็ง
+การผลิต (51),51-9021.00,"Crushing, Grinding, and Polishing Machine Setters, Operators, and Tenders",พนักงานคุมเครื่องบด ย่อย และขัด
+การผลิต (51),51-9111.00,Packaging and Filling Machine Operators and Tenders,พนักงานคุมเครื่องบรรจุภัณฑ์
+การผลิต (51),51-3093.00,Food Cooking Machine Operators and Tenders,พนักงานคุมเครื่องปรุงอาหารในโรงงาน
+การผลิต (51),51-9196.00,"Paper Goods Machine Setters, Operators, and Tenders",พนักงานคุมเครื่องผลิตกระดาษ
+การผลิต (51),51-6042.00,Shoe Machine Operators and Tenders,พนักงานคุมเครื่องผลิตรองเท้า
+การผลิต (51),51-9023.00,"Mixing and Blending Machine Setters, Operators, and Tenders",พนักงานคุมเครื่องผสม
+การผลิต (51),51-5112.00,Printing Press Operators,พนักงานคุมเครื่องพิมพ์
+การผลิต (51),51-9124.00,"Coating, Painting, and Spraying Machine Setters, Operators, and Tenders",พนักงานคุมเครื่องพ่นสีและเคลือบ
+การผลิต (51),51-6061.00,Textile Bleaching and Dyeing Machine Operators and Tenders,พนักงานคุมเครื่องฟอกย้อมสิ่งทอ
+การผลิต (51),51-4023.00,"Rolling Machine Setters, Operators, and Tenders, Metal and Plastic",พนักงานคุมเครื่องรีดโลหะและพลาสติก
+การผลิต (51),51-9192.00,"Cleaning, Washing, and Metal Pickling Equipment Operators and Tenders",พนักงานคุมเครื่องล้างและกัดกรดโลหะ
+การผลิต (51),51-4191.00,"Heat Treating Equipment Setters, Operators, and Tenders, Metal and Plastic",พนักงานคุมเครื่องอบชุบความร้อนโลหะ
+การผลิต (51),51-9041.00,"Extruding, Forming, Pressing, and Compacting Machine Setters, Operators, and Tenders",พนักงานคุมเครื่องอัด ขึ้นรูป และบีบอัด
+การผลิต (51),51-4021.00,"Extruding and Drawing Machine Setters, Operators, and Tenders, Metal and Plastic",พนักงานคุมเครื่องอัดรีดและดึงโลหะและพลาสติก
+การผลิต (51),51-4032.00,"Drilling and Boring Machine Tool Setters, Operators, and Tenders, Metal and Plastic",พนักงานคุมเครื่องเจาะและคว้านโลหะ
+การผลิต (51),51-4033.00,"Grinding, Lapping, Polishing, and Buffing Machine Tool Setters, Operators, and Tenders, Metal and Plastic",พนักงานคุมเครื่องเจียระไนและขัดเงาโลหะ
+การผลิต (51),51-4122.00,"Welding, Soldering, and Brazing Machine Setters, Operators, and Tenders",พนักงานคุมเครื่องเชื่อมอัตโนมัติ
+การผลิต (51),51-7041.00,"Sawing Machine Setters, Operators, and Tenders, Wood",พนักงานคุมเครื่องเลื่อยไม้
+การผลิต (51),51-9012.00,"Separating, Filtering, Clarifying, Precipitating, and Still Machine Setters, Operators, and Tenders",พนักงานคุมเครื่องแยก กรอง และกลั่น
+การผลิต (51),51-4051.00,Metal-Refining Furnace Operators and Tenders,พนักงานคุมเตาหลอมโลหะ
+การผลิต (51),51-9051.00,"Furnace, Kiln, Oven, Drier, and Kettle Operators and Tenders",พนักงานคุมเตาเผา เตาอบ และหม้อต้ม
+การผลิต (51),51-6011.00,Laundry and Dry-Cleaning Workers,พนักงานซักรีดและซักแห้ง
+การผลิต (51),51-9061.00,"Inspectors, Testers, Sorters, Samplers, and Weighers",พนักงานตรวจสอบคุณภาพและคัดแยกชิ้นงาน (QC)
+การผลิต (51),51-3022.00,"Meat, Poultry, and Fish Cutters and Trimmers",พนักงานตัดแต่งเนื้อสัตว์ สัตว์ปีก และปลา
+การผลิต (51),51-9031.00,"Cutters and Trimmers, Hand",พนักงานตัดและเล็มชิ้นงานด้วยมือ
+การผลิต (51),51-2092.00,Team Assemblers,พนักงานประกอบชิ้นงานในสายการผลิต
+การผลิต (51),51-2023.00,Electromechanical Equipment Assemblers,พนักงานประกอบอุปกรณ์ระบบเครื่องกลไฟฟ้า
+การผลิต (51),51-2022.00,Electrical and Electronic Equipment Assemblers,พนักงานประกอบอุปกรณ์ไฟฟ้าและอิเล็กทรอนิกส์
+การผลิต (51),51-2031.00,Engine and Other Machine Assemblers,พนักงานประกอบเครื่องยนต์และเครื่องจักร
+การผลิต (51),51-3092.00,Food Batchmakers,พนักงานผสมวัตถุดิบอาหาร
+การผลิต (51),51-9198.00,Helpers--Production Workers,พนักงานผู้ช่วยฝ่ายผลิต
+การผลิต (51),51-6021.00,"Pressers, Textile, Garment, and Related Materials",พนักงานรีดผ้าและเสื้อผ้า
+การผลิต (51),51-9151.00,Photographic Process Workers and Processing Machine Operators,พนักงานล้างอัดภาพ
+การผลิต (51),51-5113.00,Print Binding and Finishing Workers,พนักงานเข้าเล่มและตกแต่งสิ่งพิมพ์
+การผลิต (51),51-8031.00,Water and Wastewater Treatment Plant and System Operators,พนักงานเดินระบบประปาและบำบัดน้ำเสีย
+การผลิต (51),51-8093.00,"Petroleum Pump System Operators, Refinery Operators, and Gaugers",พนักงานเดินระบบโรงกลั่นน้ำมัน
+การผลิต (51),51-8091.00,Chemical Plant and System Operators,พนักงานเดินระบบโรงงานเคมี
+การผลิต (51),51-8092.00,Gas Plant Operators,พนักงานเดินระบบโรงแยกก๊าซ
+การผลิต (51),51-8013.00,Power Plant Operators,พนักงานเดินเครื่องโรงไฟฟ้า
+การผลิต (51),51-6031.00,Sewing Machine Operators,พนักงานเย็บผ้า (จักรอุตสาหกรรม)
+การผลิต (51),51-3023.00,Slaughterers and Meat Packers,พนักงานโรงฆ่าสัตว์และบรรจุเนื้อ
+การผลิต (51),51-1011.00,First-Line Supervisors of Production and Operating Workers,หัวหน้างานฝ่ายผลิต / ซูเปอร์ไวเซอร์โรงงาน
+การผลิต (51),51-9162.00,Computer Numerically Controlled Tool Programmers,โปรแกรมเมอร์เครื่อง CNC
+ขนส่งและขนย้าย (53),53-5011.00,Sailors and Marine Oilers,กะลาสีเรือและช่างน้ำมันเรือ
+ขนส่งและขนย้าย (53),53-5021.00,"Captains, Mates, and Pilots of Water Vessels",กัปตันเรือ ต้นเรือ และนำร่อง
+ขนส่งและขนย้าย (53),53-7062.00,"Laborers and Freight, Stock, and Material Movers, Hand",คนงานขนย้ายสินค้า
+ขนส่งและขนย้าย (53),53-7062.04,Recycling and Reclamation Workers,คนงานคัดแยกและรีไซเคิลวัสดุ
+ขนส่งและขนย้าย (53),53-5031.00,Ship Engineers,ช่างกลเรือ
+ขนส่งและขนย้าย (53),53-2012.00,Commercial Pilots,นักบินพาณิชย์
+ขนส่งและขนย้าย (53),53-2011.00,"Airline Pilots, Copilots, and Flight Engineers",นักบินสายการบิน
+ขนส่งและขนย้าย (53),53-6051.00,Transportation Inspectors,ผู้ตรวจสอบการขนส่ง
+ขนส่งและขนย้าย (53),53-6051.01,Aviation Inspectors,ผู้ตรวจสอบด้านการบิน
+ขนส่งและขนย้าย (53),53-6051.07,"Transportation Vehicle, Equipment and Systems Inspectors, Except Aviation",ผู้ตรวจสอบยานพาหนะและระบบขนส่ง
+ขนส่งและขนย้าย (53),53-1042.01,Recycling Coordinators,ผู้ประสานงานรีไซเคิล
+ขนส่งและขนย้าย (53),53-7121.00,"Tank Car, Truck, and Ship Loaders",พนักงานขนถ่ายสินค้าขึ้นรถไฟ รถบรรทุก และเรือ
+ขนส่งและขนย้าย (53),53-7021.00,Crane and Tower Operators,พนักงานขับปั้นจั่นและเครน
+ขนส่งและขนย้าย (53),53-4013.00,"Rail Yard Engineers, Dinkey Operators, and Hostlers",พนักงานขับรถจักรในลานรถไฟ
+ขนส่งและขนย้าย (53),53-3032.00,Heavy and Tractor-Trailer Truck Drivers,พนักงานขับรถบรรทุกหนักและรถพ่วง
+ขนส่งและขนย้าย (53),53-3033.00,Light Truck Drivers,พนักงานขับรถบรรทุกเล็ก / รถส่งของ
+ขนส่งและขนย้าย (53),53-3011.00,"Ambulance Drivers and Attendants, Except Emergency Medical Technicians",พนักงานขับรถพยาบาล
+ขนส่งและขนย้าย (53),53-7051.00,Industrial Truck and Tractor Operators,พนักงานขับรถยก / โฟล์คลิฟต์
+ขนส่งและขนย้าย (53),53-3051.00,"Bus Drivers, School",พนักงานขับรถรับส่งนักเรียน
+ขนส่งและขนย้าย (53),53-3053.00,Shuttle Drivers and Chauffeurs,พนักงานขับรถรับส่งและคนขับรถส่วนตัว
+ขนส่งและขนย้าย (53),53-3031.00,Driver/Sales Workers,พนักงานขับรถส่งสินค้าและขาย
+ขนส่งและขนย้าย (53),53-3052.00,"Bus Drivers, Transit and Intercity",พนักงานขับรถโดยสารประจำทาง
+ขนส่งและขนย้าย (53),53-4011.00,Locomotive Engineers,พนักงานขับรถไฟ
+ขนส่งและขนย้าย (53),53-4041.00,Subway and Streetcar Operators,พนักงานขับรถไฟฟ้าและรถราง
+ขนส่งและขนย้าย (53),53-7031.00,Dredge Operators,พนักงานขับเรือขุด
+ขนส่งและขนย้าย (53),53-5022.00,Motorboat Operators,พนักงานขับเรือยนต์
+ขนส่งและขนย้าย (53),53-6011.00,Bridge and Lock Tenders,พนักงานควบคุมสะพานและประตูน้ำ
+ขนส่งและขนย้าย (53),53-7041.00,Hoist and Winch Operators,พนักงานคุมรอกและกว้าน
+ขนส่งและขนย้าย (53),53-7071.00,Gas Compressor and Gas Pumping Station Operators,พนักงานคุมสถานีอัดและสูบก๊าซ
+ขนส่งและขนย้าย (53),53-7011.00,Conveyor Operators and Tenders,พนักงานคุมสายพานลำเลียง
+ขนส่งและขนย้าย (53),53-7072.00,"Pump Operators, Except Wellhead Pumpers",พนักงานคุมเครื่องสูบ
+ขนส่งและขนย้าย (53),53-7073.00,Wellhead Pumpers,พนักงานคุมเครื่องสูบปากหลุมน้ำมัน
+ขนส่งและขนย้าย (53),53-7065.00,Stockers and Order Fillers,พนักงานจัดเรียงสินค้าและหยิบสินค้าตามออร์เดอร์
+ขนส่งและขนย้าย (53),53-6021.00,Parking Attendants,พนักงานดูแลลานจอดรถ
+ขนส่งและขนย้าย (53),53-2031.00,Flight Attendants,พนักงานต้อนรับบนเครื่องบิน
+ขนส่งและขนย้าย (53),53-6061.00,Passenger Attendants,พนักงานบริการผู้โดยสาร
+ขนส่งและขนย้าย (53),53-6032.00,Aircraft Service Attendants,พนักงานบริการอากาศยานภาคพื้น
+ขนส่งและขนย้าย (53),53-6031.00,Automotive and Watercraft Service Attendants,พนักงานปั๊มน้ำมันและบริการรถ
+ขนส่งและขนย้าย (53),53-7063.00,Machine Feeders and Offbearers,พนักงานป้อนและรับชิ้นงานจากเครื่องจักร
+ขนส่งและขนย้าย (53),53-4031.00,Railroad Conductors and Yardmasters,พนักงานรักษารถไฟ / นายสถานีลานรถไฟ
+ขนส่งและขนย้าย (53),53-7061.00,Cleaners of Vehicles and Equipment,พนักงานล้างรถและอุปกรณ์
+ขนส่งและขนย้าย (53),53-4022.00,"Railroad Brake, Signal, and Switch Operators and Locomotive Firers",พนักงานห้ามล้อ อาณัติสัญญาณ และสับประแจรถไฟ
+ขนส่งและขนย้าย (53),53-7081.00,Refuse and Recyclable Material Collectors,พนักงานเก็บขยะและวัสดุรีไซเคิล
+ขนส่งและขนย้าย (53),53-7064.00,"Packers and Packagers, Hand",พนักงานแพ็คสินค้า
+ขนส่งและขนย้าย (53),53-1041.00,Aircraft Cargo Handling Supervisors,หัวหน้างานขนถ่ายสินค้าทางอากาศ
+ขนส่งและขนย้าย (53),53-1042.00,"First-Line Supervisors of Helpers, Laborers, and Material Movers, Hand",หัวหน้างานคนงานขนย้ายสินค้า
+ขนส่งและขนย้าย (53),53-1043.00,First-Line Supervisors of Material-Moving Machine and Vehicle Operators,หัวหน้างานผู้ขับยานพาหนะและเครื่องจักรขนย้าย
+ขนส่งและขนย้าย (53),53-1044.00,First-Line Supervisors of Passenger Attendants,หัวหน้างานพนักงานบริการผู้โดยสาร
+ขนส่งและขนย้าย (53),53-2021.00,Air Traffic Controllers,เจ้าหน้าที่ควบคุมการจราจรทางอากาศ
+ขนส่งและขนย้าย (53),53-2022.00,Airfield Operations Specialists,เจ้าหน้าที่ปฏิบัติการลานบิน
+ขนส่งและขนย้าย (53),53-6041.00,Traffic Technicians,เจ้าหน้าที่เทคนิคจราจร

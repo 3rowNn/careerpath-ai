@@ -1,0 +1,137 @@
+feature,domain,name,importance_top5_drop,std
+tech::Excel,tech,Excel,0.02589,0.00249
+task::test,task,test,0.00928,0.00226
+kn::Building and Construction,kn,Building and Construction,0.00855,0.00125
+kn::Food Production,kn,Food Production,0.00586,0.0006
+kn::Sales and Marketing,kn,Sales and Marketing,0.00586,0.0012
+task::support,task,support,0.00586,0.0012
+tech::Linux,tech,Linux,0.00537,0.00091
+kn::Design,kn,Design,0.00537,0.00173
+task::present,task,present,0.0044,0.00261
+kn::Engineering and Technology,kn,Engineering and Technology,0.0044,0.00158
+task::lead,task,lead,0.00391,0.00035
+ri::Realistic,ri,Realistic,0.00342,0.00091
+kn::Chemistry,kn,Chemistry,0.00342,0.00183
+ab::Explosive Strength,ab,Explosive Strength,0.00317,0.00069
+kn::Computers and Electronics,kn,Computers and Electronics,0.00317,0.00242
+ab::Originality,ab,Originality,0.00317,0.00035
+tech::SQL,tech,SQL,0.00293,0.00158
+ri::Enterprising,ri,Enterprising,0.00293,0.00216
+ri::Investigative,ri,Investigative,0.00269,0.00125
+sk::Science,sk,Science,0.00269,0.00035
+task::model,task,model,0.00244,0.00035
+task::infra,task,infra,0.00244,0.00091
+kn::Mechanical,kn,Mechanical,0.0022,0.0006
+kn::Psychology,kn,Psychology,0.0022,0.0006
+ab::Written Comprehension,ab,Written Comprehension,0.0022,0.00104
+kn::Education and Training,kn,Education and Training,0.0022,0.0
+ab::Fluency of Ideas,ab,Fluency of Ideas,0.0022,0.0006
+kn::Production and Processing,kn,Production and Processing,0.0022,0.0012
+task::database,task,database,0.0022,0.0006
+kn::Communications and Media,kn,Communications and Media,0.00195,0.00069
+ab::Number Facility,ab,Number Facility,0.00195,0.00069
+ab::Memorization,ab,Memorization,0.00195,0.00125
+kn::Customer and Personal Service,kn,Customer and Personal Service,0.00195,0.00151
+ri::Artistic,ri,Artistic,0.00195,0.00035
+kn::Geography,kn,Geography,0.00171,0.00125
+tech::JavaScript,tech,JavaScript,0.00171,0.00035
+task::build,task,build,0.00171,0.00091
+kn::Fine Arts,kn,Fine Arts,0.00171,0.00035
+kn::Administrative,kn,Administrative,0.00171,0.00138
+kn::Law and Government,kn,Law and Government,0.00147,0.0006
+task::ui,task,ui,0.00147,0.0006
+ri::Conventional,ri,Conventional,0.00147,0.00104
+tech::Tableau,tech,Tableau,0.00147,0.00104
+kn::Transportation,kn,Transportation,0.00147,0.00158
+sk::Writing,sk,Writing,0.00147,0.00104
+ab::Mathematical Reasoning,ab,Mathematical Reasoning,0.00122,0.00151
+sk::Active Learning,sk,Active Learning,0.00122,0.00091
+sk::Critical Thinking,sk,Critical Thinking,0.00122,0.00069
+kn::Administration and Management,kn,Administration and Management,0.00122,0.00035
+ab::Peripheral Vision,ab,Peripheral Vision,0.00122,0.00091
+kn::Physics,kn,Physics,0.00122,0.00091
+kn::Economics and Accounting,kn,Economics and Accounting,0.00122,0.00091
+ab::Sound Localization,ab,Sound Localization,0.00122,0.00035
+tech::SAS,tech,SAS,0.00122,0.00091
+kn::Medicine and Dentistry,kn,Medicine and Dentistry,0.00098,0.00035
+ri::Social,ri,Social,0.00098,0.00091
+kn::Philosophy and Theology,kn,Philosophy and Theology,0.00098,0.00035
+tech::AWS,tech,AWS,0.00098,0.00035
+tech::Spark,tech,Spark,0.00098,0.00035
+ab::Oral Comprehension,ab,Oral Comprehension,0.00098,0.00035
+ab::Static Strength,ab,Static Strength,0.00098,0.00035
+ab::Visualization,ab,Visualization,0.00098,0.00069
+kn::Public Safety and Security,kn,Public Safety and Security,0.00098,0.00138
+task::security,task,security,0.00098,0.00035
+ab::Inductive Reasoning,ab,Inductive Reasoning,0.00098,0.00035
+ab::Gross Body Equilibrium,ab,Gross Body Equilibrium,0.00098,0.00035
+ab::Night Vision,ab,Night Vision,0.00098,0.00035
+ab::Reaction Time,ab,Reaction Time,0.00073,0.0006
+kn::Mathematics,kn,Mathematics,0.00073,0.0006
+sk::Active Listening,sk,Active Listening,0.00073,0.0006
+ab::Depth Perception,ab,Depth Perception,0.00073,0.0006
+ab::Dynamic Strength,ab,Dynamic Strength,0.00073,0.00104
+ab::Wrist-Finger Speed,ab,Wrist-Finger Speed,0.00073,0.0
+kn::Therapy and Counseling,kn,Therapy and Counseling,0.00073,0.00158
+tech::Python,tech,Python,0.00073,0.0006
+ab::Written Expression,ab,Written Expression,0.00049,0.00035
+ab::Far Vision,ab,Far Vision,0.00049,0.00035
+ab::Dynamic Flexibility,ab,Dynamic Flexibility,0.00049,0.00035
+kn::Foreign Language,kn,Foreign Language,0.00049,0.00151
+ab::Time Sharing,ab,Time Sharing,0.00049,0.00035
+ab::Spatial Orientation,ab,Spatial Orientation,0.00049,0.00125
+kn::Personnel and Human Resources,kn,Personnel and Human Resources,0.00049,0.00035
+task::analyze,task,analyze,0.00049,0.00069
+tech::Git,tech,Git,0.00049,0.00069
+sk::Learning Strategies,sk,Learning Strategies,0.00049,0.00151
+ab::Selective Attention,ab,Selective Attention,0.00049,0.00069
+ab::Extent Flexibility,ab,Extent Flexibility,0.00049,0.00091
+tech::TensorFlow/PyTorch,tech,TensorFlow/PyTorch,0.00049,0.00035
+ab::Stamina,ab,Stamina,0.00024,0.00173
+tech::Java,tech,Java,0.00024,0.00091
+ab::Glare Sensitivity,ab,Glare Sensitivity,0.00024,0.00091
+ab::Manual Dexterity,ab,Manual Dexterity,0.00024,0.00091
+sk::Mathematics,sk,Mathematics,0.00024,0.00035
+ab::Response Orientation,ab,Response Orientation,0.00024,0.00035
+ab::Trunk Strength,ab,Trunk Strength,0.00024,0.00151
+kn::Biology,kn,Biology,0.00024,0.00192
+ab::Rate Control,ab,Rate Control,0.0,0.0012
+tech::Figma,tech,Figma,0.0,0.0006
+ab::Perceptual Speed,ab,Perceptual Speed,0.0,0.0006
+ab::Speech Recognition,ab,Speech Recognition,0.0,0.0006
+ab::Flexibility of Closure,ab,Flexibility of Closure,0.0,0.0006
+ab::Arm-Hand Steadiness,ab,Arm-Hand Steadiness,-0.00024,0.00091
+kn::Sociology and Anthropology,kn,Sociology and Anthropology,-0.00024,0.00035
+sk::Monitoring,sk,Monitoring,-0.00024,0.00035
+ab::Visual Color Discrimination,ab,Visual Color Discrimination,-0.00024,0.00069
+kn::History and Archeology,kn,History and Archeology,-0.00024,0.00091
+tech::C++,tech,C++,-0.00024,0.00035
+tech::HTML,tech,HTML,-0.00024,0.00069
+ab::Speed of Closure,ab,Speed of Closure,-0.00024,0.00069
+kn::English Language,kn,English Language,-0.00024,0.00035
+ab::Problem Sensitivity,ab,Problem Sensitivity,-0.00049,0.00035
+ab::Finger Dexterity,ab,Finger Dexterity,-0.00049,0.00035
+tech::React,tech,React,-0.00049,0.00035
+ab::Multilimb Coordination,ab,Multilimb Coordination,-0.00049,0.00069
+ab::Speed of Limb Movement,ab,Speed of Limb Movement,-0.00049,0.00035
+ab::Control Precision,ab,Control Precision,-0.00073,0.0006
+tech::Kubernetes,tech,Kubernetes,-0.00073,0.0006
+tech::Power BI,tech,Power BI,-0.00073,0.0
+ab::Deductive Reasoning,ab,Deductive Reasoning,-0.00073,0.0006
+ab::Near Vision,ab,Near Vision,-0.00073,0.0006
+tech::Docker,tech,Docker,-0.00073,0.0006
+kn::Telecommunications,kn,Telecommunications,-0.00073,0.00104
+sk::Speaking,sk,Speaking,-0.00073,0.0006
+ab::Information Ordering,ab,Information Ordering,-0.00098,0.00035
+tech::R,tech,R,-0.00098,0.00035
+sk::Reading Comprehension,sk,Reading Comprehension,-0.00098,0.00035
+task::research,task,research,-0.00122,0.00035
+ab::Category Flexibility,ab,Category Flexibility,-0.00122,0.00035
+tech::MATLAB,tech,MATLAB,-0.00147,0.0006
+tech::Node.js,tech,Node.js,-0.00147,0.0006
+ab::Oral Expression,ab,Oral Expression,-0.00147,0.0
+ab::Auditory Attention,ab,Auditory Attention,-0.00171,0.00035
+ab::Hearing Sensitivity,ab,Hearing Sensitivity,-0.00171,0.00035
+ab::Gross Body Coordination,ab,Gross Body Coordination,-0.00171,0.00173
+ab::Speech Clarity,ab,Speech Clarity,-0.00171,0.00138
+tech::Azure,tech,Azure,-0.00171,0.00035

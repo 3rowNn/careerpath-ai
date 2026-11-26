@@ -1,0 +1,4 @@
+,top1,top5,top5_major_group
+"A. Matching (cosine), validation",0.963,0.996,1.0
+"A. Matching (cosine), test",0.963,0.997,1.0
+B. Nearest centroid (train→test),0.781,0.949,0.992

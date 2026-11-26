@@ -1,0 +1,31 @@
+feature,name_th,question_th,n_skills,members
+grp::numbers,ตัวเลขและคณิตศาสตร์,คำนวณ ใช้ตัวเลข และแก้โจทย์คณิตศาสตร์ได้ดีแค่ไหน,4,ab::Mathematical Reasoning | ab::Number Facility | kn::Mathematics | sk::Mathematics
+grp::reasoning,การคิดวิเคราะห์,คิดวิเคราะห์ ใช้เหตุผล แก้ปัญหา และเรียนรู้สิ่งใหม่ได้ดีแค่ไหน,9,ab::Category Flexibility | ab::Deductive Reasoning | ab::Fluency of Ideas | ab::Inductive Reasoning | ab::Information Ordering | ab::Originality | ab::Problem Sensitivity | sk::Active Learning | sk::Critical Thinking
+grp::near_vision,การมองรายละเอียดระยะใกล้,มองรายละเอียดเล็ก ๆ ในระยะใกล้ได้ดีแค่ไหน เช่น อ่านตัวหนังสือเล็ก ตรวจชิ้นงาน,1,ab::Near Vision
+grp::teaching,การสอนและติดตามงาน,สอนหรือถ่ายทอดความรู้ จดจำข้อมูล และติดตามความคืบหน้าของงานได้ดีแค่ไหน,4,ab::Memorization | kn::Education and Training | sk::Learning Strategies | sk::Monitoring
+grp::communication,การสื่อสาร,ฟัง พูด อ่าน และเขียน เพื่อสื่อสารให้คนอื่นเข้าใจได้ดีแค่ไหน,10,ab::Oral Comprehension | ab::Oral Expression | ab::Speech Clarity | ab::Speech Recognition | ab::Written Comprehension | ab::Written Expression | sk::Active Listening | sk::Reading Comprehension | sk::Speaking | sk::Writing
+grp::management,การบริหารจัดการ,มีความรู้ด้านการบริหารองค์กรและบริหารคนแค่ไหน,2,kn::Administration and Management | kn::Personnel and Human Resources
+grp::business,ธุรกิจ บัญชี และการตลาด,มีความรู้ด้านเศรษฐศาสตร์ บัญชี การขาย และการตลาดแค่ไหน,2,kn::Economics and Accounting | kn::Sales and Marketing
+grp::computers,คอมพิวเตอร์และอิเล็กทรอนิกส์,มีความรู้ด้านคอมพิวเตอร์ อิเล็กทรอนิกส์ และระบบสื่อสารแค่ไหน,2,kn::Computers and Electronics | kn::Telecommunications
+grp::admin_service,งานธุรการและบริการลูกค้า,มีความรู้ด้านงานเอกสาร ธุรการ และการบริการลูกค้าแค่ไหน,2,kn::Administrative | kn::Customer and Personal Service
+grp::media_language,สื่อและภาษา,มีความรู้ด้านการผลิตสื่อ สื่อสารมวลชน และหลักภาษาแค่ไหน,2,kn::Communications and Media | kn::English Language
+grp::law,กฎหมายและหน่วยงานรัฐ,มีความรู้ด้านกฎหมาย ระเบียบ และหน่วยงานรัฐแค่ไหน,1,kn::Law and Government
+grp::people_society,จิตวิทยาและสังคม,มีความรู้ด้านจิตวิทยา สังคม ปรัชญา หรือการให้คำปรึกษาแค่ไหน,4,kn::Philosophy and Theology | kn::Psychology | kn::Sociology and Anthropology | kn::Therapy and Counseling
+grp::foreign_language,ภาษาต่างประเทศ,ใช้ภาษาต่างประเทศได้ดีแค่ไหน,1,kn::Foreign Language
+grp::geo_history,ภูมิศาสตร์และประวัติศาสตร์,มีความรู้ด้านภูมิศาสตร์และประวัติศาสตร์แค่ไหน,2,kn::Geography | kn::History and Archeology
+grp::arts,ศิลปะ,มีความรู้ด้านศิลปะ ดนตรี หรือการแสดงแค่ไหน,1,kn::Fine Arts
+grp::field_vision,การรับรู้ทิศทางและการมองในสภาพต่าง ๆ,รับรู้ทิศทางและมองเห็นได้ดีแค่ไหน ในที่มืด แสงจ้า หรือพื้นที่กว้าง,5,ab::Glare Sensitivity | ab::Night Vision | ab::Peripheral Vision | ab::Sound Localization | ab::Spatial Orientation
+grp::safety_transport,ความปลอดภัยและการขนส่ง,มีความรู้ด้านความปลอดภัยสาธารณะ และการขนส่งแค่ไหน,2,kn::Public Safety and Security | kn::Transportation
+grp::food,อาหารและการเกษตร,มีความรู้ด้านการผลิตอาหาร เกษตร หรือปศุสัตว์แค่ไหน,1,kn::Food Production
+grp::hand_dexterity,ความคล่องของมือ,ใช้มือและนิ้วทำงานละเอียดได้ดีแค่ไหน เช่น ประกอบชิ้นส่วน ควบคุมเครื่องมือ,4,ab::Arm-Hand Steadiness | ab::Control Precision | ab::Finger Dexterity | ab::Manual Dexterity
+grp::hearing,การฟังและแยกเสียง,ตั้งใจฟังและแยกแยะเสียงได้ดีแค่ไหน,2,ab::Auditory Attention | ab::Hearing Sensitivity
+grp::machine_control,การควบคุมเครื่องจักร,ควบคุมเครื่องจักรหรือยานพาหนะ และตอบสนองได้รวดเร็วแม่นยำแค่ไหน,6,ab::Depth Perception | ab::Multilimb Coordination | ab::Rate Control | ab::Reaction Time | ab::Response Orientation | ab::Wrist-Finger Speed
+grp::physical,แรงกายและความทนทาน,ทำงานที่ใช้แรงกาย ความทนทาน และการเคลื่อนไหวร่างกายได้ดีแค่ไหน,9,ab::Dynamic Strength | ab::Explosive Strength | ab::Extent Flexibility | ab::Gross Body Coordination | ab::Gross Body Equilibrium | ab::Speed of Limb Movement | ab::Stamina | ab::Static Strength | ab::Trunk Strength
+grp::flexibility,ความยืดหยุ่นของร่างกาย,ก้มตัว บิดตัว หรือเอื้อมซ้ำ ๆ ได้คล่องแค่ไหน,1,ab::Dynamic Flexibility
+grp::visualization,การนึกภาพและแยกสี,นึกภาพ 3 มิติ และแยกแยะสีได้ดีแค่ไหน,2,ab::Visual Color Discrimination | ab::Visualization
+grp::engineering,วิศวกรรมและงานช่าง,มีความรู้ด้านวิศวกรรม การออกแบบ เครื่องกล การก่อสร้าง หรือการผลิตแค่ไหน,5,kn::Building and Construction | kn::Design | kn::Engineering and Technology | kn::Mechanical | kn::Production and Processing
+grp::far_multitask,การมองไกลและทำหลายอย่างพร้อมกัน,มองรายละเอียดระยะไกล และติดตามหลายอย่างพร้อมกันได้ดีแค่ไหน,2,ab::Far Vision | ab::Time Sharing
+grp::pattern_finding,การจับรูปแบบ,มองหารูปแบบหรือสิ่งที่ซ่อนอยู่ในข้อมูลหรือภาพที่ซับซ้อนได้เร็วแค่ไหน,2,ab::Flexibility of Closure | ab::Speed of Closure
+grp::focus_speed,สมาธิและความเร็วในการตรวจ,จดจ่อกับงานแม้มีสิ่งรบกวน และตรวจเทียบข้อมูลได้รวดเร็วแค่ไหน,2,ab::Perceptual Speed | ab::Selective Attention
+grp::bio_medical,ชีววิทยาและการแพทย์,มีความรู้ด้านชีววิทยา การแพทย์ หรือสุขภาพแค่ไหน,2,kn::Biology | kn::Medicine and Dentistry
+grp::physical_science,เคมีและฟิสิกส์,มีความรู้ด้านเคมี ฟิสิกส์ และวิธีการทางวิทยาศาสตร์แค่ไหน,3,kn::Chemistry | kn::Physics | sk::Science

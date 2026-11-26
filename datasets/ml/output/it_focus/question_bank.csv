@@ -1,0 +1,13 @@
+feature,question_th,scale,task_keywords_regex
+task::ui,ชอบออกแบบและสร้างหน้าจอที่คนใช้งาน เช่น เว็บหรือแอป,1 = ไม่ชอบเลย … 5 = ชอบมาก,web ?sites?|web pages?|user interfaces?|front[- ]end|layouts?|usability|user experience|graphic|visual design|mockups?|prototypes?
+task::build,ชอบเขียนโปรแกรมสร้างระบบหรือซอฟต์แวร์ใหม่,1 = ไม่ชอบเลย … 5 = ชอบมาก,"\bcod(e|ing)\b|programming|computer programs?|(write|develop|design|build|modify|create|implement)\w* (\w+ ){0,3}(software|applications?|code|scripts?|computer programs?)"
+task::infra,ชอบดูแลเซิร์ฟเวอร์ เครือข่าย และระบบให้ทำงานได้ไม่ล่ม,1 = ไม่ชอบเลย … 5 = ชอบมาก,networks?\b|servers?\b|infrastructure|operating systems?|system administration|backups?|uptime|cloud|configur|data cent(er|re)
+task::security,ชอบหาช่องโหว่และป้องกันระบบจากการถูกโจมตี,1 = ไม่ชอบเลย … 5 = ชอบมาก,security|vulnerab|threats?|attacks?|intrusion|malware|virus|encrypt|penetration|forensic|breach|firewall|cyber
+task::analyze,ชอบวิเคราะห์ข้อมูลเพื่อหาคำตอบหรือ insight,1 = ไม่ชอบเลย … 5 = ชอบมาก,analy[sz]e (data|datasets|information|results|trends)|data analysis|statistic|datasets?|data sets?|trends|insights?|visuali[sz]|dashboards?
+task::model,ชอบสร้างโมเดลทำนาย หรือใช้คณิตศาสตร์แก้ปัญหา,1 = ไม่ชอบเลย … 5 = ชอบมาก,models?\b|modeling|predict|algorithms?|machine learning|artificial intelligence|mathematical|simulat|forecast|optimi[sz]
+task::database,ชอบออกแบบและจัดการฐานข้อมูล,1 = ไม่ชอบเลย … 5 = ชอบมาก,databases?|data warehous|\bsql\b|data models?|schemas?|quer(y|ies)|data storage|data integrity
+task::test,ชอบตรวจหา bug และทดสอบว่าระบบทำงานถูกต้อง,1 = ไม่ชอบเลย … 5 = ชอบมาก,\btest(s|ing)?\b|debug|defects?|quality assurance|\bbugs?\b|validat|verif|errors?\b
+task::support,ชอบช่วยเหลือผู้ใช้แก้ปัญหาการใช้งาน,1 = ไม่ชอบเลย … 5 = ชอบมาก,\busers?\b|help desk|customers?|clients?|inquiries|answer questions|troubleshoot|train (users|staff|employees)
+task::lead,ชอบวางแผนโปรเจกต์ ประสานงานทีม และจัดการคน,1 = ไม่ชอบเลย … 5 = ชอบมาก,coordinat|\bmanag(e|ing)\b|supervis|schedul|budgets?|projects?\b|direct (the )?(work|activities|staff)|\bplan(s|ning)?\b
+task::research,ชอบค้นคว้าวิจัยและติดตามเทคโนโลยีใหม่,1 = ไม่ชอบเลย … 5 = ชอบมาก,research|investigat|emerging|new technolog|literature|experiment|abreast|current (developments|trends)|innovat
+task::present,ชอบนำเสนอ อธิบาย หรือเขียนเอกสาร,1 = ไม่ชอบเลย … 5 = ชอบมาก,present(ation)?s?\b|document(ation)?|(write|prepare) (reports|manuals|documentation)|explain|communicat|recommend

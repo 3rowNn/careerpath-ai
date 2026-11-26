@@ -1,0 +1,67 @@
+{
+  "note": "ผู้ใช้จำลอง (โปรไฟล์อาชีพ + noise/bias, ปัดเป็นคำตอบ 1–5) — ไม่ใช่คนจริง",
+  "n_users": 8190,
+  "seed": 4001,
+  "scenarios": [
+    "noise 15, bias +0",
+    "noise 15, bias +15",
+    "noise 15, bias -15",
+    "noise 25, bias +0",
+    "noise 25, bias +15",
+    "noise 25, bias -15",
+    "noise 35, bias +0",
+    "noise 35, bias +15",
+    "noise 35, bias -15"
+  ],
+  "overall": {
+    "top1": 0.6271,
+    "top5": 0.8204
+  },
+  "bins": [
+    {
+      "min": 0.0441,
+      "max": 0.1764,
+      "level": "low",
+      "n": 1638,
+      "top1": 0.2222,
+      "top5": 0.5433
+    },
+    {
+      "min": 0.1764,
+      "max": 0.2912,
+      "level": "low",
+      "n": 1638,
+      "top1": 0.3993,
+      "top5": 0.7308
+    },
+    {
+      "min": 0.2912,
+      "max": 0.4875,
+      "level": "medium",
+      "n": 1638,
+      "top1": 0.6673,
+      "top5": 0.8791
+    },
+    {
+      "min": 0.4875,
+      "max": 0.7715,
+      "level": "high",
+      "n": 1638,
+      "top1": 0.8657,
+      "top5": 0.9579
+    },
+    {
+      "min": 0.7715,
+      "max": 1.0,
+      "level": "high",
+      "n": 1638,
+      "top1": 0.9811,
+      "top5": 0.9908
+    }
+  ],
+  "agreement": {
+    "rate": 0.5672,
+    "top1_if_agree": 0.8248,
+    "top1_if_disagree": 0.3681
+  }
+}

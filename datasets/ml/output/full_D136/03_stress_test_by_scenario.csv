@@ -1,0 +1,28 @@
+model,scenario,top1,top5,top5_major_group,macro_f1
+① Matching — cosine (baseline),noise 15,0.9879,1.0,1.0,0.9842
+① Matching — cosine (baseline),"noise 15, bias +15",0.8484,0.967,0.9901,0.8151
+① Matching — cosine (baseline),"noise 15, bias -15",0.9593,0.9945,0.9989,0.9473
+① Matching — cosine (baseline),noise 25,0.7945,0.9297,0.9835,0.7499
+① Matching — cosine (baseline),"noise 25, bias +15",0.6429,0.833,0.9385,0.5891
+① Matching — cosine (baseline),"noise 25, bias -15",0.8088,0.9462,0.9901,0.771
+① Matching — cosine (baseline),noise 35,0.5429,0.7451,0.8901,0.4841
+① Matching — cosine (baseline),"noise 35, bias +15",0.4143,0.6044,0.8319,0.3547
+① Matching — cosine (baseline),"noise 35, bias -15",0.5945,0.7835,0.9154,0.5384
+②a Classifier — MLP (256),noise 15,0.9429,0.9956,1.0,0.9268
+②a Classifier — MLP (256),"noise 15, bias +15",0.9033,0.9912,0.9978,0.8775
+②a Classifier — MLP (256),"noise 15, bias -15",0.878,0.9802,0.9934,0.8483
+②a Classifier — MLP (256),noise 25,0.6725,0.8736,0.9703,0.6231
+②a Classifier — MLP (256),"noise 25, bias +15",0.6473,0.8473,0.9659,0.5967
+②a Classifier — MLP (256),"noise 25, bias -15",0.6121,0.8495,0.9692,0.559
+②a Classifier — MLP (256),noise 35,0.411,0.656,0.8846,0.3597
+②a Classifier — MLP (256),"noise 35, bias +15",0.3769,0.6099,0.8736,0.3105
+②a Classifier — MLP (256),"noise 35, bias -15",0.4022,0.6418,0.878,0.3532
+Ensemble ① + ②a,noise 15,0.9692,0.9989,1.0,0.9603
+Ensemble ① + ②a,"noise 15, bias +15",0.9187,0.9967,0.9989,0.8971
+Ensemble ① + ②a,"noise 15, bias -15",0.9352,0.9923,0.9967,0.9203
+Ensemble ① + ②a,noise 25,0.7538,0.9341,0.9846,0.7135
+Ensemble ① + ②a,"noise 25, bias +15",0.7099,0.8736,0.9637,0.6603
+Ensemble ① + ②a,"noise 25, bias -15",0.7505,0.9385,0.9868,0.7072
+Ensemble ① + ②a,noise 35,0.5275,0.7637,0.9121,0.4763
+Ensemble ① + ②a,"noise 35, bias +15",0.4462,0.6615,0.8879,0.3829
+Ensemble ① + ②a,"noise 35, bias -15",0.5571,0.7791,0.9187,0.5078

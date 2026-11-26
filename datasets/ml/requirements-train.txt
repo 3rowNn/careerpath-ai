@@ -1,0 +1,4 @@
+# ฝั่งเทรน/วิเคราะห์ (notebook, train_models.py, general_assessment.py, evaluation)
+-r ../../backend/requirements.txt
+openpyxl==3.1.5
+matplotlib==3.11.2

@@ -1,0 +1,3773 @@
+{
+ "source": "NCES CIP 2020 → SOC 2018 Crosswalk (qualitative) + thai_majors.csv (ร่างโดย Claude)",
+ "excluded_catch_all_soc": [
+  "11-9199"
+ ],
+ "n_majors": 97,
+ "occupations_reachable": 588,
+ "problems": [],
+ "majors": [
+  {
+   "id": "cs",
+   "faculty": "วิทยาศาสตร์ / ไอที",
+   "major_th": "วิทยาการคอมพิวเตอร์",
+   "cip": [
+    "11.0101",
+    "11.0102",
+    "11.0103",
+    "11.0104",
+    "11.0105",
+    "11.0199",
+    "11.0701"
+   ],
+   "cip_titles": [
+    "Computer and Information Sciences, General",
+    "Artificial Intelligence",
+    "Information Technology",
+    "Informatics",
+    "Human-Centered Technology Design",
+    "Computer and Information Sciences,  Other",
+    "Computer Science"
+   ],
+   "codes": [
+    "11-3021.00",
+    "15-1211.00",
+    "15-1211.01",
+    "15-1212.00",
+    "15-1221.00",
+    "15-1231.00",
+    "15-1241.00",
+    "15-1241.01",
+    "15-1242.00",
+    "15-1243.00",
+    "15-1243.01",
+    "15-1244.00",
+    "15-1251.00",
+    "15-1252.00",
+    "15-1253.00",
+    "15-1254.00",
+    "15-1255.00",
+    "15-1255.01",
+    "15-1299.01",
+    "15-1299.02",
+    "15-1299.03",
+    "15-1299.04",
+    "15-1299.05",
+    "15-1299.06",
+    "15-1299.07",
+    "15-1299.08",
+    "15-1299.09",
+    "15-2051.00",
+    "15-2051.01",
+    "15-2051.02",
+    "25-1021.00"
+   ]
+  },
+  {
+   "id": "it",
+   "faculty": "วิทยาศาสตร์ / ไอที",
+   "major_th": "เทคโนโลยีสารสนเทศ",
+   "cip": [
+    "11.0101",
+    "11.0102",
+    "11.0103",
+    "11.0104",
+    "11.0105",
+    "11.0199",
+    "11.0401",
+    "11.1001",
+    "11.1002",
+    "11.1003",
+    "11.1004",
+    "11.1005",
+    "11.1006"
+   ],
+   "cip_titles": [
+    "Computer and Information Sciences, General",
+    "Artificial Intelligence",
+    "Information Technology",
+    "Informatics",
+    "Human-Centered Technology Design",
+    "Computer and Information Sciences,  Other",
+    "Information Science/Studies",
+    "Network and System Administration/Administrator",
+    "System, Networking, and LAN/WAN Management/Manager",
+    "Computer and Information Systems Security/Auditing/Information Assurance",
+    "Web/Multimedia Management and Webmaster",
+    "Information Technology Project Management",
+    "Computer Support Specialist"
+   ],
+   "codes": [
+    "11-3021.00",
+    "13-1082.00",
+    "15-1211.00",
+    "15-1211.01",
+    "15-1212.00",
+    "15-1221.00",
+    "15-1231.00",
+    "15-1232.00",
+    "15-1241.00",
+    "15-1241.01",
+    "15-1242.00",
+    "15-1243.00",
+    "15-1243.01",
+    "15-1244.00",
+    "15-1252.00",
+    "15-1253.00",
+    "15-1254.00",
+    "15-1255.00",
+    "15-1255.01",
+    "15-1299.01",
+    "15-1299.02",
+    "15-1299.03",
+    "15-1299.04",
+    "15-1299.05",
+    "15-1299.06",
+    "15-1299.07",
+    "15-1299.08",
+    "15-1299.09",
+    "15-2051.00",
+    "15-2051.01",
+    "15-2051.02",
+    "25-1021.00"
+   ]
+  },
+  {
+   "id": "data_science",
+   "faculty": "วิทยาศาสตร์ / ไอที",
+   "major_th": "วิทยาการข้อมูล",
+   "cip": [
+    "11.0801",
+    "11.0802",
+    "11.0803",
+    "11.0804",
+    "30.7001",
+    "30.7099"
+   ],
+   "cip_titles": [
+    "Web Page, Digital/Multimedia and Information Resources Design",
+    "Data Modeling/Warehousing and Database Administration",
+    "Computer Graphics",
+    "Modeling, Virtual Environments and Simulation",
+    "Data Science, General",
+    "Data Science, Other"
+   ],
+   "codes": [
+    "11-3021.00",
+    "11-9121.00",
+    "11-9121.01",
+    "11-9121.02",
+    "15-1221.00",
+    "15-1242.00",
+    "15-1243.00",
+    "15-1243.01",
+    "15-1251.00",
+    "15-1252.00",
+    "15-1254.00",
+    "15-1255.00",
+    "15-1255.01",
+    "15-2041.00",
+    "15-2041.01",
+    "15-2051.00",
+    "15-2051.01",
+    "15-2051.02",
+    "25-1021.00",
+    "25-1194.00",
+    "27-1014.00",
+    "27-1024.00"
+   ]
+  },
+  {
+   "id": "math",
+   "faculty": "วิทยาศาสตร์ / ไอที",
+   "major_th": "คณิตศาสตร์",
+   "cip": [
+    "27.0101",
+    "27.0102",
+    "27.0103",
+    "27.0104",
+    "27.0105",
+    "27.0199",
+    "27.0301",
+    "27.0303",
+    "27.0304",
+    "27.0305",
+    "27.0306",
+    "27.0399"
+   ],
+   "cip_titles": [
+    "Mathematics, General",
+    "Algebra and Number Theory",
+    "Analysis and Functional Analysis",
+    "Geometry/Geometric Analysis",
+    "Topology and Foundations",
+    "Mathematics, Other",
+    "Applied Mathematics, General",
+    "Computational Mathematics",
+    "Computational and Applied Mathematics",
+    "Financial Mathematics",
+    "Mathematical Biology",
+    "Applied Mathematics, Other"
+   ],
+   "codes": [
+    "11-9121.00",
+    "11-9121.01",
+    "11-9121.02",
+    "13-2099.01",
+    "13-2099.04",
+    "15-2011.00",
+    "15-2021.00",
+    "15-2041.00",
+    "15-2041.01",
+    "15-2051.00",
+    "15-2051.01",
+    "15-2051.02",
+    "15-2099.01",
+    "19-1029.01",
+    "19-1029.02",
+    "19-1029.03",
+    "19-1029.04",
+    "19-3011.00",
+    "19-3011.01",
+    "25-1022.00",
+    "25-2031.00"
+   ]
+  },
+  {
+   "id": "stat",
+   "faculty": "วิทยาศาสตร์ / ไอที",
+   "major_th": "สถิติ / วิทยาการประกันภัย",
+   "cip": [
+    "27.0501",
+    "27.0502",
+    "27.0503",
+    "27.0599",
+    "52.1601"
+   ],
+   "cip_titles": [
+    "Statistics, General",
+    "Mathematical Statistics and Probability",
+    "Mathematics and Statistics",
+    "Statistics, Other",
+    "Taxation"
+   ],
+   "codes": [
+    "11-9121.00",
+    "11-9121.01",
+    "11-9121.02",
+    "13-2011.00",
+    "13-2022.00",
+    "13-2061.00",
+    "13-2081.00",
+    "13-2082.00",
+    "15-2011.00",
+    "15-2021.00",
+    "15-2041.00",
+    "15-2041.01",
+    "15-2051.00",
+    "15-2051.01",
+    "15-2051.02",
+    "19-3022.00",
+    "25-1022.00"
+   ]
+  },
+  {
+   "id": "physics",
+   "faculty": "วิทยาศาสตร์ / ไอที",
+   "major_th": "ฟิสิกส์",
+   "cip": [
+    "40.0801",
+    "40.0802",
+    "40.0804",
+    "40.0805",
+    "40.0806",
+    "40.0807",
+    "40.0808",
+    "40.0809",
+    "40.0810",
+    "40.0899"
+   ],
+   "cip_titles": [
+    "Physics, General",
+    "Atomic/Molecular Physics",
+    "Elementary Particle Physics",
+    "Plasma and High-Temperature Physics",
+    "Nuclear Physics",
+    "Optics/Optical Sciences",
+    "Condensed Matter and Materials Physics",
+    "Acoustics",
+    "Theoretical and Mathematical Physics",
+    "Physics, Other"
+   ],
+   "codes": [
+    "11-9121.00",
+    "11-9121.01",
+    "11-9121.02",
+    "19-2012.00",
+    "25-1054.00",
+    "25-2031.00"
+   ]
+  },
+  {
+   "id": "chemistry",
+   "faculty": "วิทยาศาสตร์ / ไอที",
+   "major_th": "เคมี",
+   "cip": [
+    "40.0501",
+    "40.0502",
+    "40.0503",
+    "40.0504",
+    "40.0506",
+    "40.0507",
+    "40.0508",
+    "40.0509",
+    "40.0510",
+    "40.0511",
+    "40.0512",
+    "40.0599"
+   ],
+   "cip_titles": [
+    "Chemistry, General",
+    "Analytical Chemistry",
+    "Inorganic Chemistry",
+    "Organic Chemistry",
+    "Physical Chemistry",
+    "Polymer Chemistry",
+    "Chemical Physics",
+    "Environmental Chemistry",
+    "Forensic Chemistry",
+    "Theoretical Chemistry",
+    "Cheminformatics/Chemistry Informatics",
+    "Chemistry, Other"
+   ],
+   "codes": [
+    "11-9121.00",
+    "11-9121.01",
+    "11-9121.02",
+    "15-1221.00",
+    "15-1299.01",
+    "15-1299.02",
+    "15-1299.03",
+    "15-1299.04",
+    "15-1299.05",
+    "15-1299.06",
+    "15-1299.07",
+    "15-1299.08",
+    "15-1299.09",
+    "15-2051.00",
+    "15-2051.01",
+    "15-2051.02",
+    "19-2031.00",
+    "19-2041.00",
+    "19-2041.01",
+    "19-2041.02",
+    "19-2041.03",
+    "19-4013.00",
+    "19-4031.00",
+    "19-4042.00",
+    "19-4092.00",
+    "25-1052.00",
+    "25-1053.00",
+    "25-1054.00",
+    "25-2031.00"
+   ]
+  },
+  {
+   "id": "biology",
+   "faculty": "วิทยาศาสตร์ / ไอที",
+   "major_th": "ชีววิทยา",
+   "cip": [
+    "26.0101",
+    "26.0102",
+    "26.0701",
+    "26.0702",
+    "26.0707",
+    "26.0708",
+    "26.0709",
+    "26.0799"
+   ],
+   "cip_titles": [
+    "Biology/Biological Sciences, General",
+    "Biomedical Sciences, General",
+    "Zoology/Animal Biology",
+    "Entomology",
+    "Animal Physiology",
+    "Animal Behavior and Ethology",
+    "Wildlife Biology",
+    "Zoology/Animal Biology, Other"
+   ],
+   "codes": [
+    "11-9121.00",
+    "11-9121.01",
+    "11-9121.02",
+    "19-1023.00",
+    "19-1029.01",
+    "19-1029.02",
+    "19-1029.03",
+    "19-1029.04",
+    "19-1042.00",
+    "19-4012.00",
+    "19-4012.01",
+    "19-4013.00",
+    "19-4021.00",
+    "19-4092.00",
+    "25-1042.00",
+    "25-2031.00"
+   ]
+  },
+  {
+   "id": "microbiology",
+   "faculty": "วิทยาศาสตร์ / ไอที",
+   "major_th": "จุลชีววิทยา",
+   "cip": [
+    "26.0502",
+    "26.0503",
+    "26.0504",
+    "26.0505",
+    "26.0506",
+    "26.0507",
+    "26.0508",
+    "26.0509",
+    "26.0599"
+   ],
+   "cip_titles": [
+    "Microbiology, General",
+    "Medical Microbiology and Bacteriology",
+    "Virology",
+    "Parasitology",
+    "Mycology",
+    "Immunology",
+    "Microbiology and Immunology",
+    "Infectious Disease and Global Health",
+    "Microbiological Sciences and Immunology, Other"
+   ],
+   "codes": [
+    "11-9111.00",
+    "11-9121.00",
+    "11-9121.01",
+    "11-9121.02",
+    "19-1022.00",
+    "19-1029.01",
+    "19-1029.02",
+    "19-1029.03",
+    "19-1029.04",
+    "19-1041.00",
+    "19-1042.00",
+    "19-4013.00",
+    "19-4021.00",
+    "25-1042.00",
+    "25-1071.00"
+   ]
+  },
+  {
+   "id": "biotech",
+   "faculty": "วิทยาศาสตร์ / ไอที",
+   "major_th": "เทคโนโลยีชีวภาพ",
+   "cip": [
+    "26.1201"
+   ],
+   "cip_titles": [
+    "Biotechnology"
+   ],
+   "codes": [
+    "11-9121.00",
+    "11-9121.01",
+    "11-9121.02",
+    "19-1029.01",
+    "19-1029.02",
+    "19-1029.03",
+    "19-1029.04",
+    "25-1042.00"
+   ]
+  },
+  {
+   "id": "env_sci",
+   "faculty": "วิทยาศาสตร์ / ไอที",
+   "major_th": "วิทยาศาสตร์สิ่งแวดล้อม",
+   "cip": [
+    "03.0101",
+    "03.0103",
+    "03.0104"
+   ],
+   "cip_titles": [
+    "Natural Resources/Conservation, General",
+    "Environmental Studies",
+    "Environmental Science"
+   ],
+   "codes": [
+    "13-1041.00",
+    "13-1041.01",
+    "13-1041.03",
+    "13-1041.04",
+    "13-1041.06",
+    "13-1041.07",
+    "13-1041.08",
+    "19-1031.00",
+    "19-1031.02",
+    "19-1031.03",
+    "19-1032.00",
+    "19-2041.00",
+    "19-2041.01",
+    "19-2041.02",
+    "19-2041.03",
+    "19-4042.00",
+    "19-4071.00",
+    "25-1043.00",
+    "25-1053.00"
+   ]
+  },
+  {
+   "id": "geology",
+   "faculty": "วิทยาศาสตร์ / ไอที",
+   "major_th": "ธรณีวิทยา",
+   "cip": [
+    "40.0601",
+    "40.0602",
+    "40.0603",
+    "40.0604",
+    "40.0605",
+    "40.0606",
+    "40.0607",
+    "40.0699"
+   ],
+   "cip_titles": [
+    "Geology/Earth Science, General",
+    "Geochemistry",
+    "Geophysics and Seismology",
+    "Paleontology",
+    "Hydrology and Water Resources Science",
+    "Geochemistry and Petrology",
+    "Oceanography, Chemical and Physical",
+    "Geological and Earth Sciences/Geosciences, Other"
+   ],
+   "codes": [
+    "11-9121.00",
+    "11-9121.01",
+    "11-9121.02",
+    "19-2042.00",
+    "19-2043.00",
+    "19-4043.00",
+    "25-1051.00",
+    "25-1052.00"
+   ]
+  },
+  {
+   "id": "food_sci",
+   "faculty": "วิทยาศาสตร์ / ไอที",
+   "major_th": "วิทยาศาสตร์และเทคโนโลยีการอาหาร",
+   "cip": [
+    "01.1001",
+    "01.1002",
+    "01.1003",
+    "01.1004",
+    "01.1005",
+    "01.1099"
+   ],
+   "cip_titles": [
+    "Food Science",
+    "Food Technology and Processing",
+    "Brewing Science",
+    "Viticulture and Enology",
+    "Zymology/Fermentation Science",
+    "Food Science and Technology, Other"
+   ],
+   "codes": [
+    "11-9013.00",
+    "19-1012.00",
+    "19-1013.00",
+    "19-4013.00",
+    "25-1041.00",
+    "45-1011.00",
+    "51-3092.00",
+    "51-9012.00"
+   ]
+  },
+  {
+   "id": "sport_sci",
+   "faculty": "วิทยาศาสตร์ / ไอที",
+   "major_th": "วิทยาศาสตร์การกีฬา",
+   "cip": [
+    "31.0501",
+    "31.0504",
+    "31.0505",
+    "31.0507",
+    "31.0508"
+   ],
+   "cip_titles": [
+    "Sports, Kinesiology, and Physical Education/Fitness, General",
+    "Sport and Fitness Administration/Management",
+    "Exercise Science and Kinesiology",
+    "Physical Fitness Technician",
+    "Sports Studies"
+   ],
+   "codes": [
+    "11-9072.00",
+    "25-1193.00",
+    "27-2021.00",
+    "27-2022.00",
+    "29-1128.00",
+    "29-9091.00",
+    "39-9031.00"
+   ]
+  },
+  {
+   "id": "eng_computer",
+   "faculty": "วิศวกรรมศาสตร์",
+   "major_th": "วิศวกรรมคอมพิวเตอร์",
+   "cip": [
+    "14.0901",
+    "14.0902",
+    "14.0903",
+    "14.0999"
+   ],
+   "cip_titles": [
+    "Computer Engineering, General",
+    "Computer Hardware Engineering",
+    "Computer Software Engineering",
+    "Computer Engineering, Other"
+   ],
+   "codes": [
+    "11-9041.00",
+    "11-9041.01",
+    "15-1241.00",
+    "15-1241.01",
+    "15-1243.00",
+    "15-1243.01",
+    "15-1252.00",
+    "15-1253.00",
+    "17-2061.00",
+    "25-1032.00"
+   ]
+  },
+  {
+   "id": "eng_software",
+   "faculty": "วิศวกรรมศาสตร์",
+   "major_th": "วิศวกรรมซอฟต์แวร์",
+   "cip": [
+    "11.0701",
+    "14.0903"
+   ],
+   "cip_titles": [
+    "Computer Science",
+    "Computer Software Engineering"
+   ],
+   "codes": [
+    "11-3021.00",
+    "11-9041.00",
+    "11-9041.01",
+    "15-1212.00",
+    "15-1221.00",
+    "15-1231.00",
+    "15-1243.00",
+    "15-1243.01",
+    "15-1251.00",
+    "15-1252.00",
+    "15-1253.00",
+    "15-1254.00",
+    "15-1255.00",
+    "15-1255.01",
+    "15-1299.01",
+    "15-1299.02",
+    "15-1299.03",
+    "15-1299.04",
+    "15-1299.05",
+    "15-1299.06",
+    "15-1299.07",
+    "15-1299.08",
+    "15-1299.09",
+    "15-2051.00",
+    "15-2051.01",
+    "15-2051.02",
+    "25-1021.00",
+    "25-1032.00"
+   ]
+  },
+  {
+   "id": "eng_electrical",
+   "faculty": "วิศวกรรมศาสตร์",
+   "major_th": "วิศวกรรมไฟฟ้า / อิเล็กทรอนิกส์",
+   "cip": [
+    "14.1001",
+    "14.1003",
+    "14.1004",
+    "14.1099"
+   ],
+   "cip_titles": [
+    "Electrical and Electronics Engineering",
+    "Laser and Optical Engineering",
+    "Telecommunications Engineering",
+    "Electrical, Electronics, and Communications Engineering, Other"
+   ],
+   "codes": [
+    "11-9041.00",
+    "11-9041.01",
+    "17-2011.00",
+    "17-2061.00",
+    "17-2071.00",
+    "17-2072.00",
+    "17-2072.01",
+    "17-2199.03",
+    "17-2199.05",
+    "17-2199.06",
+    "17-2199.07",
+    "17-2199.08",
+    "17-2199.09",
+    "17-2199.10",
+    "17-2199.11",
+    "25-1032.00"
+   ]
+  },
+  {
+   "id": "eng_mechanical",
+   "faculty": "วิศวกรรมศาสตร์",
+   "major_th": "วิศวกรรมเครื่องกล",
+   "cip": [
+    "14.1901"
+   ],
+   "cip_titles": [
+    "Mechanical Engineering"
+   ],
+   "codes": [
+    "11-9041.00",
+    "11-9041.01",
+    "13-1051.00",
+    "17-2011.00",
+    "17-2141.00",
+    "17-2141.01",
+    "17-2141.02",
+    "25-1032.00"
+   ]
+  },
+  {
+   "id": "eng_civil",
+   "faculty": "วิศวกรรมศาสตร์",
+   "major_th": "วิศวกรรมโยธา",
+   "cip": [
+    "14.0801",
+    "14.0802",
+    "14.0803",
+    "14.0804",
+    "14.0805",
+    "14.0899"
+   ],
+   "cip_titles": [
+    "Civil Engineering, General",
+    "Geotechnical and Geoenvironmental Engineering",
+    "Structural Engineering",
+    "Transportation and Highway Engineering",
+    "Water Resources Engineering",
+    "Civil Engineering, Other"
+   ],
+   "codes": [
+    "11-9041.00",
+    "11-9041.01",
+    "17-2051.00",
+    "17-2051.01",
+    "17-2051.02",
+    "17-2081.00",
+    "17-2151.00",
+    "17-2171.00",
+    "17-2199.03",
+    "17-2199.05",
+    "17-2199.06",
+    "17-2199.07",
+    "17-2199.08",
+    "17-2199.09",
+    "17-2199.10",
+    "17-2199.11",
+    "25-1032.00"
+   ]
+  },
+  {
+   "id": "eng_industrial",
+   "faculty": "วิศวกรรมศาสตร์",
+   "major_th": "วิศวกรรมอุตสาหการ",
+   "cip": [
+    "14.3501"
+   ],
+   "cip_titles": [
+    "Industrial Engineering"
+   ],
+   "codes": [
+    "11-3051.00",
+    "11-3051.01",
+    "11-3051.02",
+    "11-3051.03",
+    "11-3051.04",
+    "11-3051.06",
+    "11-9041.00",
+    "11-9041.01",
+    "17-2112.00",
+    "17-2112.01",
+    "17-2112.02",
+    "17-2112.03",
+    "25-1032.00"
+   ]
+  },
+  {
+   "id": "eng_chemical",
+   "faculty": "วิศวกรรมศาสตร์",
+   "major_th": "วิศวกรรมเคมี",
+   "cip": [
+    "14.0701",
+    "14.0702",
+    "14.0799"
+   ],
+   "cip_titles": [
+    "Chemical Engineering",
+    "Chemical and Biomolecular Engineering",
+    "Chemical Engineering, Other"
+   ],
+   "codes": [
+    "11-9041.00",
+    "11-9041.01",
+    "17-2031.00",
+    "17-2041.00",
+    "17-2199.03",
+    "17-2199.05",
+    "17-2199.06",
+    "17-2199.07",
+    "17-2199.08",
+    "17-2199.09",
+    "17-2199.10",
+    "17-2199.11",
+    "25-1032.00"
+   ]
+  },
+  {
+   "id": "eng_environment",
+   "faculty": "วิศวกรรมศาสตร์",
+   "major_th": "วิศวกรรมสิ่งแวดล้อม",
+   "cip": [
+    "14.1401"
+   ],
+   "cip_titles": [
+    "Environmental/Environmental Health Engineering"
+   ],
+   "codes": [
+    "11-9041.00",
+    "11-9041.01",
+    "17-2081.00",
+    "17-2111.00",
+    "17-2111.02",
+    "25-1032.00"
+   ]
+  },
+  {
+   "id": "eng_biomedical",
+   "faculty": "วิศวกรรมศาสตร์",
+   "major_th": "วิศวกรรมชีวการแพทย์",
+   "cip": [
+    "14.0501"
+   ],
+   "cip_titles": [
+    "Bioengineering and Biomedical Engineering"
+   ],
+   "codes": [
+    "11-9041.00",
+    "11-9041.01",
+    "17-2031.00",
+    "25-1032.00"
+   ]
+  },
+  {
+   "id": "eng_aerospace",
+   "faculty": "วิศวกรรมศาสตร์",
+   "major_th": "วิศวกรรมการบินและอวกาศ",
+   "cip": [
+    "14.0201",
+    "14.0202",
+    "14.0299"
+   ],
+   "cip_titles": [
+    "Aerospace, Aeronautical, and Astronautical/Space Engineering, General",
+    "Astronautical Engineering",
+    "Aerospace, Aeronautical, and Astronautical/Space Engineering, Other"
+   ],
+   "codes": [
+    "11-9041.00",
+    "11-9041.01",
+    "17-2011.00",
+    "17-3021.00",
+    "25-1032.00",
+    "49-2091.00"
+   ]
+  },
+  {
+   "id": "architecture",
+   "faculty": "สถาปัตยกรรมศาสตร์",
+   "major_th": "สถาปัตยกรรม",
+   "cip": [
+    "04.0201",
+    "04.0202",
+    "04.0299"
+   ],
+   "cip_titles": [
+    "Architecture",
+    "Architectural Design",
+    "Architecture, Other"
+   ],
+   "codes": [
+    "11-9041.00",
+    "11-9041.01",
+    "17-1011.00",
+    "25-1031.00"
+   ]
+  },
+  {
+   "id": "landscape",
+   "faculty": "สถาปัตยกรรมศาสตร์",
+   "major_th": "ภูมิสถาปัตยกรรม",
+   "cip": [
+    "04.0601"
+   ],
+   "cip_titles": [
+    "Landscape Architecture"
+   ],
+   "codes": [
+    "11-9041.00",
+    "11-9041.01",
+    "17-1012.00",
+    "25-1031.00"
+   ]
+  },
+  {
+   "id": "interior",
+   "faculty": "สถาปัตยกรรมศาสตร์",
+   "major_th": "ออกแบบภายใน",
+   "cip": [
+    "50.0408"
+   ],
+   "cip_titles": [
+    "Interior Design"
+   ],
+   "codes": [
+    "25-1031.00",
+    "27-1025.00"
+   ]
+  },
+  {
+   "id": "medicine",
+   "faculty": "แพทย์ / สุขภาพ",
+   "major_th": "แพทยศาสตร์",
+   "cip": [
+    "51.1201",
+    "51.1202",
+    "51.1203"
+   ],
+   "cip_titles": [
+    "Medicine",
+    "Osteopathic Medicine/Osteopathy",
+    "Podiatric Medicine/Podiatry"
+   ],
+   "codes": [
+    "29-1081.00",
+    "29-1211.00",
+    "29-1213.00",
+    "29-1214.00",
+    "29-1215.00",
+    "29-1216.00",
+    "29-1217.00",
+    "29-1218.00",
+    "29-1221.00",
+    "29-1222.00",
+    "29-1223.00",
+    "29-1224.00",
+    "29-1229.01",
+    "29-1229.02",
+    "29-1229.03",
+    "29-1229.04",
+    "29-1229.05",
+    "29-1229.06",
+    "29-1241.00"
+   ]
+  },
+  {
+   "id": "dentistry",
+   "faculty": "แพทย์ / สุขภาพ",
+   "major_th": "ทันตแพทยศาสตร์",
+   "cip": [
+    "51.0401"
+   ],
+   "cip_titles": [
+    "Dentistry"
+   ],
+   "codes": [
+    "25-1071.00",
+    "29-1021.00"
+   ]
+  },
+  {
+   "id": "pharmacy",
+   "faculty": "แพทย์ / สุขภาพ",
+   "major_th": "เภสัชศาสตร์",
+   "cip": [
+    "51.2001",
+    "51.2002",
+    "51.2003",
+    "51.2004",
+    "51.2005",
+    "51.2006",
+    "51.2007",
+    "51.2008",
+    "51.2009",
+    "51.2010",
+    "51.2011",
+    "51.2099"
+   ],
+   "cip_titles": [
+    "Pharmacy",
+    "Pharmacy Administration and Pharmacy Policy and Regulatory Affairs",
+    "Pharmaceutics and Drug Design",
+    "Medicinal and Pharmaceutical Chemistry",
+    "Natural Products Chemistry and Pharmacognosy",
+    "Clinical and Industrial Drug Development",
+    "Pharmacoeconomics/Pharmaceutical Economics",
+    "Clinical, Hospital, and Managed Care Pharmacy",
+    "Industrial and Physical Pharmacy and Cosmetic Sciences",
+    "Pharmaceutical Sciences",
+    "Pharmaceutical Marketing and Management",
+    "Pharmacy, Pharmaceutical Sciences, and Administration, Other"
+   ],
+   "codes": [
+    "11-2021.00",
+    "11-2022.00",
+    "11-3051.00",
+    "11-3051.01",
+    "11-3051.02",
+    "11-3051.03",
+    "11-3051.04",
+    "11-3051.06",
+    "11-9111.00",
+    "11-9121.00",
+    "11-9121.01",
+    "11-9121.02",
+    "19-1021.00",
+    "19-1042.00",
+    "19-2031.00",
+    "19-3011.00",
+    "19-3011.01",
+    "25-1052.00",
+    "25-1063.00",
+    "25-1071.00",
+    "29-1051.00"
+   ]
+  },
+  {
+   "id": "nursing",
+   "faculty": "แพทย์ / สุขภาพ",
+   "major_th": "พยาบาลศาสตร์",
+   "cip": [
+    "51.3801",
+    "51.3802",
+    "51.3803",
+    "51.3804",
+    "51.3805",
+    "51.3806",
+    "51.3807",
+    "51.3808",
+    "51.3809",
+    "51.3810",
+    "51.3811",
+    "51.3812",
+    "51.3813",
+    "51.3814",
+    "51.3815",
+    "51.3816",
+    "51.3818",
+    "51.3819",
+    "51.3820",
+    "51.3821",
+    "51.3822",
+    "51.3824",
+    "51.3899",
+    "51.3901",
+    "51.3902",
+    "51.3999"
+   ],
+   "cip_titles": [
+    "Registered Nursing/Registered Nurse",
+    "Nursing Administration",
+    "Adult Health Nurse/Nursing",
+    "Nurse Anesthetist",
+    "Family Practice Nurse/Nursing",
+    "Maternal/Child Health and Neonatal Nurse/Nursing",
+    "Nurse Midwife/Nursing Midwifery",
+    "Nursing Science",
+    "Pediatric Nurse/Nursing",
+    "Psychiatric/Mental Health Nurse/Nursing",
+    "Public Health/Community Nurse/Nursing",
+    "Perioperative/Operating Room and Surgical Nurse/Nursing",
+    "Clinical Nurse Specialist",
+    "Critical Care Nursing",
+    "Occupational and Environmental Health Nursing",
+    "Emergency Room/Trauma Nursing",
+    "Nursing Practice",
+    "Palliative Care Nursing",
+    "Clinical Nurse Leader",
+    "Geriatric Nurse/Nursing",
+    "Women's Health Nurse/Nursing",
+    "Forensic Nursing",
+    "Registered Nursing, Nursing Administration, Nursing Research and Clinical Nursing, Other",
+    "Licensed Practical/Vocational Nurse Training",
+    "Nursing Assistant/Aide and Patient Care Assistant/Aide",
+    "Practical Nursing, Vocational Nursing and Nursing Assistants, Other"
+   ],
+   "codes": [
+    "11-9111.00",
+    "25-1072.00",
+    "29-1141.00",
+    "29-1141.01",
+    "29-1141.02",
+    "29-1141.03",
+    "29-1141.04",
+    "29-1151.00",
+    "29-1161.00",
+    "29-1171.00",
+    "29-2061.00",
+    "31-1131.00"
+   ]
+  },
+  {
+   "id": "public_health",
+   "faculty": "แพทย์ / สุขภาพ",
+   "major_th": "สาธารณสุขศาสตร์",
+   "cip": [
+    "51.2201",
+    "51.2202",
+    "51.2205",
+    "51.2206",
+    "51.2207",
+    "51.2208",
+    "51.2209",
+    "51.2210",
+    "51.2211",
+    "51.2212",
+    "51.2213",
+    "51.2214",
+    "51.2299"
+   ],
+   "cip_titles": [
+    "Public Health, General",
+    "Environmental Health",
+    "Health/Medical  Physics",
+    "Occupational Health and Industrial Hygiene",
+    "Public Health Education and Promotion",
+    "Community Health and Preventive Medicine",
+    "Maternal and Child Health",
+    "International Public Health/International Health",
+    "Health Services Administration",
+    "Behavioral Aspects of Health",
+    "Patient Safety and Healthcare Quality",
+    "Public Health Genetics",
+    "Public Health, Other"
+   ],
+   "codes": [
+    "11-9111.00",
+    "13-1041.00",
+    "13-1041.01",
+    "13-1041.03",
+    "13-1041.04",
+    "13-1041.06",
+    "13-1041.07",
+    "13-1041.08",
+    "19-1041.00",
+    "19-1042.00",
+    "19-2012.00",
+    "19-2041.00",
+    "19-2041.01",
+    "19-2041.02",
+    "19-2041.03",
+    "19-5011.00",
+    "19-5012.00",
+    "21-1091.00",
+    "21-1094.00",
+    "25-1054.00",
+    "25-1071.00",
+    "29-9092.00"
+   ]
+  },
+  {
+   "id": "med_tech",
+   "faculty": "แพทย์ / สุขภาพ",
+   "major_th": "เทคนิคการแพทย์",
+   "cip": [
+    "51.1001",
+    "51.1002",
+    "51.1003",
+    "51.1004",
+    "51.1005",
+    "51.1006",
+    "51.1007",
+    "51.1008",
+    "51.1009",
+    "51.1010",
+    "51.1011",
+    "51.1012",
+    "51.1099"
+   ],
+   "cip_titles": [
+    "Blood Bank Technology Specialist",
+    "Cytotechnology/Cytotechnologist",
+    "Hematology Technology/Technician",
+    "Clinical/Medical Laboratory Technician",
+    "Clinical Laboratory Science/Medical Technology/Technologist",
+    "Ophthalmic Laboratory Technology/Technician",
+    "Histologic Technology/Histotechnologist",
+    "Histologic Technician",
+    "Phlebotomy Technician/Phlebotomist",
+    "Cytogenetics/Genetics/Clinical Genetics Technology/Technologist",
+    "Renal/Dialysis Technologist/Technician",
+    "Sterile Processing Technology/Technician",
+    "Clinical/Medical Laboratory Science and Allied Professions, Other"
+   ],
+   "codes": [
+    "25-1071.00",
+    "29-2011.00",
+    "29-2011.01",
+    "29-2011.02",
+    "29-2011.04",
+    "29-2012.00",
+    "29-2012.01",
+    "29-2055.00",
+    "29-2099.01",
+    "29-2099.05",
+    "29-2099.08",
+    "31-9093.00",
+    "31-9097.00",
+    "51-9083.00"
+   ]
+  },
+  {
+   "id": "physio",
+   "faculty": "แพทย์ / สุขภาพ",
+   "major_th": "กายภาพบำบัด",
+   "cip": [
+    "51.0806",
+    "51.2308"
+   ],
+   "cip_titles": [
+    "Physical Therapy Assistant",
+    "Physical Therapy/Therapist"
+   ],
+   "codes": [
+    "25-1071.00",
+    "29-1123.00",
+    "31-2021.00"
+   ]
+  },
+  {
+   "id": "radiology",
+   "faculty": "แพทย์ / สุขภาพ",
+   "major_th": "รังสีเทคนิค",
+   "cip": [
+    "51.0907",
+    "51.0911"
+   ],
+   "cip_titles": [
+    "Medical Radiologic Technology/Science - Radiation Therapist",
+    "Radiologic Technology/Science - Radiographer"
+   ],
+   "codes": [
+    "25-1071.00",
+    "29-1124.00",
+    "29-2034.00",
+    "29-2036.00",
+    "29-2099.01",
+    "29-2099.05",
+    "29-2099.08"
+   ]
+  },
+  {
+   "id": "nutrition",
+   "faculty": "แพทย์ / สุขภาพ",
+   "major_th": "โภชนาการและการกำหนดอาหาร",
+   "cip": [
+    "51.3101",
+    "51.3102",
+    "51.3103",
+    "51.3104",
+    "51.3199"
+   ],
+   "cip_titles": [
+    "Dietetics/Dietitian",
+    "Clinical Nutrition/Nutritionist",
+    "Dietetic Technician",
+    "Dietitian Assistant",
+    "Dietetics and Clinical Nutrition Services, Other"
+   ],
+   "codes": [
+    "29-1031.00",
+    "29-2051.00"
+   ]
+  },
+  {
+   "id": "thai_medicine",
+   "faculty": "แพทย์ / สุขภาพ",
+   "major_th": "การแพทย์แผนไทย / การแพทย์ทางเลือก",
+   "cip": [
+    "51.3300",
+    "51.3301",
+    "51.3302",
+    "51.3303",
+    "51.3304",
+    "51.3305",
+    "51.3306",
+    "51.3399",
+    "51.3501",
+    "51.3502",
+    "51.3503",
+    "51.3599"
+   ],
+   "cip_titles": [
+    "Alternative and Complementary Medicine and Medical Systems, General",
+    "Acupuncture and Oriental Medicine",
+    "Traditional Chinese Medicine and Chinese Herbology",
+    "Naturopathic Medicine/Naturopathy",
+    "Homeopathic Medicine/Homeopathy",
+    "Ayurvedic Medicine/Ayurveda",
+    "Holistic/Integrative Health",
+    "Alternative and Complementary Medicine and Medical Systems, Other",
+    "Massage Therapy/Therapeutic Massage",
+    "Asian Bodywork Therapy",
+    "Somatic Bodywork",
+    "Somatic Bodywork and Related Therapeutic Services, Other"
+   ],
+   "codes": [
+    "25-1071.00",
+    "29-1291.00",
+    "29-1299.01",
+    "29-1299.02",
+    "29-9099.01",
+    "31-9011.00"
+   ]
+  },
+  {
+   "id": "vet",
+   "faculty": "แพทย์ / สุขภาพ",
+   "major_th": "สัตวแพทยศาสตร์",
+   "cip": [
+    "01.8001",
+    "01.8101",
+    "01.8102",
+    "01.8103",
+    "01.8104",
+    "01.8105",
+    "01.8106",
+    "01.8107",
+    "01.8108",
+    "01.8109",
+    "01.8110",
+    "01.8111",
+    "01.8199"
+   ],
+   "cip_titles": [
+    "Veterinary Medicine",
+    "Veterinary Sciences/Veterinary Clinical Sciences, General",
+    "Comparative and Laboratory Animal Medicine",
+    "Large Animal/Food Animal and Equine Surgery and Medicine",
+    "Small/Companion Animal Surgery and Medicine",
+    "Veterinary Anatomy",
+    "Veterinary Infectious Diseases",
+    "Veterinary Microbiology and Immunobiology",
+    "Veterinary Pathology and Pathobiology",
+    "Veterinary Physiology",
+    "Veterinary Preventive Medicine, Epidemiology, and Public Health",
+    "Veterinary Toxicology and Pharmacology",
+    "Veterinary Biomedical and Clinical Sciences, Other"
+   ],
+   "codes": [
+    "19-1011.00",
+    "25-1071.00",
+    "29-1131.00"
+   ]
+  },
+  {
+   "id": "accounting",
+   "faculty": "บริหารธุรกิจ / บัญชี",
+   "major_th": "บัญชี",
+   "cip": [
+    "52.0301",
+    "52.0302",
+    "52.0303",
+    "52.0304",
+    "52.0305"
+   ],
+   "cip_titles": [
+    "Accounting",
+    "Accounting Technology/Technician and Bookkeeping",
+    "Auditing",
+    "Accounting and Finance",
+    "Accounting and Business/Management"
+   ],
+   "codes": [
+    "11-3031.00",
+    "11-3031.01",
+    "11-3031.03",
+    "13-2011.00",
+    "13-2022.00",
+    "13-2031.00",
+    "13-2041.00",
+    "13-2061.00",
+    "13-2081.00",
+    "13-2082.00",
+    "25-1011.00",
+    "43-3031.00",
+    "43-3051.00",
+    "43-4011.00",
+    "43-9111.00"
+   ]
+  },
+  {
+   "id": "finance",
+   "faculty": "บริหารธุรกิจ / บัญชี",
+   "major_th": "การเงินและการธนาคาร",
+   "cip": [
+    "52.0801",
+    "52.0803",
+    "52.0804",
+    "52.0806",
+    "52.0807",
+    "52.0808",
+    "52.0809",
+    "52.0810",
+    "52.0899"
+   ],
+   "cip_titles": [
+    "Finance, General",
+    "Banking and Financial Support Services",
+    "Financial Planning and Services",
+    "International Finance",
+    "Investments and Securities",
+    "Public Finance",
+    "Credit Management",
+    "Financial Risk Management",
+    "Finance and Financial Management Services, Other"
+   ],
+   "codes": [
+    "11-1011.00",
+    "11-1011.03",
+    "11-1021.00",
+    "11-3031.00",
+    "11-3031.01",
+    "11-3031.03",
+    "13-1141.00",
+    "13-2022.00",
+    "13-2031.00",
+    "13-2041.00",
+    "13-2052.00",
+    "13-2053.00",
+    "13-2071.00",
+    "13-2072.00",
+    "13-2099.01",
+    "13-2099.04",
+    "25-1011.00",
+    "41-3031.00",
+    "43-3011.00",
+    "43-3071.00",
+    "43-4041.00",
+    "43-4131.00",
+    "43-4141.00"
+   ]
+  },
+  {
+   "id": "marketing",
+   "faculty": "บริหารธุรกิจ / บัญชี",
+   "major_th": "การตลาด",
+   "cip": [
+    "52.1401",
+    "52.1402",
+    "52.1403",
+    "52.1404",
+    "52.1499",
+    "52.1801",
+    "52.1802",
+    "52.1803",
+    "52.1804",
+    "52.1899"
+   ],
+   "cip_titles": [
+    "Marketing/Marketing Management, General",
+    "Marketing Research",
+    "International Marketing",
+    "Digital Marketing",
+    "Marketing, Other",
+    "Sales, Distribution, and Marketing Operations, General",
+    "Merchandising and Buying Operations",
+    "Retailing and Retail Operations",
+    "Selling Skills and Sales Operations",
+    "General Merchandising, Sales, and Related Marketing Operations, Other"
+   ],
+   "codes": [
+    "11-2011.00",
+    "11-2021.00",
+    "11-2022.00",
+    "11-2033.00",
+    "13-1022.00",
+    "13-1023.00",
+    "13-1131.00",
+    "13-1161.00",
+    "13-1161.01",
+    "15-1255.00",
+    "15-1255.01",
+    "19-3022.00",
+    "25-1011.00",
+    "41-1011.00",
+    "41-1012.00",
+    "41-2022.00",
+    "41-3011.00",
+    "41-3041.00",
+    "41-3091.00",
+    "41-4011.00",
+    "41-4011.07",
+    "41-4012.00",
+    "41-9011.00"
+   ]
+  },
+  {
+   "id": "management",
+   "faculty": "บริหารธุรกิจ / บัญชี",
+   "major_th": "การจัดการ / บริหารธุรกิจ",
+   "cip": [
+    "52.0101",
+    "52.0201",
+    "52.0202",
+    "52.0203",
+    "52.0204",
+    "52.0205",
+    "52.0206",
+    "52.0207",
+    "52.0208",
+    "52.0209",
+    "52.0210",
+    "52.0211",
+    "52.0212",
+    "52.0213",
+    "52.0214",
+    "52.0215",
+    "52.0216"
+   ],
+   "cip_titles": [
+    "Business/Commerce, General",
+    "Business Administration and Management, General",
+    "Purchasing, Procurement/Acquisitions and Contracts Management",
+    "Logistics, Materials, and Supply Chain Management",
+    "Office Management and Supervision",
+    "Operations Management and Supervision",
+    "Non-Profit/Public/Organizational Management",
+    "Customer Service Management",
+    "E-Commerce/Electronic Commerce",
+    "Transportation/Mobility Management",
+    "Research and Development Management",
+    "Project Management",
+    "Retail Management",
+    "Organizational Leadership",
+    "Research Administration",
+    "Risk Management",
+    "Science/Technology Management"
+   ],
+   "codes": [
+    "11-1011.00",
+    "11-1011.03",
+    "11-1021.00",
+    "11-2022.00",
+    "11-2033.00",
+    "11-3012.00",
+    "11-3013.00",
+    "11-3013.01",
+    "11-3021.00",
+    "11-3031.00",
+    "11-3031.01",
+    "11-3031.03",
+    "11-3051.00",
+    "11-3051.01",
+    "11-3051.02",
+    "11-3051.03",
+    "11-3051.04",
+    "11-3051.06",
+    "11-3061.00",
+    "11-3071.00",
+    "11-3071.04",
+    "11-3111.00",
+    "11-3121.00",
+    "11-3131.00",
+    "11-9021.00",
+    "11-9033.00",
+    "11-9041.00",
+    "11-9041.01",
+    "11-9072.00",
+    "11-9111.00",
+    "11-9121.00",
+    "11-9121.01",
+    "11-9121.02",
+    "11-9151.00",
+    "11-9179.01",
+    "11-9179.02",
+    "13-1011.00",
+    "13-1023.00",
+    "13-1051.00",
+    "13-1071.00",
+    "13-1081.00",
+    "13-1081.01",
+    "13-1081.02",
+    "13-1082.00",
+    "13-1111.00",
+    "13-1131.00",
+    "13-1141.00",
+    "13-1199.04",
+    "13-1199.05",
+    "13-1199.06",
+    "13-1199.07",
+    "13-2022.00",
+    "13-2053.00",
+    "13-2099.01",
+    "13-2099.04",
+    "15-2011.00",
+    "25-1011.00",
+    "41-1011.00",
+    "43-1011.00",
+    "49-1011.00",
+    "51-1011.00"
+   ]
+  },
+  {
+   "id": "hr",
+   "faculty": "บริหารธุรกิจ / บัญชี",
+   "major_th": "การจัดการทรัพยากรมนุษย์",
+   "cip": [
+    "52.1001",
+    "52.1002",
+    "52.1003",
+    "52.1004",
+    "52.1005",
+    "52.1006",
+    "52.1099"
+   ],
+   "cip_titles": [
+    "Human Resources Management/Personnel Administration, General",
+    "Labor and Industrial Relations",
+    "Organizational Behavior Studies",
+    "Labor Studies",
+    "Human Resources Development",
+    "Executive/Career Coaching",
+    "Human Resources Management and Services, Other"
+   ],
+   "codes": [
+    "11-3111.00",
+    "11-3121.00",
+    "11-3131.00",
+    "13-1041.00",
+    "13-1041.01",
+    "13-1041.03",
+    "13-1041.04",
+    "13-1041.06",
+    "13-1041.07",
+    "13-1041.08",
+    "13-1071.00",
+    "13-1075.00",
+    "13-1141.00",
+    "13-1151.00",
+    "21-1012.00",
+    "25-1011.00",
+    "25-1112.00",
+    "43-4161.00"
+   ]
+  },
+  {
+   "id": "logistics",
+   "faculty": "บริหารธุรกิจ / บัญชี",
+   "major_th": "โลจิสติกส์และซัพพลายเชน",
+   "cip": [
+    "52.0203",
+    "52.0209"
+   ],
+   "cip_titles": [
+    "Logistics, Materials, and Supply Chain Management",
+    "Transportation/Mobility Management"
+   ],
+   "codes": [
+    "11-3051.00",
+    "11-3051.01",
+    "11-3051.02",
+    "11-3051.03",
+    "11-3051.04",
+    "11-3051.06",
+    "11-3071.00",
+    "11-3071.04",
+    "13-1081.00",
+    "13-1081.01",
+    "13-1081.02",
+    "25-1011.00"
+   ]
+  },
+  {
+   "id": "intl_business",
+   "faculty": "บริหารธุรกิจ / บัญชี",
+   "major_th": "ธุรกิจระหว่างประเทศ",
+   "cip": [
+    "52.1101"
+   ],
+   "cip_titles": [
+    "International Business/Trade/Commerce"
+   ],
+   "codes": [
+    "11-1011.00",
+    "11-1011.03",
+    "11-1021.00",
+    "13-1199.04",
+    "13-1199.05",
+    "13-1199.06",
+    "13-1199.07",
+    "25-1011.00"
+   ]
+  },
+  {
+   "id": "mis",
+   "faculty": "บริหารธุรกิจ / บัญชี",
+   "major_th": "ระบบสารสนเทศทางธุรกิจ",
+   "cip": [
+    "52.1201",
+    "52.1206",
+    "52.1207",
+    "52.1299"
+   ],
+   "cip_titles": [
+    "Management Information Systems, General",
+    "Information Resources Management",
+    "Knowledge Management",
+    "Management Information Systems and Services, Other"
+   ],
+   "codes": [
+    "11-3021.00",
+    "15-1243.00",
+    "15-1243.01",
+    "15-1251.00",
+    "25-1021.00"
+   ]
+  },
+  {
+   "id": "entrepreneur",
+   "faculty": "บริหารธุรกิจ / บัญชี",
+   "major_th": "การเป็นผู้ประกอบการ",
+   "cip": [
+    "52.0701",
+    "52.0702",
+    "52.0703",
+    "52.0704"
+   ],
+   "cip_titles": [
+    "Entrepreneurship/Entrepreneurial Studies",
+    "Franchising and Franchise Operations",
+    "Small Business Administration/Management",
+    "Social Entrepreneurship"
+   ],
+   "codes": [
+    "11-1011.00",
+    "11-1011.03",
+    "11-1021.00",
+    "11-9179.01",
+    "11-9179.02",
+    "25-1011.00"
+   ]
+  },
+  {
+   "id": "real_estate",
+   "faculty": "บริหารธุรกิจ / บัญชี",
+   "major_th": "อสังหาริมทรัพย์",
+   "cip": [
+    "52.1501"
+   ],
+   "cip_titles": [
+    "Real Estate"
+   ],
+   "codes": [
+    "11-9141.00",
+    "13-2022.00",
+    "13-2023.00",
+    "41-9021.00",
+    "41-9022.00"
+   ]
+  },
+  {
+   "id": "insurance",
+   "faculty": "บริหารธุรกิจ / บัญชี",
+   "major_th": "การประกันภัย",
+   "cip": [
+    "52.1701"
+   ],
+   "cip_titles": [
+    "Insurance"
+   ],
+   "codes": [
+    "11-3111.00",
+    "13-1031.00",
+    "13-1032.00",
+    "13-1141.00",
+    "13-2022.00",
+    "13-2053.00",
+    "25-1011.00",
+    "41-3021.00"
+   ]
+  },
+  {
+   "id": "hotel",
+   "faculty": "การโรงแรมและการท่องเที่ยว",
+   "major_th": "การโรงแรม",
+   "cip": [
+    "52.0901",
+    "52.0903",
+    "52.0904",
+    "52.0905",
+    "52.0906",
+    "52.0907",
+    "52.0908",
+    "52.0909",
+    "52.0910",
+    "52.0999"
+   ],
+   "cip_titles": [
+    "Hospitality Administration/Management, General",
+    "Tourism and Travel Services Management",
+    "Hotel/Motel Administration/Management",
+    "Restaurant/Food Services Management",
+    "Resort Management",
+    "Meeting and Event Planning",
+    "Casino Management",
+    "Hotel, Motel, and Restaurant Management",
+    "Brewery/Brewpub Operations/Management",
+    "Hospitality Administration/Management, Other"
+   ],
+   "codes": [
+    "11-3013.00",
+    "11-3013.01",
+    "11-9051.00",
+    "11-9071.00",
+    "11-9072.00",
+    "11-9081.00",
+    "11-9179.01",
+    "11-9179.02",
+    "13-1121.00",
+    "13-1199.04",
+    "13-1199.05",
+    "13-1199.06",
+    "13-1199.07",
+    "25-1011.00",
+    "39-1013.00",
+    "39-7012.00"
+   ]
+  },
+  {
+   "id": "tourism",
+   "faculty": "การโรงแรมและการท่องเที่ยว",
+   "major_th": "การท่องเที่ยว",
+   "cip": [
+    "31.0301",
+    "31.0302",
+    "31.0399",
+    "52.0903"
+   ],
+   "cip_titles": [
+    "Parks, Recreation, and Leisure Facilities Management, General",
+    "Golf Course Operation and Grounds Management",
+    "Parks, Recreation, and Leisure Facilities Management, Other",
+    "Tourism and Travel Services Management"
+   ],
+   "codes": [
+    "11-1021.00",
+    "11-3013.00",
+    "11-3013.01",
+    "11-9072.00",
+    "11-9179.01",
+    "11-9179.02",
+    "37-1012.00",
+    "37-3011.00",
+    "39-7012.00"
+   ]
+  },
+  {
+   "id": "culinary",
+   "faculty": "การโรงแรมและการท่องเที่ยว",
+   "major_th": "ศิลปะการประกอบอาหาร / ครัว",
+   "cip": [
+    "12.0500",
+    "12.0501",
+    "12.0502",
+    "12.0503",
+    "12.0504",
+    "12.0505",
+    "12.0506",
+    "12.0507",
+    "12.0508",
+    "12.0509",
+    "12.0510"
+   ],
+   "cip_titles": [
+    "Cooking and Related Culinary Arts, General",
+    "Baking and Pastry Arts/Baker/Pastry Chef",
+    "Bartending/Bartender",
+    "Culinary Arts/Chef Training",
+    "Restaurant, Culinary, and Catering Management/Manager",
+    "Food Preparation/Professional Cooking/Kitchen Assistant",
+    "Meat Cutting/Meat Cutter",
+    "Food Service, Waiter/Waitress, and Dining Room Management/Manager",
+    "Institutional Food Workers",
+    "Culinary Science/Culinology",
+    "Wine Steward/Sommelier"
+   ],
+   "codes": [
+    "11-9051.00",
+    "13-1022.00",
+    "19-1012.00",
+    "35-1011.00",
+    "35-1012.00",
+    "35-2012.00",
+    "35-2013.00",
+    "35-2014.00",
+    "35-3011.00",
+    "51-3011.00",
+    "51-3021.00",
+    "51-3023.00"
+   ]
+  },
+  {
+   "id": "economics",
+   "faculty": "เศรษฐศาสตร์",
+   "major_th": "เศรษฐศาสตร์",
+   "cip": [
+    "45.0601",
+    "45.0602",
+    "45.0603",
+    "45.0604",
+    "45.0605",
+    "45.0699"
+   ],
+   "cip_titles": [
+    "Economics, General",
+    "Applied Economics",
+    "Econometrics and Quantitative Economics",
+    "Development Economics and International Development",
+    "International Economics",
+    "Economics, Other"
+   ],
+   "codes": [
+    "13-1161.00",
+    "13-1161.01",
+    "15-2041.00",
+    "15-2041.01",
+    "15-2051.00",
+    "15-2051.01",
+    "15-2051.02",
+    "19-3011.00",
+    "19-3011.01",
+    "19-3022.00",
+    "19-4061.00",
+    "25-1063.00",
+    "25-2031.00"
+   ]
+  },
+  {
+   "id": "law",
+   "faculty": "นิติศาสตร์",
+   "major_th": "นิติศาสตร์",
+   "cip": [
+    "22.0101",
+    "22.0201",
+    "22.0202",
+    "22.0203",
+    "22.0204",
+    "22.0205",
+    "22.0206",
+    "22.0207",
+    "22.0208",
+    "22.0209",
+    "22.0210",
+    "22.0211",
+    "22.0212",
+    "22.0213",
+    "22.0214",
+    "22.0215",
+    "22.0216",
+    "22.0217",
+    "22.0218",
+    "22.0219",
+    "22.0220",
+    "22.0221",
+    "22.0222",
+    "22.0223",
+    "22.0224",
+    "22.0299",
+    "22.0301",
+    "22.0302",
+    "22.0303",
+    "22.0304",
+    "22.0305"
+   ],
+   "cip_titles": [
+    "Law",
+    "Advanced Legal Research/Studies, General",
+    "Programs for Foreign Lawyers",
+    "American/U.S. Law/Legal Studies/Jurisprudence",
+    "Canadian Law/Legal Studies/Jurisprudence",
+    "Banking, Corporate, Finance, and Securities Law",
+    "Comparative Law",
+    "Energy, Environment, and Natural Resources Law",
+    "Health Law",
+    "International Law and Legal Studies",
+    "International Business, Trade, and Tax Law",
+    "Tax Law/Taxation",
+    "Intellectual Property Law",
+    "Patent Law",
+    "Agriculture Law",
+    "Arts and Entertainment Law",
+    "Compliance Law",
+    "Criminal Law and Procedure",
+    "Entrepreneurship Law",
+    "Family/Child/Elder Law",
+    "Human Resources Law",
+    "Insurance Law",
+    "Real Estate and Land Development Law",
+    "Transportation Law",
+    "Tribal/Indigenous Law",
+    "Legal Research and Advanced Professional Studies, Other",
+    "Legal Administrative Assistant/Secretary",
+    "Legal Assistant/Paralegal",
+    "Court Reporting and Captioning/Court Reporter",
+    "Court Interpreter",
+    "Scopist"
+   ],
+   "codes": [
+    "23-1011.00",
+    "23-1012.00",
+    "23-1021.00",
+    "23-1022.00",
+    "23-1023.00",
+    "23-2011.00",
+    "23-2093.00",
+    "25-1112.00",
+    "27-3091.00",
+    "27-3092.00",
+    "43-6012.00"
+   ]
+  },
+  {
+   "id": "political",
+   "faculty": "รัฐศาสตร์ / สังคมศาสตร์",
+   "major_th": "รัฐศาสตร์ / ความสัมพันธ์ระหว่างประเทศ",
+   "cip": [
+    "45.0901",
+    "45.0902",
+    "45.0999",
+    "45.1001",
+    "45.1002",
+    "45.1003",
+    "45.1004",
+    "45.1099"
+   ],
+   "cip_titles": [
+    "International Relations and Affairs",
+    "National Security Policy Studies",
+    "International Relations and National Security Studies, Other",
+    "Political Science and Government, General",
+    "American Government and Politics (United States)",
+    "Canadian Government and Politics",
+    "Political Economy",
+    "Political Science and Government, Other"
+   ],
+   "codes": [
+    "19-3011.00",
+    "19-3011.01",
+    "19-3094.00",
+    "19-4061.00",
+    "25-1063.00",
+    "25-1065.00",
+    "25-2031.00"
+   ]
+  },
+  {
+   "id": "public_admin",
+   "faculty": "รัฐศาสตร์ / สังคมศาสตร์",
+   "major_th": "รัฐประศาสนศาสตร์",
+   "cip": [
+    "44.0201",
+    "44.0401",
+    "44.0402",
+    "44.0403"
+   ],
+   "cip_titles": [
+    "Community Organization and Advocacy",
+    "Public Administration",
+    "Public Works Management",
+    "Transportation and Infrastructure Planning/Studies"
+   ],
+   "codes": [
+    "11-1011.00",
+    "11-1011.03",
+    "11-1021.00",
+    "11-3071.00",
+    "11-3071.04",
+    "11-9021.00",
+    "11-9131.00",
+    "11-9151.00",
+    "19-3051.00",
+    "43-4061.00",
+    "53-6041.00"
+   ]
+  },
+  {
+   "id": "social_work",
+   "faculty": "รัฐศาสตร์ / สังคมศาสตร์",
+   "major_th": "สังคมสงเคราะห์ศาสตร์",
+   "cip": [
+    "44.0701",
+    "44.0702",
+    "44.0703",
+    "44.0799"
+   ],
+   "cip_titles": [
+    "Social Work",
+    "Youth Services/Administration",
+    "Forensic Social Work",
+    "Social Work, Other"
+   ],
+   "codes": [
+    "11-9151.00",
+    "21-1013.00",
+    "21-1021.00",
+    "21-1022.00",
+    "21-1023.00",
+    "21-1092.00",
+    "25-1113.00"
+   ]
+  },
+  {
+   "id": "sociology",
+   "faculty": "รัฐศาสตร์ / สังคมศาสตร์",
+   "major_th": "สังคมวิทยาและมานุษยวิทยา",
+   "cip": [
+    "45.0201",
+    "45.0202",
+    "45.0203",
+    "45.0204",
+    "45.0205",
+    "45.0299",
+    "45.1101",
+    "45.1102",
+    "45.1103",
+    "45.1199"
+   ],
+   "cip_titles": [
+    "Anthropology, General",
+    "Physical and Biological Anthropology",
+    "Medical Anthropology",
+    "Cultural Anthropology",
+    "Forensic Anthropology",
+    "Anthropology, Other",
+    "Sociology, General",
+    "Applied/Public Sociology",
+    "Rural Sociology",
+    "Sociology, Other"
+   ],
+   "codes": [
+    "19-1042.00",
+    "19-3041.00",
+    "19-3091.00",
+    "19-4061.00",
+    "19-4092.00",
+    "25-1061.00",
+    "25-1062.00",
+    "25-1067.00"
+   ]
+  },
+  {
+   "id": "psychology",
+   "faculty": "รัฐศาสตร์ / สังคมศาสตร์",
+   "major_th": "จิตวิทยา",
+   "cip": [
+    "42.0101",
+    "42.2801",
+    "42.2802",
+    "42.2803",
+    "42.2804",
+    "42.2805",
+    "42.2806",
+    "42.2807",
+    "42.2808",
+    "42.2809",
+    "42.2810",
+    "42.2811",
+    "42.2812",
+    "42.2813",
+    "42.2814",
+    "42.2815",
+    "42.2816",
+    "42.2817",
+    "42.2899"
+   ],
+   "cip_titles": [
+    "Psychology, General",
+    "Clinical Psychology",
+    "Community Psychology",
+    "Counseling Psychology",
+    "Industrial and Organizational Psychology",
+    "School Psychology",
+    "Educational Psychology",
+    "Clinical Child Psychology",
+    "Environmental Psychology",
+    "Geropsychology",
+    "Health/Medical Psychology",
+    "Family Psychology",
+    "Forensic Psychology",
+    "Applied Psychology",
+    "Applied Behavior Analysis",
+    "Performance and Sport Psychology",
+    "Somatic Psychology",
+    "Transpersonal/Spiritual Psychology",
+    "Clinical, Counseling and Applied Psychology, Other"
+   ],
+   "codes": [
+    "11-3121.00",
+    "11-3131.00",
+    "13-1071.00",
+    "13-1111.00",
+    "13-1151.00",
+    "19-3032.00",
+    "19-3033.00",
+    "19-3034.00",
+    "19-3039.02",
+    "19-3039.03",
+    "19-4061.00",
+    "21-1012.00",
+    "21-1014.00",
+    "25-1066.00",
+    "25-9043.00",
+    "27-2022.00"
+   ]
+  },
+  {
+   "id": "criminology",
+   "faculty": "รัฐศาสตร์ / สังคมศาสตร์",
+   "major_th": "อาชญาวิทยา / งานตำรวจ",
+   "cip": [
+    "43.0100",
+    "43.0102",
+    "43.0103",
+    "43.0104",
+    "43.0107",
+    "43.0109",
+    "43.0110",
+    "43.0112",
+    "43.0113",
+    "43.0114",
+    "43.0115",
+    "43.0119",
+    "43.0120",
+    "43.0121",
+    "43.0122",
+    "43.0123",
+    "43.0199"
+   ],
+   "cip_titles": [
+    "Criminal Justice and Corrections, General",
+    "Corrections",
+    "Criminal Justice/Law Enforcement Administration",
+    "Criminal Justice/Safety Studies",
+    "Criminal Justice/Police Science",
+    "Security and Loss Prevention Services",
+    "Juvenile Corrections",
+    "Securities Services Administration/Management",
+    "Corrections Administration",
+    "Law Enforcement Investigation and Interviewing",
+    "Law Enforcement Record-Keeping and Evidence Management",
+    "Critical Incident Response/Special Police Operations",
+    "Protective Services Operations",
+    "Suspension and Debarment Investigation",
+    "Maritime Law Enforcement",
+    "Cultural/Archaelogical Resources Protection",
+    "Corrections and Criminal Justice, Other"
+   ],
+   "codes": [
+    "11-9161.00",
+    "13-1041.00",
+    "13-1041.01",
+    "13-1041.03",
+    "13-1041.04",
+    "13-1041.06",
+    "13-1041.07",
+    "13-1041.08",
+    "13-2061.00",
+    "19-4092.00",
+    "19-4099.01",
+    "19-4099.03",
+    "21-1021.00",
+    "25-1111.00",
+    "33-1011.00",
+    "33-1012.00",
+    "33-1091.00",
+    "33-3011.00",
+    "33-3012.00",
+    "33-3021.00",
+    "33-3021.02",
+    "33-3021.06",
+    "33-3051.00",
+    "33-3051.04",
+    "33-3052.00",
+    "33-9021.00",
+    "33-9031.00",
+    "33-9032.00"
+   ]
+  },
+  {
+   "id": "comm_arts",
+   "faculty": "นิเทศศาสตร์",
+   "major_th": "นิเทศศาสตร์ / สื่อสารมวลชน",
+   "cip": [
+    "09.0100",
+    "09.0101",
+    "09.0102",
+    "09.0701",
+    "09.0702"
+   ],
+   "cip_titles": [
+    "Communication, General",
+    "Speech Communication and Rhetoric",
+    "Mass Communication/Media Studies",
+    "Radio and Television",
+    "Digital Communication and Media/Multimedia"
+   ],
+   "codes": [
+    "11-2032.00",
+    "11-2033.00",
+    "13-1131.00",
+    "15-1255.00",
+    "15-1255.01",
+    "25-1122.00",
+    "27-2012.00",
+    "27-2012.03",
+    "27-2012.04",
+    "27-2012.05",
+    "27-3011.00",
+    "27-3023.00",
+    "27-3031.00",
+    "27-3041.00",
+    "27-3043.00",
+    "27-3043.05",
+    "27-4032.00"
+   ]
+  },
+  {
+   "id": "journalism",
+   "faculty": "นิเทศศาสตร์",
+   "major_th": "วารสารศาสตร์",
+   "cip": [
+    "09.0401",
+    "09.0402",
+    "09.0404",
+    "09.0405",
+    "09.0406",
+    "09.0407",
+    "09.0499"
+   ],
+   "cip_titles": [
+    "Journalism",
+    "Broadcast Journalism",
+    "Photojournalism",
+    "Business and Economic Journalism",
+    "Cultural Journalism",
+    "Science/Health/Environmental Journalism",
+    "Journalism, Other"
+   ],
+   "codes": [
+    "25-1122.00",
+    "27-3011.00",
+    "27-3023.00",
+    "27-3041.00",
+    "27-3043.00",
+    "27-3043.05",
+    "27-4021.00",
+    "27-4032.00",
+    "43-9081.00"
+   ]
+  },
+  {
+   "id": "pr_advertising",
+   "faculty": "นิเทศศาสตร์",
+   "major_th": "ประชาสัมพันธ์และโฆษณา",
+   "cip": [
+    "09.0900",
+    "09.0901",
+    "09.0902",
+    "09.0903",
+    "09.0904",
+    "09.0905",
+    "09.0906",
+    "09.0907",
+    "09.0908",
+    "09.0909"
+   ],
+   "cip_titles": [
+    "Public Relations, Advertising, and Applied Communication",
+    "Organizational Communication, General",
+    "Public Relations/Image Management",
+    "Advertising",
+    "Political Communication",
+    "Health Communication",
+    "Sports Communication",
+    "International and Intercultural Communication",
+    "Technical and Scientific Communication",
+    "Communication Management and Strategic Communications"
+   ],
+   "codes": [
+    "11-2011.00",
+    "11-2032.00",
+    "11-2033.00",
+    "11-3121.00",
+    "11-3131.00",
+    "13-1011.00",
+    "13-1131.00",
+    "13-1151.00",
+    "21-1091.00",
+    "21-1094.00",
+    "25-1122.00",
+    "27-3011.00",
+    "27-3023.00",
+    "27-3031.00",
+    "27-3041.00",
+    "27-3042.00"
+   ]
+  },
+  {
+   "id": "film",
+   "faculty": "นิเทศศาสตร์",
+   "major_th": "ภาพยนตร์และสื่อดิจิทัล",
+   "cip": [
+    "09.0702",
+    "50.0601",
+    "50.0602",
+    "50.0605",
+    "50.0607",
+    "50.0699"
+   ],
+   "cip_titles": [
+    "Digital Communication and Media/Multimedia",
+    "Film/Cinema/Media Studies",
+    "Cinematography and Film/Video Production",
+    "Photography",
+    "Documentary Production",
+    "Film/Video and Photographic Arts, Other"
+   ],
+   "codes": [
+    "15-1255.00",
+    "15-1255.01",
+    "25-1121.00",
+    "25-1122.00",
+    "27-2012.00",
+    "27-2012.03",
+    "27-2012.04",
+    "27-2012.05",
+    "27-4021.00",
+    "27-4031.00",
+    "27-4032.00"
+   ]
+  },
+  {
+   "id": "english",
+   "faculty": "อักษรศาสตร์ / มนุษยศาสตร์",
+   "major_th": "ภาษาอังกฤษ",
+   "cip": [
+    "23.0101",
+    "23.1301",
+    "23.1302",
+    "23.1303",
+    "23.1304",
+    "23.1399"
+   ],
+   "cip_titles": [
+    "English Language and Literature, General",
+    "Writing, General",
+    "Creative Writing",
+    "Professional, Technical, Business, and Scientific Writing",
+    "Rhetoric and Composition",
+    "Rhetoric and Composition/Writing Studies, Other"
+   ],
+   "codes": [
+    "25-1123.00",
+    "25-2031.00",
+    "27-3041.00",
+    "27-3042.00",
+    "27-3043.00",
+    "27-3043.05",
+    "43-9081.00"
+   ]
+  },
+  {
+   "id": "thai_lang",
+   "faculty": "อักษรศาสตร์ / มนุษยศาสตร์",
+   "major_th": "ภาษาไทย / ภาษาศาสตร์",
+   "cip": [
+    "16.0102",
+    "23.1301",
+    "23.1302",
+    "23.1303",
+    "23.1304",
+    "23.1399"
+   ],
+   "cip_titles": [
+    "Linguistics",
+    "Writing, General",
+    "Creative Writing",
+    "Professional, Technical, Business, and Scientific Writing",
+    "Rhetoric and Composition",
+    "Rhetoric and Composition/Writing Studies, Other"
+   ],
+   "codes": [
+    "25-1123.00",
+    "25-1124.00",
+    "27-3041.00",
+    "27-3042.00",
+    "27-3043.00",
+    "27-3043.05",
+    "27-3091.00",
+    "43-9081.00"
+   ]
+  },
+  {
+   "id": "foreign_lang",
+   "faculty": "อักษรศาสตร์ / มนุษยศาสตร์",
+   "major_th": "ภาษาต่างประเทศ (จีน ญี่ปุ่น เกาหลี ฯลฯ)",
+   "cip": [
+    "16.0101",
+    "16.0102",
+    "16.0103",
+    "16.0104",
+    "16.0105",
+    "16.0199",
+    "16.0300",
+    "16.0301",
+    "16.0302",
+    "16.0303",
+    "16.0304",
+    "16.0399"
+   ],
+   "cip_titles": [
+    "Foreign Languages and Literatures, General",
+    "Linguistics",
+    "Language Interpretation and Translation",
+    "Comparative Literature",
+    "Applied Linguistics",
+    "Linguistic, Comparative, and Related Language Studies and Services, Other",
+    "East Asian Languages, Literatures, and Linguistics, General",
+    "Chinese Language and Literature",
+    "Japanese Language and Literature",
+    "Korean Language and Literature",
+    "Tibetan Language and Literature",
+    "East Asian Languages, Literatures, and Linguistics, Other"
+   ],
+   "codes": [
+    "19-3099.01",
+    "25-1123.00",
+    "25-1124.00",
+    "25-2031.00",
+    "27-3091.00"
+   ]
+  },
+  {
+   "id": "history",
+   "faculty": "อักษรศาสตร์ / มนุษยศาสตร์",
+   "major_th": "ประวัติศาสตร์ / โบราณคดี",
+   "cip": [
+    "45.0301",
+    "54.0101",
+    "54.0102",
+    "54.0103",
+    "54.0104",
+    "54.0105",
+    "54.0106",
+    "54.0107",
+    "54.0108",
+    "54.0199"
+   ],
+   "cip_titles": [
+    "Archeology",
+    "History, General",
+    "American  History (United States)",
+    "European History",
+    "History and Philosophy of Science and Technology",
+    "Public/Applied History",
+    "Asian History",
+    "Canadian History",
+    "Military History",
+    "History, Other"
+   ],
+   "codes": [
+    "11-9121.00",
+    "11-9121.01",
+    "11-9121.02",
+    "19-3091.00",
+    "19-3093.00",
+    "25-1061.00",
+    "25-1125.00",
+    "25-2031.00",
+    "25-4011.00",
+    "25-4012.00",
+    "25-4013.00",
+    "39-7011.00"
+   ]
+  },
+  {
+   "id": "philosophy",
+   "faculty": "อักษรศาสตร์ / มนุษยศาสตร์",
+   "major_th": "ปรัชญาและศาสนา",
+   "cip": [
+    "38.0101",
+    "38.0102",
+    "38.0103",
+    "38.0104",
+    "38.0199",
+    "38.0201",
+    "38.0202",
+    "38.0203",
+    "38.0204",
+    "38.0205",
+    "38.0206",
+    "38.0207",
+    "38.0208",
+    "38.0209"
+   ],
+   "cip_titles": [
+    "Philosophy",
+    "Logic",
+    "Ethics",
+    "Applied and Professional Ethics",
+    "Philosophy, Other",
+    "Religion/Religious Studies",
+    "Buddhist Studies",
+    "Christian Studies",
+    "Hindu Studies",
+    "Islamic Studies",
+    "Jewish/Judaic Studies",
+    "Talmudic Studies",
+    "Catholic Studies",
+    "Mormon Studies"
+   ],
+   "codes": [
+    "11-9121.00",
+    "11-9121.01",
+    "11-9121.02",
+    "15-2021.00",
+    "25-1022.00",
+    "25-1062.00",
+    "25-1126.00"
+   ]
+  },
+  {
+   "id": "library",
+   "faculty": "อักษรศาสตร์ / มนุษยศาสตร์",
+   "major_th": "บรรณารักษศาสตร์และสารสนเทศศาสตร์",
+   "cip": [
+    "25.0101",
+    "25.0102",
+    "25.0103",
+    "25.0199"
+   ],
+   "cip_titles": [
+    "Library and Information Science",
+    "Children and Youth Library Services",
+    "Archives/Archival Administration",
+    "Library Science and Administration, Other"
+   ],
+   "codes": [
+    "25-1082.00",
+    "25-4011.00",
+    "25-4022.00"
+   ]
+  },
+  {
+   "id": "edu_early",
+   "faculty": "ครุศาสตร์ / ศึกษาศาสตร์",
+   "major_th": "การศึกษาปฐมวัย",
+   "cip": [
+    "13.1210"
+   ],
+   "cip_titles": [
+    "Early Childhood Education and Teaching"
+   ],
+   "codes": [
+    "25-1081.00",
+    "25-2011.00",
+    "25-2012.00",
+    "25-2021.00",
+    "25-9042.00",
+    "25-9043.00"
+   ]
+  },
+  {
+   "id": "edu_primary",
+   "faculty": "ครุศาสตร์ / ศึกษาศาสตร์",
+   "major_th": "การประถมศึกษา",
+   "cip": [
+    "13.1202"
+   ],
+   "cip_titles": [
+    "Elementary Education and Teaching"
+   ],
+   "codes": [
+    "25-1081.00",
+    "25-2021.00"
+   ]
+  },
+  {
+   "id": "edu_secondary",
+   "faculty": "ครุศาสตร์ / ศึกษาศาสตร์",
+   "major_th": "การสอนระดับมัธยม (ทุกวิชา)",
+   "cip": [
+    "13.1205",
+    "13.1301",
+    "13.1302",
+    "13.1303",
+    "13.1304",
+    "13.1305",
+    "13.1306",
+    "13.1307",
+    "13.1308",
+    "13.1309",
+    "13.1310",
+    "13.1311",
+    "13.1312",
+    "13.1314",
+    "13.1315",
+    "13.1316",
+    "13.1317",
+    "13.1318",
+    "13.1319",
+    "13.1320",
+    "13.1321",
+    "13.1322",
+    "13.1323",
+    "13.1324",
+    "13.1325",
+    "13.1326",
+    "13.1327",
+    "13.1328",
+    "13.1329",
+    "13.1330",
+    "13.1331",
+    "13.1332",
+    "13.1333",
+    "13.1334",
+    "13.1335",
+    "13.1337",
+    "13.1338",
+    "13.1339",
+    "13.1399"
+   ],
+   "cip_titles": [
+    "Secondary Education and Teaching",
+    "Agricultural Teacher Education",
+    "Art Teacher Education",
+    "Business and Innovation/Entrepreneurship Teacher Education",
+    "Driver and Safety Teacher Education",
+    "English/Language Arts Teacher Education",
+    "Foreign Language Teacher  Education",
+    "Health Teacher Education",
+    "Family and Consumer Sciences/Home Economics Teacher Education",
+    "Technology Teacher Education/Industrial Arts Teacher Education",
+    "Sales and Marketing Operations/Marketing and Distribution   Teacher Education",
+    "Mathematics Teacher Education",
+    "Music Teacher Education",
+    "Physical Education Teaching and Coaching",
+    "Reading Teacher Education",
+    "Science Teacher Education/General Science Teacher Education",
+    "Social Science Teacher Education",
+    "Social Studies Teacher Education",
+    "Technical Teacher Education",
+    "Trade and Industrial Teacher Education",
+    "Computer Teacher Education",
+    "Biology Teacher Education",
+    "Chemistry Teacher Education",
+    "Drama and Dance Teacher Education",
+    "French Language Teacher Education",
+    "German Language Teacher Education",
+    "Health Occupations Teacher Education",
+    "History Teacher Education",
+    "Physics Teacher Education",
+    "Spanish Language Teacher Education",
+    "Speech Teacher Education",
+    "Geography Teacher Education",
+    "Latin Teacher Education",
+    "School Librarian/School Library Media Specialist",
+    "Psychology Teacher Education",
+    "Earth Science Teacher Education",
+    "Environmental Education",
+    "Communication Arts and Literature Teacher Education",
+    "Teacher Education and Professional Development, Specific Subject Areas, Other"
+   ],
+   "codes": [
+    "25-1011.00",
+    "25-1021.00",
+    "25-1022.00",
+    "25-1041.00",
+    "25-1042.00",
+    "25-1043.00",
+    "25-1051.00",
+    "25-1052.00",
+    "25-1053.00",
+    "25-1054.00",
+    "25-1064.00",
+    "25-1066.00",
+    "25-1071.00",
+    "25-1081.00",
+    "25-1121.00",
+    "25-1123.00",
+    "25-1124.00",
+    "25-1125.00",
+    "25-1192.00",
+    "25-1193.00",
+    "25-1194.00",
+    "25-2021.00",
+    "25-2022.00",
+    "25-2023.00",
+    "25-2031.00",
+    "25-2032.00",
+    "25-4022.00",
+    "27-2022.00",
+    "39-9031.00"
+   ]
+  },
+  {
+   "id": "edu_special",
+   "faculty": "ครุศาสตร์ / ศึกษาศาสตร์",
+   "major_th": "การศึกษาพิเศษ",
+   "cip": [
+    "13.1001",
+    "13.1003",
+    "13.1005",
+    "13.1006",
+    "13.1007",
+    "13.1008",
+    "13.1009",
+    "13.1011",
+    "13.1012",
+    "13.1013",
+    "13.1014",
+    "13.1015",
+    "13.1016",
+    "13.1017",
+    "13.1018",
+    "13.1019",
+    "13.1099"
+   ],
+   "cip_titles": [
+    "Special Education and Teaching, General",
+    "Education/Teaching of Individuals with Hearing Impairments Including Deafness",
+    "Education/Teaching of Individuals with Emotional Disturbances",
+    "Education/Teaching of Individuals with Intellectual Disabilities",
+    "Education/Teaching of Individuals with Multiple Disabilities",
+    "Education/Teaching of Individuals with Orthopedic and Other Physical Health Impairments",
+    "Education/Teaching of Individuals with Vision Impairments Including Blindness",
+    "Education/Teaching of Individuals with Specific Learning Disabilities",
+    "Education/Teaching of Individuals with Speech or Language Impairments",
+    "Education/Teaching of Individuals with Autism",
+    "Education/Teaching of Individuals Who are Developmentally Delayed",
+    "Education/Teaching of Individuals in Early Childhood Special Education Programs",
+    "Education/Teaching of Individuals with Traumatic Brain Injuries",
+    "Education/Teaching of Individuals in Elementary Special Education Programs",
+    "Education/Teaching of Individuals in Junior High/Middle School Special Education Programs",
+    "Education/Teaching of Individuals in Secondary Special Education Programs",
+    "Special Education and Teaching, Other"
+   ],
+   "codes": [
+    "25-1081.00",
+    "25-2051.00",
+    "25-2055.00",
+    "25-2056.00",
+    "25-2057.00",
+    "25-2058.00",
+    "25-2059.01",
+    "25-9043.00",
+    "27-3091.00"
+   ]
+  },
+  {
+   "id": "edu_pe",
+   "faculty": "ครุศาสตร์ / ศึกษาศาสตร์",
+   "major_th": "พลศึกษา",
+   "cip": [
+    "13.1314"
+   ],
+   "cip_titles": [
+    "Physical Education Teaching and Coaching"
+   ],
+   "codes": [
+    "25-1081.00",
+    "25-1193.00",
+    "25-2022.00",
+    "25-2031.00",
+    "27-2022.00",
+    "39-9031.00"
+   ]
+  },
+  {
+   "id": "edu_guidance",
+   "faculty": "ครุศาสตร์ / ศึกษาศาสตร์",
+   "major_th": "จิตวิทยาการแนะแนว",
+   "cip": [
+    "13.1101",
+    "13.1102",
+    "13.1199"
+   ],
+   "cip_titles": [
+    "Counselor Education/School Counseling and Guidance Services",
+    "College Student Counseling and Personnel Services",
+    "Student Counseling and Personnel Services, Other"
+   ],
+   "codes": [
+    "21-1012.00",
+    "39-9041.00"
+   ]
+  },
+  {
+   "id": "agriculture",
+   "faculty": "เกษตรศาสตร์",
+   "major_th": "เกษตรศาสตร์ / พืชศาสตร์",
+   "cip": [
+    "01.0000",
+    "01.0101",
+    "01.0102",
+    "01.0103",
+    "01.0104",
+    "01.0105",
+    "01.0106",
+    "01.0199",
+    "01.1101",
+    "01.1102",
+    "01.1103",
+    "01.1104",
+    "01.1105",
+    "01.1106",
+    "01.1199"
+   ],
+   "cip_titles": [
+    "Agriculture, General",
+    "Agricultural Business and Management, General",
+    "Agribusiness/Agricultural Business Operations",
+    "Agricultural Economics",
+    "Farm/Farm and Ranch Management",
+    "Agricultural/Farm Supplies Retailing and Wholesaling",
+    "Agricultural Business Technology/Technician",
+    "Agricultural Business and Management, Other",
+    "Plant Sciences, General",
+    "Agronomy and Crop Science",
+    "Horticultural Science",
+    "Agricultural and Horticultural Plant Breeding",
+    "Plant Protection and Integrated Pest Management",
+    "Range Science and Management",
+    "Plant Sciences, Other"
+   ],
+   "codes": [
+    "11-9013.00",
+    "13-1021.00",
+    "15-1232.00",
+    "19-1011.00",
+    "19-1012.00",
+    "19-1013.00",
+    "19-1031.00",
+    "19-1031.02",
+    "19-1031.03",
+    "19-3011.00",
+    "19-3011.01",
+    "19-4012.00",
+    "19-4012.01",
+    "25-1041.00",
+    "25-1043.00",
+    "25-1063.00",
+    "25-9021.00",
+    "41-4012.00",
+    "43-1011.00",
+    "45-1011.00"
+   ]
+  },
+  {
+   "id": "animal_sci",
+   "faculty": "เกษตรศาสตร์",
+   "major_th": "สัตวศาสตร์",
+   "cip": [
+    "01.0901",
+    "01.0902",
+    "01.0903",
+    "01.0904",
+    "01.0905",
+    "01.0906",
+    "01.0907",
+    "01.0999"
+   ],
+   "cip_titles": [
+    "Animal Sciences, General",
+    "Agricultural Animal Breeding",
+    "Animal Health",
+    "Animal Nutrition",
+    "Dairy Science",
+    "Livestock Management",
+    "Poultry Science",
+    "Animal Sciences, Other"
+   ],
+   "codes": [
+    "11-9013.00",
+    "19-1011.00",
+    "19-4012.00",
+    "19-4012.01",
+    "25-1041.00",
+    "25-9021.00",
+    "45-1011.00"
+   ]
+  },
+  {
+   "id": "fisheries",
+   "faculty": "เกษตรศาสตร์",
+   "major_th": "ประมง",
+   "cip": [
+    "03.0301"
+   ],
+   "cip_titles": [
+    "Fishing and Fisheries Sciences and Management"
+   ],
+   "codes": [
+    "45-1011.00",
+    "45-3031.00"
+   ]
+  },
+  {
+   "id": "forestry",
+   "faculty": "เกษตรศาสตร์",
+   "major_th": "วนศาสตร์",
+   "cip": [
+    "03.0501",
+    "03.0502",
+    "03.0506",
+    "03.0508",
+    "03.0509",
+    "03.0510",
+    "03.0511",
+    "03.0599"
+   ],
+   "cip_titles": [
+    "Forestry, General",
+    "Forest Sciences and Biology",
+    "Forest Management/Forest Resources Management",
+    "Urban Forestry",
+    "Wood Science and Wood Products/Pulp and Paper Technology/Technician",
+    "Forest Resources Production and Management",
+    "Forest Technology/Technician",
+    "Forestry, Other"
+   ],
+   "codes": [
+    "19-1031.00",
+    "19-1031.02",
+    "19-1031.03",
+    "19-1032.00",
+    "19-4071.00",
+    "25-1043.00",
+    "45-1011.00",
+    "45-4011.00"
+   ]
+  },
+  {
+   "id": "fine_arts",
+   "faculty": "ศิลปกรรม / การออกแบบ",
+   "major_th": "ทัศนศิลป์ / จิตรกรรม",
+   "cip": [
+    "50.0701",
+    "50.0702",
+    "50.0703",
+    "50.0705",
+    "50.0706",
+    "50.0708",
+    "50.0709",
+    "50.0710",
+    "50.0711",
+    "50.0712",
+    "50.0713",
+    "50.0714",
+    "50.0799"
+   ],
+   "cip_titles": [
+    "Art/Art Studies, General",
+    "Fine/Studio Arts, General",
+    "Art History, Criticism and Conservation",
+    "Drawing",
+    "Intermedia/Multimedia",
+    "Painting",
+    "Sculpture",
+    "Printmaking",
+    "Ceramic Arts and Ceramics",
+    "Fiber, Textile and Weaving Arts",
+    "Jewelry Arts",
+    "Metal Arts",
+    "Fine Arts and Art Studies, Other"
+   ],
+   "codes": [
+    "13-2022.00",
+    "25-1121.00",
+    "25-2031.00",
+    "25-4011.00",
+    "25-4012.00",
+    "25-4013.00",
+    "27-1011.00",
+    "27-1012.00",
+    "27-1013.00",
+    "27-1014.00",
+    "27-4021.00",
+    "51-9071.00",
+    "51-9071.06"
+   ]
+  },
+  {
+   "id": "graphic",
+   "faculty": "ศิลปกรรม / การออกแบบ",
+   "major_th": "ออกแบบนิเทศศิลป์ / กราฟิก",
+   "cip": [
+    "50.0409"
+   ],
+   "cip_titles": [
+    "Graphic Design"
+   ],
+   "codes": [
+    "15-1255.00",
+    "15-1255.01",
+    "25-1121.00",
+    "27-1011.00",
+    "27-1014.00",
+    "27-1024.00"
+   ]
+  },
+  {
+   "id": "product_design",
+   "faculty": "ศิลปกรรม / การออกแบบ",
+   "major_th": "ออกแบบผลิตภัณฑ์",
+   "cip": [
+    "50.0404"
+   ],
+   "cip_titles": [
+    "Industrial and Product Design"
+   ],
+   "codes": [
+    "25-1121.00",
+    "27-1021.00",
+    "27-1024.00"
+   ]
+  },
+  {
+   "id": "fashion",
+   "faculty": "ศิลปกรรม / การออกแบบ",
+   "major_th": "ออกแบบแฟชั่น",
+   "cip": [
+    "50.0407"
+   ],
+   "cip_titles": [
+    "Fashion/Apparel Design"
+   ],
+   "codes": [
+    "25-1121.00",
+    "27-1022.00"
+   ]
+  },
+  {
+   "id": "animation_game",
+   "faculty": "ศิลปกรรม / การออกแบบ",
+   "major_th": "แอนิเมชันและเกม",
+   "cip": [
+    "10.0304",
+    "50.0411"
+   ],
+   "cip_titles": [
+    "Animation, Interactive Technology, Video Graphics, and Special Effects",
+    "Game and Interactive Media Design"
+   ],
+   "codes": [
+    "27-1014.00"
+   ]
+  },
+  {
+   "id": "music",
+   "faculty": "ศิลปกรรม / การออกแบบ",
+   "major_th": "ดนตรี",
+   "cip": [
+    "50.0901",
+    "50.0902",
+    "50.0903",
+    "50.0904",
+    "50.0905",
+    "50.0906",
+    "50.0907",
+    "50.0908",
+    "50.0910",
+    "50.0911",
+    "50.0912",
+    "50.0913",
+    "50.0914",
+    "50.0915",
+    "50.0916",
+    "50.0917",
+    "50.0999"
+   ],
+   "cip_titles": [
+    "Music, General",
+    "Music History, Literature, and Theory",
+    "Music Performance, General",
+    "Music Theory and Composition",
+    "Musicology and Ethnomusicology",
+    "Conducting",
+    "Keyboard Instruments",
+    "Voice and Opera",
+    "Jazz/Jazz Studies",
+    "Stringed Instruments",
+    "Music Pedagogy",
+    "Music Technology",
+    "Brass Instruments",
+    "Woodwind Instruments",
+    "Percussion Instruments",
+    "Sound Arts",
+    "Music, Other"
+   ],
+   "codes": [
+    "25-1121.00",
+    "25-2031.00",
+    "27-2041.00",
+    "27-2042.00",
+    "27-2091.00",
+    "27-4014.00"
+   ]
+  },
+  {
+   "id": "performing",
+   "faculty": "ศิลปกรรม / การออกแบบ",
+   "major_th": "การแสดง / นาฏศิลป์",
+   "cip": [
+    "50.0301",
+    "50.0302",
+    "50.0399",
+    "50.0501",
+    "50.0502",
+    "50.0504",
+    "50.0505",
+    "50.0506",
+    "50.0507",
+    "50.0509",
+    "50.0510",
+    "50.0511",
+    "50.0512",
+    "50.0599"
+   ],
+   "cip_titles": [
+    "Dance, General",
+    "Ballet",
+    "Dance, Other",
+    "Drama and Dramatics/Theatre Arts, General",
+    "Technical Theatre/Theatre Design and Technology",
+    "Playwriting and Screenwriting",
+    "Theatre Literature, History and Criticism",
+    "Acting",
+    "Directing and Theatrical Production",
+    "Musical Theatre",
+    "Costume Design",
+    "Comedy Writing and Performance",
+    "Theatre and Dance",
+    "Dramatic/Theatre Arts and Stagecraft, Other"
+   ],
+   "codes": [
+    "25-1121.00",
+    "27-1022.00",
+    "27-1027.00",
+    "27-2011.00",
+    "27-2012.00",
+    "27-2012.03",
+    "27-2012.04",
+    "27-2012.05",
+    "27-2031.00",
+    "27-2032.00",
+    "27-2041.00",
+    "27-2042.00",
+    "27-3043.00",
+    "27-3043.05",
+    "39-3092.00"
+   ]
+  },
+  {
+   "id": "voc_electrical",
+   "faculty": "อาชีวศึกษา (ปวช. / ปวส.)",
+   "major_th": "ช่างไฟฟ้ากำลัง",
+   "cip": [
+    "46.0301",
+    "46.0302",
+    "46.0303",
+    "46.0399"
+   ],
+   "cip_titles": [
+    "Electrical and Power Transmission Installation/Installer, General",
+    "Electrician",
+    "Lineworker",
+    "Electrical and Power Transmission Installers, Other"
+   ],
+   "codes": [
+    "47-1011.00",
+    "47-1011.03",
+    "47-2111.00",
+    "49-1011.00",
+    "49-2095.00",
+    "49-2098.00",
+    "49-9051.00",
+    "49-9097.00"
+   ]
+  },
+  {
+   "id": "voc_electronics",
+   "faculty": "อาชีวศึกษา (ปวช. / ปวส.)",
+   "major_th": "ช่างอิเล็กทรอนิกส์",
+   "cip": [
+    "15.0303",
+    "15.0304",
+    "15.0305",
+    "15.0306",
+    "15.0307",
+    "15.0399",
+    "47.0101",
+    "47.0102",
+    "47.0103",
+    "47.0104",
+    "47.0105",
+    "47.0106",
+    "47.0110",
+    "47.0199"
+   ],
+   "cip_titles": [
+    "Electrical, Electronic, and Communications Engineering Technology/Technician",
+    "Laser and Optical Technology/Technician",
+    "Telecommunications Technology/Technician",
+    "Integrated Circuit Design Technology/Technician",
+    "Audio Engineering Technology/Technician",
+    "Electrical/Electronic Engineering Technologies/Technicians, Other",
+    "Electrical/Electronics Equipment Installation and Repair Technology/Technician, General",
+    "Business Machine Repair",
+    "Communications Systems Installation and Repair Technology/Technician",
+    "Computer Installation and Repair Technology/Technician",
+    "Industrial Electronics Technology/Technician",
+    "Appliance Installation and Repair Technology/Technician",
+    "Security System Installation, Repair, and Inspection Technology/Technician",
+    "Electrical/Electronics Maintenance and Repair Technologies/Technicians, Other"
+   ],
+   "codes": [
+    "17-3012.00",
+    "17-3021.00",
+    "17-3023.00",
+    "17-3024.00",
+    "17-3024.01",
+    "17-3029.01",
+    "17-3029.08",
+    "27-2091.00",
+    "27-4014.00",
+    "49-2011.00",
+    "49-2021.00",
+    "49-2022.00",
+    "49-2092.00",
+    "49-2094.00",
+    "49-2095.00",
+    "49-2097.00",
+    "49-2098.00",
+    "49-9031.00",
+    "49-9052.00",
+    "49-9099.01",
+    "51-9141.00"
+   ]
+  },
+  {
+   "id": "voc_auto",
+   "faculty": "อาชีวศึกษา (ปวช. / ปวส.)",
+   "major_th": "ช่างยนต์",
+   "cip": [
+    "47.0600",
+    "47.0603",
+    "47.0604",
+    "47.0605",
+    "47.0606",
+    "47.0607",
+    "47.0608",
+    "47.0609",
+    "47.0610",
+    "47.0611",
+    "47.0612",
+    "47.0613",
+    "47.0614",
+    "47.0615",
+    "47.0616",
+    "47.0617",
+    "47.0618"
+   ],
+   "cip_titles": [
+    "Vehicle Maintenance and Repair Technology/Technician, General",
+    "Autobody/Collision and Repair Technology/Technician",
+    "Automobile/Automotive Mechanics Technology/Technician",
+    "Diesel Mechanics Technology/Technician",
+    "Small Engine Mechanics and Repair Technology/Technician",
+    "Airframe Mechanics and Aircraft Maintenance Technology/Technician",
+    "Aircraft Powerplant Technology/Technician",
+    "Avionics Maintenance Technology/Technician",
+    "Bicycle Mechanics and Repair Technology/Technician",
+    "Motorcycle Maintenance and Repair Technology/Technician",
+    "Vehicle Emissions Inspection and Maintenance Technology/Technician",
+    "Medium/Heavy Vehicle and Truck Technology/Technician",
+    "Alternative Fuel Vehicle Technology/Technician",
+    "Engine Machinist",
+    "Marine Maintenance/Fitter and Ship Repair Technology/Technician",
+    "High Performance and Custom Engine Technician/Mechanic",
+    "Recreation Vehicle (RV) Service Technician"
+   ],
+   "codes": [
+    "13-1032.00",
+    "17-3021.00",
+    "49-1011.00",
+    "49-2091.00",
+    "49-2093.00",
+    "49-2096.00",
+    "49-3011.00",
+    "49-3021.00",
+    "49-3022.00",
+    "49-3023.00",
+    "49-3031.00",
+    "49-3051.00",
+    "49-3052.00",
+    "49-3053.00",
+    "49-3091.00",
+    "49-3092.00",
+    "51-2011.00",
+    "51-2031.00",
+    "51-9124.00"
+   ]
+  },
+  {
+   "id": "voc_machine",
+   "faculty": "อาชีวศึกษา (ปวช. / ปวส.)",
+   "major_th": "ช่างกลโรงงาน / ช่างเชื่อม",
+   "cip": [
+    "48.0501",
+    "48.0503",
+    "48.0506",
+    "48.0507",
+    "48.0508",
+    "48.0509",
+    "48.0510",
+    "48.0511",
+    "48.0599"
+   ],
+   "cip_titles": [
+    "Machine Tool Technology/Machinist",
+    "Machine Shop Technology/Assistant",
+    "Sheet Metal Technology/Sheetworking",
+    "Tool and Die Technology/Technician",
+    "Welding Technology/Welder",
+    "Ironworking/Ironworker",
+    "Computer Numerically Controlled (CNC) Machinist Technology/CNC Machinist",
+    "Metal Fabricator",
+    "Precision Metal Working, Other"
+   ],
+   "codes": [
+    "47-2211.00",
+    "51-2041.00",
+    "51-4021.00",
+    "51-4022.00",
+    "51-4023.00",
+    "51-4031.00",
+    "51-4032.00",
+    "51-4033.00",
+    "51-4034.00",
+    "51-4035.00",
+    "51-4041.00",
+    "51-4061.00",
+    "51-4062.00",
+    "51-4071.00",
+    "51-4081.00",
+    "51-4111.00",
+    "51-4121.00",
+    "51-4122.00",
+    "51-4191.00",
+    "51-4192.00",
+    "51-4194.00",
+    "51-9161.00",
+    "51-9162.00"
+   ]
+  },
+  {
+   "id": "voc_construction",
+   "faculty": "อาชีวศึกษา (ปวช. / ปวส.)",
+   "major_th": "ช่างก่อสร้าง",
+   "cip": [
+    "46.0000",
+    "46.0201",
+    "46.0401",
+    "46.0402",
+    "46.0403",
+    "46.0404",
+    "46.0406",
+    "46.0408",
+    "46.0410",
+    "46.0411",
+    "46.0412",
+    "46.0413",
+    "46.0414",
+    "46.0415"
+   ],
+   "cip_titles": [
+    "Construction Trades, General",
+    "Carpentry/Carpenter",
+    "Building/Property Maintenance",
+    "Concrete Finishing/Concrete Finisher",
+    "Building/Home/Construction Inspection/Inspector",
+    "Drywall Installation/Drywaller",
+    "Glazier",
+    "Painting/Painter and Wall Coverer",
+    "Roofer",
+    "Metal Building Assembly/Assembler",
+    "Building/Construction Site Management/Manager",
+    "Carpet, Floor, and Tile Worker",
+    "Insulator",
+    "Building Construction Technology/Technician"
+   ],
+   "codes": [
+    "11-3013.00",
+    "11-3013.01",
+    "17-3022.00",
+    "37-1011.00",
+    "47-1011.00",
+    "47-1011.03",
+    "47-2031.00",
+    "47-2041.00",
+    "47-2042.00",
+    "47-2043.00",
+    "47-2044.00",
+    "47-2051.00",
+    "47-2053.00",
+    "47-2081.00",
+    "47-2121.00",
+    "47-2131.00",
+    "47-2132.00",
+    "47-2141.00",
+    "47-2142.00",
+    "47-2181.00",
+    "47-2221.00",
+    "47-2231.00",
+    "47-4011.00",
+    "47-4011.01",
+    "49-9071.00",
+    "49-9095.00"
+   ]
+  },
+  {
+   "id": "voc_aircon",
+   "faculty": "อาชีวศึกษา (ปวช. / ปวส.)",
+   "major_th": "ช่างเครื่องทำความเย็นและปรับอากาศ",
+   "cip": [
+    "47.0201"
+   ],
+   "cip_titles": [
+    "Heating, Air Conditioning, Ventilation and Refrigeration Maintenance Technology/Technician"
+   ],
+   "codes": [
+    "49-9021.00"
+   ]
+  },
+  {
+   "id": "voc_business",
+   "faculty": "อาชีวศึกษา (ปวช. / ปวส.)",
+   "major_th": "พาณิชยการ / การบัญชี (ปวช. / ปวส.)",
+   "cip": [
+    "52.0302",
+    "52.0401",
+    "52.0402",
+    "52.0406",
+    "52.0407",
+    "52.0408",
+    "52.0409",
+    "52.0410",
+    "52.0411",
+    "52.0499"
+   ],
+   "cip_titles": [
+    "Accounting Technology/Technician and Bookkeeping",
+    "Administrative Assistant and Secretarial Science, General",
+    "Executive Assistant/Executive Secretary",
+    "Receptionist",
+    "Business/Office Automation/Technology/Data Entry",
+    "General Office Occupations and Clerical Services",
+    "Parts, Warehousing, and Inventory Management Operations",
+    "Traffic, Customs, and Transportation Clerk/Technician",
+    "Customer Service Support/Call Center/Teleservice Operation",
+    "Business Operations Support and Secretarial Services, Other"
+   ],
+   "codes": [
+    "13-1199.04",
+    "13-1199.05",
+    "13-1199.06",
+    "13-1199.07",
+    "13-2082.00",
+    "43-1011.00",
+    "43-3031.00",
+    "43-3051.00",
+    "43-3061.00",
+    "43-4011.00",
+    "43-4021.00",
+    "43-4051.00",
+    "43-4071.00",
+    "43-4151.00",
+    "43-4161.00",
+    "43-4171.00",
+    "43-5011.00",
+    "43-5011.01",
+    "43-5032.00",
+    "43-5061.00",
+    "43-6011.00",
+    "43-6014.00",
+    "43-9021.00",
+    "43-9022.00",
+    "43-9041.00",
+    "43-9061.00",
+    "43-9111.00"
+   ]
+  },
+  {
+   "id": "voc_beauty",
+   "faculty": "อาชีวศึกษา (ปวช. / ปวส.)",
+   "major_th": "ความงามและเสริมสวย",
+   "cip": [
+    "12.0401",
+    "12.0402",
+    "12.0404",
+    "12.0406",
+    "12.0407",
+    "12.0408",
+    "12.0409",
+    "12.0410",
+    "12.0411",
+    "12.0412",
+    "12.0413",
+    "12.0414",
+    "12.0499"
+   ],
+   "cip_titles": [
+    "Cosmetology/Cosmetologist, General",
+    "Barbering/Barber",
+    "Electrolysis/Electrology and Electrolysis Technician",
+    "Make-Up Artist/Specialist",
+    "Hair Styling/Stylist and Hair Design",
+    "Facial Treatment Specialist/Facialist",
+    "Aesthetician/Esthetician and Skin Care Specialist",
+    "Nail Technician/Specialist and Manicurist",
+    "Permanent Cosmetics/Makeup and Tattooing",
+    "Salon/Beauty Salon Management/Manager",
+    "Cosmetology, Barber/Styling, and Nail Instructor",
+    "Master Aesthetician/Esthetician",
+    "Cosmetology and Related Personal Grooming Arts, Other"
+   ],
+   "codes": [
+    "11-9179.01",
+    "11-9179.02",
+    "39-1022.00",
+    "39-5011.00",
+    "39-5012.00",
+    "39-5091.00",
+    "39-5092.00",
+    "39-5093.00",
+    "39-5094.00"
+   ]
+  },
+  {
+   "id": "aviation",
+   "faculty": "อื่น ๆ",
+   "major_th": "การบิน / นักบิน",
+   "cip": [
+    "49.0101",
+    "49.0102",
+    "49.0104",
+    "49.0105",
+    "49.0106",
+    "49.0108"
+   ],
+   "cip_titles": [
+    "Aeronautics/Aviation/Aerospace Science and Technology, General",
+    "Airline/Commercial/Professional Pilot and Flight Crew",
+    "Aviation/Airway Management and Operations",
+    "Air Traffic Controller",
+    "Airline Flight Attendant",
+    "Flight Instructor"
+   ],
+   "codes": [
+    "11-3071.00",
+    "11-3071.04",
+    "53-1044.00",
+    "53-2011.00",
+    "53-2012.00",
+    "53-2021.00",
+    "53-2022.00",
+    "53-2031.00"
+   ]
+  },
+  {
+   "id": "logistics_driver",
+   "faculty": "อื่น ๆ",
+   "major_th": "การขนส่ง / เดินเรือ",
+   "cip": [
+    "49.0202",
+    "49.0205",
+    "49.0206",
+    "49.0207",
+    "49.0208",
+    "49.0209",
+    "49.0303",
+    "49.0304",
+    "49.0309",
+    "49.0399"
+   ],
+   "cip_titles": [
+    "Construction/Heavy Equipment/Earthmoving Equipment Operation",
+    "Truck and Bus Driver/Commercial Vehicle Operator and Instructor",
+    "Mobil Crane Operator/Operation",
+    "Flagging and Traffic Control",
+    "Railroad and Railway Transportation",
+    "Forklift Operation/Operator",
+    "Commercial Fishing",
+    "Diver, Professional and Instructor",
+    "Marine Science/Merchant Marine Officer",
+    "Marine Transportation, Other"
+   ],
+   "codes": [
+    "25-1194.00",
+    "45-4022.00",
+    "47-2071.00",
+    "47-2072.00",
+    "47-2073.00",
+    "47-4051.00",
+    "47-4061.00",
+    "47-5022.00",
+    "47-5023.00",
+    "47-5032.00",
+    "47-5041.00",
+    "49-9092.00",
+    "53-1043.00",
+    "53-3032.00",
+    "53-3033.00",
+    "53-3051.00",
+    "53-3052.00",
+    "53-3053.00",
+    "53-4011.00",
+    "53-4013.00",
+    "53-4022.00",
+    "53-4031.00",
+    "53-4041.00",
+    "53-5021.00",
+    "53-5022.00",
+    "53-5031.00",
+    "53-7021.00",
+    "53-7031.00",
+    "53-7041.00",
+    "53-7051.00"
+   ]
+  }
+ ]
+}

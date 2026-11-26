@@ -1,0 +1,25 @@
+model,split,top1,top5,top5_major_group,macro_f1
+① Matching — cosine (baseline),val,0.9582,0.9934,1.0,0.9441
+① Matching — cosine (baseline),stress_val,0.6391,0.8321,0.9463,0.6374
+① Matching — cosine (baseline),test,0.9487,0.9927,1.0,0.9425
+① Matching — cosine (baseline),stress_test,0.6436,0.8295,0.9421,0.6404
+① Matching — centered cosine,val,0.9473,0.9941,0.9993,0.9286
+① Matching — centered cosine,stress_val,0.4757,0.6988,0.8817,0.4688
+① Matching — centered cosine,test,0.9451,0.9927,0.9985,0.9376
+① Matching — centered cosine,stress_test,0.4828,0.6965,0.8814,0.4746
+②a Classifier — Logistic Regression,val,0.8696,0.9788,1.0,0.8448
+②a Classifier — Logistic Regression,stress_val,0.5206,0.746,0.9314,0.5375
+②a Classifier — Logistic Regression,test,0.8674,0.9766,0.9963,0.8517
+②a Classifier — Logistic Regression,stress_test,0.5227,0.7426,0.922,0.5373
+②a Classifier — kNN (k=15),val,0.8125,0.9465,0.9934,0.7692
+②a Classifier — kNN (k=15),stress_val,0.4628,0.7107,0.9289,0.4611
+②a Classifier — kNN (k=15),test,0.7941,0.9436,0.9956,0.7729
+②a Classifier — kNN (k=15),stress_test,0.4639,0.7117,0.9283,0.4631
+②a Classifier — MLP (256),val,0.8864,0.9839,0.9993,0.8573
+②a Classifier — MLP (256),stress_val,0.548,0.7683,0.9405,0.5482
+②a Classifier — MLP (256),test,0.8799,0.9795,0.9978,0.8657
+②a Classifier — MLP (256),stress_test,0.5551,0.7683,0.9386,0.5568
+Ensemble ① + ②a,val,0.9575,0.9956,1.0,0.9442
+Ensemble ① + ②a,stress_val,0.6492,0.838,0.9515,0.6468
+Ensemble ① + ②a,test,0.9458,0.9941,1.0,0.9382
+Ensemble ① + ②a,stress_test,0.6503,0.8337,0.9471,0.6464

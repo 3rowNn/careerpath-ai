@@ -1,0 +1,21 @@
+model,split,accuracy,top3,macro_f1
+②b Logistic Regression,val,0.7795,0.9729,0.7536
+②b Logistic Regression,stress_val,0.6427,0.8897,0.6056
+②b Logistic Regression,test,0.7729,0.9678,0.7398
+②b Logistic Regression,stress_test,0.6453,0.8872,0.606
+②b kNN (k=15),val,0.9209,0.9985,0.9128
+②b kNN (k=15),stress_val,0.7442,0.9304,0.7128
+②b kNN (k=15),test,0.9209,0.9971,0.9056
+②b kNN (k=15),stress_test,0.7366,0.9332,0.7085
+②b Random Forest,val,0.8022,0.9663,0.7387
+②b Random Forest,stress_val,0.6313,0.8741,0.5582
+②b Random Forest,test,0.789,0.9685,0.7391
+②b Random Forest,stress_test,0.6217,0.8759,0.5395
+②b HistGradientBoosting,val,0.8542,0.9832,0.8162
+②b HistGradientBoosting,stress_val,0.6662,0.8871,0.6125
+②b HistGradientBoosting,test,0.844,0.9817,0.8291
+②b HistGradientBoosting,stress_test,0.6629,0.8824,0.6047
+②b MLP (256),val,0.8901,0.9934,0.8725
+②b MLP (256),stress_val,0.6921,0.9078,0.6649
+②b MLP (256),test,0.8916,0.9912,0.8753
+②b MLP (256),stress_test,0.6862,0.907,0.6621

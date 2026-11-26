@@ -1,0 +1,1288 @@
+{
+ "generated_at": "2026-11-12T00:42:15+00:00",
+ "personas": {
+  "n": 28,
+  "strict": {
+   "hit_at_1": 0.5,
+   "hit_at_5": 0.7142857142857143,
+   "hit_at_10": 0.8571428571428571
+  },
+  "soc": {
+   "hit_at_1": 0.5714285714285714,
+   "hit_at_5": 0.7857142857142857,
+   "hit_at_10": 0.8928571428571429
+  },
+  "median_rank_strict": 1.5,
+  "major_group_top1": 0.75,
+  "by_group": {
+   "it": {
+    "n": 12,
+    "strict": {
+     "hit_at_1": 0.6666666666666666,
+     "hit_at_5": 0.8333333333333334,
+     "hit_at_10": 0.9166666666666666
+    },
+    "soc": {
+     "hit_at_1": 0.75,
+     "hit_at_5": 0.8333333333333334,
+     "hit_at_10": 0.9166666666666666
+    },
+    "median_rank_strict": 1.0,
+    "major_group_top1": 0.9166666666666666
+   },
+   "non_it": {
+    "n": 16,
+    "strict": {
+     "hit_at_1": 0.375,
+     "hit_at_5": 0.625,
+     "hit_at_10": 0.8125
+    },
+    "soc": {
+     "hit_at_1": 0.4375,
+     "hit_at_5": 0.75,
+     "hit_at_10": 0.875
+    },
+    "median_rank_strict": 3.0,
+    "major_group_top1": 0.625
+   }
+  },
+  "rows": [
+   {
+    "id": "data_scientist",
+    "name": "นักศึกษาชอบวิเคราะห์ข้อมูลและสร้างโมเดล",
+    "top5": [
+     {
+      "code": "15-2041.01",
+      "title": "Biostatisticians",
+      "expected": false,
+      "same_family": true
+     },
+     {
+      "code": "15-2051.00",
+      "title": "Data Scientists",
+      "expected": true,
+      "same_family": true
+     },
+     {
+      "code": "15-2041.00",
+      "title": "Statisticians",
+      "expected": true,
+      "same_family": true
+     },
+     {
+      "code": "13-2099.01",
+      "title": "Financial Quantitative Analysts",
+      "expected": false,
+      "same_family": false
+     },
+     {
+      "code": "19-1029.01",
+      "title": "Bioinformatics Scientists",
+      "expected": false,
+      "same_family": false
+     }
+    ],
+    "rank_strict": 2,
+    "rank_soc": 1,
+    "major_top": "15",
+    "major_expected": "15",
+    "major_ok": true,
+    "group": "it"
+   },
+   {
+    "id": "bi_analyst",
+    "name": "ชอบทำ dashboard สรุปข้อมูลให้ฝ่ายธุรกิจ",
+    "top5": [
+     {
+      "code": "15-2051.01",
+      "title": "Business Intelligence Analysts",
+      "expected": true,
+      "same_family": true
+     },
+     {
+      "code": "15-2051.02",
+      "title": "Clinical Data Managers",
+      "expected": false,
+      "same_family": true
+     },
+     {
+      "code": "19-4061.00",
+      "title": "Social Science Research Assistants",
+      "expected": false,
+      "same_family": false
+     },
+     {
+      "code": "43-3031.00",
+      "title": "Bookkeeping, Accounting, and Auditing Clerks",
+      "expected": false,
+      "same_family": false
+     },
+     {
+      "code": "15-1243.01",
+      "title": "Data Warehousing Specialists",
+      "expected": true,
+      "same_family": true
+     }
+    ],
+    "rank_strict": 1,
+    "rank_soc": 1,
+    "major_top": "15",
+    "major_expected": "15",
+    "major_ok": true,
+    "group": "it"
+   },
+   {
+    "id": "backend_dev",
+    "name": "ชอบเขียนโปรแกรมฝั่ง server และสร้างระบบ",
+    "top5": [
+     {
+      "code": "15-1243.00",
+      "title": "Database Architects",
+      "expected": true,
+      "same_family": true
+     },
+     {
+      "code": "15-1211.00",
+      "title": "Computer Systems Analysts",
+      "expected": true,
+      "same_family": true
+     },
+     {
+      "code": "15-1242.00",
+      "title": "Database Administrators",
+      "expected": false,
+      "same_family": true
+     },
+     {
+      "code": "15-2099.01",
+      "title": "Bioinformatics Technicians",
+      "expected": false,
+      "same_family": false
+     },
+     {
+      "code": "15-1254.00",
+      "title": "Web Developers",
+      "expected": true,
+      "same_family": true
+     }
+    ],
+    "rank_strict": 1,
+    "rank_soc": 1,
+    "major_top": "15",
+    "major_expected": "15",
+    "major_ok": true,
+    "group": "it"
+   },
+   {
+    "id": "frontend_dev",
+    "name": "ชอบทำหน้าเว็บที่คนใช้งานจริง",
+    "top5": [
+     {
+      "code": "15-1255.00",
+      "title": "Web and Digital Interface Designers",
+      "expected": true,
+      "same_family": true
+     },
+     {
+      "code": "15-1254.00",
+      "title": "Web Developers",
+      "expected": true,
+      "same_family": true
+     },
+     {
+      "code": "27-1024.00",
+      "title": "Graphic Designers",
+      "expected": false,
+      "same_family": false
+     },
+     {
+      "code": "15-1299.02",
+      "title": "Geographic Information Systems Technologists and Technicians",
+      "expected": false,
+      "same_family": false
+     },
+     {
+      "code": "43-9031.00",
+      "title": "Desktop Publishers",
+      "expected": false,
+      "same_family": false
+     }
+    ],
+    "rank_strict": 1,
+    "rank_soc": 1,
+    "major_top": "15",
+    "major_expected": "15",
+    "major_ok": true,
+    "group": "it"
+   },
+   {
+    "id": "ux_designer",
+    "name": "ชอบออกแบบหน้าจอและประสบการณ์ผู้ใช้",
+    "top5": [
+     {
+      "code": "27-1024.00",
+      "title": "Graphic Designers",
+      "expected": true,
+      "same_family": true
+     },
+     {
+      "code": "27-1011.00",
+      "title": "Art Directors",
+      "expected": false,
+      "same_family": false
+     },
+     {
+      "code": "27-1027.00",
+      "title": "Set and Exhibit Designers",
+      "expected": false,
+      "same_family": true
+     },
+     {
+      "code": "27-1013.00",
+      "title": "Fine Artists, Including Painters, Sculptors, and Illustrators",
+      "expected": false,
+      "same_family": false
+     },
+     {
+      "code": "27-1014.00",
+      "title": "Special Effects Artists and Animators",
+      "expected": false,
+      "same_family": false
+     }
+    ],
+    "rank_strict": 1,
+    "rank_soc": 1,
+    "major_top": "27",
+    "major_expected": "27",
+    "major_ok": true,
+    "group": "it"
+   },
+   {
+    "id": "security",
+    "name": "ชอบหาช่องโหว่และป้องกันระบบ",
+    "top5": [
+     {
+      "code": "15-1212.00",
+      "title": "Information Security Analysts",
+      "expected": true,
+      "same_family": true
+     },
+     {
+      "code": "15-1299.04",
+      "title": "Penetration Testers",
+      "expected": false,
+      "same_family": true
+     },
+     {
+      "code": "15-1299.05",
+      "title": "Information Security Engineers",
+      "expected": true,
+      "same_family": true
+     },
+     {
+      "code": "15-1299.06",
+      "title": "Digital Forensics Analysts",
+      "expected": false,
+      "same_family": true
+     },
+     {
+      "code": "15-1231.00",
+      "title": "Computer Network Support Specialists",
+      "expected": false,
+      "same_family": false
+     }
+    ],
+    "rank_strict": 1,
+    "rank_soc": 1,
+    "major_top": "15",
+    "major_expected": "15",
+    "major_ok": true,
+    "group": "it"
+   },
+   {
+    "id": "sysadmin_devops",
+    "name": "ชอบดูแลเซิร์ฟเวอร์ cloud และระบบไม่ให้ล่ม",
+    "top5": [
+     {
+      "code": "15-1244.00",
+      "title": "Network and Computer Systems Administrators",
+      "expected": true,
+      "same_family": true
+     },
+     {
+      "code": "15-1231.00",
+      "title": "Computer Network Support Specialists",
+      "expected": true,
+      "same_family": true
+     },
+     {
+      "code": "17-2061.00",
+      "title": "Computer Hardware Engineers",
+      "expected": false,
+      "same_family": false
+     },
+     {
+      "code": "15-1241.00",
+      "title": "Computer Network Architects",
+      "expected": true,
+      "same_family": true
+     },
+     {
+      "code": "15-1299.08",
+      "title": "Computer Systems Engineers/Architects",
+      "expected": true,
+      "same_family": true
+     }
+    ],
+    "rank_strict": 1,
+    "rank_soc": 1,
+    "major_top": "15",
+    "major_expected": "15",
+    "major_ok": true,
+    "group": "it"
+   },
+   {
+    "id": "qa_tester",
+    "name": "ชอบตรวจหา bug และทดสอบระบบ",
+    "top5": [
+     {
+      "code": "15-1253.00",
+      "title": "Software Quality Assurance Analysts and Testers",
+      "expected": true,
+      "same_family": true
+     },
+     {
+      "code": "15-1299.08",
+      "title": "Computer Systems Engineers/Architects",
+      "expected": false,
+      "same_family": false
+     },
+     {
+      "code": "15-1242.00",
+      "title": "Database Administrators",
+      "expected": false,
+      "same_family": false
+     },
+     {
+      "code": "15-1212.00",
+      "title": "Information Security Analysts",
+      "expected": false,
+      "same_family": true
+     },
+     {
+      "code": "15-1211.00",
+      "title": "Computer Systems Analysts",
+      "expected": true,
+      "same_family": true
+     }
+    ],
+    "rank_strict": 1,
+    "rank_soc": 1,
+    "major_top": "15",
+    "major_expected": "15",
+    "major_ok": true,
+    "group": "it"
+   },
+   {
+    "id": "it_support",
+    "name": "ชอบช่วยผู้ใช้แก้ปัญหาคอมพิวเตอร์",
+    "top5": [
+     {
+      "code": "29-1122.01",
+      "title": "Low Vision Therapists, Orientation and Mobility Specialists, and Vision Rehabilitation Therapists",
+      "expected": false,
+      "same_family": false
+     },
+     {
+      "code": "41-3041.00",
+      "title": "Travel Agents",
+      "expected": false,
+      "same_family": false
+     },
+     {
+      "code": "43-4181.00",
+      "title": "Reservation and Transportation Ticket Agents and Travel Clerks",
+      "expected": false,
+      "same_family": false
+     },
+     {
+      "code": "21-1094.00",
+      "title": "Community Health Workers",
+      "expected": false,
+      "same_family": false
+     },
+     {
+      "code": "21-1014.00",
+      "title": "Mental Health Counselors",
+      "expected": false,
+      "same_family": false
+     }
+    ],
+    "rank_strict": 6,
+    "rank_soc": 6,
+    "major_top": "43",
+    "major_expected": "15",
+    "major_ok": false,
+    "group": "it"
+   },
+   {
+    "id": "dba",
+    "name": "ชอบออกแบบและดูแลฐานข้อมูล",
+    "top5": [
+     {
+      "code": "15-1242.00",
+      "title": "Database Administrators",
+      "expected": true,
+      "same_family": true
+     },
+     {
+      "code": "15-1243.00",
+      "title": "Database Architects",
+      "expected": true,
+      "same_family": true
+     },
+     {
+      "code": "15-2051.02",
+      "title": "Clinical Data Managers",
+      "expected": false,
+      "same_family": true
+     },
+     {
+      "code": "15-2099.01",
+      "title": "Bioinformatics Technicians",
+      "expected": false,
+      "same_family": false
+     },
+     {
+      "code": "15-1243.01",
+      "title": "Data Warehousing Specialists",
+      "expected": true,
+      "same_family": true
+     }
+    ],
+    "rank_strict": 1,
+    "rank_soc": 1,
+    "major_top": "15",
+    "major_expected": "15",
+    "major_ok": true,
+    "group": "it"
+   },
+   {
+    "id": "it_pm",
+    "name": "ชอบวางแผนโปรเจกต์ IT และประสานทีม",
+    "top5": [
+     {
+      "code": "11-3071.00",
+      "title": "Transportation, Storage, and Distribution Managers",
+      "expected": false,
+      "same_family": false
+     },
+     {
+      "code": "11-1011.00",
+      "title": "Chief Executives",
+      "expected": false,
+      "same_family": false
+     },
+     {
+      "code": "43-1011.00",
+      "title": "First-Line Supervisors of Office and Administrative Support Workers",
+      "expected": false,
+      "same_family": false
+     },
+     {
+      "code": "11-9111.00",
+      "title": "Medical and Health Services Managers",
+      "expected": false,
+      "same_family": false
+     },
+     {
+      "code": "37-1011.00",
+      "title": "First-Line Supervisors of Housekeeping and Janitorial Workers",
+      "expected": false,
+      "same_family": false
+     }
+    ],
+    "rank_strict": 14,
+    "rank_soc": 14,
+    "major_top": "11",
+    "major_expected": "11",
+    "major_ok": true,
+    "group": "it"
+   },
+   {
+    "id": "systems_analyst",
+    "name": "ชอบเก็บความต้องการธุรกิจแล้วออกแบบระบบให้ตอบโจทย์",
+    "top5": [
+     {
+      "code": "15-1252.00",
+      "title": "Software Developers",
+      "expected": false,
+      "same_family": false
+     },
+     {
+      "code": "15-2051.01",
+      "title": "Business Intelligence Analysts",
+      "expected": true,
+      "same_family": true
+     },
+     {
+      "code": "15-1211.00",
+      "title": "Computer Systems Analysts",
+      "expected": true,
+      "same_family": true
+     },
+     {
+      "code": "15-2051.02",
+      "title": "Clinical Data Managers",
+      "expected": false,
+      "same_family": true
+     },
+     {
+      "code": "19-1029.01",
+      "title": "Bioinformatics Scientists",
+      "expected": false,
+      "same_family": false
+     }
+    ],
+    "rank_strict": 2,
+    "rank_soc": 2,
+    "major_top": "15",
+    "major_expected": "15",
+    "major_ok": true,
+    "group": "it"
+   },
+   {
+    "id": "nurse",
+    "name": "ชอบดูแลคนป่วย มีความรู้ด้านการแพทย์ (นอกสาย IT)",
+    "top5": [
+     {
+      "code": "29-1122.00",
+      "title": "Occupational Therapists",
+      "expected": false,
+      "same_family": false
+     },
+     {
+      "code": "31-1121.00",
+      "title": "Home Health Aides",
+      "expected": false,
+      "same_family": false
+     },
+     {
+      "code": "29-2053.00",
+      "title": "Psychiatric Technicians",
+      "expected": false,
+      "same_family": false
+     },
+     {
+      "code": "31-2011.00",
+      "title": "Occupational Therapy Assistants",
+      "expected": false,
+      "same_family": false
+     },
+     {
+      "code": "31-2012.00",
+      "title": "Occupational Therapy Aides",
+      "expected": false,
+      "same_family": false
+     }
+    ],
+    "rank_strict": 79,
+    "rank_soc": 24,
+    "major_top": "31",
+    "major_expected": "29",
+    "major_ok": false,
+    "group": "non_it"
+   },
+   {
+    "id": "teacher",
+    "name": "ชอบสอนและถ่ายทอดความรู้ (นอกสาย IT)",
+    "top5": [
+     {
+      "code": "25-3021.00",
+      "title": "Self-Enrichment Teachers",
+      "expected": false,
+      "same_family": false
+     },
+     {
+      "code": "25-9031.00",
+      "title": "Instructional Coordinators",
+      "expected": false,
+      "same_family": false
+     },
+     {
+      "code": "25-2022.00",
+      "title": "Middle School Teachers, Except Special and Career/Technical Education",
+      "expected": false,
+      "same_family": false
+     },
+     {
+      "code": "25-2032.00",
+      "title": "Career/Technical Education Teachers, Secondary School",
+      "expected": false,
+      "same_family": true
+     },
+     {
+      "code": "25-2012.00",
+      "title": "Kindergarten Teachers, Except Special Education",
+      "expected": false,
+      "same_family": false
+     }
+    ],
+    "rank_strict": 12,
+    "rank_soc": 4,
+    "major_top": "25",
+    "major_expected": "25",
+    "major_ok": true,
+    "group": "non_it"
+   },
+   {
+    "id": "accountant",
+    "name": "ชอบตัวเลข งานบัญชีและเอกสาร (นอกสาย IT)",
+    "top5": [
+     {
+      "code": "13-2011.00",
+      "title": "Accountants and Auditors",
+      "expected": true,
+      "same_family": true
+     },
+     {
+      "code": "43-3031.00",
+      "title": "Bookkeeping, Accounting, and Auditing Clerks",
+      "expected": false,
+      "same_family": false
+     },
+     {
+      "code": "13-2023.00",
+      "title": "Appraisers and Assessors of Real Estate",
+      "expected": false,
+      "same_family": false
+     },
+     {
+      "code": "13-2082.00",
+      "title": "Tax Preparers",
+      "expected": false,
+      "same_family": false
+     },
+     {
+      "code": "13-2072.00",
+      "title": "Loan Officers",
+      "expected": false,
+      "same_family": false
+     }
+    ],
+    "rank_strict": 1,
+    "rank_soc": 1,
+    "major_top": "43",
+    "major_expected": "13",
+    "major_ok": false,
+    "group": "non_it"
+   },
+   {
+    "id": "sales",
+    "name": "ชอบขายของ คุยกับลูกค้า โน้มน้าว (นอกสาย IT)",
+    "top5": [
+     {
+      "code": "41-3011.00",
+      "title": "Advertising Sales Agents",
+      "expected": false,
+      "same_family": false
+     },
+     {
+      "code": "27-3031.00",
+      "title": "Public Relations Specialists",
+      "expected": false,
+      "same_family": false
+     },
+     {
+      "code": "41-4012.00",
+      "title": "Sales Representatives, Wholesale and Manufacturing, Except Technical and Scientific Products",
+      "expected": false,
+      "same_family": true
+     },
+     {
+      "code": "41-9022.00",
+      "title": "Real Estate Sales Agents",
+      "expected": false,
+      "same_family": false
+     },
+     {
+      "code": "41-4011.00",
+      "title": "Sales Representatives, Wholesale and Manufacturing, Technical and Scientific Products",
+      "expected": true,
+      "same_family": true
+     }
+    ],
+    "rank_strict": 5,
+    "rank_soc": 3,
+    "major_top": "41",
+    "major_expected": "41",
+    "major_ok": true,
+    "group": "non_it"
+   },
+   {
+    "id": "caregiver",
+    "name": "จบใหม่ ใจดี ชอบดูแลคน ไม่ถนัดตัวเลข",
+    "top5": [
+     {
+      "code": "29-1122.00",
+      "title": "Occupational Therapists",
+      "expected": false,
+      "same_family": false
+     },
+     {
+      "code": "31-1121.00",
+      "title": "Home Health Aides",
+      "expected": true,
+      "same_family": true
+     },
+     {
+      "code": "29-2053.00",
+      "title": "Psychiatric Technicians",
+      "expected": false,
+      "same_family": false
+     },
+     {
+      "code": "31-2012.00",
+      "title": "Occupational Therapy Aides",
+      "expected": false,
+      "same_family": false
+     },
+     {
+      "code": "21-1021.00",
+      "title": "Child, Family, and School Social Workers",
+      "expected": false,
+      "same_family": false
+     }
+    ],
+    "rank_strict": 2,
+    "rank_soc": 2,
+    "major_top": "31",
+    "major_expected": "31",
+    "major_ok": true,
+    "group": "non_it"
+   },
+   {
+    "id": "chef",
+    "name": "ชอบทำอาหาร ทำงานในครัวได้ทั้งวัน",
+    "top5": [
+     {
+      "code": "35-1011.00",
+      "title": "Chefs and Head Cooks",
+      "expected": true,
+      "same_family": true
+     },
+     {
+      "code": "35-2013.00",
+      "title": "Cooks, Private Household",
+      "expected": false,
+      "same_family": true
+     },
+     {
+      "code": "35-2012.00",
+      "title": "Cooks, Institution and Cafeteria",
+      "expected": false,
+      "same_family": true
+     },
+     {
+      "code": "35-2014.00",
+      "title": "Cooks, Restaurant",
+      "expected": true,
+      "same_family": true
+     },
+     {
+      "code": "35-2021.00",
+      "title": "Food Preparation Workers",
+      "expected": true,
+      "same_family": true
+     }
+    ],
+    "rank_strict": 1,
+    "rank_soc": 1,
+    "major_top": "35",
+    "major_expected": "35",
+    "major_ok": true,
+    "group": "non_it"
+   },
+   {
+    "id": "mechanic",
+    "name": "ชอบซ่อมรถและเครื่องยนต์ ใช้มือทำงาน",
+    "top5": [
+     {
+      "code": "47-2211.00",
+      "title": "Sheet Metal Workers",
+      "expected": false,
+      "same_family": false
+     },
+     {
+      "code": "49-3023.00",
+      "title": "Automotive Service Technicians and Mechanics",
+      "expected": true,
+      "same_family": true
+     },
+     {
+      "code": "47-2031.00",
+      "title": "Carpenters",
+      "expected": false,
+      "same_family": false
+     },
+     {
+      "code": "47-2061.00",
+      "title": "Construction Laborers",
+      "expected": false,
+      "same_family": false
+     },
+     {
+      "code": "49-9096.00",
+      "title": "Riggers",
+      "expected": false,
+      "same_family": false
+     }
+    ],
+    "rank_strict": 2,
+    "rank_soc": 2,
+    "major_top": "51",
+    "major_expected": "49",
+    "major_ok": false,
+    "group": "non_it"
+   },
+   {
+    "id": "driver",
+    "name": "ชอบขับรถ เดินทาง ไม่ชอบนั่งโต๊ะ",
+    "top5": [
+     {
+      "code": "53-3032.00",
+      "title": "Heavy and Tractor-Trailer Truck Drivers",
+      "expected": true,
+      "same_family": true
+     },
+     {
+      "code": "53-3033.00",
+      "title": "Light Truck Drivers",
+      "expected": true,
+      "same_family": true
+     },
+     {
+      "code": "53-5021.00",
+      "title": "Captains, Mates, and Pilots of Water Vessels",
+      "expected": false,
+      "same_family": false
+     },
+     {
+      "code": "53-7081.00",
+      "title": "Refuse and Recyclable Material Collectors",
+      "expected": false,
+      "same_family": false
+     },
+     {
+      "code": "53-5022.00",
+      "title": "Motorboat Operators",
+      "expected": false,
+      "same_family": false
+     }
+    ],
+    "rank_strict": 1,
+    "rank_soc": 1,
+    "major_top": "53",
+    "major_expected": "53",
+    "major_ok": true,
+    "group": "non_it"
+   },
+   {
+    "id": "farmer",
+    "name": "ชอบทำงานกลางแจ้ง ปลูกพืช เลี้ยงสัตว์",
+    "top5": [
+     {
+      "code": "45-2092.00",
+      "title": "Farmworkers and Laborers, Crop, Nursery, and Greenhouse",
+      "expected": true,
+      "same_family": true
+     },
+     {
+      "code": "45-2093.00",
+      "title": "Farmworkers, Farm, Ranch, and Aquacultural Animals",
+      "expected": false,
+      "same_family": true
+     },
+     {
+      "code": "19-4012.00",
+      "title": "Agricultural Technicians",
+      "expected": true,
+      "same_family": true
+     },
+     {
+      "code": "45-2091.00",
+      "title": "Agricultural Equipment Operators",
+      "expected": false,
+      "same_family": true
+     },
+     {
+      "code": "45-3031.00",
+      "title": "Fishing and Hunting Workers",
+      "expected": false,
+      "same_family": false
+     }
+    ],
+    "rank_strict": 1,
+    "rank_soc": 1,
+    "major_top": "45",
+    "major_expected": "45",
+    "major_ok": true,
+    "group": "non_it"
+   },
+   {
+    "id": "writer",
+    "name": "ชอบเขียน อ่านเยอะ อยากทำงานด้านเนื้อหา",
+    "top5": [
+     {
+      "code": "27-3043.05",
+      "title": "Poets, Lyricists and Creative Writers",
+      "expected": false,
+      "same_family": true
+     },
+     {
+      "code": "27-4032.00",
+      "title": "Film and Video Editors",
+      "expected": false,
+      "same_family": false
+     },
+     {
+      "code": "19-3093.00",
+      "title": "Historians",
+      "expected": false,
+      "same_family": false
+     },
+     {
+      "code": "27-3023.00",
+      "title": "News Analysts, Reporters, and Journalists",
+      "expected": false,
+      "same_family": false
+     },
+     {
+      "code": "27-1013.00",
+      "title": "Fine Artists, Including Painters, Sculptors, and Illustrators",
+      "expected": false,
+      "same_family": false
+     }
+    ],
+    "rank_strict": 7,
+    "rank_soc": 1,
+    "major_top": "27",
+    "major_expected": "27",
+    "major_ok": true,
+    "group": "non_it"
+   },
+   {
+    "id": "hr",
+    "name": "ชอบดูแลคนในองค์กร สรรหาและอบรมพนักงาน",
+    "top5": [
+     {
+      "code": "11-9031.00",
+      "title": "Education and Childcare Administrators, Preschool and Daycare",
+      "expected": false,
+      "same_family": false
+     },
+     {
+      "code": "39-1014.00",
+      "title": "First-Line Supervisors of Entertainment and Recreation Workers, Except Gambling Services",
+      "expected": false,
+      "same_family": false
+     },
+     {
+      "code": "11-9072.00",
+      "title": "Entertainment and Recreation Managers, Except Gambling",
+      "expected": false,
+      "same_family": false
+     },
+     {
+      "code": "39-1022.00",
+      "title": "First-Line Supervisors of Personal Service Workers",
+      "expected": false,
+      "same_family": false
+     },
+     {
+      "code": "43-4121.00",
+      "title": "Library Assistants, Clerical",
+      "expected": false,
+      "same_family": false
+     }
+    ],
+    "rank_strict": 13,
+    "rank_soc": 13,
+    "major_top": "43",
+    "major_expected": "13",
+    "major_ok": false,
+    "group": "non_it"
+   },
+   {
+    "id": "security_officer",
+    "name": "ชอบงานรักษาความปลอดภัย ดูแลความสงบ",
+    "top5": [
+     {
+      "code": "33-3051.00",
+      "title": "Police and Sheriff's Patrol Officers",
+      "expected": true,
+      "same_family": true
+     },
+     {
+      "code": "33-2011.00",
+      "title": "Firefighters",
+      "expected": false,
+      "same_family": false
+     },
+     {
+      "code": "33-9092.00",
+      "title": "Lifeguards, Ski Patrol, and Other Recreational Protective Service Workers",
+      "expected": false,
+      "same_family": false
+     },
+     {
+      "code": "33-3052.00",
+      "title": "Transit and Railroad Police",
+      "expected": false,
+      "same_family": true
+     },
+     {
+      "code": "33-3031.00",
+      "title": "Fish and Game Wardens",
+      "expected": false,
+      "same_family": false
+     }
+    ],
+    "rank_strict": 1,
+    "rank_soc": 1,
+    "major_top": "47",
+    "major_expected": "33",
+    "major_ok": false,
+    "group": "non_it"
+   },
+   {
+    "id": "counselor",
+    "name": "ชอบรับฟังปัญหาและให้คำปรึกษาคนอื่น",
+    "top5": [
+     {
+      "code": "21-1021.00",
+      "title": "Child, Family, and School Social Workers",
+      "expected": true,
+      "same_family": true
+     },
+     {
+      "code": "21-1094.00",
+      "title": "Community Health Workers",
+      "expected": false,
+      "same_family": true
+     },
+     {
+      "code": "25-2058.00",
+      "title": "Special Education Teachers, Secondary School",
+      "expected": false,
+      "same_family": false
+     },
+     {
+      "code": "25-2059.01",
+      "title": "Adapted Physical Education Specialists",
+      "expected": false,
+      "same_family": false
+     },
+     {
+      "code": "25-2055.00",
+      "title": "Special Education Teachers, Kindergarten",
+      "expected": false,
+      "same_family": false
+     }
+    ],
+    "rank_strict": 1,
+    "rank_soc": 1,
+    "major_top": "25",
+    "major_expected": "21",
+    "major_ok": false,
+    "group": "non_it"
+   },
+   {
+    "id": "electrician",
+    "name": "ชอบงานไฟฟ้า เดินสาย ติดตั้งอุปกรณ์",
+    "top5": [
+     {
+      "code": "47-2152.00",
+      "title": "Plumbers, Pipefitters, and Steamfitters",
+      "expected": false,
+      "same_family": false
+     },
+     {
+      "code": "47-2031.00",
+      "title": "Carpenters",
+      "expected": false,
+      "same_family": false
+     },
+     {
+      "code": "49-9062.00",
+      "title": "Medical Equipment Repairers",
+      "expected": false,
+      "same_family": false
+     },
+     {
+      "code": "47-2231.00",
+      "title": "Solar Photovoltaic Installers",
+      "expected": false,
+      "same_family": false
+     },
+     {
+      "code": "47-2211.00",
+      "title": "Sheet Metal Workers",
+      "expected": false,
+      "same_family": false
+     }
+    ],
+    "rank_strict": 10,
+    "rank_soc": 10,
+    "major_top": "47",
+    "major_expected": "47",
+    "major_ok": true,
+    "group": "non_it"
+   },
+   {
+    "id": "office_admin",
+    "name": "ชอบงานเอกสาร ต้อนรับ ประสานงานในสำนักงาน",
+    "top5": [
+     {
+      "code": "43-4121.00",
+      "title": "Library Assistants, Clerical",
+      "expected": false,
+      "same_family": false
+     },
+     {
+      "code": "43-4081.00",
+      "title": "Hotel, Motel, and Resort Desk Clerks",
+      "expected": false,
+      "same_family": false
+     },
+     {
+      "code": "25-4031.00",
+      "title": "Library Technicians",
+      "expected": false,
+      "same_family": false
+     },
+     {
+      "code": "43-4171.00",
+      "title": "Receptionists and Information Clerks",
+      "expected": true,
+      "same_family": true
+     },
+     {
+      "code": "43-6012.00",
+      "title": "Legal Secretaries and Administrative Assistants",
+      "expected": false,
+      "same_family": true
+     }
+    ],
+    "rank_strict": 4,
+    "rank_soc": 4,
+    "major_top": "43",
+    "major_expected": "43",
+    "major_ok": true,
+    "group": "non_it"
+   },
+   {
+    "id": "preschool_teacher",
+    "name": "ชอบเด็ก ชอบสอนและทำกิจกรรมสร้างสรรค์",
+    "top5": [
+     {
+      "code": "25-2055.00",
+      "title": "Special Education Teachers, Kindergarten",
+      "expected": false,
+      "same_family": false
+     },
+     {
+      "code": "25-2051.00",
+      "title": "Special Education Teachers, Preschool",
+      "expected": false,
+      "same_family": false
+     },
+     {
+      "code": "25-2058.00",
+      "title": "Special Education Teachers, Secondary School",
+      "expected": false,
+      "same_family": false
+     },
+     {
+      "code": "25-9043.00",
+      "title": "Teaching Assistants, Special Education",
+      "expected": false,
+      "same_family": false
+     },
+     {
+      "code": "25-2056.00",
+      "title": "Special Education Teachers, Elementary School",
+      "expected": false,
+      "same_family": false
+     }
+    ],
+    "rank_strict": 9,
+    "rank_soc": 9,
+    "major_top": "25",
+    "major_expected": "25",
+    "major_ok": true,
+    "group": "non_it"
+   }
+  ]
+ },
+ "stability": {
+  "trials": 840,
+  "changed_answers": 2,
+  "top5_overlap_mean": 0.8995238095238097,
+  "top5_overlap_min": 0.4,
+  "top1_unchanged_rate": 0.9071428571428571
+ },
+ "monotonic": {
+  "checked": 28,
+  "coverage_not_decreased_rate": 1.0
+ },
+ "counterfactual": {
+  "k": 5,
+  "target_ranks": [
+   20,
+   100,
+   400
+  ],
+  "n": 84,
+  "verified_rate": 1.0,
+  "skills": {
+   "20": {
+    "reached_rate": 0.35714285714285715,
+    "median_levels_if_reached": 5.0,
+    "median_rank_after": 12.0
+   },
+   "100": {
+    "reached_rate": 0.0,
+    "median_levels_if_reached": null,
+    "median_rank_after": 42.0
+   },
+   "400": {
+    "reached_rate": 0.0,
+    "median_levels_if_reached": null,
+    "median_rank_after": 201.5
+   }
+  },
+  "all": {
+   "20": {
+    "reached_rate": 1.0,
+    "median_levels_if_reached": 3.0,
+    "median_rank_after": 5.0
+   },
+   "100": {
+    "reached_rate": 1.0,
+    "median_levels_if_reached": 9.0,
+    "median_rank_after": 5.0
+   },
+   "400": {
+    "reached_rate": 1.0,
+    "median_levels_if_reached": 14.0,
+    "median_rank_after": 5.0
+   }
+  }
+ },
+ "real_users": {
+  "available": false,
+  "n": 0,
+  "note": "ยังไม่มีข้อมูลผู้ใช้จริง — เก็บผ่านหน้าแบบประเมิน หรือใส่ไฟล์ datasets/real_users/labels.jsonl"
+ }
+}

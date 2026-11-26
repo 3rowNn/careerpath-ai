@@ -1,0 +1,54 @@
+{
+ "questions": 12,
+ "occupations_without_tasks": 0,
+ "comparison": [
+  {
+   "feature_set": "A. core 101 (ตอนนี้)",
+   "n_features": 101,
+   "questions_to_ask": 101,
+   "it_mean_cosine": 0.946,
+   "all_mean_cosine": 0.853,
+   "it_pairs_cosine_gt_0.95": 0.511,
+   "it_top1": 0.5154,
+   "it_top5": 0.713,
+   "all_top1": 0.5306,
+   "all_top5": 0.7385
+  },
+  {
+   "feature_set": "B. core + tech tags",
+   "n_features": 124,
+   "questions_to_ask": 124,
+   "it_mean_cosine": 0.84,
+   "all_mean_cosine": 0.806,
+   "it_pairs_cosine_gt_0.95": 0.081,
+   "it_top1": 0.9537,
+   "it_top5": 0.9959,
+   "all_top1": 0.6683,
+   "all_top5": 0.8282
+  },
+  {
+   "feature_set": "C. core + ความชอบ (task)",
+   "n_features": 113,
+   "questions_to_ask": 113,
+   "it_mean_cosine": 0.886,
+   "all_mean_cosine": 0.833,
+   "it_pairs_cosine_gt_0.95": 0.059,
+   "it_top1": 0.8467,
+   "it_top5": 0.9465,
+   "all_top1": 0.6437,
+   "all_top5": 0.82
+  },
+  {
+   "feature_set": "D. core + tech + ความชอบ",
+   "n_features": 136,
+   "questions_to_ask": 136,
+   "it_mean_cosine": 0.814,
+   "all_mean_cosine": 0.791,
+   "it_pairs_cosine_gt_0.95": 0.024,
+   "it_top1": 0.9815,
+   "it_top5": 0.999,
+   "all_top1": 0.7365,
+   "all_top5": 0.8675
+  }
+ ]
+}

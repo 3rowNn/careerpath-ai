@@ -1,0 +1,22 @@
+# ระยะ 3: ฐานข้อมูลสำหรับ dev — PostgreSQL 16 + pgvector
+#   docker compose up -d db
+# (ระยะ 5 จะเพิ่ม service frontend/backend ในไฟล์นี้)
+services:
+  db:
+    image: pgvector/pgvector:pg16
+    environment:
+      POSTGRES_USER: careerpath
+      POSTGRES_PASSWORD: careerpath_dev # ใช้แค่ตอน dev — ห้ามใช้ใน production
+      POSTGRES_DB: careerpath
+    ports:
+      - "127.0.0.1:5432:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U careerpath -d careerpath"]
+      interval: 5s
+      timeout: 3s
+      retries: 20
+
+volumes:
+  pgdata:

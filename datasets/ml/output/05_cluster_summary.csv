@@ -1,0 +1,16 @@
+cluster,size,signature,top_major_group,examples
+0,197,machine_control · Realistic · physical,Production,"Maintenance Workers, Machinery | Multiple Machine Tool Setters, Operators, and Tenders, Metal and Plastic | Metal-Refining Furnace Operators and Tenders"
+8,114,safety_transport · far_multitask · field_vision,Transportation & Moving,Water and Wastewater Treatment Plant and System Operators | Weatherization Installers and Technicians | Forest and Conservation Technicians
+3,101,Conventional · support · Enterprising,Office & Admin Support,"Hotel, Motel, and Resort Desk Clerks | Correspondence Clerks | Insurance Sales Agents"
+5,91,food · physical · flexibility,Production,"Animal Caretakers | Helpers--Production Workers | Cooks, Fast Food"
+9,89,Social · people_society · teaching,Education & Library,"Family and Consumer Sciences Teachers, Postsecondary | Elementary School Teachers, Except Special Education | Special Education Teachers, Secondary School"
+7,84,bio_medical · people_society · Investigative,Healthcare Practitioners,Dermatologists | Physical Therapists | Acute Care Nurses
+1,69,Enterprising · management · business,Management,Purchasing Managers | Social and Community Service Managers | Logisticians
+14,58,Python · MATLAB · C++,Architecture & Engineering,Mechatronics Engineers | Mechanical Engineers | Petroleum Engineers
+2,39,arts · Artistic · media_language,"Arts, Design & Media","Makeup Artists, Theatrical and Performance | Costume Attendants | Camera Operators, Television, Video, and Film"
+11,22,analyze · SAS · research,"Life, Physical & Social Science",Survey Researchers | Atmospheric and Space Scientists | Environmental Economists
+6,21,Node.js · Docker · Azure,Computer & Mathematical,Software Quality Assurance Analysts and Testers | Computer Programmers | Information Technology Project Managers
+12,9,Kubernetes · infra · security,Computer & Mathematical,Penetration Testers | Digital Forensics Analysts | Information Security Engineers
+10,6,Figma · Artistic · HTML,"Arts, Design & Media",Graphic Designers | Special Effects Artists and Animators | Art Directors
+13,6,Power BI · analyze · Tableau,Computer & Mathematical,Financial Quantitative Analysts | Economists | Operations Research Analysts
+4,4,TensorFlow/PyTorch · Spark · Kubernetes,Computer & Mathematical,Computer and Information Research Scientists | Data Scientists | Software Developers

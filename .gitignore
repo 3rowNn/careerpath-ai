@@ -1,0 +1,27 @@
+# secrets — อย่า commit (.env, JWT_SECRET)
+.env
+.env.*
+!.env.example
+*.local
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Node
+node_modules/
+dist/
+
+# OS / editor
+.DS_Store
+.vscode/*
+!.vscode/extensions.json
+
+# ข้อมูลผู้ใช้จริง (คำตอบรายบุคคล) — ไม่ขึ้น git
+datasets/real_users/
+
+# Colab bundle (สร้างใหม่ได้ด้วย sh colab/make_bundle.sh)
+colab/*.zip

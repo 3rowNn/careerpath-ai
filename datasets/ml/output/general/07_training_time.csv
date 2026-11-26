@@ -1,0 +1,9 @@
+,train_seconds
+Logistic Regression,6.7
+kNN (k=15),0.0
+MLP (256),9.5
+②b Logistic Regression,0.5
+②b kNN (k=15),0.0
+②b Random Forest,2.8
+②b HistGradientBoosting,13.0
+②b MLP (256),2.4

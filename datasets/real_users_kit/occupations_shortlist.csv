@@ -1,0 +1,56 @@
+group,code,title_th,title_en
+IT · พัฒนาซอฟต์แวร์,15-1252.00,นักพัฒนาซอฟต์แวร์,Software Developers
+IT · พัฒนาซอฟต์แวร์,15-1251.00,โปรแกรมเมอร์,Computer Programmers
+IT · พัฒนาซอฟต์แวร์,15-1254.00,นักพัฒนาเว็บ,Web Developers
+IT · พัฒนาซอฟต์แวร์,15-1255.00,นักออกแบบ UX/UI เว็บและแอป,Web and Digital Interface Designers
+IT · พัฒนาซอฟต์แวร์,15-1253.00,QA / Software Tester,Software Quality Assurance Analysts and Testers
+IT · พัฒนาซอฟต์แวร์,15-1299.07,วิศวกรบล็อกเชน,Blockchain Engineers
+IT · ระบบและโครงสร้าง,15-1211.00,นักวิเคราะห์ระบบ (System Analyst),Computer Systems Analysts
+IT · ระบบและโครงสร้าง,15-1299.08,วิศวกร/สถาปนิกระบบคอมพิวเตอร์,Computer Systems Engineers/Architects
+IT · ระบบและโครงสร้าง,15-1244.00,ผู้ดูแลระบบและเครือข่าย (SysAdmin / DevOps),Network and Computer Systems Administrators
+IT · ระบบและโครงสร้าง,15-1241.00,สถาปนิกเครือข่าย,Computer Network Architects
+IT · ระบบและโครงสร้าง,15-1231.00,เจ้าหน้าที่สนับสนุนเครือข่าย,Computer Network Support Specialists
+IT · ระบบและโครงสร้าง,15-1232.00,IT Support / Helpdesk,Computer User Support Specialists
+IT · ระบบและโครงสร้าง,17-2061.00,วิศวกรฮาร์ดแวร์คอมพิวเตอร์,Computer Hardware Engineers
+IT · ความปลอดภัย,15-1212.00,นักวิเคราะห์ความปลอดภัยสารสนเทศ,Information Security Analysts
+IT · ความปลอดภัย,15-1299.05,วิศวกรความปลอดภัยสารสนเทศ,Information Security Engineers
+IT · ความปลอดภัย,15-1299.04,Penetration Tester,Penetration Testers
+IT · ข้อมูล,15-2051.00,Data Scientist,Data Scientists
+IT · ข้อมูล,15-2051.01,Data Analyst / BI Analyst,Business Intelligence Analysts
+IT · ข้อมูล,15-1242.00,ผู้ดูแลฐานข้อมูล (DBA),Database Administrators
+IT · ข้อมูล,15-1243.00,สถาปนิกฐานข้อมูล / Data Engineer,Database Architects
+IT · ข้อมูล,15-1243.01,ผู้เชี่ยวชาญ Data Warehouse,Data Warehousing Specialists
+IT · ข้อมูล,15-2041.00,นักสถิติ,Statisticians
+IT · ข้อมูล,15-1221.00,นักวิจัยด้านคอมพิวเตอร์ / AI Researcher,Computer and Information Research Scientists
+IT · ข้อมูล,15-1299.02,นักเทคโนโลยีภูมิสารสนเทศ (GIS),Geographic Information Systems Technologists and Technicians
+IT · บริหาร,15-1299.09,ผู้จัดการโครงการ IT,Information Technology Project Managers
+IT · บริหาร,11-3021.00,ผู้จัดการฝ่ายระบบสารสนเทศ,Computer and Information Systems Managers
+ธุรกิจและการเงิน,13-2011.00,นักบัญชี / ผู้สอบบัญชี,Accountants and Auditors
+ธุรกิจและการเงิน,43-3031.00,พนักงานบัญชี / ทำบัญชี,"Bookkeeping, Accounting, and Auditing Clerks"
+ธุรกิจและการเงิน,13-2052.00,ที่ปรึกษาการเงินส่วนบุคคล,Personal Financial Advisors
+ธุรกิจและการเงิน,13-1111.00,ที่ปรึกษาธุรกิจ / นักวิเคราะห์ธุรกิจ,Management Analysts
+ธุรกิจและการเงิน,13-1082.00,ผู้เชี่ยวชาญบริหารโครงการ,Project Management Specialists
+ธุรกิจและการเงิน,13-1071.00,เจ้าหน้าที่ทรัพยากรบุคคล (HR),Human Resources Specialists
+ธุรกิจและการเงิน,11-3121.00,ผู้จัดการฝ่ายทรัพยากรบุคคล,Human Resources Managers
+ธุรกิจและการเงิน,11-1021.00,ผู้จัดการทั่วไป / ผู้จัดการฝ่ายปฏิบัติการ,General and Operations Managers
+การตลาดและการขาย,13-1161.00,นักการตลาด / วิจัยตลาด,Market Research Analysts and Marketing Specialists
+การตลาดและการขาย,11-2021.00,ผู้จัดการฝ่ายการตลาด,Marketing Managers
+การตลาดและการขาย,27-3031.00,ประชาสัมพันธ์ (PR),Public Relations Specialists
+การตลาดและการขาย,41-3091.00,พนักงานขายบริการ,"Sales Representatives of Services, Except Advertising, Insurance, Financial Services, and Travel"
+การตลาดและการขาย,41-4011.00,พนักงานขายสินค้าเทคนิค / วิทยาศาสตร์,"Sales Representatives, Wholesale and Manufacturing, Technical and Scientific Products"
+การตลาดและการขาย,41-2031.00,พนักงานขายหน้าร้าน,Retail Salespersons
+สำนักงานและบริการ,43-4051.00,พนักงานบริการลูกค้า (Call Center),Customer Service Representatives
+สำนักงานและบริการ,43-6014.00,เลขานุการ / ผู้ช่วยธุรการ,"Secretaries and Administrative Assistants, Except Legal, Medical, and Executive"
+สำนักงานและบริการ,13-1121.00,ผู้จัดงานอีเวนต์และประชุม,"Meeting, Convention, and Event Planners"
+ครีเอทีฟและสื่อ,27-1024.00,นักออกแบบกราฟิก,Graphic Designers
+ครีเอทีฟและสื่อ,27-3043.00,นักเขียน / Content Writer,Writers and Authors
+ครีเอทีฟและสื่อ,27-4021.00,ช่างภาพ,Photographers
+วิศวกรรม,17-2141.00,วิศวกรเครื่องกล,Mechanical Engineers
+วิศวกรรม,17-2071.00,วิศวกรไฟฟ้า,Electrical Engineers
+วิศวกรรม,17-2112.00,วิศวกรอุตสาหการ,Industrial Engineers
+วิศวกรรม,11-9041.00,ผู้จัดการฝ่ายวิศวกรรม,Architectural and Engineering Managers
+การศึกษา,25-2031.00,ครูมัธยม,"Secondary School Teachers, Except Special and Career/Technical Education"
+การศึกษา,25-1021.00,อาจารย์มหาวิทยาลัยด้านคอมพิวเตอร์,"Computer Science Teachers, Postsecondary"
+สุขภาพและกฎหมาย,29-1141.00,พยาบาลวิชาชีพ,Registered Nurses
+สุขภาพและกฎหมาย,29-1051.00,เภสัชกร,Pharmacists
+สุขภาพและกฎหมาย,23-1011.00,ทนายความ / นักกฎหมาย,Lawyers

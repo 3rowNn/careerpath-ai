@@ -1,0 +1,195 @@
+{
+ "best_matching": "① Matching — cosine (baseline)",
+ "best_occupation_classifier": "MLP (256)",
+ "best_major_group_classifier": "kNN (k=15)",
+ "ensemble": {
+  "w_matching": 0.9,
+  "T": 0.01
+ },
+ "clustering": {
+  "algorithm": "K-Means",
+  "k": 8,
+  "silhouette": 0.1346,
+  "ari_vs_soc_major": 0.3192
+ },
+ "occupation_results": [
+  {
+   "model": "① Matching — cosine (baseline)",
+   "split": "test",
+   "top1": 0.9487,
+   "top5": 0.9927,
+   "top5_major_group": 1.0,
+   "macro_f1": 0.9425
+  },
+  {
+   "model": "① Matching — cosine (baseline)",
+   "split": "stress_test",
+   "top1": 0.6436,
+   "top5": 0.8295,
+   "top5_major_group": 0.9421,
+   "macro_f1": 0.6404
+  },
+  {
+   "model": "① Matching — centered cosine",
+   "split": "test",
+   "top1": 0.9451,
+   "top5": 0.9927,
+   "top5_major_group": 0.9985,
+   "macro_f1": 0.9376
+  },
+  {
+   "model": "① Matching — centered cosine",
+   "split": "stress_test",
+   "top1": 0.4828,
+   "top5": 0.6965,
+   "top5_major_group": 0.8814,
+   "macro_f1": 0.4746
+  },
+  {
+   "model": "②a Classifier — Logistic Regression",
+   "split": "test",
+   "top1": 0.8674,
+   "top5": 0.9766,
+   "top5_major_group": 0.9963,
+   "macro_f1": 0.8517
+  },
+  {
+   "model": "②a Classifier — Logistic Regression",
+   "split": "stress_test",
+   "top1": 0.5227,
+   "top5": 0.7426,
+   "top5_major_group": 0.922,
+   "macro_f1": 0.5373
+  },
+  {
+   "model": "②a Classifier — kNN (k=15)",
+   "split": "test",
+   "top1": 0.7941,
+   "top5": 0.9436,
+   "top5_major_group": 0.9956,
+   "macro_f1": 0.7729
+  },
+  {
+   "model": "②a Classifier — kNN (k=15)",
+   "split": "stress_test",
+   "top1": 0.4639,
+   "top5": 0.7117,
+   "top5_major_group": 0.9283,
+   "macro_f1": 0.4631
+  },
+  {
+   "model": "②a Classifier — MLP (256)",
+   "split": "test",
+   "top1": 0.8799,
+   "top5": 0.9795,
+   "top5_major_group": 0.9978,
+   "macro_f1": 0.8657
+  },
+  {
+   "model": "②a Classifier — MLP (256)",
+   "split": "stress_test",
+   "top1": 0.5551,
+   "top5": 0.7683,
+   "top5_major_group": 0.9386,
+   "macro_f1": 0.5568
+  },
+  {
+   "model": "Ensemble ① + ②a",
+   "split": "test",
+   "top1": 0.9458,
+   "top5": 0.9941,
+   "top5_major_group": 1.0,
+   "macro_f1": 0.9382
+  },
+  {
+   "model": "Ensemble ① + ②a",
+   "split": "stress_test",
+   "top1": 0.6503,
+   "top5": 0.8337,
+   "top5_major_group": 0.9471,
+   "macro_f1": 0.6464
+  }
+ ],
+ "major_group_results": [
+  {
+   "model": "②b Logistic Regression",
+   "split": "test",
+   "accuracy": 0.7729,
+   "top3": 0.9678,
+   "macro_f1": 0.7398
+  },
+  {
+   "model": "②b Logistic Regression",
+   "split": "stress_test",
+   "accuracy": 0.6453,
+   "top3": 0.8872,
+   "macro_f1": 0.606
+  },
+  {
+   "model": "②b kNN (k=15)",
+   "split": "test",
+   "accuracy": 0.9209,
+   "top3": 0.9971,
+   "macro_f1": 0.9056
+  },
+  {
+   "model": "②b kNN (k=15)",
+   "split": "stress_test",
+   "accuracy": 0.7366,
+   "top3": 0.9332,
+   "macro_f1": 0.7085
+  },
+  {
+   "model": "②b Random Forest",
+   "split": "test",
+   "accuracy": 0.789,
+   "top3": 0.9685,
+   "macro_f1": 0.7391
+  },
+  {
+   "model": "②b Random Forest",
+   "split": "stress_test",
+   "accuracy": 0.6217,
+   "top3": 0.8759,
+   "macro_f1": 0.5395
+  },
+  {
+   "model": "②b HistGradientBoosting",
+   "split": "test",
+   "accuracy": 0.844,
+   "top3": 0.9817,
+   "macro_f1": 0.8291
+  },
+  {
+   "model": "②b HistGradientBoosting",
+   "split": "stress_test",
+   "accuracy": 0.6629,
+   "top3": 0.8824,
+   "macro_f1": 0.6047
+  },
+  {
+   "model": "②b MLP (256)",
+   "split": "test",
+   "accuracy": 0.8916,
+   "top3": 0.9912,
+   "macro_f1": 0.8753
+  },
+  {
+   "model": "②b MLP (256)",
+   "split": "stress_test",
+   "accuracy": 0.6862,
+   "top3": 0.907,
+   "macro_f1": 0.6621
+  }
+ ],
+ "training_seconds": {
+  "Logistic Regression": 6.7,
+  "kNN (k=15)": 0.0,
+  "MLP (256)": 9.5,
+  "②b Logistic Regression": 0.5,
+  "②b kNN (k=15)": 0.0,
+  "②b Random Forest": 2.8,
+  "②b HistGradientBoosting": 13.0,
+  "②b MLP (256)": 2.4
+ }
+}

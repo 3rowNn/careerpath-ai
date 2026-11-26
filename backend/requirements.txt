@@ -1,0 +1,19 @@
+# ตรึงเวอร์ชันให้ตรงกับตอนเทรนโมเดล (scikit-learn 1.9.1) — ถ้าไม่ตรง joblib โหลดได้แต่ผลอาจผิด
+scikit-learn==1.9.1
+numpy==2.5.4
+pandas==3.1.1
+scipy==1.18.1
+joblib==1.6.0
+fastapi==0.162.4
+pydantic==2.14.3
+uvicorn[standard]==0.54.0
+
+# ระยะ 3: ฐานข้อมูล + บัญชีผู้ใช้ (PostgreSQL + pgvector, JWT)
+SQLAlchemy==2.1.8
+psycopg[binary]==3.3.9
+pgvector==0.5.1
+bcrypt==5.0.0
+PyJWT==2.15.1
+python-dotenv==1.2.4
+email-validator==2.3.0
+google-genai==3.3.0  # AI Advisor (Gemini) — ไม่เกี่ยวกับโมเดล ML
