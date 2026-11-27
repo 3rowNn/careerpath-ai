@@ -55,9 +55,12 @@ async def lifespan(_: FastAPI):
 
 
 app = FastAPI(title="CareerPath AI API", version="0.1.0", lifespan=lifespan)
+# เว็บกับ API คนละโดเมน (Vercel + Hugging Face Spaces): CORS_ORIGINS = โดเมนจริง (คั่นด้วย ,)
+# CORS_ORIGIN_REGEX (ไม่บังคับ) = ลิงก์ preview ของ Vercel เช่น ^https://careerpath-ai-[a-z0-9-]+\.vercel\.app$
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=os.getenv("CORS_ORIGINS", "http://localhost:5173").split(","),
+    allow_origins=[o.strip() for o in os.getenv("CORS_ORIGINS", "http://localhost:5173").split(",") if o.strip()],
+    allow_origin_regex=os.getenv("CORS_ORIGIN_REGEX") or None,
     allow_methods=["*"],
     allow_headers=["*"],
 )
@@ -181,7 +184,8 @@ def careers(p: CareerPredictor = Depends(get_predictor)):
 
 # ---------- ผู้ใช้จริง (ไม่บังคับ) ----------
 # ไม่มีข้อมูล = ระบบทำงานปกติ · มีข้อมูล = evaluate.py ใช้เป็นชั้นที่ 4 อัตโนมัติ
-# TODO(ระยะ 3): ย้ายไปตารางใน PostgreSQL
+# เก็บที่: ตาราง real_labels (มีฐานข้อมูล) — ไม่มีฐานข้อมูลจึงเขียนไฟล์ labels.jsonl
+# ตอนวัดผลรวม 2 แหล่ง: ไฟล์ (นำเข้าจาก Google Form ด้วย import_responses.py) + ตาราง (จากเว็บ)
 _labels_lock = threading.Lock()
 
 
@@ -201,10 +205,13 @@ def add_label(body: LabelIn, p: CareerPredictor = Depends(get_predictor)):
     row = body.model_dump() | {"created_at": datetime.now(timezone.utc).isoformat(timespec="seconds")}
     path = labels_path()
     with _labels_lock:
-        path.parent.mkdir(parents=True, exist_ok=True)
-        with path.open("a", encoding="utf-8") as f:
-            f.write(json.dumps(row, ensure_ascii=False) + "\n")
-        total = sum(1 for line in path.read_text(encoding="utf-8").splitlines() if line.strip())
+        if db.enabled():
+            total = db.add_real_label(row) + len(ev.load_real_users(path))
+        else:
+            path.parent.mkdir(parents=True, exist_ok=True)
+            with path.open("a", encoding="utf-8") as f:
+                f.write(json.dumps(row, ensure_ascii=False) + "\n")
+            total = sum(1 for line in path.read_text(encoding="utf-8").splitlines() if line.strip())
     _report_cache.clear()
     return {"saved": True, "total": total}
 
@@ -217,9 +224,10 @@ _report_cache: dict = {}
 def evaluation(p: CareerPredictor = Depends(get_predictor)):
     """persona + ความเสถียร + ผู้ใช้จริง (ถ้ามี) — คำนวณใหม่เมื่อข้อมูลผู้ใช้จริงเปลี่ยน"""
     path = labels_path()
-    key = path.stat().st_mtime if path.exists() else 0
+    key = (path.stat().st_mtime if path.exists() else 0, db.real_label_count())
     if _report_cache.get("key") != key:
-        _report_cache.update(key=key, report=ev.build_report(p, path))
+        db_rows = [r for r in db.real_label_rows() if r.get("consent") and r.get("code") and r.get("answers")]
+        _report_cache.update(key=key, report=ev.build_report(p, real_rows=ev.load_real_users(path) + db_rows))
     return _report_cache["report"]
 
 

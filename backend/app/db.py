@@ -8,6 +8,8 @@
   user_targets   อาชีพเป้าหมาย / อาชีพที่อยากเป็น / สาขาที่จบ (1 แถวต่อผู้ใช้)
   roadmap_items  สถานะรายการใน Roadmap (todo/doing/done/passed)
   conversations  แชท AI Advisor · messages ข้อความในแชท
+  real_labels    ข้อมูลผู้ใช้จริงจากการ์ดท้ายแบบประเมิน (POST /api/labels) — คำตอบ + อาชีพจริง ไม่มีชื่อ/อีเมล
+                 (เดิมเขียนไฟล์ — บนเซิร์ฟเวอร์ที่ดิสก์ไม่ถาวร เช่น Hugging Face Spaces ไฟล์จะหาย)
 
 ต่างจาก schema ร่าง careerpath-db (11 ตาราง): ไม่มี skills/career_skills/user_skills/view skill_gaps
 เพราะ Skill Gap คำนวณจากโมเดล (predict.py) ทุกครั้ง · results รวมอยู่ใน assessments.result
@@ -151,13 +153,24 @@ class Message(Base):
     conversation: Mapped[Conversation] = relationship(back_populates="messages")
 
 
+class RealLabel(Base):
+    __tablename__ = "real_labels"
+    id: Mapped[int] = mapped_column(Integer, primary_key=True)
+    data: Mapped[dict] = mapped_column(JSON)  # {answers, code, years_in_role, consent, created_at} รูปแบบเดียวกับ labels.jsonl
+    created_at: Mapped[datetime] = mapped_column(DateTime(timezone=True), default=now)
+
+
 # ---------------- engine ----------------
 _engine = None
 _Session: sessionmaker[Session] | None = None
 
 
 def database_url() -> str | None:
-    return os.getenv("DATABASE_URL") or None
+    """DATABASE_URL — รับรูปแบบที่ผู้ให้บริการแจก (postgres:// หรือ postgresql://) แล้วระบุ driver psycopg ให้"""
+    url = os.getenv("DATABASE_URL") or None
+    if url and url.startswith(("postgres://", "postgresql://")):
+        url = "postgresql+psycopg://" + url.split("://", 1)[1]
+    return url
 
 
 def init_db(url: str | None = None):
@@ -226,3 +239,27 @@ def seed_careers(predictor) -> int:
 def check_dim(predictor) -> None:
     if len(predictor.features) != DIM:
         raise RuntimeError(f"feature_order มี {len(predictor.features)} มิติ แต่ฐานข้อมูลใช้ vector({DIM}) — แก้ DIM ใน app/db.py")
+
+
+# ---------------- ข้อมูลผู้ใช้จริง ----------------
+def add_real_label(row: dict) -> int:
+    """บันทึก 1 แถว แล้วคืนจำนวนแถวทั้งหมดในตาราง"""
+    assert _Session is not None
+    with _Session() as s:
+        s.add(RealLabel(data=row))
+        s.commit()
+        return s.query(RealLabel).count()
+
+
+def real_label_rows() -> list[dict]:
+    if _Session is None:
+        return []
+    with _Session() as s:
+        return [r.data for r in s.query(RealLabel).order_by(RealLabel.id)]
+
+
+def real_label_count() -> int:
+    if _Session is None:
+        return 0
+    with _Session() as s:
+        return s.query(RealLabel).count()

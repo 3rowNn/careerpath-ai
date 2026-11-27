@@ -217,7 +217,8 @@ def eval_real_users(p: CareerPredictor, rows: list[dict]) -> dict:
     return out
 
 
-def build_report(p: CareerPredictor, real_users_path: Path | None = None) -> dict:
+def build_report(p: CareerPredictor, real_users_path: Path | None = None, real_rows: list[dict] | None = None) -> dict:
+    """real_rows = แถวผู้ใช้จริงที่ backend รวมมาให้ (ไฟล์ + ฐานข้อมูล) · None = อ่านจากไฟล์ real_users_path"""
     personas = json.loads(PERSONAS.read_text(encoding="utf-8"))["personas"]
     return {
         "generated_at": datetime.now(timezone.utc).isoformat(timespec="seconds"),
@@ -225,7 +226,7 @@ def build_report(p: CareerPredictor, real_users_path: Path | None = None) -> dic
         "stability": eval_stability(p, personas),
         "monotonic": eval_monotonic(p, personas),
         "counterfactual": eval_counterfactual(p, personas),
-        "real_users": eval_real_users(p, load_real_users(real_users_path)),
+        "real_users": eval_real_users(p, load_real_users(real_users_path) if real_rows is None else real_rows),
     }
 
 

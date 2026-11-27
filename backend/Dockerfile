@@ -1,6 +1,7 @@
 # CareerPath AI — backend (FastAPI + โมเดล ML)
 # build จาก root ของ repo:  docker compose build backend
 #   (context = root เพราะต้องใช้ datasets/ml/predict.py และไฟล์โมเดลด้วย)
+# Hugging Face Spaces ใช้ไฟล์นี้ตัวเดียวกัน (deploy/huggingface/push_space.py จัดไฟล์ให้โครงสร้างเหมือน repo)
 # โครงสร้างใน image เหมือน repo (/app/backend, /app/datasets/ml) — deps.py หา ROOT จากตำแหน่งไฟล์ จึงไม่ต้องแก้โค้ด
 FROM python:3.13-slim
 
@@ -29,7 +30,8 @@ COPY backend/data ./data
 
 # ไม่รันด้วย root · โฟลเดอร์ข้อมูลผู้ใช้จริง (POST /api/labels) ต่อกับ volume ใน docker-compose
 # chmod: ไฟล์บางตัวในเครื่องที่ build เป็น 600 (อ่านได้แค่เจ้าของ) → ให้ทุกไฟล์ของแอปอ่านได้ ไม่ขึ้นกับสิทธิ์ในเครื่อง
-RUN useradd --create-home --uid 10001 app \
+# uid 1000 = user ที่ Hugging Face Spaces ใช้รัน container
+RUN useradd --create-home --uid 1000 app \
     && chmod -R a+rX /app \
     && mkdir -p /app/datasets/real_users \
     && chown -R app:app /app/datasets/real_users

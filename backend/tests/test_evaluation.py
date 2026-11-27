@@ -9,6 +9,7 @@ import json
 import pytest
 from fastapi.testclient import TestClient
 
+from app import db
 from app.main import app, ev, get_predictor
 
 
@@ -77,9 +78,10 @@ def test_label_endpoint_roundtrip(p, personas, tmp_path, monkeypatch):
         assert c.post("/api/labels", json=body | {"answers": {"grp::numbers": 3}}).status_code == 422  # ไม่ครบ 71 ข้อ
         assert c.post("/api/labels", json=body | {"code": "99-9999.99"}).status_code == 404
         rep = c.get("/api/evaluation").json()
+        saved = db.real_label_rows()  # มีฐานข้อมูล → เก็บในตาราง real_labels ไม่เขียนไฟล์ (ดิสก์ของเซิร์ฟเวอร์อาจไม่ถาวร)
     assert rep["real_users"]["available"] is True and rep["real_users"]["n"] == 1
-    saved = json.loads(f.read_text().splitlines()[0])
-    assert set(saved) == {"answers", "code", "years_in_role", "consent", "created_at"}  # ไม่มีข้อมูลระบุตัวตน
+    assert not f.exists() and len(saved) == 1
+    assert set(saved[0]) == {"answers", "code", "years_in_role", "consent", "created_at"}  # ไม่มีข้อมูลระบุตัวตน
 
 
 def test_careers_list():
@@ -92,3 +94,25 @@ def test_counterfactual_eval(p, personas):
     cf = ev.eval_counterfactual(p, personas[:6])
     assert cf["verified_rate"] == 1.0, "อันดับที่ counterfactual รายงานต้องตรงกับการคำนวณใหม่เสมอ"
     assert cf["all"]["20"]["reached_rate"] >= cf["skills"]["20"]["reached_rate"]
+
+
+def test_label_endpoint_file_without_db(p, personas, tmp_path, monkeypatch):
+    """ไม่มีฐานข้อมูล (DATABASE_URL ว่าง) → เขียนไฟล์ labels.jsonl แบบเดิม"""
+    f = tmp_path / "labels.jsonl"
+    monkeypatch.setenv("REAL_USERS_FILE", str(f))
+    monkeypatch.setenv("DATABASE_URL", "")
+    body = {"answers": ev.persona_answers(p, personas[0]), "code": "15-2051.00", "consent": True}
+    with TestClient(app) as c:
+        assert c.post("/api/labels", json=body).json() == {"saved": True, "total": 1}
+        assert c.get("/api/evaluation").json()["real_users"]["n"] == 1
+    assert len(f.read_text().splitlines()) == 1
+
+
+def test_database_url_normalized(monkeypatch):
+    """connection string จาก Neon/Supabase (postgresql://… หรือ postgres://…) → ใช้ driver psycopg"""
+    monkeypatch.setenv("DATABASE_URL", "postgresql://u:p@ep-x.neon.tech/db?sslmode=require")
+    assert db.database_url() == "postgresql+psycopg://u:p@ep-x.neon.tech/db?sslmode=require"
+    monkeypatch.setenv("DATABASE_URL", "postgres://u:p@h/db")
+    assert db.database_url() == "postgresql+psycopg://u:p@h/db"
+    monkeypatch.setenv("DATABASE_URL", "sqlite://")
+    assert db.database_url() == "sqlite://"

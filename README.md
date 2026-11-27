@@ -8,6 +8,9 @@ backend/    FastAPI ห่อ datasets/ml/predict.py  → http://localhost:8000/
 frontend/   React + Vite + TypeScript           → http://localhost:5173 (dev) · Docker: http://localhost:8080
 ```
 
+## Deploy ขึ้นเซิร์ฟเวอร์จริง (ฟรี)
+Vercel (หน้าเว็บ) + Hugging Face Spaces (backend + ML) + Neon (ฐานข้อมูล) — ทำทีละขั้นตาม [docs/DEPLOY.md](docs/DEPLOY.md)
+
 ## รันทั้งระบบด้วย Docker (แนะนำ — ไม่ต้องติดตั้ง Python / Node)
 ต้องมี [Docker Desktop](https://www.docker.com/products/docker-desktop/)
 ```bash
