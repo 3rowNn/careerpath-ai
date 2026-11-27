@@ -140,9 +140,12 @@ conversations, messages, roadmap_items + view skill_gaps, HNSW index
   frontend = nginx (build แล้ว + proxy `/api`), backend = `backend/Dockerfile` (context = root, คัดเฉพาะ datasets/ml ที่ใช้ตอนรัน), db
   ค่าลับอยู่ใน `.env` ที่ root (ดู `.env.example`) · ไม่ทำ AWS/GitHub Actions
 - Deploy จริง (27 พ.ย., ฟรี): Vercel (frontend, `frontend/vercel.json`, Root Directory = frontend, `VITE_API_URL` = URL ของ Space)
-  + Hugging Face Spaces (backend, `deploy/huggingface/push_space.py` ใช้ `backend/Dockerfile` ตัวเดียวกัน, uid 1000)
+  + Render free (backend, `render.yaml` → `backend/Dockerfile` ตัวเดียวกัน, พอร์ตจาก `$PORT`, 512MB/0.1 CPU)
   + Neon (Postgres) — ขั้นตอน: `docs/DEPLOY.md` · CORS: `CORS_ORIGINS` / `CORS_ORIGIN_REGEX`
-  ข้อมูลผู้ใช้จริง (`/api/labels`) เก็บตาราง `real_labels` เมื่อมีฐานข้อมูล (ดิสก์ของ Space ไม่ถาวร) + อ่านไฟล์ labels.jsonl ด้วย
+  **ไม่ใช้ Hugging Face Spaces** (Docker Space ฟรีต้อง PRO แล้ว — 402 ตอนสร้าง, 27 พ.ย.) · ไม่ใช้ Render Postgres (ฟรีหมดอายุ 30 วัน)
+  ข้อมูลผู้ใช้จริง (`/api/labels`) เก็บตาราง `real_labels` เมื่อมีฐานข้อมูล (ดิสก์ไม่ถาวร) + อ่านไฟล์ labels.jsonl ด้วย
+  `/api/evaluation` ใช้ `output/general/evaluation/report.json` ที่คำนวณไว้ + คำนวณผู้ใช้จริงสด (รันใหม่ทั้งหมด > 5 นาทีบน 0.1 CPU)
+  → เทรนใหม่ต้องรัน evaluate.py ด้วย (เทสต์ `test_precomputed_report_matches_models` ตรวจ)
 
 ## ข้อตกลง
 - ตอบเป็นภาษาไทย

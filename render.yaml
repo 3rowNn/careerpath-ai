@@ -1,0 +1,24 @@
+# Render Blueprint — backend (FastAPI + โมเดล ML) บน free web service
+# Render → New → Blueprint → เลือก repo นี้ → ใส่ค่าลับที่ถาม (sync: false) → Apply
+# หน้าเว็บอยู่บน Vercel (frontend/vercel.json) · ฐานข้อมูลอยู่บน Neon — ขั้นตอนทั้งหมด: docs/DEPLOY.md
+services:
+  - type: web
+    name: careerpath-api
+    runtime: docker
+    plan: free # 512 MB RAM / 0.1 CPU · ไม่มีคนเข้า 15 นาทีจะหลับ (ปลุก ~1–2 นาที)
+    region: virginia # ใกล้ Neon AWS us-east-1
+    dockerfilePath: ./backend/Dockerfile # ตัวเดียวกับ docker-compose
+    dockerContext: . # root ของ repo (Dockerfile ใช้ datasets/ml ด้วย)
+    healthCheckPath: /api/health
+    autoDeploy: true # push ขึ้น main → build ใหม่เอง
+    envVars:
+      - key: DATABASE_URL # connection string จาก Neon (postgresql://…?sslmode=require)
+        sync: false
+      - key: JWT_SECRET
+        generateValue: true # Render สุ่มให้
+      - key: GEMINI_API_KEY # ไม่บังคับ — เว้นว่าง = AI Advisor ใช้คำตอบสรุปจาก ML
+        sync: false
+      - key: CORS_ORIGINS # โดเมนเว็บบน Vercel เช่น https://careerpath-ai.vercel.app
+        sync: false
+      - key: CORS_ORIGIN_REGEX # ไม่บังคับ: ลิงก์ preview ของ Vercel
+        sync: false

@@ -116,3 +116,15 @@ def test_database_url_normalized(monkeypatch):
     assert db.database_url() == "postgresql+psycopg://u:p@h/db"
     monkeypatch.setenv("DATABASE_URL", "sqlite://")
     assert db.database_url() == "sqlite://"
+
+
+def test_precomputed_report_matches_models(p):
+    """report.json ที่ /api/evaluation ใช้ ต้องตรงกับผลคำนวณสดจากโมเดลชุดปัจจุบัน
+    (เทรนใหม่แล้วลืมรัน evaluation/evaluate.py → เทสต์นี้ fail)"""
+    from app.main import precomputed_report
+
+    pre = precomputed_report()
+    assert pre is not None, "ไม่พบ output/general/evaluation/report.json — รัน datasets/ml/evaluation/evaluate.py"
+    live = ev.build_report(p, real_rows=[])
+    for k in ("personas", "stability", "monotonic", "counterfactual"):
+        assert json.dumps(pre[k], sort_keys=True) == json.dumps(live[k], sort_keys=True), k

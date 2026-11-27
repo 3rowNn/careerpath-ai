@@ -220,6 +220,14 @@ def add_label(body: LabelIn, p: CareerPredictor = Depends(get_predictor)):
 _report_cache: dict = {}
 
 
+def precomputed_report() -> dict | None:
+    """<models>/../evaluation/report.json ที่ evaluate.py สร้าง — EVAL_PRECOMPUTED=0 = คำนวณใหม่ทุกครั้ง"""
+    f = MODEL_DIR.parent / "evaluation" / "report.json"
+    if os.getenv("EVAL_PRECOMPUTED", "1") == "0" or not f.exists():
+        return None
+    return json.loads(f.read_text(encoding="utf-8"))
+
+
 @api.get("/evaluation")
 def evaluation(p: CareerPredictor = Depends(get_predictor)):
     """persona + ความเสถียร + ผู้ใช้จริง (ถ้ามี) — คำนวณใหม่เมื่อข้อมูลผู้ใช้จริงเปลี่ยน"""
@@ -227,7 +235,15 @@ def evaluation(p: CareerPredictor = Depends(get_predictor)):
     key = (path.stat().st_mtime if path.exists() else 0, db.real_label_count())
     if _report_cache.get("key") != key:
         db_rows = [r for r in db.real_label_rows() if r.get("consent") and r.get("code") and r.get("answers")]
-        _report_cache.update(key=key, report=ev.build_report(p, real_rows=ev.load_real_users(path) + db_rows))
+        rows = ev.load_real_users(path) + db_rows
+        pre = precomputed_report()
+        if pre is not None:
+            # persona / ความเสถียร / counterfactual ไม่ขึ้นกับผู้ใช้จริง → ใช้ผลที่ evaluate.py คำนวณไว้กับโมเดลชุดนี้
+            # (รันใหม่ใช้ CPU หลายนาทีบนเครื่องฟรี 0.1 CPU) · ผู้ใช้จริงคำนวณสดเสมอ (เร็ว)
+            report = pre | {"real_users": ev.eval_real_users(p, rows), "source": "precomputed"}
+        else:
+            report = ev.build_report(p, real_rows=rows)
+        _report_cache.update(key=key, report=report)
     return _report_cache["report"]
 
 
