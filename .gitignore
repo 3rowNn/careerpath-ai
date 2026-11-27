@@ -25,3 +25,4 @@ datasets/real_users/
 
 # Colab bundle (สร้างใหม่ได้ด้วย sh colab/make_bundle.sh)
 colab/*.zip
+!colab/careerpath_3models_data.zip

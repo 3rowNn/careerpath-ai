@@ -10,6 +10,7 @@
 | [FRONTEND.md](FRONTEND.md) | โครงสร้างหน้าเว็บ React · การเรียก API · โหมดตัวอย่าง | แก้หน้าเว็บ |
 | [UI_PROMPTS.md](UI_PROMPTS.md) | prompt ปรับ UI ทีละหน้า (P00–P08) + กฎร่วม | ปรับดีไซน์ |
 | [REAL_USERS_KIT.md](REAL_USERS_KIT.md) | เก็บข้อมูลผู้ใช้จริงผ่าน Google Form → `labels.jsonl` | วัดผลกับคนจริง |
+| [../colab/](../colab/) | **Colab:** `CareerPath_3models.ipynb` (Cosine · MLP · K-Means, สั้น + `careerpath_3models_data.zip`) · `CareerPath_train_test.ipynb` (ครบทุกโมเดล + `sh colab/make_bundle.sh`) | รัน/ศึกษาโมเดลใน Colab |
 | [THAI_TITLES.md](THAI_TITLES.md) | ชื่ออาชีพภาษาไทย 910 อาชีพ (แปลโดย Claude — ควรให้ผู้รู้ตรวจ) | แก้ชื่อไทย |
 
 ไฟล์ที่อยู่นอกโฟลเดอร์นี้โดยตั้งใจ: `README.md` (GitHub แสดงเป็นหน้าแรก) และ `CLAUDE.md` (Claude Code อ่านจาก root)
