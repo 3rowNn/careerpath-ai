@@ -1,5 +1,7 @@
 # ชื่ออาชีพภาษาไทย (910 อาชีพของ O*NET)
 
+> ไฟล์ข้อมูลอยู่ที่ `datasets/onet_thai/`
+
 `onet_thai_titles.csv` — code, title_en, title_th, aliases
 
 - **แปลโดย Claude (12 พ.ย.)** ไม่ใช่ชื่อทางการ — O*NET ไม่มีชื่อไทย และมาตรฐานอาชีพไทย (TSCO) หยาบกว่า

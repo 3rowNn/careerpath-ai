@@ -1,9 +1,10 @@
 # CareerPath AI — AI Career Predictor + Skill Gap Analyzer
 
 ```
-datasets/   ข้อมูล O*NET + Data Gate + โมเดล ML (datasets/ml — ดู datasets/ml/README.md)
-            สรุปโมเดล + train/test สำหรับทำสไลด์: datasets/ml/README.md ส่วน 0
-            โมเดลทีละตัว (ผล, train/test, เทียบกับอะไร, ใช้ที่ไหน): datasets/ml/MODELS.md
+docs/       เอกสารทั้งหมด (สารบัญ: docs/README.md)
+datasets/   ข้อมูล O*NET + Data Gate + โมเดล ML (datasets/ml — ดู docs/ML.md)
+            สรุปโมเดล + train/test สำหรับทำสไลด์: docs/ML.md ส่วน 0
+            โมเดลทีละตัว (ผล, train/test, เทียบกับอะไร, ใช้ที่ไหน): docs/MODELS.md
 backend/    FastAPI ห่อ datasets/ml/predict.py  → http://localhost:8000/api (dev)
 frontend/   React + Vite + TypeScript           → http://localhost:5173 (dev) · Docker: http://localhost:8080
 ```

@@ -1,5 +1,7 @@
 # โมเดล ML ทีละตัว (สำหรับทำสไลด์นำเสนอ)
 
+> path ในเอกสารนี้ (เช่น `output/general/`) เทียบกับโฟลเดอร์ `datasets/ml/` · ภาพรวมและประวัติทุกรอบ: [ML.md](ML.md)
+
 > **รอบที่ 4 ตัวที่เว็บใช้จริง** แบบประเมิน 76 ข้อ ทุกตัวเลขมาจาก `output/general/` (`summary.json`, `03_stress_test_by_scenario.csv`,
 > `ensemble_grid_search.csv`, `evaluation/report.json`, `models/confidence_calibration.json`)
 > **ข้อมูล train/test เป็นผู้ใช้จำลองทั้งหมด** ยังไม่มีเฉลยจากคนจริง

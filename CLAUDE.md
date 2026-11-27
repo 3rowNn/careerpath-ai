@@ -11,8 +11,9 @@
 
 ## สถานะ
 - Week 9 Data Gate เสร็จแล้ว (`datasets/data_gate_analysis.ipynb`, ผลใน `datasets/data_gate_output/`)
-- เทรนโมเดล ML เสร็จ 3 รอบแล้ว (`datasets/ml/`) — รายละเอียดและตัวเลขทั้งหมดอยู่ใน `datasets/ml/README.md`
+- เทรนโมเดล ML เสร็จ 3 รอบแล้ว (`datasets/ml/`) — รายละเอียดและตัวเลขทั้งหมดอยู่ใน `docs/ML.md`
 - นี่คือ**โปรเจกต์ final** — เป้าคือเว็บแอปที่ ML เด่น (ไม่ใช่ RAG/LLM) ไม่ได้ทำเพื่อนำเสนอครั้งเดียว
+- เอกสาร .md ทั้งหมดอยู่ใน `docs/` (27 พ.ย.) ยกเว้น `README.md` และ `CLAUDE.md` ที่ root — สารบัญ `docs/README.md`
 - รวมโปรเจกต์ไว้ที่ `~/AI-career` แล้ว (12 พ.ย.) — `~/Project-4-1` เป็นสำเนาเก่า ไม่ต้องแก้ที่นั่น
 - Frontend ครบ 8 หน้าตามดีไซน์ (`frontend/`), Backend FastAPI ห่อ predict.py (`backend/`) ต่อกันแล้ว
 - ปรับ UI ตาม `docs/UI_PROMPTS.md` (13 พ.ย.): P01 design system, P02 หน้าแรก, P06 Skill Gap, P05 รายละเอียดอาชีพ, P08 Career Explorer, P04 แบบประเมิน (ขั้นทบทวน + คีย์ 1–5), P07 Roadmap (`src/data/learning_resources.json` verified=false ทั้งหมด — ต้องให้คนตรวจ) · P03 สมาชิกจริง (13 พ.ย.): หน้า /account (RequireAuth), "จดจำฉัน" = token 1 วัน + sessionStorage
@@ -55,7 +56,7 @@
 + งาน IT 12 (`task::`) + นิสัย 10 (`ws::` Work Styles) — ตัดเครื่องมือ IT 23 ข้อของรอบ 3 ออก (คนนอกสายตอบไม่ได้)
 บนเว็บ/ฟอร์มแสดงเป็น 4 หมวด: งาน IT 12 ข้ออยู่ในหมวด 3 "ลักษณะงานที่ชอบ" (30 ข้อ) ไม่มีหัวข้อ IT แยก — ไม่เปลี่ยน feature/โมเดล
 (ตัดออกแล้วนอกสาย IT แม่นลดด้วย: ดู `13_round4_comparison.csv` ชุด B vs C)
-รอบ 3 (71 ข้อ, เอียงสาย IT) ยังอยู่ที่ `output/models/` ไว้เทียบ · รายละเอียด/ตารางเทียบ: `datasets/ml/README.md` ส่วน 4b
+รอบ 3 (71 ข้อ, เอียงสาย IT) ยังอยู่ที่ `output/models/` ไว้เทียบ · รายละเอียด/ตารางเทียบ: `docs/ML.md` ส่วน 4b
 
 | โมเดล | หน้าที่ | ใช้ที่หน้าเว็บ |
 |---|---|---|
@@ -132,7 +133,7 @@ conversations, messages, roadmap_items + view skill_gaps, HNSW index
 - ~~ระยะ 1: รวมโปรเจกต์ + git, FastAPI ห่อ predict.py~~ (เสร็จ 12 พ.ย.)
 - ~~ระยะ 2 — ทำให้ ML เด่น~~ (เสร็จ 12 พ.ย.): อธิบายผลรายคำถาม + ความมั่นใจ (หน้า Careers)
   หน้า What-if (แผนที่อาชีพ PCA) และ Model Lab เคยทำแล้ว **ผู้ใช้สั่งลบออก (12 พ.ย.)** — AI Advisor กลับอยู่ในเมนูหลักตามเดิม
-  ผลวัดความแม่นดูได้ที่ `GET /api/evaluation`, `datasets/ml/README.md` และ `output/general/*.csv`
+  ผลวัดความแม่นดูได้ที่ `GET /api/evaluation`, `docs/ML.md` และ `output/general/*.csv`
 - ระยะ 3 — ~~PostgreSQL + pgvector (`vector(76)`) + JWT + โปรไฟล์~~ (เสร็จ 13 พ.ย.), Roadmap "ผ่านเกณฑ์" (มีสถานะแล้ว), ~~LLM advisor~~ (เสร็จ 13 พ.ย.)
 - ระยะ 4 — ~~ระบบประเมินหลายชั้น + ช่องเก็บผู้ใช้จริง~~ (เสร็จ 12 พ.ย.) · ผู้ใช้จริงเป็นทางเลือก ถ้ามีพอ
   ค่อยเทรน ②a ใหม่ · ปรับปรุงจุดอ่อนที่ persona เจอ (สายคน/ธุรกิจ, ②b)

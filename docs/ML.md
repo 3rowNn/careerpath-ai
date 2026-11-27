@@ -1,6 +1,8 @@
 # CareerPath AI — ML Models
 
-ต่อยอดจาก Week 9 Data Gate (`../data_gate_analysis.ipynb`) โดยใช้ข้อมูลที่ clean แล้วใน `../data_gate_output/`
+> ย้ายมาจาก `datasets/ml/README.md` — path ในเอกสารนี้ (เช่น `output/general/`, `train_models.py`) เทียบกับโฟลเดอร์ `datasets/ml/`
+
+ต่อยอดจาก Week 9 Data Gate (`datasets/data_gate_analysis.ipynb`) โดยใช้ข้อมูลที่ clean แล้วใน `datasets/data_gate_output/`
 ทุกตัวเลขในไฟล์นี้มาจาก `output/` ที่สคริปต์สร้าง รันซ้ำได้ผลเท่าเดิม (fix random seed)
 
 **ทำ 4 รอบ:**
@@ -184,9 +186,9 @@ python predict.py                                                       # ทด
 1. **คำถาม "ชอบทำงานแบบไหน" 12 ข้อ** คะแนนของอาชีพ = สัดส่วนงานใน O*NET Task Statements ที่ตรงคำสำคัญ (Core = 1, Supplemental = 0.5) ปรับเป็น 0–100 คำสำคัญปรับจาก sanity check ให้อาชีพที่ได้คะแนนสูงสุดตรงกับคำถาม (`it_focus/sanity_top_it_occupations.csv`)
 2. **tech tags 23 ตัว** ถามว่า **"อยากทำงานกับเครื่องมือนี้แค่ไหน"** ไม่ใช่ "ใช้เป็นไหม" เพราะ tag ของอาชีพหมายถึงงานนั้นใช้เครื่องมือนี้ และนักศึกษา IT เกือบทุกคนใช้ Python และ SQL เป็น
 
-![](output/it_focus/08_it_task_heatmap.png)
+![](../datasets/ml/output/it_focus/08_it_task_heatmap.png)
 
-![](output/it_focus/07_it_feature_sets.png)
+![](../datasets/ml/output/it_focus/07_it_feature_sets.png)
 
 | ชุด feature (① Matching, เฉพาะสาย IT) | คำถาม | cosine เฉลี่ยในสาย IT | IT Top-1 | IT Top-5 |
 |---|---|---|---|---|
@@ -206,7 +208,7 @@ python predict.py                                                       # ทด
 - **วิธีจัดกลุ่ม:** hierarchical clustering แบบ **Ward** (ทักษะแต่ละตัวเป็นจุด โปรไฟล์ข้าม 910 อาชีพ z-score) เทียบกับ average linkage บน 1 − correlation ซึ่งแม่นกว่าราว 1–3 จุดที่จำนวนคำถามเท่ากัน แต่ได้กลุ่มยักษ์ 25–26 ทักษะ (ถามเป็นคำถามเดียวไม่ได้) และกลุ่มเดี่ยวเยอะ ส่วน Ward กลุ่มใหญ่สุดมี 10 ทักษะ
 - **จำนวนกลุ่ม:** ทดลอง 6–60 กลุ่ม (`short/12_questions_vs_accuracy.csv`) เลือก **30 กลุ่ม** = แบบประเมินรวม **71 ข้อ**
 
-![](output/short/09_questions_vs_accuracy.png)
+![](../datasets/ml/output/short/09_questions_vs_accuracy.png)
 
 | คำถามรวม | ทุกอาชีพ Top-5 | สาย IT Top-1 |
 |---|---|---|
@@ -234,8 +236,8 @@ python predict.py                                                       # ทด
 
 ### ผลละเอียดรอบที่ 3 (`01_occupation_model_comparison.csv`)
 
-![](output/figures/01_occupation_model_comparison.png)
-![](output/figures/02_stress_test_by_scenario.png)
+![](../datasets/ml/output/figures/01_occupation_model_comparison.png)
+![](../datasets/ml/output/figures/02_stress_test_by_scenario.png)
 
 | โมเดล | Test Top-5 | Stress Top-5 | Stress Top-1 | Stress Macro-F1 |
 |---|---|---|---|---|

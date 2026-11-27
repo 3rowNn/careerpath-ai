@@ -1,5 +1,7 @@
 # CareerPath AI — Frontend
 
+> path ในเอกสารนี้เทียบกับโฟลเดอร์ `frontend/`
+
 React + Vite + TypeScript + Tailwind v4 · TanStack Query · ECharts · React Router
 ทำตามดีไซน์ใน Claude Design canvas (8 หน้า)
 
