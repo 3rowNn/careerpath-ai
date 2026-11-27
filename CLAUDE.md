@@ -14,6 +14,9 @@
 - เทรนโมเดล ML เสร็จ 3 รอบแล้ว (`datasets/ml/`) — รายละเอียดและตัวเลขทั้งหมดอยู่ใน `docs/ML.md`
 - นี่คือ**โปรเจกต์ final** — เป้าคือเว็บแอปที่ ML เด่น (ไม่ใช่ RAG/LLM) ไม่ได้ทำเพื่อนำเสนอครั้งเดียว
 - เอกสาร .md ทั้งหมดอยู่ใน `docs/` (27 พ.ย.) ยกเว้น `README.md` และ `CLAUDE.md` ที่ root — สารบัญ `docs/README.md`
+- Colab (27 พ.ย.): `colab/CareerPath_3models.ipynb` (Cosine · MLP · K-Means + Ensemble, ใช้ `careerpath_3models_data.zip`
+  ผลตรงกับ summary.json) และ `CareerPath_train_test.ipynb` (ครบทุกโมเดล, bundle จาก `sh colab/make_bundle.sh`)
+  — notebook สร้างจาก `build_3models_notebook.py` / `build_notebook.py` (แก้ที่สคริปต์ แล้วรันใหม่ ไม่แก้ .ipynb ตรง)
 - รวมโปรเจกต์ไว้ที่ `~/AI-career` แล้ว (12 พ.ย.) — `~/Project-4-1` เป็นสำเนาเก่า ไม่ต้องแก้ที่นั่น
 - Frontend ครบ 8 หน้าตามดีไซน์ (`frontend/`), Backend FastAPI ห่อ predict.py (`backend/`) ต่อกันแล้ว
 - ปรับ UI ตาม `docs/UI_PROMPTS.md` (13 พ.ย.): P01 design system, P02 หน้าแรก, P06 Skill Gap, P05 รายละเอียดอาชีพ, P08 Career Explorer, P04 แบบประเมิน (ขั้นทบทวน + คีย์ 1–5), P07 Roadmap (`src/data/learning_resources.json` verified=false ทั้งหมด — ต้องให้คนตรวจ) · P03 สมาชิกจริง (13 พ.ย.): หน้า /account (RequireAuth), "จดจำฉัน" = token 1 วัน + sessionStorage
@@ -78,7 +81,7 @@ backend/                  FastAPI — ทุก endpoint อยู่ใต้ /
 └── requirements.txt      ตรึง scikit-learn==1.9.1 (เวอร์ชันที่ใช้เทรน — ห้ามเปลี่ยนจนกว่าจะเทรนใหม่)
 frontend/                 React + Vite + TS + Tailwind v4 + TanStack Query + ECharts
 ├── src/api/client.ts     เรียก API; ไม่ตั้ง VITE_API_URL = โหมดตัวอย่าง (src/data/sample_result.json)
-├── src/pages/            Home Login Assessment Careers CareerDetail(/careers/:code) Goal(อาชีพที่อยากเป็น) Explore(สำรวจอาชีพ) SkillGap Dashboard Roadmap Advisor
+├── src/pages/            Home Login Account(/account) Assessment Careers CareerDetail(/careers/:code) Goal(อาชีพที่อยากเป็น) Explore(สำรวจอาชีพ) SkillGap Dashboard Roadmap Advisor
 └── .env.local            VITE_API_URL=/api (vite proxy → :8000)
 datasets/ml/
 ├── task_preferences.py   คำถามงาน IT 12 ข้อจาก Task Statements
@@ -92,6 +95,8 @@ datasets/ml/
 ├── requirements-train.txt
 └── output/general/models/ *.joblib, model_config.json (feature_order 76 ตัว), reference_vectors.csv,
                           tools_reference.csv (เครื่องมือ → Roadmap), skill_groups.csv, occupation_meta.csv
+colab/                    notebook สำหรับ Google Colab (สร้างจาก build_*.py) + zip ข้อมูล · make_bundle.sh
+docs/                     เอกสาร .md ทั้งหมด (สารบัญ docs/README.md) · render.yaml, docker-compose.yml ที่ root
 ```
 
 ใช้ใน backend:
@@ -140,7 +145,7 @@ conversations, messages, roadmap_items + view skill_gaps, HNSW index
 - ~~ระยะ 5 — Docker + docker-compose~~ (เสร็จ 27 พ.ย.): `docker compose up -d --build` → http://localhost:8080
   frontend = nginx (build แล้ว + proxy `/api`), backend = `backend/Dockerfile` (context = root, คัดเฉพาะ datasets/ml ที่ใช้ตอนรัน), db
   ค่าลับอยู่ใน `.env` ที่ root (ดู `.env.example`) · ไม่ทำ AWS/GitHub Actions
-- Deploy จริง (27 พ.ย., ฟรี): Vercel (frontend, `frontend/vercel.json`, Root Directory = frontend, `VITE_API_URL` = URL ของ Space)
+- Deploy จริง (27 พ.ย., ฟรี): Vercel (frontend, `frontend/vercel.json`, Root Directory = frontend, `VITE_API_URL` = URL ของ Render + `/api`, ฝังตอน build → แก้แล้วต้อง Redeploy)
   + Render free (backend, `render.yaml` → `backend/Dockerfile` ตัวเดียวกัน, พอร์ตจาก `$PORT`, 512MB/0.1 CPU)
   **backend ไม่ auto-deploy**: แก้ backend/โมเดลแล้ว push ต้องกด Manual Deploy → Deploy latest commit ใน Render เอง (frontend บน Vercel deploy เอง)
   + Neon (Postgres) — ขั้นตอน: `docs/DEPLOY.md` · CORS: `CORS_ORIGINS` / `CORS_ORIGIN_REGEX`
