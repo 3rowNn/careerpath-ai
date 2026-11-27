@@ -63,7 +63,10 @@ Render → service `careerpath-api` → **Environment**
 ---
 
 ## อัปเดตหลังแก้โค้ด
-`git push` ขึ้น `main` → Vercel และ Render build ใหม่เองทั้งคู่
+| แก้ | ทำ |
+|---|---|
+| frontend | `git push` ขึ้น `main` → Vercel deploy ใหม่เอง |
+| **backend / โมเดล** | `git push` แล้ว **ต้องกด deploy เอง**: Render → service `careerpath-api` → **Manual Deploy → Deploy latest commit** (ไม่ได้ตั้ง auto-deploy ไว้) |
 (หลังเทรนโมเดลใหม่ ต้องรัน `datasets/ml/evaluation/evaluate.py` ก่อน push — `/api/evaluation` ใช้ `report.json` ที่คำนวณไว้
 เทสต์ `test_precomputed_report_matches_models` จะเตือนถ้าลืม)
 

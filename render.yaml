@@ -10,7 +10,7 @@ services:
     dockerfilePath: ./backend/Dockerfile # ตัวเดียวกับ docker-compose
     dockerContext: . # root ของ repo (Dockerfile ใช้ datasets/ml ด้วย)
     healthCheckPath: /api/health
-    autoDeploy: true # push ขึ้น main → build ใหม่เอง
+    autoDeploy: false # ไม่ deploy เอง — แก้ backend แล้ว push ต้องกด Manual Deploy → Deploy latest commit ใน Render
     envVars:
       - key: DATABASE_URL # connection string จาก Neon (postgresql://…?sslmode=require)
         sync: false

@@ -141,6 +141,7 @@ conversations, messages, roadmap_items + view skill_gaps, HNSW index
   ค่าลับอยู่ใน `.env` ที่ root (ดู `.env.example`) · ไม่ทำ AWS/GitHub Actions
 - Deploy จริง (27 พ.ย., ฟรี): Vercel (frontend, `frontend/vercel.json`, Root Directory = frontend, `VITE_API_URL` = URL ของ Space)
   + Render free (backend, `render.yaml` → `backend/Dockerfile` ตัวเดียวกัน, พอร์ตจาก `$PORT`, 512MB/0.1 CPU)
+  **backend ไม่ auto-deploy**: แก้ backend/โมเดลแล้ว push ต้องกด Manual Deploy → Deploy latest commit ใน Render เอง (frontend บน Vercel deploy เอง)
   + Neon (Postgres) — ขั้นตอน: `docs/DEPLOY.md` · CORS: `CORS_ORIGINS` / `CORS_ORIGIN_REGEX`
   **ไม่ใช้ Hugging Face Spaces** (Docker Space ฟรีต้อง PRO แล้ว — 402 ตอนสร้าง, 27 พ.ย.) · ไม่ใช้ Render Postgres (ฟรีหมดอายุ 30 วัน)
   ข้อมูลผู้ใช้จริง (`/api/labels`) เก็บตาราง `real_labels` เมื่อมีฐานข้อมูล (ดิสก์ไม่ถาวร) + อ่านไฟล์ labels.jsonl ด้วย
