@@ -136,7 +136,9 @@ conversations, messages, roadmap_items + view skill_gaps, HNSW index
 - ระยะ 3 — ~~PostgreSQL + pgvector (`vector(76)`) + JWT + โปรไฟล์~~ (เสร็จ 13 พ.ย.), Roadmap "ผ่านเกณฑ์" (มีสถานะแล้ว), ~~LLM advisor~~ (เสร็จ 13 พ.ย.)
 - ระยะ 4 — ~~ระบบประเมินหลายชั้น + ช่องเก็บผู้ใช้จริง~~ (เสร็จ 12 พ.ย.) · ผู้ใช้จริงเป็นทางเลือก ถ้ามีพอ
   ค่อยเทรน ②a ใหม่ · ปรับปรุงจุดอ่อนที่ persona เจอ (สายคน/ธุรกิจ, ②b)
-- ระยะ 5 — Docker + docker-compose เท่านั้น (ไม่ทำ AWS/GitHub Actions)
+- ~~ระยะ 5 — Docker + docker-compose~~ (เสร็จ 27 พ.ย.): `docker compose up -d --build` → http://localhost:8080
+  frontend = nginx (build แล้ว + proxy `/api`), backend = `backend/Dockerfile` (context = root, คัดเฉพาะ datasets/ml ที่ใช้ตอนรัน), db
+  ค่าลับอยู่ใน `.env` ที่ root (ดู `.env.example`) · ไม่ทำ AWS/GitHub Actions
 
 ## ข้อตกลง
 - ตอบเป็นภาษาไทย

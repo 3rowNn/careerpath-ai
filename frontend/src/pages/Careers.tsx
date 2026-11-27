@@ -271,8 +271,8 @@ function CareersBody() {
                 <ModelBar
                   label="① Cosine Matching"
                   value={sel.matching_similarity}
-                  text={sel.matching_similarity.toFixed(3)}
-                  note="ความคล้ายของโปรไฟล์ (−1 ถึง 1) ไม่ใช่เปอร์เซ็นต์"
+                  text={pct(Math.max(0, sel.matching_similarity), 1)}
+                  note="คำตอบของคุณคล้ายโปรไฟล์อาชีพนี้แค่ไหน (100% = รูปแบบเดียวกันทุกข้อ)"
                   tone="bg-primary-mid"
                 />
                 <ModelBar

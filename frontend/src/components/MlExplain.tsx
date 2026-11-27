@@ -107,7 +107,7 @@ export function ExplainPanel({ e, title = 'ทำไมอาชีพนี้�
       <div className="flex flex-col gap-1">
         <span className="text-sm font-semibold">{title}</span>
         <span className="text-[13px] text-muted leading-relaxed">
-          คำตอบของคุณคล้ายอาชีพนี้ {e.similarity.toFixed(3)} เทียบกับค่าเฉลี่ยทุกอาชีพ {e.mean_similarity.toFixed(3)} · อันดับ {e.rank_matching} จาก
+          คำตอบของคุณคล้ายอาชีพนี้ {(e.similarity * 100).toFixed(1)}% เทียบกับค่าเฉลี่ยทุกอาชีพ {(e.mean_similarity * 100).toFixed(1)}% · อันดับ {e.rank_matching} จาก
           910 ใน ① · ส่วนต่างนี้แยกเป็นรายข้อได้พอดี
         </span>
       </div>

@@ -1,15 +1,20 @@
-# ระยะ 3: ฐานข้อมูลสำหรับ dev — PostgreSQL 16 + pgvector
-#   docker compose up -d db
-# (ระยะ 5 จะเพิ่ม service frontend/backend ในไฟล์นี้)
+# CareerPath AI — ทั้งระบบ (ระยะ 5): frontend (nginx) + backend (FastAPI + ML) + db (PostgreSQL + pgvector)
+#
+#   cp .env.example .env        # ตั้ง JWT_SECRET (และ GEMINI_API_KEY ถ้ามี)
+#   docker compose up -d --build
+#   เปิด http://localhost:8080
+#
+# dev แบบเดิม (รัน uvicorn / npm run dev เอง) ใช้แค่ฐานข้อมูล:  docker compose up -d db
 services:
   db:
     image: pgvector/pgvector:pg16
     environment:
       POSTGRES_USER: careerpath
-      POSTGRES_PASSWORD: careerpath_dev # ใช้แค่ตอน dev — ห้ามใช้ใน production
+      # รหัสถูกตั้งครั้งแรกที่สร้าง volume เท่านั้น — เปลี่ยนใน .env ทีหลังต้องลบ volume pgdata ก่อน (ข้อมูลหาย)
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-careerpath_dev}
       POSTGRES_DB: careerpath
     ports:
-      - "127.0.0.1:5432:5432"
+      - "127.0.0.1:5432:5432" # เปิดเฉพาะเครื่องนี้ ให้ backend แบบ dev ต่อได้
     volumes:
       - pgdata:/var/lib/postgresql/data
     healthcheck:
@@ -17,6 +22,36 @@ services:
       interval: 5s
       timeout: 3s
       retries: 20
+    restart: unless-stopped
+
+  backend:
+    build:
+      context: .
+      dockerfile: backend/Dockerfile
+    environment:
+      DATABASE_URL: postgresql+psycopg://careerpath:${POSTGRES_PASSWORD:-careerpath_dev}@db:5432/careerpath
+      JWT_SECRET: ${JWT_SECRET:?ตั้ง JWT_SECRET ใน .env ก่อน (ดู .env.example)}
+      JWT_EXPIRE_DAYS: ${JWT_EXPIRE_DAYS:-14}
+      GEMINI_API_KEY: ${GEMINI_API_KEY:-} # ว่าง = AI Advisor ตอบ 503 แล้วเว็บใช้คำตอบสรุปจาก ML
+      CORS_ORIGINS: http://localhost:${WEB_PORT:-8080}
+    volumes:
+      - real_users:/app/datasets/real_users # ข้อมูลผู้ใช้จริงจาก POST /api/labels (ไม่มีชื่อ/อีเมล)
+    depends_on:
+      db:
+        condition: service_healthy
+    restart: unless-stopped
+    # ไม่เปิดพอร์ตออกนอก — เข้าผ่าน nginx ของ frontend ที่ /api เท่านั้น
+
+  frontend:
+    build:
+      context: ./frontend
+    ports:
+      - "${WEB_PORT:-8080}:80"
+    depends_on:
+      backend:
+        condition: service_healthy
+    restart: unless-stopped
 
 volumes:
   pgdata:
+  real_users:

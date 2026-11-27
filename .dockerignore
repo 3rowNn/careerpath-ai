@@ -1,0 +1,35 @@
+# context ของ backend image = root ของ repo — คัดลอกเฉพาะที่ Dockerfile ระบุ แต่กันไฟล์ใหญ่/ลับไว้ก่อน
+# ค่าลับ — ห้ามเข้า image
+**/.env
+**/.env.*
+!**/.env.example
+**/*.local
+
+# สภาพแวดล้อม/แคช
+**/.venv
+**/node_modules
+**/__pycache__
+**/*.pyc
+**/.pytest_cache
+**/.ipynb_checkpoints
+**/.DS_Store
+.git
+.vscode
+
+# ข้อมูลที่ backend ไม่ใช้ตอนรัน
+datasets/*.xlsx
+datasets/cip
+datasets/onet_thai
+datasets/data_gate_output
+datasets/real_users
+datasets/real_users_kit
+datasets/ml/output/baseline_core101
+datasets/ml/output/full_D136
+datasets/ml/output/it_focus
+datasets/ml/output/short
+datasets/ml/output/models
+datasets/ml/output/figures
+datasets/ml/output/general/figures
+colab
+docs
+frontend
